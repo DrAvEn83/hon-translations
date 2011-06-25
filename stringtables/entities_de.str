@@ -193,7 +193,12 @@ Popup_dot_physical_damage										{value}!
 Popup_timer														{value}
 Popup_timer_hero												{value}
 Popup_morult													{value}
-Popup_deflected													Absorbed!
+Popup_warden1													Gawain uses Diving Strike!
+Popup_warden2													Gawain uses Forest's Touch!
+Popup_warden3													Gawain uses Emerald Storm!
+Popup_Ra														{value}!
+Popup_ra_rebirth												Rebirth!
+Popup_ra_timer													{value}
 
 // Game Info
 Mode_Normal														Normal
@@ -325,11 +330,19 @@ State_Teleport_GrimmCrossroads_description						You recently used the teleporter
 
 // Ability_Taunt
 Ability_Taunt_name												Taunt
+Ability_Taunt_name:disco_taunt									Disco Taunt
+Ability_Taunt_name:gore_taunt									Gore Taunt
 Ability_Taunt_description								
 Ability_Taunt_description_simple								Taunting is disabled for this account.
 Ability_Taunt_description_simple:perks							Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple:standard_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple:disco_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple:gore_taunt						Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
 Ability_Taunt_IMPACT_effect										Taunting is disabled for this account.
 Ability_Taunt_IMPACT_effect:perks								Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_IMPACT_effect:standard_taunt						Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_IMPACT_effect:disco_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_IMPACT_effect:gore_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
 
 // Ability_Accursed1
 Ability_Accursed1_name											Cauterize
@@ -2172,6 +2185,9 @@ Ability_Fade3_IMPACT_effect										Toggles to Shadow Stance.\n\nFayde gains a 
 Ability_Fade3_name												Scythe Stance
 Ability_Fade3_tooltip_flavor									Choose wisely.
 
+// State_Fade_Ability3_MortalStrike
+State_Fade_Ability3_MortalStrike_name							Shadow Cripple
+
 // State_Fade_Ability3
 State_Fade_Ability3_name										Shadow Stance
 
@@ -2888,13 +2904,12 @@ Ability_Hunter1_effect_header									Blood Crazy Effects
 Ability_Hunter1_IMPACT_effect									Verursacht beim Zielobjekt {6,9,12,15} Sekunden lang den Effekt Blood Crazy.
 Ability_Hunter1_tooltip_flavor									Stay out of sunlight.
 
-// State_Hunter_Ability1
-State_Hunter_Ability1_name										RAGE!!!
-State_Hunter_Ability1_FRAME_effect								{20,15,10,5} Magischer Schaden pro Sekunde
+// State_Hunter_Ability1_Debuff
+State_Hunter_Ability1_Debuff_name								Blood Crazy
+State_Hunter_Ability1_Debuff_FRAME_effect						20 Magic Damage per second
 
-// State_Hunter_Ability1_Allies
-State_Hunter_Ability1_Allies_name								Blood Crazy
-State_Hunter_Ability1_Allies_FRAME_effect						{20,15,10,5} Magic Damage per second
+// State_Hunter_Ability1_Buff
+State_Hunter_Ability1_Buff_name									Blood Crazy
 
 // Ability_Hunter2
 Ability_Hunter2_name											Feast
@@ -3633,6 +3648,88 @@ Hero_Maliken_name												Maliken
 Hero_Maliken_description										Once the greatest defender of mankind and lord over the entire Legion, Maliken walked too close to the darkness and was claimed by it.  Now he is nothing more than a slave among the damned -- but his incredible might has only grown in his downfall.  Wielding a damned sword fed by his own damned soul, Maliken is the bane of the very heroes he once led into battle.
 Hero_Maliken_role												Maliken is a strong initiator and late game damage dealer with a Sword Throw and Possession combo. Because Hellbourne Zeal makes Maliken attack faster as he loses health, playing Maliken requires the player to carefully manage his survival. A Shrunken Head will increase his survivability greatly.
 
+// Ability_Martyr1
+Ability_Martyr1_name											Retribution
+Ability_Martyr1_description										
+Ability_Martyr1_description2									
+Ability_Martyr1_description_simple								Target an enemy to deal ^o{75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage^*. Also applies a Movement Speed Slow equal to the percentage of Health you're missing, ^oup to 50%^*.
+Ability_Martyr1_effect_header									
+Ability_Martyr1_effect_header2									
+Ability_Martyr1_tooltip_flavor									
+Ability_Martyr1_IMPACT_effect									Target an enemy to deal ^o{75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage^*. Also applies a Movement Speed Slow equal to the percentage of Health you're missing, ^oup to 50%^*.
+
+// State_Martyr_Ability1
+State_Martyr_Ability1_name										Retribution
+State_Martyr_Ability1_description								Movement Speed slowed based on how low Martyr's health is.
+State_Martyr_Ability1_description2								
+State_Martyr_Ability1_description_simple						
+
+// Ability_Martyr2
+Ability_Martyr2_name											Guardian Angel
+Ability_Martyr2_description										
+Ability_Martyr2_description2									
+Ability_Martyr2_description_simple								Target an allied hero to apply Guardian Angel for ^o8 seconds^*. ^o{20,30,40,50}% of the damage^* the target takes is redirected to Martyr. Cannot take the Martyr below 10% Health. \n\nIf Martyr dies while Guardian Angel is active, he gains the same experience that the target does for ^o30 seconds^*.\n\nPassively reduces the damage Martyr takes from enemies by ^o{.2,.3,.4,.5}^* times the percentage of Health he is missing.
+Ability_Martyr2_effect_header									
+Ability_Martyr2_effect_header2									
+Ability_Martyr2_tooltip_flavor									
+Ability_Martyr2_IMPACT_effect									Target an allied hero to apply Guardian Angel for ^o8 seconds^*. While affected, ^o{20,30,40,50}% of the damage^* that the target takes is redirected to Martyr. Cannot take the Martyr below 10% Health. \n\nIf Martyr dies while Guardian Angel is active, he gains the same experience that the target does for ^o30 seconds^*.
+Ability_Martyr2_FRAME_effect									Passively reduces the damage Martyr takes by ^o{.2,.3,.4,.5}^* times the percentage of Health he is missing.
+
+// State_Martyr_Ability2_Target
+State_Martyr_Ability2_Target_name								Guardian Angel
+State_Martyr_Ability2_Target_description						{20,30,40,50}% of the damage you take is redirected to Martyr.
+State_Martyr_Ability2_Target_description2						
+State_Martyr_Ability2_Target_description_simple					{20,30,40,50}% of the damage you take is redirected to Martyr.
+State_Martyr_Ability2_Target_DAMAGED_effect						
+
+// State_Martyr_Ability2_Self
+State_Martyr_Ability2_Self_name									Guardian Angel
+State_Martyr_Ability2_Self_description							{20,30,40,50}% of the damage your target takes is redirected to you.
+State_Martyr_Ability2_Self_description2						
+State_Martyr_Ability2_Self_description_simple					{20,30,40,50}% of the damage your target takes is redirected to you.
+State_Martyr_Ability2_Self_DAMAGED_effect						
+
+// State_Martyr_Ability2_Vicarious
+State_Martyr_Ability2_Vicarious_name							Living Vicariously
+State_Martyr_Ability2_Vicarious_description						Martyr lives on vicariously through you, and he gains the same experience you do.
+State_Martyr_Ability2_Vicarious_description2						
+State_Martyr_Ability2_Vicarious_description_simple				Martyr lives on vicariously through you, and he gains the same experience you do.
+State_Martyr_Ability2_Vicarious_DAMAGED_effect						
+
+// Ability_Martyr3
+Ability_Martyr3_name											Sacrificial Lamb
+Ability_Martyr3_description										
+Ability_Martyr3_description2									
+Ability_Martyr3_description_simple								Activate to spend 20% of your Health to heal nearby allies for ^o{70,80,90,100}% of that amount^*. \n\nWhen Martyr dies, he applies ^o{15,30,45,60} Attack Speed^* and ^o{50,75,100,125} Movement Speed^* to allied heroes in a 700 radius for ^o10 seconds^*.
+Ability_Martyr3_effect_header									
+Ability_Martyr3_effect_header2									
+Ability_Martyr3_tooltip_flavor									
+Ability_Martyr3_DAMAGED_effect									
+Ability_Martyr3_DEATH_effect									
+Ability_Martyr3_FRAME_effect									When Martyr dies, he applies ^o{15,30,45,60} Attack Speed^* and ^o{50,75,100,125} Movement Speed^* to allied heroes in a 700 radius for ^o10 seconds^*.
+Ability_Martyr3_IMPACT_effect									Activate to spend 20% of your current Health and heal nearby allies for ^o{70,80,90,100}% of that amount^*. 
+
+// State_Martyr_Ability3
+State_Martyr_Ability3_name										Righteous Fury		
+State_Martyr_Ability3_description								Madman that Martyr died.
+State_Martyr_Ability3_description2								
+State_Martyr_Ability3_description_simple						Madman that Martyr died.
+
+// Ability_Martyr4
+Ability_Martyr4_name											Hand in Hand
+Ability_Martyr4_description										
+Ability_Martyr4_description2									
+Ability_Martyr4_description_simple								Target an allied hero to set channel for 1.5s and set your and target's Health percentages equal to the higher of the two. Has a {120,90,60} second Cooldown and {300,400,500} Cast Range.
+Ability_Martyr4_effect_header									
+Ability_Martyr4_effect_header2									
+Ability_Martyr4_tooltip_flavor									
+Ability_Martyr4_IMPACT_effect									Target an allied hero to set channel for 1.5s and set your and target's Health percentages equal to the higher of the two.
+
+// Hero_Martyr
+Hero_Martyr_name												Martyr
+Hero_Martyr_description											Few clergy of Sol burn with such brilliance that they may ascend to the highest orders of priesthood. Even fewer dare gift their own souls to the Legion, braving an eternity in damnation so that others may prosper in turn. The few who do earn the forsaken title of the Martyr, wielding a battle-ready relic in one hand and carrying the Codex Solaris in the other. To certain death they march; and some say, with more fervor than those who march towards life.
+Hero_Martyr_role												
+
 // Ability_Moraxus1
 Ability_Moraxus1_name											Quake
 Ability_Moraxus1_description									Makes the ground quake beneath Moraxus, damaging and stunning nearby enemy units.
@@ -3979,6 +4076,70 @@ Hero_Panda_name													Pandamonium
 Hero_Panda_description											The last of a race of warrior-monks sworn to a chaste existence in the misty Sang-La mountains, Pandamonium has left his bamboo groves for the battlefield.  He moves with a grace that belies his great stature and strikes with fury surprising in one with such an apparently gentle nature.  And though he is a creature of few words, the Beasts put great stock in his wisdom.
 Hero_Panda_role													Pandamonium is unique in that he deals both physical damage and physical effects. That means his abilities may be used to counter heroes with magic immunity. By obtaining a Shrunken Head, he not only boosts his attack power but ensures that Face Smash reaches higher potential.
 
+// Ability_Parasite1
+Ability_Parasite1_name											Leech
+Ability_Parasite1_description									The Parasite steals essence from target enemy unit, dealing damage and stealing Movement Speed
+Ability_Parasite1_description_simple							Deals ^o{80,130,180,230} Magic Damage^* to target enemy and steals ^o{50,75,100,125} Movement Speed^* for ^o4 seconds^*.
+Ability_Parasite1_effect_header									Leeching Bile Effects
+Ability_Parasite1_effect_header2								Fed Effects
+Ability_Parasite1_tooltip_flavor								All your movespeed are belong to me!
+Ability_Parasite1_IMPACT_effect									Deals {80,130,180,230} Magic Damage to target enemy and applies Leeching Bile to it and Fed to yourself for 4 seconds.
+
+// State_Parasite_Ability1_Self
+State_Parasite_Ability1_Self_name								Fed
+
+// State_Parasite_Ability1_Enemy
+State_Parasite_Ability1_Enemy_name								Leeching Bile
+
+// Ability_Parasite2
+Ability_Parasite2_name											Infest
+Ability_Parasite2_description									Takes control of target NPC unit, hiding yourself within. The Parasite can consume the target at any time, healing himself.
+Ability_Parasite2_description_simple							Target any creep to take control of it and hide yourself within, granting it ^o{15,30,45,60} Attack Speed, {1,2,3,4} times Parasite's level in Damage, and {25,50,75,100} Movement Speed^*.\n\nThe unit loses ^o{3,2.5,2,1.5}% of its Max Health per second^*.\n\nCreates an ability on target that will kill the controlled creep and heal the Parasite for ^o{30,40,50,60}% of its current Health^*.
+Ability_Parasite2_IMPACT_effect									Takes control of the target unit and hides yourself within, granting it {15,30,45,60} Attack Speed, {1,2,3,4} times Parasite's level in Damage, and {25,50,75,100} Movement Speed.\n\nThe unit loses {3,2.5,2,1.5}% of its Max Health per second.\n\nCreates an ability on target that will kill the controlled creep and heal the Parasite for {30,40,50,60}% of its current Health.
+Ability_Parasite2_IMPACT_effect:Parasite_Inside					Instantly kills the controlled creep and heals the Parasite for {30,40,50,60}% of its current Health.
+Ability_Parasite2_tooltip_flavor								Let me in let me in let me in
+
+// Ability_Parasite2_Target
+Ability_Parasite2_Target_name									Consume
+Ability_Parasite2_Target_description							Instantly kills the controlled creep, healing Parasite for a portion of the creep's Health.
+Ability_Parasite2_Target_description_simple						Kills the creep and heals Parasite for ^o30/40/50/60% of its current Health^*.
+Ability_Parasite2_Target_IMPACT_effect							Kills the creep and heals Parasite for 30/40/50/60% of its current Health.
+Ability_Parasite2_Target_tooltip_flavor							It's not you, it's me
+
+// State_Parasite_Ability2_Target
+State_Parasite_Ability2_Target_name								Infest
+
+// State_Parasite_Ability2_Self
+State_Parasite_Ability2_Self_name								Infest
+
+// Ability_Parasite3
+Ability_Parasite3_name											Draining Venom
+Ability_Parasite3_description									Any target the Parasite attacks takes extra damage from it and deals less damage to it.
+Ability_Parasite3_description_simple							Passively causes attacks to inflict the target with Draining Venom, reducing all damage taken from it and increasing all damage dealt to it by Parasite by ^o{6,12,18,24}%^*.\n\nDraining Venom is applied when you attack someone with a unit you Infest.
+Ability_Parasite3_effect_header									Draining Venom Effects
+Ability_Parasite3_tooltip_flavor								Can't touch this!
+Ability_Parasite3_ATTACK_IMPACT_effect							Applies Draining Venom to the target for 3 seconds
+
+// State_Parasite_Ability3
+State_Parasite_Ability3_name									Draining Venom
+State_Parasite_Ability3_FRAME_effect							Takes {6,12,18,24}% more damage from the Parasite and deals {6,12,18,24}% less damage to the Parasite.
+
+// Ability_Parasite4
+Ability_Parasite4_name											Facehug
+Ability_Parasite4_description									The Parasite can steal the strengths of enemies while passing his own weaknesses onto them.
+Ability_Parasite4_description_simple							Target an enemy to leap at it, ^oswapping your Debuffs for their Buffs^*, dealing ^o{200,300,400} Magic Damage^* and applying a ^o{2,3,4} second Silence^* to it.
+Ability_Parasite4_tooltip_flavor								Here, let's trade!
+Ability_Parasite4_IMPACT_effect									Target an enemy to leap at it.\n\nOn impact, your Debuffs are transferred to the target and the target's Buffs are transferred to you.\n\nDeals {200,300,400} Magic Damage and applies a {2,3,4} second Silence to target.
+
+// State_Parasite_Ability4_X
+State_Parasite_Ability4_name									Sapped~!
+State_Parasite_Ability4_SelfDisarm_name							Leapin'
+
+// Hero_Parasite
+Hero_Parasite_name												Parasite
+Hero_Parasite_description										While the world above burned, within the deepest crevices of Newerth an abominable conglomeration of sentient gels, pathogens, and other lurkers of the deep simmered in a primoridial pool, slowly evolving and multiplying. From this cesspool emerged the Parasite, sickeningly intelligent and chaotically evil.
+Hero_Pestilence_role											Parasite is a jungle hero who is extremely powerful in one-vs-one situations. He is capable of staying active in ganking while maintaining his progression in the neutrals.	
+
 // Ability_Pestilence1
 Ability_Pestilence1_name										Flight
 Ability_Pestilence1_description									Pestilence ergreift eine begrenzte Flucht. Dadurch erhöht sich auf Kosten steigenden Schadens die Bewegungsgeschwindigkeit.
@@ -4264,6 +4425,61 @@ Ability_Pyromancer4_tooltip_flavor								It's kinda like pitching a baseball. O
 Hero_Pyromancer_name											Pyromancer
 Hero_Pyromancer_description										Jahrhundertelang würdigte der Heilige Orden die "Flame-Touched". Dabei handelte es sich um diejenigen Männer und Frauen, die von einer brennenden, wenn nicht sogar leicht verrückten Ergebenheit zu Sol ausgefüllt sind.  Diese als Flame-Touched bezeichneten Menschen werden als Streiter der Legion im Allgemeinen als Pyromancers bezeichnet, da diese Kreaturen über das Feuer gebieten und stark mit diesem Element verbunden sind.
 Hero_Pyromancer_role											The Pyromancer is a spike magic damage dealer that can incinerate an enemy within seconds by using his three damage spells in quick succession. Because his Dragonfire stun is delayed on cast, he is best paired with another hero with a ranged stun.
+
+// Hero_Ra
+Hero_Ra_name											 		Amun-Ra
+Hero_Ra_description												The corrupted disciples of Sol harnessed the errant energies of the sun, and from that culmination of twisted nether emerged the ancient daemon god Amun-Ra, abomination of all that is light and holy. Fused together by black fire and fury, this immortal construct threatens to raze the lands with every burning step, defiling everything he touches with heretical fervor.
+Hero_Ra_role													Amun-Ra is a "DPS Tank" in that he is capable of both drawing enemy damage and dealing out great Aoe damage. Because he does not actively use mana, and health acts as his source of mana, survivability, and damage booster, he is best late game when a large health pool.
+
+// Ability_Ra1
+Ability_Ra1_name												Path of Destruction
+Ability_Ra1_description											^rCosts 20% Max Health to cast.^*\n\nCreate a path of flames in front of you culminating in a meteor. While on the path, you may walk through anything. Enemies struck by the meteor are damaged and stunned while you gain movement speed.
+Ability_Ra1_description_simple									^rCosts 20% Max Health to cast.^*\n\nCreate a path of flames to walk through anything, ending in a meteor.\n\nThe meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies, healing Amun-Ra for ^r5% Max Health^* per enemy hero.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
+Ability_Ra1_IMPACT_effect										The meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies. Amun-Ra is healed for ^r5% Max Health^* per enemy hero impacted.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
+
+// Ability_Ra2
+Ability_Ra2_name												Ignite
+Ability_Ra2_description											^rCosts 12% Max Health on impact.^*\n\nAmun-Ra lights himself on fire, exploding after 1.5 seconds, damaging and slowing nearby enemies.
+Ability_Ra2_description_simple									^rCosts 12% Max Health on impact.^*\n\nAmun-Ra lights himself on fire, exploding after 1.5 seconds.\n\nNearby enemies receive ^o{80,120,160,200} + 6% of Amun-Ra's Max Health as damage^* and ^o-{12,18,24,32}% tapering Movement Speed^* for 3 seconds.
+Ability_Ra2_IMPACT_effect										1.5 seconds after use, enemies hit by the explosion receive ^o{80,120,160,200} + 6% of Amun-Ra's Max Health^* in Magic Damage and ^o-{12,18,24,32}% tapering Movement Speed^* for 3 seconds.
+
+// Ability_Ra3
+Ability_Ra3_name												Ashes to Ashes
+Ability_Ra3_description											{2,4,6,8} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+Ability_Ra3_description_simple									{2,4,6,8} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+
+// Ability_Ra4
+Ability_Ra4_name												Pyroclasmic Rebirth
+Ability_Ra4_description											^139Requires 50% Max Mana for activation.^*\n\nOn death, Amun-Ra will be reborn with ^o50% Health^*, triggering Ignite as he spawns. He deals ^o{10,20,30}% Extra Damage^* for 10 seconds after respawning.
+Ability_Ra4_description_simple									^139Requires 50% Max Mana for activation.^*\n\nOn death, Amun-Ra will be reborn with ^o50% Health^*, triggering Ignite as he spawns. He deals ^o{10,20,30}% Extra Damage^* for 10 seconds after respawning.
+
+// State_Ra_Ability1_Self
+State_Ra_Ability1_Self_name										Path of Destruction
+State_Ra_Ability1_Self_description
+
+// State_Ra_Ability1_Path
+State_Ra_Ability1_Path_name										On the Path of Destruction
+State_Ra_Ability1_Path_description
+
+// State_Ra_Ability2_Enemy
+State_Ra_Ability2_Enemy_name									Ignite
+State_Ra_Ability2_Enemy_description
+
+// State_Ra_Ability2_Self
+State_Ra_Ability2_Self_name										Ignited!
+State_Ra_Ability2_Self_description
+
+// State_Ra_Ability3
+State_Ra_Ability3_name											Ashes to Ashes
+State_Ra_Ability3_description						
+
+// State_Ra_Ability3_Damage
+State_Ra_Ability3_Damage_name									Ashes to Ashes
+State_Ra_Ability3_Damage_FRAME_effect							Taking Magic Damage per second
+
+// State_Ra_Ability4
+State_Ra_Ability4_name											Reborn
+State_Ra_Ability4_description									{10,20,30}% Extra Damage
 
 // Ability_Rampage1
 Ability_Rampage1_name											Stampede
@@ -4580,11 +4796,13 @@ Gadget_Scout_Ability2_name										Electric Eye
 // Ability_Gadget_Scout2
 Ability_Gadget_Scout2_name										Destroy Electric Eye
 Ability_Gadget_Scout2_description								Destroys this Electric Eye, allowing the scout to choose which Electric Eye dies before he places a new one.
+Ability_Gadget_Scout2_description_simple						Activate to destroy this Electric Eye.  This allows the scout to choose which Electric Eye dies before he places a new one.
 Ability_Gadget_Scout2_IMPACT_effect								Destroys this Electric Eye.
 
 // Ability_Gadget_Scout2_2
 Ability_Gadget_Scout2_2_name									Detonate
 Ability_Gadget_Scout2_2_description								Detonates closest Electric Eye, silencing nearby enemies.
+Ability_Gadget_Scout2_2_description_simple						Activate to detonate this Electric Eye, silencing enemies in a 450 radius around the Electric Eye for {3,4,5,6} seconds.
 Ability_Gadget_Scout2_2_IMPACT_effect							Detonates this Electric Eye, silencing enemies in a 450 radius around the Electric Eye for {3,4,5,6} seconds. Detonate is on a shared cool down with all Electric Eyes.
 
 // Ability_Scout3
@@ -5083,60 +5301,53 @@ Hero_Tempest_description										Tempests sind Geister, die aus den Elementen s
 Hero_Tempest_role												Tempest is most often sent to farm neutrals with Elementals from the onset of the game, with the sole expectation that he will emerge with a Portal Key with which he can cast Elemental Void with high precision.
 
 // Ability_Treant1
-Ability_Treant1_name											Camouflage
-Ability_Treant1_description										Der Keeper benutzt seine Macht über die Wälder, um seine Verbündeten vor den Blicken der Feinde zu verbergen. Dies gewährt der Zieleinheit Unsichtbarkeit, solange sie sich in der Nähe von Bäumen aufhält.
-Ability_Treant1_description_simple								Target an allied unit to apply ^oInvisibility for {15,30,45,60} seconds^* as long as it is near a tree.
+Ability_Treant1_name											Nature's Veil
+Ability_Treant1_description										The Keeper uses his influence over the forest to hide and buff his allies. Grants invisibility, armor, and regeneration to target unit.
+Ability_Treant1_description_simple								Target an allied unit to apply ^o4 Health Regeneration^* and ^o{6,8,10,12} Armor^* and ^oInvisibility for {10,20,30,40} seconds^*. Invisibility only lasts a long as they are near a tree.
 Ability_Treant1_effect_header									Camouflage Effects
 Ability_Treant1_tooltip_flavor									Strike from the shadows.
-Ability_Treant1_IMPACT_effect									Bewirkt beim Ziel {15,30,45,60} Sekunden lang den Effekt Camouflage.
+Ability_Treant1_IMPACT_effect									Applies Camouflage and Nature's Protection to target for {10,20,30,40} seconds.
 
 // State_Treant_Ability1
 State_Treant_Ability1_name										Camouflage
-State_Treant_Ability1_FRAME_effect								Unsichtbarkeit. Der Effekt Camouflage erlischt, wenn sich die Einheit zu weit von einem Baum entfernt.
+State_Treant_Ability1_FRAME_effect								Will be dispelled if unit moves 375 units away from a tree
+
+// State_Treant_Ability1
+State_Treant_Ability1_Armor_name								Nature's Protection
 
 // Ability_Treant2
-Ability_Treant2_name											Tree Sight
-Ability_Treant2_description										Der Keeper verbindet seinen Geist mit einem bestimmten Baum und teilt dessen Sehvermögen.
-Ability_Treant2_description_simple								Target a tree to enchant it. Enchanted trees provide ^o{600,630,660,690} vision range^*.
+Ability_Treant2_name											Animate Forest
+Ability_Treant2_description										The Keeper links his mind with nearby trees, bringing them to life.
+Ability_Treant2_description_simple								Target a tree to Animate it and an additional ^o{1,2,3,4} nearby trees^*. Trees last for ^o45 seconds^*, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
 Ability_Treant2_effect_header									Status Effect
-Ability_Treant2_tooltip_flavor									I see you!
-Ability_Treant2_IMPACT_effect									Bringt an einem bestimmten Baum ein Gadget an, das Sehvermögen verleiht. Das Gadget besitzt eine unendliche Lebenszeit und eine Sichtweite von {600,630,660,690}. Das Sehvermögen des Gadgets wird durch keine Hindernisse eingeschränkt. Das Gadget wird vernichtet, wenn der entsprechende Baum vernichtet wird.
+Ability_Treant2_tooltip_flavor									THE ENTS MARCH!
+Ability_Treant2_IMPACT_effect									Target a tree to Animate it and an additional {1,2,3,4} nearby trees. Trees last for 45 seconds, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
 
-// Gadget_Treant_Ability2
-Gadget_Treant_Ability2_name										Enchanted Tree
-
-// State_Treant_Ability2
-State_Treant_Ability2_name										Forest Aura
-
-// State_Treant_Ability2_Sight_Self
-State_Treant_Ability2_Sight_Self_name							You caught me!
+// Pet_Treant_Ability2
+Pet_Treant_Ability2_name										Animated Tree
 
 // Ability_Treant3
-Ability_Treant3_name											Nature's Vengeance
-Ability_Treant3_description										Der Keeper reißt einen Baum aus dem Boden und verwendet ihn als mächtige Waffe. Dadurch steigert er den Schaden seiner Angriffe.
-Ability_Treant3_description_simple								Target an ally or allied building to apply ^o{1,2,3,4} Health Regeneration^* and ^o{3,6,9,12} Armor^*.
-Ability_Treant3_effect_header									Status Effect
+Ability_Treant3_name											Entmoot
+Ability_Treant3_description										The Keeper gains power from the forest around him, enhancing his Attack and Movement Speeds when near trees.
+Ability_Treant3_description_simple								Gains ^o{3,6,9,12} Attack Speed and Movement Speed^* per tree near him, up to 5.
 Ability_Treant3_tooltip_flavor									I had a tree...
-Ability_Treant3_IMPACT_effect									Verleiht bei {5,6,7,8} Angriffen einen zusätzlichen Schaden von {15,30,45,60}.
-
-// State_Treant_Ability3
-State_Treant_Ability3_name										Ich Baum haben!
+Ability_Treant3_IMPACT_effect									Gains {3,6,9,12} Attack Speed and Movement Speed per tree within 375 units of the Keeper. Max of 5 Trees can effect him at one time.
 
 // Ability_Treant4
 Ability_Treant4_name											Root
-Ability_Treant4_description										Der Keeper beschwört die Wurzeln im Untergrund, um seine Feinde zu entwaffnen, sie zu fesseln und ihnen im Verlauf der Zeit Schaden zuzufügen.
-Ability_Treant4_description_simple								Activate to inflict ^oImmobilization^*, ^oDisarm^*, and ^o85 Magic Damage per second^* on nearby enemies for {3,4,5} seconds.
+Ability_Treant4_description										The Keeper calls upon the roots in the ground to disarm and immobilize his foes, as well as damage them over time.
+Ability_Treant4_description_simple								Activate to inflict ^oImmobilization^*, ^oDisarm^*, and ^o100 Magic Damage per second^* on nearby enemies for {2,3,4} seconds.
 Ability_Treant4_effect_header									Root Effects
 Ability_Treant4_tooltip_flavor									The forest fights with me!
-Ability_Treant4_IMPACT_effect									Bewirkt bei den Feinden im Umkreis {3,4,5} Sekunden lang den Effekt Root.
+Ability_Treant4_IMPACT_effect									Applies Root to enemies in radius around self for {2,3,4} seconds. Interrupts channeling spells.
 
 // State_Treant_Ability4
 State_Treant_Ability4_name										Root
-State_Treant_Ability4_FRAME_effect								85 Magischer Schaden pro Sekunde.
+State_Treant_Ability4_FRAME_effect								100 Magic Damage per second
 
 // Hero_Treant
 Hero_Treant_name												Keeper of the Forest
-Hero_Treant_description											Als uralter Bewahrer des Waldes kämpft der Keeper für das Überleben der üppigen Länder von Newerth, die er sein ganzes Leben lang gepflegt hat. Durch eine geistige Verbindung zu den Bäumen sieht der Keeper, was die Bäume sehen, verbirgt sich zwischen ihnen und benutzt sie gar beizeiten als grausame Waffen in der Schlacht.
+Hero_Treant_description											An ancient protector of the forest, the Keeper fights to save the lush lands of Newerth he has tended to his whole long life. Possessing a spiritual link to the trees, the Keeper has the ability to see what they see, be hidden amongst them, and even use them as brutal weapons to aid him in battle.
 Hero_Treant_role												A literal tree trunk's worth of strength and armor, the Keeper of the Forest has but one massive offensive ability in Root. Nevertheless, his Nature's Protection, coupled with his naturally high strength gain, allows him to farm with abandon.
 
 // Ability_Tundra1
@@ -6046,6 +6257,13 @@ Item_GroundFamiliar_IMPACT_effect								Erzeugt einen unter Deiner Kontrolle st
 
 // Pet_GroundFamiliar
 Pet_GroundFamiliar_name											Monkey Courier
+Pet_GroundFamiliar_name:C_Penguin								Penguin Courier
+Pet_GroundFamiliar_name:C_Dragon								Dragon Courier
+Pet_GroundFamiliar_name:C_Chicken								Chicken Courier
+Pet_GroundFamiliar_name:C_Goblin								Goblin Courier
+Pet_GroundFamiliar_name:C_Pig									Pig Courier
+Pet_GroundFamiliar_name:C_Rat									Rat Courier
+Pet_GroundFamiliar_name:C_Robot									Robot Courier
 
 // Item_GuardianRing
 Item_GuardianRing_name											Guardian Ring
@@ -6829,6 +7047,13 @@ Ability_FlyingCourier4_IMPACT_effect						 	Flies to the nearest friendly well.
 
 // Pet_FlyngCourier
 Pet_FlyngCourier_name											Winged Courier
+Pet_FlyngCourier_name:C_Penguin									Jetpack Courier
+Pet_FlyngCourier_name:C_Dragon									Winged Dragon Courier
+Pet_FlyngCourier_name:C_Chicken									Super Chicken Courier
+Pet_FlyngCourier_name:C_Goblin									Winged Goblin Courier
+Pet_FlyngCourier_name:C_Pig										Flying Pig Courier
+Pet_FlyngCourier_name:C_Rat										Bat Courier
+Pet_FlyngCourier_name:C_Robot									UFO Courier
 
 // State_FrostfieldPlate_Aura
 State_FrostfieldPlate_Aura_name									Chilled

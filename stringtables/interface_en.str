@@ -182,6 +182,10 @@ confirm_disconnect_msg						Are you sure you want to disconnect from this game?
 confirm_leaver_result_nowleaver				You will NOT be able to join leaver protected games if you disconnect from this game.
 confirm_leaver_result_notleaver				You will NOT become a leaver if you disconnect from this game.
 
+confirm_switchsub_title						Switch Accounts?
+confirm_switchsub_msg						Are you sure you want to switch accounts?
+confirm_switchsub_da						Don\'t ask me again
+
 //account.package
 account_retrieve_header						Retrieve Username or Password
 account_lost_username						Lost Username
@@ -1050,8 +1054,9 @@ progstats_immortal				Immortal
 progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
-motd_ad_text1					Thor Thunderbringer
-motd_ad_text2					Winston Charmadon
+motd_ad_text1					Custom Account Icon
+motd_ad_text2					Be Unique
+motd_ad_text3					Create Your Own Icon Today
 
 
 // Micro Store Stuff
@@ -1288,7 +1293,7 @@ mstore_product160_desc		Boom Headshot!
 mstore_product161_name		Nickname Change
 mstore_product161_desc		Wishing you had a really cool name?  Get the name you've always wanted before it's gone!
 mstore_product162_name		Sub-Account
-mstore_product162_desc		Escape your current account.  Join a new clan, play EM games, make new friends- it's all possible!
+mstore_product162_desc		Join a new clan, make new friends, and do it all while sharing coins and purchases with your main.
 mstore_product163_name		Stat Reset
 mstore_product163_desc		There's no reason to be unhappy with your stats.  Get a fresh start today!
 mstore_product164_name		Flamboyant Pack
@@ -1621,7 +1626,7 @@ mstore_product437_desc		Who knew rainbows and unicorns could be so hardcore?
 mstore_product438_name		Unicorn Rampage
 mstore_product438_desc		Prepare for a stampede!  It's Kalium's winning suggestion, Unicorn Rampage!
 mstore_product439_name		Rainbow Rampage
-mstore_product439_desc		A fabulous re-imagining of the Community Avatar Winner, it's Rainbow Rampage!
+mstore_product439_desc		A fabulous rendition of the Community Avatar Winner, it's Rainbow Rampage!
 mstore_product440_name		Heart Japan
 mstore_product440_desc		Show you supported the people of Japan.
 mstore_product441_name		Rosie Engineer
@@ -1660,6 +1665,12 @@ mstore_product459_name		Handgun
 mstore_product460_name		Tiger Blood
 mstore_product461_name		Silent and Deadly
 mstore_product461_desc		Use Gold Coins and save 20%!  Available for one week only!
+mstore_product462_name		Penguin Courier
+mstore_product462_desc		Only the smartest penguins use jetpacks to deliver their goods. Get a penguin courier today!
+mstore_product463_name		Dragon Courier
+mstore_product463_desc		Scare off your enemies with the fierce look of a dragon courier.
+mstore_product464_name		Custom Account Icon
+mstore_product464_desc		Upload your own personalized account icon!
 mstore_product465_name		4Xed
 mstore_product466_name		Carry TP
 mstore_product466_desc		You never know when there will be an emergency.
@@ -1668,6 +1679,9 @@ mstore_product468_name		R FTW
 mstore_product469_name		Stupid
 mstore_product469_desc		Someone needs to carry him...
 mstore_product470_name		YouNube
+mstore_product471_name		Disco Taunt
+mstore_product472_name		Gore Taunt
+mstore_product472_desc		The bloody finish to a successful taunt!
 mstore_product474_name		Forsaken Strider
 mstore_product474_desc		Take no prisoners as the Gold Collection Avatar, Forsaken Strider.
 mstore_product475_name		Fire Bundle
@@ -1681,9 +1695,20 @@ mstore_product480_name		Raven
 mstore_product480_desc		Fly on.
 mstore_product481_name		Worth It
 mstore_product482_name		Too Bad Taunt
+mstore_product482_desc		Want to see your body?  Too bad!  You just got taunted!
 mstore_product483_name		Vigilante Vindicator
 mstore_product483_desc		Silence your enemies as Vigilante Vindicator.
 mstore_product484_name		Hero- Flux
+mstore_product485_name		Chicken Courier
+mstore_product485_desc		Merrick raises these chickens to fly like superheroes! Get your chicken courier today!
+mstore_product486_name		Goblin Courier
+mstore_product486_desc		Hire a goblin to leave the confines of Merrick's shop and ferry your items to you!
+mstore_product487_name		Pig Courier
+mstore_product487_desc		This may be the day when you finally see pigs fly, once you get a pig courier!
+mstore_product488_name		Rat Courier
+mstore_product488_desc		Use the Halloween bat courier, complete with an order of Chinese takeout!
+mstore_product489_name		Robot Courier
+mstore_product489_desc		It's a bird! It's a plane! It's a... UFO? Beam down your items with a Robot Courier!
 mstore_product490_name		Global Alt Ults
 mstore_product490_desc		You can't hide!  Save 20% when you spend Gold Coins.
 mstore_product491_name		Tech Tinker
@@ -1694,7 +1719,42 @@ mstore_product494_name		Thor Thunderbringer
 mstore_product494_desc		Bring the wrath of the heavens as Thor Thunderbringer.
 mstore_product495_name		Thor and Winston Bundle
 mstore_product495_desc		Save 20% when you purchase with Gold Coins!
-
+mstore_product496_name		Golden Pebbles
+mstore_product496_desc		Show how rich and powerful you are as the Gold Collection Avatar, Golden Pebbles.
+mstore_product497_name		8-Bit Kraken
+mstore_product498_name		8-Bit Legionnaire
+mstore_product498_desc		Legionnaire emerges victorious!
+mstore_product499_name		8-Bit Pebbles
+mstore_product500_name		8-Bit Rainbow Rampage
+mstore_product501_name		8-Bit Man Up Pack
+mstore_product501_desc		Man up with the 8-Bit icons of 5 of the toughest strength heroes.
+mstore_product503_name		8-Bit El Guantelete
+mstore_product504_name		Hero- Martyr
+mstore_product505_name		Hero Alt- White Lotus Silhouette
+mstore_product506_name		Mermaidon
+mstore_product506_desc		Send your magic carp flying as the queen of the seas, Mermaidon!
+mstore_product507_name		Hero Alt- Mermaidon
+mstore_product508_name		Under the Sea Bundle
+mstore_product508_desc		Show off your love for H2O with the under the sea bundle! Save 20% buying with gold!
+mstore_product509_name		Oni Devourer
+mstore_product509_desc		This otherworldly demon has broken into Newerth! Exterminate your foes as the true Oni Devourer!
+mstore_product519_name		Flag- Afghanistan
+mstore_product520_name		King Ra
+mstore_product520_desc		Show off your explosive potential as King Ra, ruler of the dead.
+mstore_product521_name		Hero- Amun-Ra
+mstore_product_custom_icon_name		Custom Account Icon
+mstore_product_custom_icon_desc		An icon of your very own design!
+mstore_product522_name		Baby Taunt
+mstore_product522_desc		Taunt that poor baby of an opponent to tears.
+mstore_product523_name		Goblin Farm
+mstore_product523_desc		Living out his dream of professional farming, this Goblin brings his Chicken and Pig with him.
+mstore_product524_name		Leprechaun Blacksmith
+mstore_product524_desc		Who all want the Leprechaun Blacksmith say "Yeah!"
+mstore_product525_name		Mutant Parasite
+mstore_product525_desc		Take control of a whole new creature as Mutant Parasite.
+mstore_product526_name		Hero- Parasite
+mstore_product527_name		Bag O' Bugs Bundle
+mstore_product527_desc		20% off when you purchase with gold! Get your bag o' bugs now!
 
 mstore_product999999001_name	Default Account Icon
 mstore_product999999002_name	Default Chat Symbol
@@ -1728,10 +1788,10 @@ mstore_viewcost_desc	You need additional coins to purchase this item.
 
 mstore_category1			New
 mstore_category1_desc		These items have been recently added to the store.
-mstore_category2			Alternate Avatars
-mstore_category2_short		Alt Avatars
-mstore_exttip_altavatars	Alternate Avatars can be chosen before each match.  If you see one you like before a match, you can always purchase from the Hero Selection screen, too.
-mstore_category2_desc		Alternate Avatars change the appearance and other properties of a hero.
+mstore_category2		Hero Avatars
+mstore_category2_short		Hero Avatars
+mstore_exttip_altavatars	Hero Avatars can be chosen before each match.  If you see one you like before a match, you can always purchase from the Hero Selection screen, too.
+mstore_category2_desc		Hero Avatars change the appearance and visual properties of a hero.
 mstore_category3			Account Icons
 mstore_exttip_accounticons	Account icons link to your account and can be found in the chat list, game lobby, in your in-game stat window, and on your statistics page on our website.
 mstore_category3_desc		These icons appear everywhere your account appears and give a visual to your account name.
@@ -1741,18 +1801,49 @@ mstore_category4_desc		Symbols appear to the left of your account name in the ch
 mstore_category5			Announcers
 mstore_exttip_announcements		Announcers come with new sounds and arcade text for kill streaks and other game events.  All players will hear and see these when you achieve them.  Some sounds such as under attack notifications will be heard only by you.
 mstore_category5_desc		These special sound packs change the announcer that is heard when achieving kill streaks and other special game events.  Some even include new visual effects!
-mstore_category6			Misc
-mstore_category6_desc		Here you can purchase Name Changes with Goblin Coins!
+mstore_category6_short		Misc
+mstore_category6			Miscellaneous
+mstore_category6_desc		Here you can purchase account modifications and additions.
 mstore_category7			Bundles
 mstore_category7_desc		Save precious Goblin Coins by purchasing items in groups at a discount!
 mstore_category16		Name Colors
 mstore_category16_desc		These items change the color of your nickname, give you a higher position in the chat list, and come with a symbol.
+mstore_exttip_namecolor		Name Colors are found in the chat list, in the in-game stat window, and on your forum account.  They come with a default symbol and give you a higher position in the chat list than colorless people.
 mstore_category27		Taunt
 mstore_category27_desc		Purchase the ability to taunt players here!
+mstore_category56		Alternate Avatars
+mstore_category56_desc		This section contains ways to customize Heroes and Couriers.
+mstore_category57		Couriers
+mstore_category57_desc		Purchase a new look for your courier.
+
+mstore_tip_couriers_title		Courier Avatars
+mstore_tip_couriers_desc		The appearance of your courier can be changed using Courier Avatars.  You can only change the courier during the match (when the courier is on the field), and only if you own the courier or its avatar isn't locked by the player who owns the courier.
+mstore_tip_couriers_choosing	Choosing Your Courier's Avatar
+mstore_tip_couriers_steps		Follow these steps to select your courier's avatar:
+mstore_tip_couriers_step1		1. Select your Courier
+mstore_tip_couriers_step2		2. Click the 'Courier Avatars' button.
+mstore_tip_couriers_step2a		* At the bottom-left of the Courier Portrait
+mstore_tip_couriers_step3		3. Select your desired Courier Avatar
+mstore_tip_couriers_step3a		* You can also purchase Courier Avatars at this screen.
+mstore_tip_couriers_btnselect	Select the Courier's Avatar
+mstore_tip_couriers_btnlock		If you own the courier, click this to lock its avatar.
+
+
+mstore_category59		Flags
+mstore_category59_desc		Choose from a long list of countries to represent!
+mstore_category60		Hero Symbols
+mstore_category60_desc		Avoiding real life? Choose a hero symbol instead!
+mstore_category61		Misc Symbols
+mstore_category61_desc
+
+
 mstore_exttip_namecolor		Name Colors are found in the chat list, in the in-game stat window, and on your forum account.  They come with a default symbol and give you a higher position in the chat list than colorless people.
 
 mstore_viewspecials		View Specials
-
+mstore_specials		Specials
+mstore_specials_tip		Items in this section are often offered for low prices and for a limited time.
+mstore_vanity			Account Vanity
+mstore_vanity_tip		These items enhance the visual appearance of your account.
 
 
 mstore_purchase_gold		Use Gold
@@ -1785,11 +1876,17 @@ mstore_cost_desc			This is how many Goblin Coins are required to purchase this i
 mstore_purchase				Purchase
 
 mstore_needunlockicons		Unlock
+mstore_needunlocktaunt		Unlock
 mstore_unlock_title			Unlock Account Icons
+mstore_unlock_taunt			Purchase Taunt
 mstore_icon_slot_locked		Icon Slot Locked
+mstore_taunt_slot_locked	Taunt Not Purchased
+mstore_unlock_taunt_body	You must first purchase Taunt before additional taunt styles can be purchased.
 mstore_unlock_body			You must first purchase the Account Icon Unlock before Account Icons can be purchased.
+mstore_unlock_taunt_confirm		Purchase Taunt and unlock additional taunt styles?
 mstore_unlock_confirm		Spend Goblin Coins to unlock Account Icons?
 mstore_unlock_icon_slot		Unlock Icon Slot
+mstore_unlock_taunt_slot		Purchase Taunt
 
 mstore_purchase_desc		Click here to spend Goblin Coins to purchase this item.
 mstore_purchased			Purchased
@@ -1837,6 +1934,8 @@ mstore_package_best_desc			This Coin Package provides the most bang for the buck
 mstore_buycoins_submit				Submit
 mstore_buycoins_submit_purchase		Submit Purchase
 mstore_buycoins_submit_desc			Click here to submit this form and purchase Gold Goblin Coins.
+mstore_choosetype2					Choose this Hero Avatar
+mstore_choosetype2_desc				Click here to set this as your default avatar for this hero.
 mstore_choosetype3					Choose this Account Icon.
 mstore_choosetype3_desc				Click here to set this as your Account Icon.
 mstore_choosetype4					Choose this Symbol.
@@ -1845,6 +1944,12 @@ mstore_choosetype5					Choose this Announcement Pack.
 mstore_choosetype5_desc				Click here to choose this Announcement Pack.
 mstore_choosetype16					Choose this Chat Color
 mstore_choosetype16_desc			Click here to choose this Chat Color.
+mstore_choosetype27					Choose this Taunt
+mstore_choosetype27_desc			Click here to choose this Taunt.
+mstore_choosetype56					Choose this Avatar
+mstore_choosetype56_desc			Click here to choose this Avatar.
+mstore_choosetype57					Choose this Courier
+mstore_choosetype57_desc			Click here to choose this avatar for your courier.
 mstore_choose						Choose
 mstore_buy							Buy
 mstore_redeem						Redeem
@@ -1891,6 +1996,7 @@ mstore_firstvisit3_body				There are two types of coins - Gold and Silver.  Both
 mstore_error_generic				An error has occurred.
 mstore_nickchange_submit			Change Nickname
 
+mstore_icon_await_upload			Awaiting Upload
 mstore_item_selected				Selected
 
 mstore_chatlist				Chat List
@@ -2000,6 +2106,30 @@ mstore_Hero_Vindicator_name			Vindicator
 mstore_Hero_Pestilence_name			Pestilence
 mstore_Hero_Armadon_name			Armadon
 mstore_Hero_Kunas_name				Thunderbringer
+mstore_Hero_Rocky_name				Pebbles
+mstore_Hero_Hydromancer_name		Myrmidon
+mstore_Hero_Ra_name					Amun-Ra
+
+//Account Icons
+mstore_unlock_icon_btn				Unlock Icon Slot
+mstore_purchase_custom_btn			Buy a Custom Slot
+
+mstore_custom_upload				Upload a Custom Icon
+mstore_custom_detail				Be original! Create your very own icon for all of Newerth to see. This purchase allows you to upload one custom icon.*
+mstore_custom_disclaimer			*Once uploaded, you cannot change an icon.
+mstore_custom_openslot				Open Custom Icon Slot
+mstore_custom_openslot2				Waiting for icon upload...
+mstore_custom_openslot_inst			You have purchased a custom icon slot. For file specifications and upload instructions, please refer to your receipt email, or visit the Heroes of Newerth website. Upon login at the website, you will be prompted to upload your icon.
+mstore_custom_openslot_url			http://www.heroesofnewerth.com/icons
+mstore_custom_tip_txt				Upload Info
+mstore_custom_faq_title				Custom Accong Icon FAQ
+mstore_custom_faq_title2			Answers for your burning questions.
+mstore_custom_faq_Q1				Can I have more than one custom icon?
+mstore_custom_faq_A1				Yes, you may purchase as many custom icons as you would like. However, once uploaded, you can not change your icon. You must purchase a new custom icon slot.
+mstore_custom_faq_Q2				Can I change my icon after I upload it?
+mstore_custom_faq_A2				No. Once uploaded, you must purchase a new custom icon. Both will be available in your Vault.
+mstore_custom_faq_Q3				How do I upload my custom icon?
+mstore_custom_faq_A3				You must visit the custom icon website to upload your icon file. The URL is http://www.heroesofnewerth.com/icons/
 
 // Tutorial Stuff
 
@@ -2349,6 +2479,7 @@ game_shop_label_weapons						Weapons
 game_shop_label_relics						Relics
 game_shop_label_supplies					Supplies
 game_shop_label_secret						Secret Shop
+game_shop_label_legendary					Legendary
 game_shop_label_recipe_outpost				Outpost
 game_shop_label_recipe_one					Initiation
 game_shop_label_recipe_two					Supportive
@@ -2432,6 +2563,9 @@ game_shop_key_viewrecipe					View Recipe In Shop
 game_shop_key_swapitem						Swap Inventory/Stash
 game_shop_key_sellitem						Sell Item
 game_shop_key_dissassemble					Disassemble Item
+game_shop_key_qs							Quickslot Shortcuts
+game_shop_key_qs1							Shop item to quickslot
+game_shop_key_qs2							Inventory item to quickslot
 
 game_shop_trans								Shop Transparency
 game_shop_trans_tip							Drag the slider to the left to lower transparency, to the right to increase transparency.
@@ -2450,8 +2584,12 @@ game_guide_vote_down						Vote Down
 game_guide_auto_level						Auto-Level Abilities
 game_guide_auto_level_tip					Enabling this option will cause you to automatically train your abilities according to this guide.
 game_guide_label_intro						Introduction
+game_guide_label_premium					Featured
 game_guide_label_detailed					Detailed Description
+game_guide_label_getFeatured				Use Featured Guide
 process_guides_error						Guide Error
+invalid_cookie								Invalid Cookie
+guides_fail									Guide Retrieval Error
 
 guide_last_updated							Last Updated
 guide_remove_default						Remove Default
@@ -2473,6 +2611,13 @@ game_label_creep_kills_creep				Creep:
 
 game_invulnerable							Invulnerable
 game_disconnect								Disconnect
+
+game_alt_couriers							Alternate Courier Selection
+game_alt_couriers_current					Current Courier Selection
+game_alt_couriers_select					Select This Courier
+game_alt_couriers_purchase					Purchase This Courier
+game_alt_couriers_lock						Lock Courier
+game_alt_couriers_unlock						Unlock Courier
 
 // game_chat.package
 gamechat_button_send_message				Send Message
@@ -2699,6 +2844,7 @@ endstats_label_hero_info_armor				Armor
 endstats_label_hero_info_inventory			Inventory
 endstats_label_kda							K / D / A
 endstats_label_apm							APM
+endstats_label_gpm							GPM
 endstats_label_match_name					^yMatch:^*
 game_end_stats_victory_legion				Victory for The Legion!
 game_end_stats_victory_hellbourne			Victory for The Hellbourne!
@@ -3185,6 +3331,7 @@ globby_alt_avatars							Alternate Avatars
 
 globby_purchase								Purchase
 globby_purchase_avatar						Purchase this Alternate Avatar?
+game_purchase_courier						Purchase this Courier?
 
 _first_game									's ^wFirst Game!
 
@@ -3412,6 +3559,7 @@ player_stats_damage							Damage
 player_stats_razes							Razes
 player_stats_kills							Kills
 player_stats_kd_ratio						K:D Ratio
+player_stats_kad_ratio						K+A:D Ratio
 player_stats_assists						Assists
 player_stats_gold							Gold
 player_stats_deny_count						Deny Count
@@ -3508,6 +3656,8 @@ game_setup_custom_post_save_btn				Set Post URL
 game_setup_custom_post_description			You can submit the stats of this game to a URL of your choice.  This URL should be a script written to accept a Post submission that contains all the statistics for this match.  To learn more detailed information about the stats array and sample code please visit ^yhttp://www.heroesofnewerth.com/submitstats.php^*
 game_setup_practice							Practice
 game_setup_casual							Casual
+
+game_setup_Garena_Info						View The Garena VIP Benefits
 
 // tooltips
 tooltip_passive_bonuses						Passive Bonuses
@@ -3732,10 +3882,10 @@ Shop_Recipes5_description										Recipes for items that modify or add various 
 Shop_Recommended_description									Recommended Items are always reliable and can be put to good use against the enemy.
 Shop_Relics_description											Various rare artifacts that have many different effects.
 Shop_Secret_description											Shady and mysterious, the Secret Shop contains many rare and powerful artifacts. One must venture into the woods to find the reclusive Secret Shop's location.
+Shop_Legendary_description										An assortment of the most powerful and expensive base components.
 Shop_Supplies_description										Home to many goods and potions that are generally consumed upon use.
 Shop_Weapons_description										Various armor and weapons that generally increase damage or armor.
 Shop_Outpost_description										Various basic (non-recipe) items that are often useful if they are part of a recipe you plan on creating.
-
 Shop_Filter_Consumables_description								Items with that are consumed after activation.
 Shop_Filter_Mobility_description								Items that increase your movement speed and speed of travel.
 Shop_Filter_AttackSpeed_description								Items that increase the frequency at which you attack.
@@ -3748,6 +3898,7 @@ Shop_Filter_INT_description										Items that increase your Intelligence stati
 Shop_Filter_Booster_description									Items that increase your health or mana pool.
 Shop_Filter_Activatable_description								Items that may be activated.
 Shop_Filter_Modifier_description								Items that contain a unique modifier effect.
+Shop_Search_Shop												Search Shop...
 
 game_command_tooltip_name_move			Move
 game_command_tooltip_name_attack		Attack
@@ -3873,7 +4024,6 @@ mm_map_txt2						Region popularity will change based on time of day. High popula
 mm_queue_finding				Finding a Match...
 mm_queue_past					Time Waited
 mm_queue_eta					Average Wait Time
-mm_queue_eta_body				{time} seconds
 mm_queue_enter_btn				Enter Queue
 mm_queue_leave_btn				Leave Queue
 mm_ready_btn					Ready
@@ -3973,7 +4123,6 @@ mm_gameloading_msg				Other players are currently loading the game. When a playe
 mm_europe_region				Europe
 mm_useast_region				US East
 mm_uswest_region				US West
-mm_southamerica_region			South America
 
 
 mm_isleaver_onopen				Unable to join Matchmaking
@@ -4211,6 +4360,11 @@ compendium_abilities						Abilities
 compendium_list_simple						Simple Hero List
 compendium_list_detailed					Detailed Hero List
 
+tooltip_detailed_hero_info					Hero Details
+tooltip_detailed_hero_info_msg				View basic hero information, ability details, and your statistics using this hero.
+tooltip_compendium_guide					Hero Guides
+tooltip_compendium_guide_msg				View the user submitted guides for this hero.
+
 // Used For stat/lvl stuff
 compendium_lvl								lvl
 
@@ -4434,9 +4588,23 @@ heroinfo_aura								^cAura^*
 heroinfo_range								^cRange:^* 
 heroinfo_radius								^cRadius:^* 
 heroinfo_mana_cost							^cMana cost:^* 
-heroinfo_cooldown							^cCooldown:^* {time} seconds
+heroinfo_cooldown							^cCD:^* {time} seconds
 
 
+// Garena VIP
+garenaVIP_title								Benefits of Purchasing a VIP Account
+garenaVIP_priority							Priority Access To Full Game Servers
+garenaVIP_priority_txt						VIP users will always have first priority in the Garena HoN launcher queue. Don't wait for games!
+garenaVIP_latency							Lower Latency Games on VIP Servers
+garenaVIP_latency_txt						Play on premium VIP servers for an improved gameplay experience
+garenaVIP_eap								Early Access to New Heroes
+garenaVIP_eap_txt							Play heroes as soon as they are released! Get an early start on mastering new heroes.
+garenaVIP_goldstatus						Gold Status
+garenaVIP_goldstatus_txt					Let your fellow HoN players know that you are VIP with our custom gold icon.
+garenaVIP_taunt								Taunt Ability
+garenaVIP_taunt_txt							Rub your skills in the face of your opponents by laying the Smackdown on them!
+garenaVIP_MMoptions							Matchmaking Options
+garenaVIP_MMoptions_txt						Customize your matchmaking experience for the ultimate matchup!
 
 
 // End - do not delete this line

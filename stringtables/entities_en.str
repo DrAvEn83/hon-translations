@@ -193,7 +193,12 @@ Popup_dot_physical_damage										{value}!
 Popup_timer														{value}
 Popup_timer_hero												{value}
 Popup_morult													{value}
-Popup_deflected													Absorbed!
+Popup_warden1													Gawain uses Diving Strike!
+Popup_warden2													Gawain uses Forest's Touch!
+Popup_warden3													Gawain uses Emerald Storm!
+Popup_Ra														{value}!
+Popup_ra_rebirth												Rebirth!
+Popup_ra_timer													{value}
 
 // Game Info
 Mode_Normal														All Pick
@@ -259,7 +264,7 @@ Building_HellbourneRepeater2_name								Shrine
 Building_HellbourneRepeater3_name								Shrine
 
 // Building_HellbourneStore
-Building_HellbourneStore_name									Secret Shop
+Building_HellbourneStore_name									Observatory
 
 // Building_HellbourneWell
 Building_HellbourneWell_name									Well of Tar
@@ -297,7 +302,7 @@ Building_LegionRepeater2_name									Hut
 Building_LegionRepeater3_name									Hut
 
 // Building_LegionStore
-Building_LegionStore_name										Secret Shop
+Building_LegionStore_name										Observatory
 
 // Building_LegionWell
 Building_LegionWell_name										Well of Life
@@ -325,11 +330,19 @@ State_Teleport_GrimmCrossroads_description						You recently used the teleporter
 
 // Ability_Taunt
 Ability_Taunt_name												Taunt
+Ability_Taunt_name:disco_taunt									Disco Taunt
+Ability_Taunt_name:gore_taunt									Gore Taunt
 Ability_Taunt_description								
 Ability_Taunt_description_simple								Taunting is disabled for this account.
 Ability_Taunt_description_simple:perks							Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple:standard_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple:disco_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple:gore_taunt						Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
 Ability_Taunt_IMPACT_effect										Taunting is disabled for this account.
 Ability_Taunt_IMPACT_effect:perks								Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_IMPACT_effect:standard_taunt						Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_IMPACT_effect:disco_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_IMPACT_effect:gore_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
 
 // Ability_Accursed1
 Ability_Accursed1_name											Cauterize
@@ -481,11 +494,11 @@ State_Andromeda_Stunned_Visual_EXPIRED_effect
 Ability_Andromeda2_name											Aurora
 Ability_Andromeda2_description									Andromeda shakes the magnetic field of Newerth, causing an Aurora to erupt, damage, and reduce the Armor of all enemies in front of her.
 Ability_Andromeda2_description2									
-Ability_Andromeda2_description_simple							Target a location to hit enemies in a line. Deals ^o{40,65,90,115} Magic Damage^* and applies ^o{-2,-3,-4,-5} Armor^* and ^o{-5,-10,-15,-20}% Base damage^* for ^o{14,16,18,20} seconds^*.\n\nGrants 500 clearvision along the line.
+Ability_Andromeda2_description_simple							Target a location to hit enemies in a line. Deals ^o{40,65,90,115} Magic Damage^* and applies ^o{-2,-3,-4,-5} Armor^* and ^o{-5,-10,-15,-20}% Base damage^* for 14 seconds.\n\nGrants 500 clearvision along the line.
 Ability_Andromeda2_effect_header								Aurora Effects
 Ability_Andromeda2_effect_header2								
 Ability_Andromeda2_tooltip_flavor								
-Ability_Andromeda2_IMPACT_effect								Deals {40,65,90,115} Magic Damage to targets in a line while reducing their Armor and damage for {14,16,18,20} seconds.\nGrants 500 day and night clearvision in a 1400 unit line.
+Ability_Andromeda2_IMPACT_effect								Deals {40,65,90,115} Magic Damage to targets in a line while reducing their Armor and damage for 14 seconds.\nGrants 500 day and night clearvision in a 1400 unit line.
 Ability_Andromeda2_tooltip_flavor								You want a shake with that?
 
 // Gadget_Andromeda_Ability2_Reveal
@@ -554,7 +567,7 @@ State_Arachna_Ability1_FRAME_effect								{4,8,12,16} Magic Damage
 // Ability_Arachna2
 Ability_Arachna2_name											Harden Carapace
 Ability_Arachna2_description									Arachna hardens her carapace for a short duration, increasing her resistance to magical attacks.
-Ability_Arachna2_description_simple								Activate to ^oDispel debuffs on self^* and gain ^o{5,10,18,35} Magic Armor^* for 3 seconds.
+Ability_Arachna2_description_simple								Activate to ^oDispel debuffs on self^* and gain ^o{8,16,24,32} Magic Armor^* for 3 seconds.
 Ability_Arachna2_effect_header									Hardened Carapace Effects
 Ability_Arachna2_IMPACT_effect									Dispels debuffs on self and applies Hardened Carapace for 3 seconds.
 
@@ -602,7 +615,7 @@ Hero_Arachna_role												Arachna's strength lies solely in her ability to ou
 // Ability_Armadon1
 Ability_Armadon1_name											Snot Storm
 Ability_Armadon1_description									Hurls a wad of Snot at target enemy unit, reducing Armor and slowing speed. Additional Snot Wads will further reduce speed and Armor.
-Ability_Armadon1_description_simple								Target an enemy unit to apply ^o{-1,-1,-2,-2} Armor^* and ^o{-3,-6,-9,-12}% Movement Speed^* per use. Stacks up to 5 times.
+Ability_Armadon1_description_simple								Target an enemy unit to apply ^o{-1,-1.5,-2,-2.5} Armor^* and ^o{-3,-6,-9,-12}% Movement Speed^* per use. Stacks up to 5 times.
 Ability_Armadon1_effect_header									Sticky Snot Effects
 Ability_Armadon1_IMPACT_effect									Applies Sticky Snot to target for 5 seconds, adding one charge. Maximum of 5 charges.
 Ability_Armadon1_tooltip_flavor									I told you I needed a tissue!
@@ -742,17 +755,17 @@ State_Behemoth_Ability2_name									Enraged
 // Ability_Behemoth3
 Ability_Behemoth3_name											Heavyweight
 Ability_Behemoth3_description									Causes the Behemoth to shake the earth with each spell he casts, dealing damage and stunning nearby opponents.
-Ability_Behemoth3_description_simple							Passively deal ^o{25,45,75,115} Magic Damage^* and apply a ^o{0.3,0.7,1.2,1.5} second Stun^* to nearby enemies on spell cast.
+Ability_Behemoth3_description_simple							Passively deal ^o{25,55,85,115} Magic Damage^* and apply a ^o{0.6,0.9,1.2,1.5} second Stun^* to nearby enemies on spell cast.
 Ability_Behemoth3_effect_header									Status Effect
-Ability_Behemoth3_ABILITY_IMPACT_effect							Deals {25,45,75,115} Magic Damage and stuns for {0.3,0.7,1.2,1.5} seconds in 280 radius around self.
+Ability_Behemoth3_ABILITY_IMPACT_effect							Deals {25,55,85,115} Magic Damage and stuns for {0.6,0.9,1.2,1.5} seconds in 280 radius around self.
 Ability_Behemoth3_tooltip_flavor								Rumble in the jungle!
 
 // Ability_Behemoth4
 Ability_Behemoth4_name											Shockwave
 Ability_Behemoth4_description									The Behemoth slams the ground with all his might, causing a devastating shockwave around him. The shockwave ricochets off nearby enemies, effectively increasing the damage dealt based on the number of nearby enemy units.
-Ability_Behemoth4_description_simple							Activate to deal ^o{200,275,350} Superior Magic Damage^* to nearby enemies. Affected enemies take an additional ^o{35,45,65} Magic Damage^* for every enemy unit in range and ^o{17.5,22.5,32.5} Magic Damage^* for every corpse in range.
+Ability_Behemoth4_description_simple							Activate to deal ^o{200,275,350} Superior Magic Damage^* to nearby enemies. Affected enemies take an additional ^o{35,45,55} Magic Damage^* for every enemy unit in range.
 Ability_Behemoth4_effect_header									Status Effect
-Ability_Behemoth4_IMPACT_effect									Deals {200,275,350} Superior Magic Damage to enemy units in a 500 radius around self. Deals {35,45,65} additional Magic Damage for each additional enemy unit in range and {17.5,22.5,32.5} additional Magic Damage for each additional corpse in range.
+Ability_Behemoth4_IMPACT_effect									Deals {200,275,350} Superior Magic Damage to enemy units in a 500 radius around self. Deals {35,45,55} additional Magic Damage for each additional enemy unit in range.
 Ability_Behemoth4_tooltip_flavor								I'm still a little shaky!
 
 // Hero_Behemoth
@@ -1146,7 +1159,7 @@ State_Bubbles_Ability2_tooltip_flavor							None
 Ability_Bubbles3_name											Take Cover
 Ability_Bubbles3_description									Bubbles retreats into his enchanted Shell, becoming impervious to all forms of attack, whether magical or mundane.
 Ability_Bubbles3_description2									
-Ability_Bubbles3_description_simple								Activate to become ^oinvulnerable for {0.75,1.5,2.25,3} seconds^*. This ability is channeled, moving or attacking will cancel it. Right click to set this spell to auto-cast any time damage is taken.
+Ability_Bubbles3_description_simple								Activate to become ^oinvulnerable for {0.25,1,1.75,2.5} seconds^*. This ability is channeled, moving or attacking will cancel it. Right click to set this spell to auto-cast any time damage is taken.
 Ability_Bubbles3_effect_header									
 Ability_Bubbles3_effect_header2									
 Ability_Bubbles3_tooltip_flavor									There are no turtles in foxholes.
@@ -1221,7 +1234,7 @@ State_Chipper_Ability2_name_FRAME_effect
 // Ability_Chipper3
 Ability_Chipper3_name											Focus Buffer
 Ability_Chipper3_description									The Chipper channels the energy of a neutron field into a temporary phase barrier for one of his allies, guarding them against Magic Damage.
-Ability_Chipper3_description_simple								Target an ally to apply a shield for 20 seconds that can absorb ^o{150,300,450,600} Magic Damage^*.
+Ability_Chipper3_description_simple								Target an ally to apply a shield for 20 seconds that can absorb ^o{125,250,375,500} Magic Damage^*.
 Ability_Chipper3_effect_header									Focus Buffer Effects
 Ability_Chipper3_IMPACT_effect									Applies Focus Buffer to target for 20 seconds.
 
@@ -1229,7 +1242,7 @@ Ability_Chipper3_tooltip_flavor									This is a highly complex operation!
 
 // State_Chipper_Ability3_Buff
 State_Chipper_Ability3_Buff_name								Focus Buffer
-State_Chipper_Ability3_Buff_FRAME_effect						Absorbs {150,300,450,600} Magic Damage.
+State_Chipper_Ability3_Buff_FRAME_effect						Absorbs {125,250,375,500} Magic Damage.
 
 // Ability_Chipper4
 Ability_Chipper4_name											Sawblade Showdown
@@ -1259,7 +1272,7 @@ Hero_Chipper_role												The Chipper thrives on constant engagement and spik
 // Ability_Chronos1
 Ability_Chronos1_name											Time Leap
 Ability_Chronos1_description									Chronos teleports himself through space and time to a target location, slowing enemies in target location upon arrival.
-Ability_Chronos1_description_simple								Target a location to ^oteleport to that position^*.\n\nUpon arrival, deals ^o{25,75,125,175} Magic Damage^* and ^o{-10,-20,-30,-40}% Movement Speed^* for 3 seconds to enemies around you.
+Ability_Chronos1_description_simple								Target a location to ^oteleport to that position^*.\n\nUpon arrival, deals ^o{25,75,125,175} Magic Damage^* and ^o{-22,-28,-34,-40}% Movement Speed^* for 3 seconds to enemies around you.
 Ability_Chronos1_effect_header									Time Sap
 Ability_Chronos1_IMPACT_effect									Teleports self to target position. Upon arrival, deals {25,75,125,175} Magic Damage in radius and applies Time Sap to enemies in radius for 3 seconds.
 Ability_Chronos1_tooltip_flavor									It's all about the flux capacitor!
@@ -1878,9 +1891,8 @@ State_Ebulus_Ability1_FRAME_effect								5 ticks of {10,20,40,50} Magic Damage\
 
 // Ability_Ebulus2
 Ability_Ebulus2_name											Toxicity
-Ability_Ebulus2_description										Slither adds poison damage to his attacks. His attacks then reduce his target's Movement Speed, deal damage over time, and negate regeneration.
-Ability_Ebulus2_description_simple								Passivly enhances attacks to deal an additional ^o{35,70,105,140} Magic Damage over 7 seconds^*. Enemies may not be healed during the duration.\n\nThis ability is an ^oAttack Modifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
-Ability_Ebulus2_description2									This ability contains an ^oAttack ^oModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
+Ability_Ebulus2_description										Slither adds poison damage to his attacks. His attacks then deal damage over time and negate regeneration.
+Ability_Ebulus2_description_simple								Passivly enhances attacks to deal an additional ^o{35,70,105,140} Magic Damage over 7 seconds^*. Enemies' regen is lowered by {20,40,60,80}% for the duration.
 Ability_Ebulus2_effect_header									Toxicity Effects
 Ability_Ebulus2_effect_header:attack							Status Effect
 Ability_Ebulus2_ATTACK_IMPACT_effect:attack						Applies Toxicity to target for 7 seconds.
@@ -2022,12 +2034,13 @@ State_Empath_Ability1_Inside_name								Essence Link
 // Ability_Empath2
 Ability_Empath2_name											Illusory Veil
 Ability_Empath2_description										Creates a wall that blocks enemies, but not allies.  Enemies close to the wall take damage over time.
-Ability_Empath2_description_simple								Click and drag cursor to create a wall that will block enemy movement, but not allies. The wall lasts ^o{2,3,4,5} seconds^*. Enemies who come near the wall take ^o50 Magic Damage per second^*.
+Ability_Empath2_description_simple								Click and drag cursor to create a wall that will block enemy movement, but not allies. The wall lasts ^o{3,4,5,6} seconds^*. Enemies who come near the wall take ^o50 Magic Damage per second^*.
 Ability_Empath2_tooltip_flavor									YOU SHALL NOT PASS!
-Ability_Empath2_IMPACT_effect									Creates a 650 width wall that blocks enemies and grants slight vision. The wall lasts for {2,3,4,5} seconds.\n\nEnemies within 150 units of the wall take 50 damage per second.
+Ability_Empath2_IMPACT_effect									Creates a 650 width wall that blocks enemies and grants slight vision. The wall lasts for {3,4,5,6} seconds.\n\nEnemies within 150 units of the wall take 50 damage per second.
 
 // State_Empath_Ability2_Effects
 State_Empath_Ability2_Effects_FRAME_effect						50 Magic Damage per second
+
 // Ability_Empath3
 Ability_Empath3_name											Synergy
 Ability_Empath3_description										Grants Health Regeneration to all allied heroes.
@@ -2099,10 +2112,10 @@ Ability_Engineer1_tooltip_flavor								It puts hair on yer chest!
 // Ability_Engineer2
 Ability_Engineer2_name											Steam Turret
 Ability_Engineer2_description									The Steam Turret is a marvel in rapidfire technology. Deploying at the place of his choosing in any direction he wants, it lays down waves of suppressing fire that slow enemies who stay in the cone.
-Ability_Engineer2_description_simple							Click and drag cursor to create a turret that shoots in a cone for 5 seconds. Deals up to ^o{75,150,225,300} Physical Damage^* and pushes enemies away.
+Ability_Engineer2_description_simple							Click and drag cursor to create a turret that shoots in a cone for 5 seconds. Deals up to ^o{75,150,225,300} Magic Damage^* and pushes enemies away.
 Ability_Engineer2_effect_header									Suppressed Effects
 
-Ability_Engineer2_IMPACT_effect									Creates a Steam Turret at the target position facing the vector direction. Fires 10 shots per second for 5 seconds in an 800 distance 400 radius cone.\n\nBullets hit all enemies they come into contact with, dealing {10,20,30,40} Physical Damage, pushing them {10,15,20,25} units away from the Turret, and applying a Suppressed charge.\n\nEach additional bullet that hits a target reduces the effect of that hit by 10%.
+Ability_Engineer2_IMPACT_effect									Creates a Steam Turret at the target position facing the vector direction. Fires 10 shots per second for 5 seconds in an 800 distance 400 radius cone.\n\nBullets hit all enemies they come into contact with, dealing {10,20,30,40} Magic Damage, pushing them {10,15,20,25} units away from the Turret, and applying a Suppressed charge.\n\nEach additional bullet that hits a target reduces the effect of that hit by 10%.
 Ability_Engineer2_tooltip_flavor								My turret is my best friend.
 
 // State_Engineer_Ability2_Snare
@@ -2149,28 +2162,29 @@ Hero_Engineer_role												The Engineer is built on utility and positional co
 
 // Ability_Fade1
 Ability_Fade1_name												Cull
-Ability_Fade1_description										Fayde swings her scythe in a wide arc, dealing heavy damage to enemies while the darkness in its wake either destoys their mana instantly or stuns them.
-Ability_Fade1_description_simple								Activate to deal ^o{100,150,200,250} Magic Damage^* to nearby enemies.\n\n^yScythe Stance^*: ^oStuns for {1,1.5,2,2.5} seconds^*.\n^yShadow Stance^*: ^oRemoves {6,12,18,24}% maximum mana^*. Effect is split amongst affected enemies.
-Ability_Fade1_IMPACT_effect										All enemies in the radius take {100,150,200,250} Magic Damage.\n\n^yScythe Stance^*:\n- Stuns for {1,1.5,2,2.5} seconds.\n\n^yShadow Stance^*:\n- Destroys {6,12,18,24}% of an enemy hero's maximum mana. If multiple heroes are hit, the mana destruction is split, reducing the burn by {1,2,3,4}% per hero.
+Ability_Fade1_description										Fayde swings her scythe in a wide arc, dealing heavy damage to enemies while the darkness in its wake, destoying their mana instantly.
+Ability_Fade1_description_simple								Activate to deal ^o{100,160,220,280} Magic Damage^* to nearby enemies. ^oRemoves {7,14,21,28}% maximum mana^*.\n\nMana removed this way is restored to Fayde.
+Ability_Fade1_IMPACT_effect										All enemies in the radius take {100,160,220,280} Magic Damage. Destroys {7,14,21,28}% of an enemy hero's maximum mana.
 
 Ability_Fade1_tooltip_flavor									I need my personal space.
 
 // Ability_Fade2
 Ability_Fade2_name												Burning Shadows
 Ability_Fade2_description										Fayde summons a wave of darkness, causing the shadows of enemy heroes hit to turn against them for a short time. Shadows grant 200 day and night clearvision while alive.
-Ability_Fade2_description_simple								Target a position to create mirror images of affected enemy heroes. Images deal ^o{70,140,210,280} damage to their owners.\n\n^yScythe Stance^*: ^oRemoves {6,12,18,24}% maximum mana^*. Effect is split amongst affected enemies.\n^yShadow Stance^*: ^oStuns for {1,1.5,2,2.5} seconds^*.
-Ability_Fade2_IMPACT_effect										Creates Burning Shadows for 800 units in the target direction. Any enemy heroes hit will have a Shadow Copy of themselves created.\n\nThe Shadow Copy is uncontrollable, invulnerable, has max Movement Speed, and attacks only the target. The Shadow Copy will attack {1,2,3,4} times very quickly, dealing 70 Magic Damage per hit.\n\n^yScythe Stance^*:\n-Destroys {6,12,18,24}% of an enemy hero's maximum mana when hit. If multiple heroes are hit, the mana destruction is split, reducing the burn by {1,2,3,4}% per hero.\n\n^yShadow Stance^*:\n-All enemy heroes hit are stunned for {1,1.5,2,2.5} seconds
+Ability_Fade2_description_simple								Target a position to create mirror images of affected enemy heroes. Images deal ^o{70,140,210,280} damage to their owners. ^oStuns for {1,1.5,2,2.5} seconds^*.
+Ability_Fade2_IMPACT_effect										Creates Burning Shadows for 800 units in the target direction. Any enemy heroes hit will have a Shadow Copy of themselves created.\n\nThe Shadow Copy is uncontrollable, invulnerable, has max Movement Speed, and attacks only the target. The Shadow Copy will deal {70,140,210,280} Magic  to it's owner over {1,2,3,4} attacks. All enemy heroes hit are stunned for {1,1.5,2,2.5} seconds
 
 Ability_Fade2_tooltip_flavor									The darkness can put you beside yourself...
 
 // Ability_Fade3
-Ability_Fade3_name:fadeshadowmode								Shadow Stance
-Ability_Fade3_description										Fayde becomes a master at using her Scythe or bending the Shadows around her, protecting her from damage and enhancing her other abilities. Fayde starts in Scythe Stance.
-Ability_Fade3_description_simple								Toggle to switch between ^yScythe Stance^* and ^yShadow Stance^*.\n\nPassively grants up to {1,2,3,4} charges that ^oblock 40 damage^* each.  Charges replenish every 10 seconds.
-Ability_Fade3_IMPACT_effect:fadeshadowmode						Toggles to Scythe Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 40 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical Damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical Damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic Damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic Damage
-Ability_Fade3_IMPACT_effect										Toggles to Shadow Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 40 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical Damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical Damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic Damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic Damage
-Ability_Fade3_name												Scythe Stance
-Ability_Fade3_tooltip_flavor									Choose wisely.
+Ability_Fade3_name												Deep Shadows
+Ability_Fade3_description										Fayde summons pure blackness in a target area, causing enemies to be wary and have to slow down while Fayde feels right at home, moving faster...
+Ability_Fade3_description_simple								Target an area to summon a Deep Shadow there for 5 seconds.\n\nEnemies in the radius have a ^o{15,20,25,30}% Movespeed Slow^* applied to them while Fayde has a ^o{15,20,25,30}% Movespeed Increase^* applied to her.
+Ability_Fade3_IMPACT_effect										Target an area to summon a Deep Shadow there for 5 seconds.\n\nEnemies in the radius have a {15,20,25,30}% Movespeed Slow applied to them while Fayde's Movespeed is increased by {15,20,25,30}%.
+Ability_Fade3_tooltip_flavor									Black as night.
+
+// State_Fade_Ability3_MortalStrike
+State_Fade_Ability3_MortalStrike_name							Shadow Cripple
 
 // State_Fade_Ability3
 State_Fade_Ability3_name										Shadow Stance
@@ -2178,20 +2192,15 @@ State_Fade_Ability3_name										Shadow Stance
 // Ability_Fade4
 Ability_Fade4_name												Reflection
 Ability_Fade4_description										Fayde becomes one with the shadows, going stealth for a short time. When Fayde attacks from stealth she cripples the enemy, dealing heavy damage over a few seconds.
-Ability_Fade4_description_simple								Activate to become ^oInvisible for {20,35,50} seconds^*.\n\nYour first attack out of Invisibility inflicts ^o{225,375,525} damage^* over 2 seconds and ^o-50% Heal^* for 3 seconds.\n\n^yShadow Stance^*: Deals Magic Damage.\n^yScythe Stance^*: Deals Physical Damage.
+Ability_Fade4_description_simple								Activate to become ^oInvisible for {20,35,50} seconds^*.\n\nWhile invisible, you gain Treewalking, Unitwalking, and Clearvision.\n\nYour first attack out of Invisibility inflicts ^o{225,375,525} Magic Damage^* over 2 seconds.
 Ability_Fade4_effect_header										Reflection Effects
-Ability_Fade4_effect_header2									Shadow Cripple Effects
-Ability_Fade4_IMPACT_effect										Applies Reflection to Fayde for {20,35,50} seconds.\n\nWhen Fayde lands an attack, Shadow Cripple is applied to the target for 3 seconds.\n\n^yScythe Stance^*: Physical Damage\n\n^yShadow Stance^*: Magic Damage
+Ability_Fade4_IMPACT_effect										Applies Reflection to Fayde for {20,35,50} seconds.\n\nWhile invisible, you gain Treewalking, Unitwalking, and Clearvision.\n\nYour first attack out of Invisibility inflicts {225,375,525} Magic Damage over 2 seconds.
 
 Ability_Fade4_tooltip_flavor									My shadow is my best friend...
 
 // State_Fade_Ability4_Stealth
 State_Fade_Ability4_Stealth_name								Reflection
-State_Fade_Ability4_Stealth_FRAME_effect						Applies Shadow Cripple upon attack
-
-// State_Fade_Ability4_MortalStrike
-State_Fade_Ability4_MortalStrike_name							Shadow Cripple
-State_Fade_Ability4_MortalStrike_FRAME_effect					{75,125,175} damage per second
+State_Fade_Ability4_Stealth_FRAME_effect						Grants Clearvision
 
 // Hero_Fade
 Hero_Fade_name													Fayde
@@ -2324,14 +2333,14 @@ State_ForsakenArcher_Ability1_description2
 // Ability_ForsakenArcher2
 Ability_ForsakenArcher2_name									Split Fire
 Ability_ForsakenArcher2_description								By drawing even more from the stolen souls she keeps trapped in her quiver, the Forsaken Archer is able to fire arrows that split into parts, striking multiple targets.
-Ability_ForsakenArcher2_description_simple						When active, passively splits your attack into 4 separate attacks that each deal ^o{35,45,55,65}% damage^*.\n\nActivate to turn on Split Fire.
-Ability_ForsakenArcher2_description_simple:ForsakenArcher_Ability2_Active	When active, passively splits your attack into 4 separate attacks that each deal ^o{35,45,55,65}% damage^*.\n\nActivate to turn off Split Fire.
+Ability_ForsakenArcher2_description_simple						When active, passively splits your attack into 3 separate attacks dealing ^o100% damage^* to the primary target and ^o{14,21,28,35}% damage^* to the other two targets hit.\n\nActivate to turn on Split Fire.
+Ability_ForsakenArcher2_description_simple:ForsakenArcher_Ability2_Active	When active, passively splits your attack into 3 separate attacks dealing ^o100% damage^* to the primary target and ^o{14,21,28,35}% damage^* to the other two targets hit.\n\nActivate to turn off Split Fire.
 Ability_ForsakenArcher2_description2							
 Ability_ForsakenArcher2_effect_header							
 Ability_ForsakenArcher2_effect_header2							
 Ability_ForsakenArcher2_tooltip_flavor							Feel the sting...
-Ability_ForsakenArcher2_ATTACK_effect							Splits attack into 4 separate attacks, each dealing {35,45,55,65}% damage.
-Ability_ForsakenArcher2_ATTACK_effect:ForsakenArcher_Ability2_Active	Splits attack into 4 separate attacks, each dealing {35,45,55,65}% damage.
+Ability_ForsakenArcher2_ATTACK_effect							Splits attack into 3 separate attacks, dealing 100% damage to the primary target and {14,21,28,35}% damage to the other enemies hit.
+Ability_ForsakenArcher2_ATTACK_effect:ForsakenArcher_Ability2_Active	Splits attack into 3 separate attacks, dealing 100% damage to the primary target and {14,21,28,35}% damage to the other enemies hit.
 
 // Ability_ForsakenArcher3
 Ability_ForsakenArcher3_name									Call of the Damned
@@ -2447,7 +2456,7 @@ Hero_Frosty_role												As one of the few heroes who has a global aura, Glac
 Ability_Gauntlet1_name											Infernal Instability
 Ability_Gauntlet1_description									The demonic force powering Gauntlet's massive glove grows unstable. If Gauntlet hits anything in the next couple of seconds, some of the demonic power inside it will detonate, damaging and knocking back all nearby enemies.
 Ability_Gauntlet1_description2
-Ability_Gauntlet1_description_simple							Activate to charge up Gauntlet's fist for ^o4 seconds^*.\n\nWhile charged up, Gauntlet gains ^o{10,20,30,40} Movement Speed^* and his next attack deals ^o{120,180,260,320} Magic Damage^* in a radius around the target.
+Ability_Gauntlet1_description_simple							Activate to charge up Gauntlet's fist for ^o4 seconds^*.\n\nWhile charged up, Gauntlet gains ^o40 Movement Speed^* and his next attack deals ^o{120,180,260,320} Magic Damage^* in a radius around the target.
 Ability_Gauntlet1_effect_header									Infernal Instability
 Ability_Gauntlet1_tooltip_flavor								Tag.
 Ability_Gauntlet1_IMPACT_effect									On use, applies Infernal Instability to self for 4 seconds and gives max charges to Enfeeble.\n\nWhile Infernal Instability is active, Gauntlet's hand will detonate on the first target that he attacks.\n\nUpon detonation, deals {120,180,260,320} Magic Damage in the radius, pushing back units near the hit target.
@@ -2468,7 +2477,6 @@ Ability_Gauntlet2_IMPACT_effect									Fires Gauntlet's Glove 800 distance in t
 // Ability_Gauntlet3
 Ability_Gauntlet3_name											Enfeeble
 Ability_Gauntlet3_description									Gauntlet unleashes an incredible pummeling on his opponent, crippling them severely and stealing their damage.
-Ability_Gauntlet3_description2									This ability contains an ^oAttack ^oModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
 Ability_Gauntlet3_description_simple							Passively gains a charge every ^o{0.8,0.6,0.4,0.2} seconds^* that Gauntlet is not attacking.  Maximum ^o{20,25,30,35} charges^*.\n\nOn attacking an enemy hero, consumes all charges to slow target's Movement Speed, Attack Speed, and steal Damage by ^o1% per charge^* used.\n\nNon-hero enemies will not consume charges.
 Ability_Gauntlet3_effect_header									Enfeeble Effects
 Ability_Gauntlet3_effect_header2								Empowered Effects
@@ -2725,14 +2733,14 @@ State_Hellbringer_Ability2_FRAME_effect							{5,6,7,8} ticks of Magic Damage, s
 // Ability_Hellbringer3
 Ability_Hellbringer3_name										Life Void
 Ability_Hellbringer3_description								Hellbringer casts a Life Void over a targeted area, causing enemies hit to have reduced Magic Armor. Additionally, damage those targets take will heal Hellbringer.
-Ability_Hellbringer3_description_simple							Target a location to apply Life Void to enemies for {5.5,7,8.5,10} seconds. Affected units heal Hellbringer for ^o{10,20,30,40}% of all incoming damage^*.
+Ability_Hellbringer3_description_simple							Target a location to apply Life Void to enemies for {5.5,7,8.5,10} seconds. Affected units heal Hellbringer for ^o{15,20,25,30}% of all incoming damage^*.\n\nEnemies affected suffer {-2,-3,-4,-5} magic armor for the duration.
 Ability_Hellbringer3_effect_header								Life Void Effects
 Ability_Hellbringer3_IMPACT_effect								Applies Life Void to target for {5.5,7,8.5,10} seconds.
 Ability_Hellbringer3_tooltip_flavor								Get your head out of the clouds.
 
 // State_Hellbringer_Ability3
 State_Hellbringer_Ability3_name									Life Void
-State_Hellbringer_Ability3_FRAME_effect							{10,20,30,40}% of damage taken heals the inflictor of Life Void
+State_Hellbringer_Ability3_FRAME_effect							{15,20,25,30}% of damage taken heals the inflictor of Life Void
 
 // Ability_Hellbringer4
 Ability_Hellbringer4_name										Summon Malphas
@@ -2883,18 +2891,17 @@ State_Hiro_Ability4_name										Swift Slashes
 // Ability_Hunter1
 Ability_Hunter1_name											Blood Crazy
 Ability_Hunter1_description										The Blood Hunter instills a craze for blood in a target unit, causing it to have increased base damage. While in this state, the target unit will take some damage over time and be unable to cast any spells.
-Ability_Hunter1_description_simple								Target an ally or enemy to apply Blood Crazy to them for {6,9,12,15} seconds.\n\nUnits affected by Blood Crazy gain ^o{20,40,60,80}% Base Damage^*, are ^oSilenced^*, and take ^o{20,15,10,5} Magic Damage per second^*.
+Ability_Hunter1_description_simple								Target an ally or enemy to apply Blood Crazy to them for {6,7,8,9} seconds.\n\nUnits affected by Blood Crazy gain ^o{20,40,60,80}% Base Damage^*, are ^oSilenced^*, and take ^o20 Magic Damage per second^*.
 Ability_Hunter1_effect_header									Blood Crazy Effects
-Ability_Hunter1_IMPACT_effect									Applies Blood Crazy to target for {6,9,12,15} seconds.
+Ability_Hunter1_IMPACT_effect									Applies Blood Crazy to target for {6,7,8,9} seconds.
 Ability_Hunter1_tooltip_flavor									Stay out of sunlight.
 
-// State_Hunter_Ability1
-State_Hunter_Ability1_name										Blood Crazy
-State_Hunter_Ability1_FRAME_effect								{20,15,10,5} Magic Damage per second
+// State_Hunter_Ability1_Debuff
+State_Hunter_Ability1_Debuff_name								Blood Crazy
+State_Hunter_Ability1_Debuff_FRAME_effect						20 Magic Damage per second
 
-// State_Hunter_Ability1_Allies
-State_Hunter_Ability1_Allies_name								Blood Crazy
-State_Hunter_Ability1_Allies_FRAME_effect						{20,15,10,5} Magic Damage per second
+// State_Hunter_Ability1_Buff
+State_Hunter_Ability1_Buff_name									Blood Crazy
 
 // Ability_Hunter2
 Ability_Hunter2_name											Feast
@@ -2909,8 +2916,8 @@ State_Hunter_Ability2_name										Feast
 
 // Ability_Hunter3
 Ability_Hunter3_name											Blood Sense
-Ability_Hunter3_description										When a nearby enemy is below 40% Health, the Blood Hunter can smell it. Grants vision of the enemy unit and increases the Blood Hunter's Movement Speed.
-Ability_Hunter3_description_simple								Passively reveals nearby enemies who are below 40% health. If an enemy is in range, Blood Hunter gains ^o{11,22,33,44}% Movement Speed^*.\n\nRadius increases as the skill is leveled up.
+Ability_Hunter3_description										When a nearby enemy or allied hero is below 40% Health, the Blood Hunter can smell it. Grants vision of the enemy unit and increases the Blood Hunter's Movement Speed.
+Ability_Hunter3_description_simple								Passively reveals nearby enemies and allies who are below 40% health. If an target is in range, Blood Hunter gains ^o{11,22,33,44}% Movement Speed^*.\n\nRadius increases as the skill is leveled up.
 Ability_Hunter3_description2									Radius of aura increases by 1500 per level.
 Ability_Hunter3_effect_header									Status Effect
 
@@ -2923,14 +2930,14 @@ State_Hunter_Ability3_Self_name									THIRST!!!
 // Ability_Hunter4
 Ability_Hunter4_name											Hemorrhage
 Ability_Hunter4_description										The Blood Hunter shoots out a sharp spike from his body at an enemy's major artery, dealing initial damage followed by additional damage whenever they move.
-Ability_Hunter4_description_simple								Target an enemy to deal ^o{150,250,350} True damage^* and apply Hemorrhage to them for {5,7,9} seconds\n\nDeals ^oTrue Damage as they move^* over the duration.
+Ability_Hunter4_description_simple								Target an enemy to deal ^o{190,310,440} Superior Magic damage^* and apply Hemorrhage to them for {5,7,9} seconds\n\nDeals ^oMagic Damage as they move^* over the duration.
 Ability_Hunter4_effect_header									Hemorrhage Effects
-Ability_Hunter4_IMPACT_effect									Deals {150,250,350} True damage to target and applies Hemorrhage for {5,7,9} seconds.
+Ability_Hunter4_IMPACT_effect									Deals {190,310,440} Superior Magic damage to target and applies Hemorrhage for {5,7,9} seconds.
 Ability_Hunter4_tooltip_flavor									We need you Van Helsing.
 
 // State_Hunter_Ability4
 State_Hunter_Ability4_name										Hemorrhage
-State_Hunter_Ability4_FRAME_effect								True damage taken based on {20,40,60}% of distance moved
+State_Hunter_Ability4_FRAME_effect								Magic damage taken based on {25,50,75}% of distance moved
 
 // Hero_Hunter
 Hero_Hunter_name												Blood Hunter
@@ -3093,9 +3100,9 @@ Hero_Javaras_role												Magebane's early game weakness belies the incredibl
 // Ability_Jereziah1
 Ability_Jereziah1_name											Inner Light
 Ability_Jereziah1_description									Jeraziah unleashes a nearby allied unit's Inner Light, healing them. Nearby enemies are seared by the power of the Light, causing them to take damage.
-Ability_Jereziah1_description_simple							Target an allied unit to heal it for ^o{90,180,270,360} Health^* while damaging enemies around it for the same amount in ^oTrue Damage^*.
+Ability_Jereziah1_description_simple							Target an allied unit to heal it for ^o{90,180,270,360} Health^* while damaging enemies around it for the same amount in ^oMagic Damage^*.
 Ability_Jereziah1_effect_header									Status Effect
-Ability_Jereziah1_IMPACT_effect									Heals target for {90,180,270,360} Health, damaging enemies in radius for {90,180,270,360} True damage.
+Ability_Jereziah1_IMPACT_effect									Heals target for {90,180,270,360} Health, damaging enemies in radius for {90,180,270,360} Magic damage.
 Ability_Jereziah1_tooltip_flavor								This is a quarantine zone!
 
 // Ability_Jereziah2
@@ -3266,9 +3273,9 @@ Ability_Kunas2_tooltip_flavor									A billion volts of electricity.
 // Ability_Kunas3
 Ability_Kunas3_name												Lightning Rod
 Ability_Kunas3_description										Enemies near Thunderbringer act as lightning rods, taking damage every time he casts a spell. The damage is proportional to their current Health.
-Ability_Kunas3_description_simple								Passively damages nearby enemy heroes each time you cast a spell. Damage is equal to ^o{5,7,9,11}% of their current health^* in Magic Damage.
+Ability_Kunas3_description_simple								Passively damages nearby enemy heroes each time you cast a spell. Damage is equal to ^o{3,5,7,9}% of their current health^* in Magic Damage.
 Ability_Kunas3_effect_header									Status Effect
-Ability_Kunas3_ABILITY_IMPACT_effect							Deals {5,7,9,11}% of each enemy hero's current Health as Magic Damage in an 800 radius around self.
+Ability_Kunas3_ABILITY_IMPACT_effect							Deals {3,5,7,9}% of each enemy hero's current Health as Magic Damage in an 800 radius around self.
 Ability_Kunas3_tooltip_flavor									Some would say I am shocking!
 
 // Ability_Kunas4
@@ -3633,15 +3640,97 @@ Hero_Maliken_name												Maliken
 Hero_Maliken_description										Once the greatest defender of mankind and lord over the entire Legion, Maliken walked too close to the darkness and was claimed by it.  Now he is nothing more than a slave among the damned -- but his incredible might has only grown in his downfall.  Wielding a damned sword fed by his own damned soul, Maliken is the bane of the very heroes he once led into battle.
 Hero_Maliken_role												Maliken is a strong initiator and late game damage dealer with a Sword Throw and Possession combo. Because Hellbourne Zeal makes Maliken attack faster as he loses health, playing Maliken requires the player to carefully manage his survival. A Shrunken Head will increase his survivability greatly.
 
+// Ability_Martyr1
+Ability_Martyr1_name											Retribution
+Ability_Martyr1_description										
+Ability_Martyr1_description2									
+Ability_Martyr1_description_simple								Target an enemy to deal ^o{75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage^*. Also applies a Movement Speed Slow equal to the percentage of Health you're missing, ^oup to 50%^*.
+Ability_Martyr1_effect_header									
+Ability_Martyr1_effect_header2									
+Ability_Martyr1_tooltip_flavor									
+Ability_Martyr1_IMPACT_effect									Target an enemy to deal ^o{75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage^*. Also applies a Movement Speed Slow equal to the percentage of Health you're missing, ^oup to 50%^*.
+
+// State_Martyr_Ability1
+State_Martyr_Ability1_name										Retribution
+State_Martyr_Ability1_description								Movement Speed slowed based on how low Martyr's health is.
+State_Martyr_Ability1_description2								
+State_Martyr_Ability1_description_simple						
+
+// Ability_Martyr2
+Ability_Martyr2_name											Guardian Angel
+Ability_Martyr2_description										
+Ability_Martyr2_description2									
+Ability_Martyr2_description_simple								Target an allied hero to apply Guardian Angel for ^o8 seconds^*. ^o{20,30,40,50}% of the damage^* the target takes is redirected to Martyr. Cannot take the Martyr below 10% Health. \n\nIf Martyr dies while Guardian Angel is active, he gains the same experience that the target does for ^o30 seconds^*.\n\nPassively reduces the damage Martyr takes from enemies by ^o{.2,.3,.4,.5}^* times the percentage of Health he is missing.
+Ability_Martyr2_effect_header									
+Ability_Martyr2_effect_header2									
+Ability_Martyr2_tooltip_flavor									
+Ability_Martyr2_IMPACT_effect									Target an allied hero to apply Guardian Angel for ^o8 seconds^*. While affected, ^o{20,30,40,50}% of the damage^* that the target takes is redirected to Martyr. Cannot take the Martyr below 10% Health. \n\nIf Martyr dies while Guardian Angel is active, he gains the same experience that the target does for ^o30 seconds^*.
+Ability_Martyr2_FRAME_effect									Passively reduces the damage Martyr takes by ^o{.2,.3,.4,.5}^* times the percentage of Health he is missing.
+
+// State_Martyr_Ability2_Target
+State_Martyr_Ability2_Target_name								Guardian Angel
+State_Martyr_Ability2_Target_description						{20,30,40,50}% of the damage you take is redirected to Martyr.
+State_Martyr_Ability2_Target_description2						
+State_Martyr_Ability2_Target_description_simple					{20,30,40,50}% of the damage you take is redirected to Martyr.
+State_Martyr_Ability2_Target_DAMAGED_effect						
+
+// State_Martyr_Ability2_Self
+State_Martyr_Ability2_Self_name									Guardian Angel
+State_Martyr_Ability2_Self_description							{20,30,40,50}% of the damage your target takes is redirected to you.
+State_Martyr_Ability2_Self_description2						
+State_Martyr_Ability2_Self_description_simple					{20,30,40,50}% of the damage your target takes is redirected to you.
+State_Martyr_Ability2_Self_DAMAGED_effect						
+
+// State_Martyr_Ability2_Vicarious
+State_Martyr_Ability2_Vicarious_name							Living Vicariously
+State_Martyr_Ability2_Vicarious_description						Martyr lives on vicariously through you, and he gains the same experience you do.
+State_Martyr_Ability2_Vicarious_description2						
+State_Martyr_Ability2_Vicarious_description_simple				Martyr lives on vicariously through you, and he gains the same experience you do.
+State_Martyr_Ability2_Vicarious_DAMAGED_effect						
+
+// Ability_Martyr3
+Ability_Martyr3_name											Sacrificial Lamb
+Ability_Martyr3_description										
+Ability_Martyr3_description2									
+Ability_Martyr3_description_simple								Activate to spend 20% of your Health to heal nearby allies for ^o{70,80,90,100}% of that amount^*. \n\nWhen Martyr dies, he applies ^o{15,30,45,60} Attack Speed^* and ^o{50,75,100,125} Movement Speed^* to allied heroes in a 700 radius for ^o10 seconds^*.
+Ability_Martyr3_effect_header									
+Ability_Martyr3_effect_header2									
+Ability_Martyr3_tooltip_flavor									
+Ability_Martyr3_DAMAGED_effect									
+Ability_Martyr3_DEATH_effect									
+Ability_Martyr3_FRAME_effect									When Martyr dies, he applies ^o{15,30,45,60} Attack Speed^* and ^o{50,75,100,125} Movement Speed^* to allied heroes in a 700 radius for ^o10 seconds^*.
+Ability_Martyr3_IMPACT_effect									Activate to spend 20% of your current Health and heal nearby allies for ^o{70,80,90,100}% of that amount^*. 
+
+// State_Martyr_Ability3
+State_Martyr_Ability3_name										Righteous Fury		
+State_Martyr_Ability3_description								Madman that Martyr died.
+State_Martyr_Ability3_description2								
+State_Martyr_Ability3_description_simple						Madman that Martyr died.
+
+// Ability_Martyr4
+Ability_Martyr4_name											Hand in Hand
+Ability_Martyr4_description										
+Ability_Martyr4_description2									
+Ability_Martyr4_description_simple								Target an allied hero to set channel for 1.5s and set your and target's Health percentages equal to the higher of the two. Has a {120,90,60} second Cooldown and {300,400,500} Cast Range.
+Ability_Martyr4_effect_header									
+Ability_Martyr4_effect_header2									
+Ability_Martyr4_tooltip_flavor									
+Ability_Martyr4_IMPACT_effect									Target an allied hero to set channel for 1.5s and set your and target's Health percentages equal to the higher of the two.
+
+// Hero_Martyr
+Hero_Martyr_name												Martyr
+Hero_Martyr_description											Few clergy of Sol burn with such brilliance that they may ascend to the highest orders of priesthood. Even fewer dare gift their own souls to the Legion, braving an eternity in damnation so that others may prosper in turn. The few who do earn the forsaken title of the Martyr, wielding a battle-ready relic in one hand and carrying the Codex Solaris in the other. To certain death they march; and some say, with more fervor than those who march towards life.
+Hero_Martyr_role												
+
 // Ability_Moraxus1
 Ability_Moraxus1_name											Quake
 Ability_Moraxus1_description									Makes the ground quake beneath Moraxus, damaging and stunning nearby enemy units.
 Ability_Moraxus1_description2									
-Ability_Moraxus1_description_simple								Activate to deal ^o{100,150,200,250} Magic Damage^* and apply a ^o{1,1.5,2,2.5} second Stun^* to nearby enemy units.
+Ability_Moraxus1_description_simple								Activate to deal ^o{100,150,200,250} Magic Damage^* and apply a ^o{1.75,2,2.25,2.5} second Stun^* to nearby enemy units.
 Ability_Moraxus1_effect_header									
 Ability_Moraxus1_effect_header2									
 Ability_Moraxus1_tooltip_flavor									Boom, Boom, Boom, Boom. I want you in my room. With AXES!
-Ability_Moraxus1_IMPACT_effect									Deals {100,150,200,250} Magic Damage to enemy units in radius and stuns them for {1,1.5,2,2.5} seconds.
+Ability_Moraxus1_IMPACT_effect									Deals {100,150,200,250} Magic Damage to enemy units in radius and stuns them for {1.75,2,2.25,2.5} seconds.
 
 // State_Moraxus_Ability1
 State_Moraxus_Ability3_name										Discombobulated
@@ -3951,8 +4040,8 @@ State_Panda_Ability2_Slow_FRAME_effect							Reduces Movement Speed by {20,30,40
 // Ability_Panda3
 Ability_Panda3_name												Cannon Ball
 Ability_Panda3_description										Pandamonium throws himself into the air, damaging all nearby enemies when he lands. Any enemies he lands on are stunned.
-Ability_Panda3_description_simple								Target a location to jump to it, dealing ^o{100,175,250,325} Physical Damage^* and ^o{0.75,1.25,1.75,2.25} seconds Stun^* to nearby enemies upon landing.
-Ability_Panda3_IMPACT_effect									Throw self toward target location over 0.95 seconds. Upon landing, damages enemies in a 200 radius for {100,175,250,325} Physical damage and stuns them for {0.75,1.25,1.75,2.25} seconds.
+Ability_Panda3_description_simple								Target a location to jump to it, dealing ^o{100,175,250,325} Physical Damage^* and ^o{1.5,1.75,2,2.25} seconds Stun^* to nearby enemies upon landing.
+Ability_Panda3_IMPACT_effect									Throw self toward target location over 0.95 seconds. Upon landing, damages enemies in a 200 radius for {100,175,250,325} Physical damage and stuns them for {1.5,1.75,2,2.25} seconds.
 Ability_Panda3_tooltip_flavor									Wish I brought a parachute!
 
 // Ability_Panda4
@@ -3978,6 +4067,70 @@ State_Panda_Ability4_Self_IMPACT_effect
 Hero_Panda_name													Pandamonium
 Hero_Panda_description											The last of a race of warrior-monks sworn to a chaste existence in the misty Sang-La mountains, Pandamonium has left his bamboo groves for the battlefield.  He moves with a grace that belies his great stature and strikes with fury surprising in one with such an apparently gentle nature.  And though he is a creature of few words, the Beasts put great stock in his wisdom.
 Hero_Panda_role													Pandamonium is unique in that he deals both physical damage and physical effects. That means his abilities may be used to counter heroes with magic immunity. By obtaining a Shrunken Head, he not only boosts his attack power but ensures that Face Smash reaches higher potential.
+
+// Ability_Parasite1
+Ability_Parasite1_name											Leech
+Ability_Parasite1_description									The Parasite steals essence from target enemy unit, dealing damage and stealing Movement Speed
+Ability_Parasite1_description_simple							Deals ^o{80,130,180,230} Magic Damage^* to target enemy and steals ^o{50,75,100,125} Movement Speed^* for ^o4 seconds^*.
+Ability_Parasite1_effect_header									Leeching Bile Effects
+Ability_Parasite1_effect_header2								Fed Effects
+Ability_Parasite1_tooltip_flavor								All your movespeed are belong to me!
+Ability_Parasite1_IMPACT_effect									Deals {80,130,180,230} Magic Damage to target enemy and applies Leeching Bile to it and Fed to yourself for 4 seconds.
+
+// State_Parasite_Ability1_Self
+State_Parasite_Ability1_Self_name								Fed
+
+// State_Parasite_Ability1_Enemy
+State_Parasite_Ability1_Enemy_name								Leeching Bile
+
+// Ability_Parasite2
+Ability_Parasite2_name											Infest
+Ability_Parasite2_description									Takes control of target NPC unit, hiding yourself within. The Parasite can consume the target at any time, healing himself.
+Ability_Parasite2_description_simple							Target any creep to take control of it and hide yourself within, granting it ^o{15,30,45,60} Attack Speed, {1,2,3,4} times Parasite's level in Damage, and {25,50,75,100} Movement Speed^*.\n\nThe unit loses ^o{3,2.5,2,1.5}% of its Max Health per second^*.\n\nCreates an ability on target that will kill the controlled creep and heal the Parasite for ^o{30,40,50,60}% of its current Health^*.
+Ability_Parasite2_IMPACT_effect									Takes control of the target unit and hides yourself within, granting it {15,30,45,60} Attack Speed, {1,2,3,4} times Parasite's level in Damage, and {25,50,75,100} Movement Speed.\n\nThe unit loses {3,2.5,2,1.5}% of its Max Health per second.\n\nCreates an ability on target that will kill the controlled creep and heal the Parasite for {30,40,50,60}% of its current Health.
+Ability_Parasite2_IMPACT_effect:Parasite_Inside					Instantly kills the controlled creep and heals the Parasite for {30,40,50,60}% of its current Health.
+Ability_Parasite2_tooltip_flavor								Let me in let me in let me in
+
+// Ability_Parasite2_Target
+Ability_Parasite2_Target_name									Consume
+Ability_Parasite2_Target_description							Instantly kills the controlled creep, healing Parasite for a portion of the creep's Health.
+Ability_Parasite2_Target_description_simple						Kills the creep and heals Parasite for ^o30/40/50/60% of its current Health^*.
+Ability_Parasite2_Target_IMPACT_effect							Kills the creep and heals Parasite for 30/40/50/60% of its current Health.
+Ability_Parasite2_Target_tooltip_flavor							It's not you, it's me
+
+// State_Parasite_Ability2_Target
+State_Parasite_Ability2_Target_name								Infest
+
+// State_Parasite_Ability2_Self
+State_Parasite_Ability2_Self_name								Infest
+
+// Ability_Parasite3
+Ability_Parasite3_name											Draining Venom
+Ability_Parasite3_description									Any target the Parasite attacks takes extra damage from it and deals less damage to it.
+Ability_Parasite3_description_simple							Passively causes attacks to inflict the target with Draining Venom, reducing all damage taken from it and increasing all damage dealt to it by Parasite by ^o{6,12,18,24}%^*.\n\nDraining Venom is applied when you attack someone with a unit you Infest.
+Ability_Parasite3_effect_header									Draining Venom Effects
+Ability_Parasite3_tooltip_flavor								Can't touch this!
+Ability_Parasite3_ATTACK_IMPACT_effect							Applies Draining Venom to the target for 3 seconds
+
+// State_Parasite_Ability3
+State_Parasite_Ability3_name									Draining Venom
+State_Parasite_Ability3_FRAME_effect							Takes {6,12,18,24}% more damage from the Parasite and deals {6,12,18,24}% less damage to the Parasite.
+
+// Ability_Parasite4
+Ability_Parasite4_name											Facehug
+Ability_Parasite4_description									The Parasite can steal the strengths of enemies while passing his own weaknesses onto them.
+Ability_Parasite4_description_simple							Target an enemy to leap at it, ^oswapping your Debuffs for their Buffs^*, dealing ^o{200,300,400} Magic Damage^* and applying a ^o{2,3,4} second Silence^* to it.
+Ability_Parasite4_tooltip_flavor								Here, let's trade!
+Ability_Parasite4_IMPACT_effect									Target an enemy to leap at it.\n\nOn impact, your Debuffs are transferred to the target and the target's Buffs are transferred to you.\n\nDeals {200,300,400} Magic Damage and applies a {2,3,4} second Silence to target.
+
+// State_Parasite_Ability4_X
+State_Parasite_Ability4_name									Sapped~!
+State_Parasite_Ability4_SelfDisarm_name							Leapin'
+
+// Hero_Parasite
+Hero_Parasite_name												Parasite
+Hero_Parasite_description										While the world above burned, within the deepest crevices of Newerth an abominable conglomeration of sentient gels, pathogens, and other lurkers of the deep simmered in a primoridial pool, slowly evolving and multiplying. From this cesspool emerged the Parasite, sickeningly intelligent and chaotically evil.
+Hero_Pestilence_role											Parasite is a jungle hero who is extremely powerful in one-vs-one situations. He is capable of staying active in ganking while maintaining his progression in the neutrals.	
 
 // Ability_Pestilence1
 Ability_Pestilence1_name										Flight
@@ -4192,9 +4345,9 @@ Ability_PuppetMaster3_tooltip_flavor							I'm feeling a bit strung out.
 // Ability_PuppetMaster4
 Ability_PuppetMaster4_name										Voodoo Puppet
 Ability_PuppetMaster4_description								The Puppet Master imbues the essence of a target enemy in his Puppet. The Puppet can then be attacked by the Puppet Master or any of his allies. The Puppet takes increased damage, and transfers damage taken to the target as Magic Damage.
-Ability_PuppetMaster4_description_simple						Target an enemy unit to spawn an attackable ^o{450,700,950} Health Puppet^* linked to them. The Puppet takes ^o{160,180,210}% incoming damage^* and deals Magic Damage equal to its damage taken to the target.
+Ability_PuppetMaster4_description_simple						Target an enemy unit to spawn an attackable ^o{500,750,1000} Health Puppet^* linked to them. The Puppet takes ^o{140,160,180}% incoming damage^* and deals Magic Damage equal to its damage taken to the target.
 Ability_PuppetMaster4_effect_header								Status Effect
-Ability_PuppetMaster4_IMPACT_effect								Spawns a Puppet near self that is linked to target.\n\nAny damage taken by the Puppet is transferred in full to the target as Magic Damage, regardless of the Puppet's remaining Health.\n\nThe Puppet has a maximum Health of {450,700,950} and takes {160,180,210}% damage.\n\nLasts until the target gets more than 1500 units away from the spawned Puppet, or until the Puppet is killed.
+Ability_PuppetMaster4_IMPACT_effect								Spawns a Puppet near self that is linked to target.\n\nAny damage taken by the Puppet is transferred in full to the target as Magic Damage, limited by the Puppet's remaining Health. Overkill damage is transferred, but not amplified.\n\nThe Puppet has a maximum Health of {500,750,1000} and takes {140,160,180}% damage.\n\nLasts until the target gets more than 1500 units away from the spawned Puppet, or until the Puppet is killed.
 
 Ability_PuppetMaster4_tooltip_flavor							My pain is your pain.
 
@@ -4264,6 +4417,61 @@ Ability_Pyromancer4_tooltip_flavor								It's kinda like pitching a baseball. O
 Hero_Pyromancer_name											Pyromancer
 Hero_Pyromancer_description										For centuries, the Sacred Order has recognized the "Flame-Touched," those men and women filled with a burning, if more than slightly mad, devotion to Sol.  Those Flame-Touched who serve in the Legion are more commonly called Pyromancers for their mastery over fire, and creatures strongly attuned to that element.
 Hero_Pyromancer_role											The Pyromancer is a spike magic damage dealer that can incinerate an enemy within seconds by using his three damage spells in quick succession. Because his Dragonfire stun is delayed on cast, he is best paired with another hero with a ranged stun.
+
+// Hero_Ra
+Hero_Ra_name											 		Amun-Ra
+Hero_Ra_description												The corrupted disciples of Sol harnessed the errant energies of the sun, and from that culmination of twisted nether emerged the ancient daemon god Amun-Ra, abomination of all that is light and holy. Fused together by black fire and fury, this immortal construct threatens to raze the lands with every burning step, defiling everything he touches with heretical fervor.
+Hero_Ra_role													Amun-Ra is a "DPS Tank" in that he is capable of both drawing enemy damage and dealing out great Aoe damage. Because he does not actively use mana, and health acts as his source of mana, survivability, and damage booster, he is best late game when a large health pool.
+
+// Ability_Ra1
+Ability_Ra1_name												Path of Destruction
+Ability_Ra1_description											^rCosts 20% Max Health to cast.^*\n\nCreate a path of flames in front of you culminating in a meteor. While on the path, you may walk through anything. Enemies struck by the meteor are damaged and stunned while you gain movement speed.
+Ability_Ra1_description_simple									^rCosts 20% Max Health to cast.^*\n\nCreate a path of flames to walk through anything, ending in a meteor.\n\nThe meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies, healing Amun-Ra for ^r5% Max Health^* per enemy hero.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
+Ability_Ra1_IMPACT_effect										The meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies. Amun-Ra is healed for ^r5% Max Health^* per enemy hero impacted.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
+
+// Ability_Ra2
+Ability_Ra2_name												Ignite
+Ability_Ra2_description											^rCosts 12% Max Health on impact.^*\n\nAmun-Ra lights himself on fire, exploding after 1.5 seconds, damaging and slowing nearby enemies.
+Ability_Ra2_description_simple									^rCosts 12% Max Health on impact.^*\n\nAmun-Ra lights himself on fire, exploding after 1.5 seconds.\n\nNearby enemies receive ^o{80,120,160,200} + 6% of Amun-Ra's Max Health as damage^* and ^o-{12,18,24,32}% tapering Movement Speed^* for 3 seconds.
+Ability_Ra2_IMPACT_effect										1.5 seconds after use, enemies hit by the explosion receive ^o{80,120,160,200} + 6% of Amun-Ra's Max Health^* in Magic Damage and ^o-{12,18,24,32}% tapering Movement Speed^* for 3 seconds.
+
+// Ability_Ra3
+Ability_Ra3_name												Ashes to Ashes
+Ability_Ra3_description											{2,4,6,8} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+Ability_Ra3_description_simple									{2,4,6,8} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+
+// Ability_Ra4
+Ability_Ra4_name												Pyroclasmic Rebirth
+Ability_Ra4_description											^139Requires 50% Max Mana for activation.^*\n\nOn death, Amun-Ra will be reborn with ^o50% Health^*, triggering Ignite as he spawns. He deals ^o{10,20,30}% Extra Damage^* for 10 seconds after respawning.
+Ability_Ra4_description_simple									^139Requires 50% Max Mana for activation.^*\n\nOn death, Amun-Ra will be reborn with ^o50% Health^*, triggering Ignite as he spawns. He deals ^o{10,20,30}% Extra Damage^* for 10 seconds after respawning.
+
+// State_Ra_Ability1_Self
+State_Ra_Ability1_Self_name										Path of Destruction
+State_Ra_Ability1_Self_description
+
+// State_Ra_Ability1_Path
+State_Ra_Ability1_Path_name										On the Path of Destruction
+State_Ra_Ability1_Path_description
+
+// State_Ra_Ability2_Enemy
+State_Ra_Ability2_Enemy_name									Ignite
+State_Ra_Ability2_Enemy_description
+
+// State_Ra_Ability2_Self
+State_Ra_Ability2_Self_name										Ignited!
+State_Ra_Ability2_Self_description
+
+// State_Ra_Ability3
+State_Ra_Ability3_name											Ashes to Ashes
+State_Ra_Ability3_description						
+
+// State_Ra_Ability3_Damage
+State_Ra_Ability3_Damage_name									Ashes to Ashes
+State_Ra_Ability3_Damage_FRAME_effect							Taking Magic Damage per second
+
+// State_Ra_Ability4
+State_Ra_Ability4_name											Reborn
+State_Ra_Ability4_description									{10,20,30}% Extra Damage
 
 // Ability_Rampage1
 Ability_Rampage1_name											Stampede
@@ -4542,10 +4750,10 @@ Hero_Scar_role													Madman is one of the most elusive heroes in the game 
 // Ability_Scout1
 Ability_Scout1_name												Vanish
 Ability_Scout1_description										The Scout slips into stealth mode for a brief time. Using the advantage of surprise, he is able to unleash a devastating flurry of attacks when attacking from stealth.
-Ability_Scout1_description_simple								Toggle to enter Stealth Mode until toggled off, you run out of mana, or you attack something.\n\nStealth Mode grants you ^oInvisiblity^* and ^o25% Movement Speed^*, but drains {2,3,4,5} Mana per second.\n\nAttacks from Stealth gain ^o300% Attack Speed for {1,2,3,4} attacks^*.
+Ability_Scout1_description_simple								Toggle to enter Stealth Mode until toggled off, you run out of mana, or you attack or cast Marksman Shot.\n\nStealth Mode grants you ^oInvisiblity^* and ^o25% Movement Speed^*, but drains {2,3,4,5} Mana per second.\n\nWhen Stealth ends, you gain ^o300% Attack Speed for {1,2,3,4} attacks^*.
 Ability_Scout1_effect_header									Vanish Effects
 Ability_Scout1_effect_header2									Flurry
-Ability_Scout1_IMPACT_effect									Applies Vanish to self.\n\nAttacking a unit with Vanish active will toggle Vanish off and apply Flurry to self for 4 seconds.
+Ability_Scout1_IMPACT_effect									Applies Vanish to self.\n\Applies Flurry to self for 4 seconds when Vanish fades
 
 Ability_Scout1_tooltip_flavor									Where's Waldo?
 
@@ -4580,11 +4788,13 @@ Gadget_Scout_Ability2_name										Electric Eye
 // Ability_Gadget_Scout2
 Ability_Gadget_Scout2_name										Destroy Electric Eye
 Ability_Gadget_Scout2_description								Destroys this Electric Eye, allowing the scout to choose which Electric Eye dies before he places a new one.
+Ability_Gadget_Scout2_description_simple						Activate to destroy this Electric Eye.  This allows the scout to choose which Electric Eye dies before he places a new one.
 Ability_Gadget_Scout2_IMPACT_effect								Destroys this Electric Eye.
 
 // Ability_Gadget_Scout2_2
 Ability_Gadget_Scout2_2_name									Detonate
 Ability_Gadget_Scout2_2_description								Detonates closest Electric Eye, silencing nearby enemies.
+Ability_Gadget_Scout2_2_description_simple						Activate to detonate this Electric Eye, silencing enemies in a 450 radius around the Electric Eye for {3,4,5,6} seconds.
 Ability_Gadget_Scout2_2_IMPACT_effect							Detonates this Electric Eye, silencing enemies in a 450 radius around the Electric Eye for {3,4,5,6} seconds. Detonate is on a shared cool down with all Electric Eyes.
 
 // Ability_Scout3
@@ -4704,31 +4914,31 @@ Ability_Silhouette1_IMPACT_effect:silhouetteshadow				Passively creates {1,2,3,4
 Ability_Silhouette2_name										Tree Grapple	
 Ability_Silhouette2_description									Silhouette's trusty grappling hook allows her to perform jaw-dropping combat feats, zipping from tree to tree and knocking enemies into stupor with tree trunks.
 Ability_Silhouette2_description2								
-Ability_Silhouette2_description_simple							Target a location to hook and create a chain to the first tree encountered. The chain lasts for ^o6 seconds^* or if it stretches to 1800 units. \n\nWhile Silhouette is chained to a tree, she gains ^o100 Movement Speed^* and Tree Grapple is replaced by two sub-abilities, ^oSky Dance^* and ^oLog Bolas^*. \n\nSky Dance and Log Bolas deal ^o{50,100,150,200} Physical damage and a {1,1.5,2,2.5} second Stun^*.
+Ability_Silhouette2_description_simple							Target a location to hook and create a chain to the first tree encountered. The chain lasts for ^o6 seconds^* or if it stretches to 1800 units. \n\nWhile Silhouette is chained to a tree, she gains ^o100 Movement Speed^* and Tree Grapple is replaced by two sub-abilities, ^oSky Dance^* and ^oLog Bolas^*. \n\nSky Dance and Log Bolas deal ^o{50,100,150,200} Magic damage and a {1,1.5,2,2.5} second Stun^*.
 Ability_Silhouette2_effect_header								
 Ability_Silhouette2_effect_header2								
 Ability_Silhouette2_tooltip_flavor								I'm very good at hooking.
-Ability_Silhouette2_IMPACT_effect								Target a location to hook and create a chain to the first tree encountered. The chain lasts for 6 seconds or if it stretches to 1800 units. \n\nWhile Silhouette is chained to a tree, she gains 100 Movement Speed and Tree Grapple is replaced by two sub-abilities, Sky Dance and Log Bolas. \n\nSky Dance and Log Bolas deal {50,100,150,200} Physical damage and a {1,1.5,2,2.5} second Stun.
+Ability_Silhouette2_IMPACT_effect								Target a location to hook and create a chain to the first tree encountered. The chain lasts for 6 seconds or if it stretches to 1800 units. \n\nWhile Silhouette is chained to a tree, she gains 100 Movement Speed and Tree Grapple is replaced by two sub-abilities, Sky Dance and Log Bolas. \n\nSky Dance and Log Bolas deal {50,100,150,200} Magic damage and a {1,1.5,2,2.5} second Stun.
 
 // Ability_Silhouette2_Go
 Ability_Silhouette2_Go_name										Sky Dance				
 Ability_Silhouette2_Go_description								Silhouette's favorite dance is the in which she gets to dance on the heads of enemies she flies over.
 Ability_Silhouette2_Go_description2								
-Ability_Silhouette2_Go_description_simple						Activate to launch Silhouette to the tree that she's chained to. She deals ^o{80,120,160,200} Physical Damage^* and a ^o{1,1.5,2,2.5} second Stun^* to enemy units she passes through.
+Ability_Silhouette2_Go_description_simple						Activate to launch Silhouette to the tree that she's chained to. She deals ^o{80,120,160,200} Magic Damage^* and a ^o{1,1.5,2,2.5} second Stun^* to enemy units she passes through.
 Ability_Silhouette2_Go_effect_header							
 Ability_Silhouette2_Go_effect_header2							
 Ability_Silhouette2_Go_tooltip_flavor							Watch out for that.. TREE!
-Ability_Silhouette2_Go_IMPACT_effect							Activate to launch Silhouette to the tree that she's chained to. She deals {80,120,160,200} Physical Damage and a {1,1.5,2,2.5} second Stun to enemy units she passes through.
+Ability_Silhouette2_Go_IMPACT_effect							Activate to launch Silhouette to the tree that she's chained to. She deals {80,120,160,200} Magic Damage and a {1,1.5,2,2.5} second Stun to enemy units she passes through.
 
 // Ability_Silhouette2_Pull
 Ability_Silhouette2_Pull_name									Log Bolas						
 Ability_Silhouette2_Pull_description							Silhouette completely uproots the tree, using the attached tree trunk as a weapon by pulling it to herself.
 Ability_Silhouette2_Pull_description2							
-Ability_Silhouette2_Pull_description_simple						Activate to destroy the tree Silhouette is chained to and pull it to her. The tree deals ^o{80,120,160,200} Physical Damage^* and a ^o{1,1.5,2,2.5} second Stun^* to enemy units she passes through.
+Ability_Silhouette2_Pull_description_simple						Activate to destroy the tree Silhouette is chained to and pull it to her. The tree deals ^o{80,120,160,200} Magic Damage^* and a ^o{1,1.5,2,2.5} second Stun^* to enemy units she passes through.
 Ability_Silhouette2_Pull_effect_header							
 Ability_Silhouette2_Pull_effect_header2							
 Ability_Silhouette2_Pull_tooltip_flavor							Get over here!
-Ability_Silhouette2_Pull_IMPACT_effect							Activate to destroy the tree Silhouette is chained to and pull it to her. The tree deals {80,120,160,200} Physical Damage and a {1,1.5,2,2.5} second Stun to enemy units she passes through.
+Ability_Silhouette2_Pull_IMPACT_effect							Activate to destroy the tree Silhouette is chained to and pull it to her. The tree deals {80,120,160,200} Magic Damage and a {1,1.5,2,2.5} second Stun to enemy units she passes through.
 
 // Gadget_Silhouette_Ability2_Action
 Gadget_Silhouette_Ability2_Action_name							
@@ -4780,12 +4990,12 @@ State_Silhouette_Ability2_Wee_tooltip_flavor
 Ability_Silhouette3_name										Relentless Salvo			
 Ability_Silhouette3_description									Silhouette's attacks pepper the target, adding power with each consecutive attack. She will also take opportunities to throw out a burst of attacks after performing one of her abilities.
 Ability_Silhouette3_description2								
-Ability_Silhouette3_description_simple							Passively causes attacks to apply Relentless Salvo on the target, which lasts 3 seconds and stacks up to 5 times. Attacks deal ^o{6,9,12,15} bonus Physical Damage^* for each stack of Relentless Salvo on the target. \n\nAfter activating a skill, Silhouette gains ^o{250,300,350,400} Attack Speed for 2 attacks or 4 seconds^* if the skill is off cooldown. \n\nDoes not propagate to illusions.
+Ability_Silhouette3_description_simple							Passively causes attacks to apply Relentless Salvo on the target, which lasts 3 seconds and stacks up to 5 times. Attacks deal ^o{3,6,9,12} bonus Physical Damage^* for each stack of Relentless Salvo on the target. \n\nAfter activating a skill, Silhouette gains ^o{250,300,350,400} Attack Speed for 2 attacks or 4 seconds^* if the skill is off cooldown. \n\nDoes not propagate to illusions.
 Ability_Silhouette3_effect_header								
 Ability_Silhouette3_effect_header2								
 Ability_Silhouette3_tooltip_flavor								Boom boom pow!
 Ability_Silhouette3_ABILITY_IMPACT_effect						
-Ability_Silhouette3_FRAME_effect								Passively causes attacks to apply Relentless Salvo on the target, which lasts 3 seconds and stacks up to 5 times. Attacks deal {6,9,12,15} bonus Physical Damage for each stack of Relentless Salvo on the target. \n\nAfter activating a skill, Silhouette gains {250,300,350,400} Attack Speed for 2 attacks or 4 seconds if the skill is off cooldown. \n\nDoes not propagate to illusions.
+Ability_Silhouette3_FRAME_effect								Passively causes attacks to apply Relentless Salvo on the target, which lasts 3 seconds and stacks up to 5 times. Attacks deal {3,6,9,12} bonus Physical Damage for each stack of Relentless Salvo on the target. \n\nAfter activating a skill, Silhouette gains {250,300,350,400} Attack Speed for 2 attacks or 4 seconds if the skill is off cooldown. \n\nDoes not propagate to illusions.
 
 // State_Silhouette_Ability3
 State_Silhouette_Ability3_name									Relentless Salvo
@@ -4801,9 +5011,9 @@ State_Silhouette_Ability3_REFRESH_effect
 
 // State_Silhouette_Ability3_Enemy
 State_Silhouette_Ability3_Enemy_name							Relentless Salvo
-State_Silhouette_Ability3_Enemy_description						Taking {6,9,12,15} bonus Physical Damage per charge from attacks made by Silhouette.
+State_Silhouette_Ability3_Enemy_description						Taking {3,6,9,12} bonus Physical Damage per charge from attacks made by Silhouette.
 State_Silhouette_Ability3_Enemy_description2					
-State_Silhouette_Ability3_Enemy_description_simple				Taking {6,9,12,15} bonus Physical Damage per charge from attacks made by Silhouette.
+State_Silhouette_Ability3_Enemy_description_simple				Taking {3,6,9,12} bonus Physical Damage per charge from attacks made by Silhouette.
 State_Silhouette_Ability3_Enemy_effect_header					None
 State_Silhouette_Ability3_Enemy_effect_header2					None
 State_Silhouette_Ability3_Enemy_tooltip_flavor					None
@@ -4815,11 +5025,11 @@ State_Silhouette_Ability3_Enemy_REFRESH_effect
 Ability_Silhouette4_name										Shadow	
 Ability_Silhouette4_description									Silhouette creates an illusion of herself that exactly replicates her.  She may swap places with her illusion to even further throw her enemies off!
 Ability_Silhouette4_description2								
-Ability_Silhouette4_description_simple							Activate to disjoint, dispel all states on self, and create a Shadow. The Shadow is an illusion that lasts for ^o30 seconds^* and takes ^o200% of normal damage^* and deals ^o{33,66,100}% of normal damage^*. \n\nCreates a sub-ability which allows Silhouette to swap locations with the Shadow.
+Ability_Silhouette4_description_simple							Activate to disjoint, dispel all states on self, and create a Shadow. The Shadow is an illusion that lasts for ^o{15,25,35} seconds^* and takes ^o200% of normal damage^* and deals ^o66% of normal damage^*. \n\nCreates a sub-ability which allows Silhouette to swap locations with the Shadow.
 Ability_Silhouette4_effect_header								
 Ability_Silhouette4_effect_header2								
 Ability_Silhouette4_tooltip_flavor								This is my Shadow. There are many like it, but this one is mine.
-Ability_Silhouette4_IMPACT_effect								Activate to disjoint, dispel all states on self, and create a Shadow. The Shadow is an illusion that lasts for 30 seconds and takes 200% of normal damage and deals {33,66,100}% of normal damage. \n\nCreates a sub-ability which allows Silhouette to swap locations with the Shadow.
+Ability_Silhouette4_IMPACT_effect								Activate to disjoint, dispel all states on self, and create a Shadow. The Shadow is an illusion that lasts for {15,25,35} seconds and takes 200% of normal damage and deals 66% of normal damage. \n\nCreates a sub-ability which allows Silhouette to swap locations with the Shadow.
 
 // Ability_Silhouette4_Swap
 Ability_Silhouette4_Swap_name									Like a Ninja
@@ -5083,56 +5293,49 @@ Hero_Tempest_description										Spirits born of the elements, Tempests howl ac
 Hero_Tempest_role												Tempest is most often sent to farm neutrals with Elementals from the onset of the game, with the sole expectation that he will emerge with a Portal Key with which he can cast Elemental Void with high precision.
 
 // Ability_Treant1
-Ability_Treant1_name											Camouflage
-Ability_Treant1_description										The Keeper uses his influence over the forest to hide his allies from enemy sight. Grants invisibility to target unit so long as they remain near trees.
-Ability_Treant1_description_simple								Target an allied unit to apply ^oInvisibility for {15,30,45,60} seconds^* as long as it is near a tree.
+Ability_Treant1_name											Nature's Veil
+Ability_Treant1_description										The Keeper uses his influence over the forest to hide and buff his allies. Grants invisibility, armor, and regeneration to target unit.
+Ability_Treant1_description_simple								Target an allied unit to apply ^o4 Health Regeneration^* and ^o{6,8,10,12} Armor^* and ^oInvisibility for {10,20,30,40} seconds^*. Invisibility only lasts a long as they are near a tree.
 Ability_Treant1_effect_header									Camouflage Effects
 Ability_Treant1_tooltip_flavor									Strike from the shadows.
-Ability_Treant1_IMPACT_effect									Applies Camouflage to target for {15,30,45,60} seconds. The Keeper can use abilities without breaking his own Camouflage.
+Ability_Treant1_IMPACT_effect									Applies Camouflage and Nature's Protection to target for {10,20,30,40} seconds.
 
 // State_Treant_Ability1
 State_Treant_Ability1_name										Camouflage
 State_Treant_Ability1_FRAME_effect								Will be dispelled if unit moves 375 units away from a tree
 
+// State_Treant_Ability1
+State_Treant_Ability1_Armor_name								Nature's Protection
+
 // Ability_Treant2
-Ability_Treant2_name											Tree Sight
-Ability_Treant2_description										The Keeper links his mind with a target tree, sharing its vision.
-Ability_Treant2_description_simple								Target a tree to enchant it. Enchanted trees provide ^o{600,630,660,690} vision range^*.
-Ability_Treant2_effect_header									Enchanted Tree Effects
-Ability_Treant2_tooltip_flavor									I see you!
-Ability_Treant2_IMPACT_effect									Places a gadget on target tree.\n\nThe gadget has an unlimited life time and a vision range of {600,630,660,690}. The gadget also has true sight.\n\nThe vision granted by the gadget is not obstructed by obstacles. The gadget is destroyed if the tree it was placed on is destroyed.\n\nUpgrading this skill will cause all of the placed gadgets to be upgraded.
+Ability_Treant2_name											Animate Forest
+Ability_Treant2_description										The Keeper links his mind with nearby trees, bringing them to life.
+Ability_Treant2_description_simple								Target a tree to Animate it and an additional ^o{1,2,3,4} nearby trees^*. Trees last for ^o45 seconds^*, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
+Ability_Treant2_effect_header									Status Effect
+Ability_Treant2_tooltip_flavor									THE ENTS MARCH!
+Ability_Treant2_IMPACT_effect									Target a tree to Animate it and an additional {1,2,3,4} nearby trees. Trees last for 45 seconds, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
 
-// Gadget_Treant_Ability2
-Gadget_Treant_Ability2_name										Enchanted Tree
-
-// State_Treant_Ability2
-State_Treant_Ability2_name										Forest Aura
-
-// State_Treant_Ability2_Sight_Self
-State_Treant_Ability2_Sight_Self_name							You caught me!
+// Pet_Treant_Ability2
+Pet_Treant_Ability2_name										Animated Tree
 
 // Ability_Treant3
-Ability_Treant3_name											Nature's Protection
-Ability_Treant3_description										The Keeper grants part of the forest's power to the target ally, increasing their Armor and regeneration for a period of time.
-Ability_Treant3_description_simple								Target an ally or allied building to apply ^o{1,2,3,4} Health Regeneration^* and ^o{3,6,9,12} Armor^*.
-Ability_Treant3_effect_header									Nature's Protection Effects
+Ability_Treant3_name											Entmoot
+Ability_Treant3_description										The Keeper gains power from the forest around him, enhancing his Attack and Movement Speeds when near trees.
+Ability_Treant3_description_simple								Gains ^o{3,6,9,12} Attack Speed and Movement Speed^* per tree near him, up to 5.
 Ability_Treant3_tooltip_flavor									I had a tree...
-Ability_Treant3_IMPACT_effect									Applies Nature's Protection to the target ally or building for 40 seconds.
-
-// State_Treant_Ability3
-State_Treant_Ability3_name										Nature's Protection
+Ability_Treant3_IMPACT_effect									Gains {3,6,9,12} Attack Speed and Movement Speed per tree within 375 units of the Keeper. Max of 5 Trees can effect him at one time.
 
 // Ability_Treant4
 Ability_Treant4_name											Root
 Ability_Treant4_description										The Keeper calls upon the roots in the ground to disarm and immobilize his foes, as well as damage them over time.
-Ability_Treant4_description_simple								Activate to inflict ^oImmobilization^*, ^oDisarm^*, and ^o85 Magic Damage per second^* on nearby enemies for {3,4,5} seconds.
+Ability_Treant4_description_simple								Activate to inflict ^oImmobilization^*, ^oDisarm^*, and ^o100 Magic Damage per second^* on nearby enemies for {2,3,4} seconds.
 Ability_Treant4_effect_header									Root Effects
 Ability_Treant4_tooltip_flavor									The forest fights with me!
-Ability_Treant4_IMPACT_effect									Applies Root to enemies in radius around self for {3,4,5} seconds. Interrupts channeling spells.
+Ability_Treant4_IMPACT_effect									Applies Root to enemies in radius around self for {2,3,4} seconds. Interrupts channeling spells.
 
 // State_Treant_Ability4
 State_Treant_Ability4_name										Root
-State_Treant_Ability4_FRAME_effect								85 Magic Damage per second
+State_Treant_Ability4_FRAME_effect								100 Magic Damage per second
 
 // Hero_Treant
 Hero_Treant_name												Keeper of the Forest
@@ -5507,14 +5710,14 @@ State_WitchSlayer_Ability2_FRAME_effect							Smaller!\nBase Movement Speed set 
 // Ability_WitchSlayer3
 Ability_WitchSlayer3_name										Power Drain
 Ability_WitchSlayer3_description								Over the years the Witch Slayer has learned how to drain the power of his enemies for his own use.
-Ability_WitchSlayer3_description_simple							Target an enemy unit to channel a mana drain for 4 seconds, giving its mana to you. Mana is drained at a rate of ^g{20,40,60,100} Mana per second^*.
+Ability_WitchSlayer3_description_simple							Target an enemy unit to channel a mana drain for 4 seconds, giving its mana to you. Mana is drained at a rate of ^g{25,50,75,100} Mana per second^*.
 Ability_WitchSlayer3_effect_header								Power Drain Effects
 Ability_WitchSlayer3_IMPACT_effect								Applies Power Drain to target for duration of the channel. The Witch Slayer gains mana equal to the mana drained.\n\nInstantly kills illusions.
 Ability_WitchSlayer3_tooltip_flavor								I'm just going to borrow this!							
 
 // State_WitchSlayer_Ability3
 State_WitchSlayer_Ability3_name									Power Drain
-State_WitchSlayer_Ability3_FRAME_effect							{20,40,60,100} mana drained per second
+State_WitchSlayer_Ability3_FRAME_effect							{25,50,75,100} mana drained per second
 
 // Ability_WitchSlayer4
 Ability_WitchSlayer4_name										Silver Bullet
@@ -5621,9 +5824,9 @@ Ability_Xalynx2_tooltip_flavor									Is it raining blades?
 // Ability_Xalynx3
 Ability_Xalynx3_name											Agonizing Bonds
 Ability_Xalynx3_description										The Torturer wraps an enemy with constricting chains, damaging it and nearby enemies and dragging them towards the target.
-Ability_Xalynx3_description_simple								Target an enemy unit to deal ^o{80,145,205,265} Magic Damage^* to it and the nearest {3,5,6,7} enemies.\n\nAll units hit are pulled towards the main target.
+Ability_Xalynx3_description_simple								Target an enemy unit to deal ^o{80,145,205,265} Magic Damage^* to it and the nearest {3,4,5,6} enemies.\n\nAll units hit are pulled towards the main target.
 Ability_Xalynx3_effect_header									Status Effect
-Ability_Xalynx3_IMPACT_effect									Damages target and the {3,5,6,7} closest enemy units in radius for {80,145,205,265} Magic Damage.\n\nThe chains drag all units hit for 200ms at 740 speed towards the main target.
+Ability_Xalynx3_IMPACT_effect									Damages target and the {3,4,5,6} closest enemy units in radius for {80,140,200,260} Magic Damage.\n\nThe chains drag all units hit for 200ms at 740 speed towards the main target.
 Ability_Xalynx3_tooltip_flavor									They'll tear you to pieces.
 
 // State_Xalynx_Ability3
@@ -6018,34 +6221,41 @@ Item_Glowstone_shop_categories									Filter_Booster
 // Ability_GroundFamiliar1
 Ability_GroundFamiliar1_name									Winged Courier
 Ability_GroundFamiliar1_description								Upgrade to Winged Courier. Requires the Winged Courier recipe.
-Ability_GroundFamiliar1_description_simple						Upgrades a Monkey Courier to a flying Winged Courier.
+Ability_GroundFamiliar1_description_simple						Upgrades a Courier to a flying Winged Courier.
 Ability_GroundFamiliar1_effect_header							Status Effect
 Ability_GroundFamiliar1_IMPACT_effect							Consumes Winged Courier recipe and transforms the Monkey Courier into a Winged Courier.
 
 // Ability_GroundFamiliar3
 Ability_GroundFamiliar3_name									Delivery
-Ability_GroundFamiliar3_description								Causes the Monkey Courier to run to your hero and drop all items you own into your inventory if you have room.
-Ability_GroundFamiliar3_description_simple						Causes the Monkey Courier to run to your hero and drop all items you own into your inventory if you have room.
+Ability_GroundFamiliar3_description								Causes the Courier to run to your hero and drop all items you own into your inventory if you have room.
+Ability_GroundFamiliar3_description_simple						Causes the Courier to run to your hero and drop all items you own into your inventory if you have room.
 Ability_GroundFamiliar3_IMPACT_effect							Transfers owned items to hero.
 
 // Ability_GroundFamiliar4
 Ability_GroundFamiliar4_name									Homeward Bound
-Ability_GroundFamiliar4_description								Causes the Monkey Courier to run back to the base.
-Ability_GroundFamiliar4_description_simple						Causes the Monkey Courier to run back to the base.
+Ability_GroundFamiliar4_description								Causes the Courier to run back to the base.
+Ability_GroundFamiliar4_description_simple						Causes the Courier to run back to the base.
 Ability_GroundFamiliar4_IMPACT_effect						 	Runs to the nearest friendly well.
 
 // Item_GroundFamiliar
 Item_GroundFamiliar_name										Monkey Courier
-Item_GroundFamiliar_description									When activated, spawns a Monkey Courier under your control.
-Item_GroundFamiliar_description_simple							Summons a Monkey Courier to bring your items to you and your team.
+Item_GroundFamiliar_description									When activated, spawns a Ground Courier under your control.
+Item_GroundFamiliar_description_simple							Summons a Ground Courier to bring your items to you and your team.
 Item_GroundFamiliar_search_terms								monkeycourier,groundcourier,monkey,courier,coureir,monkeycoureir,groundcoureir,mc,chicken
 Item_GroundFamiliar_effect_header								Status Effect
 Item_GroundFamiliar_shop_flavor									The tragra monkey is one of the quickest and most intelligent of lesser primates, and is a favorite Monkey Courier of jungle witches, Beast shamans, and traveling conjurers.  With their nimble hands and strong arms, they are able to carry items to and from bases, and they never forget their way home.
 Item_GroundFamiliar_shop_categories								Filter_Consumable
-Item_GroundFamiliar_IMPACT_effect								Spawns a Monkey Courier under your control that can carry items. \n\nMonkey Couriers have 45 Health, 300 move speed, 350 sight range, Magic and Splash Immunity, and an unlimited life time. If a Monkey Courier is holding the Winged Courier recipe, it can transform into a Winged Courier using its first ability.\n\nIf you have a courier near a shop and purchase items, the items will be given to the courier. If the courier dies while holding items, it will drop those items.
+Item_GroundFamiliar_IMPACT_effect								Spawns a Ground Courier under your control that can carry items. \n\nGround Couriers have 45 Health, 300 move speed, 350 sight range, Magic and Splash Immunity, and an unlimited life time. If a Ground Courier is holding the Winged Courier recipe, it can transform into a Winged Courier using its first ability.\n\nIf you have a courier near a shop and purchase items, the items will be given to the courier. If the courier dies while holding items, it will drop those items.
 
 // Pet_GroundFamiliar
 Pet_GroundFamiliar_name											Monkey Courier
+Pet_GroundFamiliar_name:C_Penguin								Penguin Courier
+Pet_GroundFamiliar_name:C_Dragon								Dragon Courier
+Pet_GroundFamiliar_name:C_Chicken								Chicken Courier
+Pet_GroundFamiliar_name:C_Goblin								Goblin Courier
+Pet_GroundFamiliar_name:C_Pig									Pig Courier
+Pet_GroundFamiliar_name:C_Rat									Rat Courier
+Pet_GroundFamiliar_name:C_Robot									Robot Courier
 
 // Item_GuardianRing
 Item_GuardianRing_name											Guardian Ring
@@ -6486,11 +6696,11 @@ Item_Warpcleft_shop_categories									Filter_AttackSpeed
 
 // Item_LoggersHatchet
 Item_LoggersHatchet_name										Logger's Hatchet
-Item_LoggersHatchet_description									Increases attack damage against non-hero units. Can be used to chop down a target tree.\n\nYou cannot sell this item. The bonus damage granted by this item does not stack with itself and does not increase the damage from splash/cleave.
+Item_LoggersHatchet_description									Increases attack damage against non-hero units. Can be used to chop down a target tree or hit a creep.\n\nYou cannot sell this item. The bonus damage granted by this item does not stack with itself and does not increase the damage from splash/cleave.
 Item_LoggersHatchet_description_simple							Grants additional damage against non-heroes. Can be used to chop down trees.
 Item_LoggersHatchet_search_terms								loggershatchet,logger,hatchet,quellingblade,quelling,qb,lh,dmg,damage,creep,farm,pve,carebear,noskill,melee,lasthit
 Item_LoggersHatchet_shop_categories								Filter_Activatable,Filter_Damage
-Item_LoggersHatchet_IMPACT_effect								Destroys target tree.
+Item_LoggersHatchet_IMPACT_effect								Destroys target tree or deals your attack damage to a creep.
 Item_LoggersHatchet_FRAME_effect:hatchet_ranged					+12% Damage vs. Non-Hero Units
 Item_LoggersHatchet_FRAME_effect:hatchet_melee					+32% Damage vs. Non-Hero Units
 Item_LoggersHatchet_FRAME_effect:hatchet_shopdescription		+32% Damage vs. Non-Hero Units (Melee Only)\n+12% Damage vs. Non-Hero Units (Ranged Only)
@@ -6609,7 +6819,7 @@ State_Astrolabe_Aura_name										Astrolabe
 // Item_SpellShards
 Item_SpellShards_name											Spellshards
 Item_SpellShards_description									The wielder's spells ignore a portion of their enemy's Magic Armor, causing increased magic damage.\n\nAfter obtaining this item, the recipe may be re-purchased to upgrade it. Can be upgraded two additional times.
-Item_SpellShards_description_simple								Grants Magic Armor penetration to spells and items.\n^rMay be upgraded 2 times.^*
+Item_SpellShards_description_simple								Grants Magic Armor piercing to spells and items.\n^rMay be upgraded 2 times.^*
 Item_SpellShards_search_terms									spellshards,spellshard,spell,ss,magic,sharp,spell,damage,intelligence,attackspeed,as,manaregeneration,penetration,magicpenetration,shards,thunderbringer,regeneration
 Item_SpellShards_shop_flavor									
 Item_SpellShards_shop_categories								Filter_Intelligence,Filter_Damage,Filter_AttackSpeed,Filter_Regeneration
@@ -6829,6 +7039,13 @@ Ability_FlyingCourier4_IMPACT_effect						 	Flies to the nearest friendly well.
 
 // Pet_FlyngCourier
 Pet_FlyngCourier_name											Winged Courier
+Pet_FlyngCourier_name:C_Penguin									Jetpack Courier
+Pet_FlyngCourier_name:C_Dragon									Winged Dragon Courier
+Pet_FlyngCourier_name:C_Chicken									Super Chicken Courier
+Pet_FlyngCourier_name:C_Goblin									Winged Goblin Courier
+Pet_FlyngCourier_name:C_Pig										Flying Pig Courier
+Pet_FlyngCourier_name:C_Rat										Bat Courier
+Pet_FlyngCourier_name:C_Robot									UFO Courier
 
 // State_FrostfieldPlate_Aura
 State_FrostfieldPlate_Aura_name									Chilled
@@ -7383,8 +7600,8 @@ Item_Evasion_shop_categories									Filter_Agility,Filter_Damage,Filter_AttackS
 // Item_WingedFamiliar
 Item_WingedFamiliar_name										Winged Courier
 Item_WingedFamiliar_description									When activated, spawns a Winged Courier under your control.
-Item_WingedFamiliar_description_simple							Use to upgrade a Monkey Courier to fly.
-Item_WingedFamiliar_search_terms								wingedcourier,wingcourier,wingedmonkey,wingmonkey,flyingcourier,flycourier,flyingmonkey,flymonkey,chicken,crow,ferry,essential,speedymonkey
+Item_WingedFamiliar_description_simple							Use to upgrade a Ground Courier to fly.
+Item_WingedFamiliar_search_terms								wingedcourier,wingcourier,wingedmonkey,wingmonkey,flyingcourier,flycourier,flyingmonkey,flymonkey,chicken,crow,ferry,essential,speedymonkey,courier
 Item_WingedFamiliar_effect_header								Status Effect
 Item_WingedFamiliar_shop_flavor									Enchanted tragra monkeys have been trained for years by the Beast Horde to serve as couriers. These Winged Couriers can now be employed by anyone to carry items to or from an encampment, though certain magical items are beyond their power to hold.
 Item_WingedFamiliar_shop_categories								Filter_Consumable
@@ -7450,7 +7667,7 @@ Shop_Relics_description											The Relics Shop contains various rare artifact
 
 // Shop_Secret
 Shop_Secret_name												Secret
-Shop_Secret_description											Shady and mysterious, the Secret Shop contains many rare and powerful artifacts. One must venture into the woods to find the reclusive Secret Shop's location.
+Shop_Secret_description											Shady and mysterious, the Secret Shop contains many rare and powerful artifacts.
 
 // Shop_Supplies
 Shop_Supplies_name												Supplies
@@ -7472,7 +7689,7 @@ State_ShopAccess_Outpost_name									Outpost
 State_ShopAccess_Outpost_description							This unit is allowed to shop
 
 // State_ShopAccess_Secret
-State_ShopAccess_Secret_name									Secret Shop
+State_ShopAccess_Secret_name									Observatory
 State_ShopAccess_Secret_description								This unit is allowed to shop
 
 // Ability_Kongor1

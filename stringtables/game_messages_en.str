@@ -129,6 +129,7 @@ error_item_unavailable				{item} is unavailable at this location.
 error_low_gold_item					You cannot afford {item}.
 error_low_gold_recipe				You cannot afford {item}.
 error_low_gold_buy_all				You cannot afford all the components for {item}.
+error_not_owned_to_stash_xfer		You do not own this item.
 
 str_bonus							{value} Strength
 str_bonus_per_level					{value_per_level} Strength per level
@@ -184,11 +185,17 @@ incoming_damage_mult_bonus			{value}% Damage taken
 debuff_duration_mult_bonus			{value}% Debuff durations
 heal_mult_bonus						{value}% Healing received
 stunned_bonus						Stunned
+stunned_immunity_bonus				Stun immunity
 silenced_bonus						Silenced
+silenced_immunity_bonus				Silence immunity
 perplexed_bonus						Perplexed
+perplexed_immunity_bonus			Perplex immunity
 disarmed_bonus						Disarmed
+disarmed_immunity_bonus				Disarm immunity
 immobilized_bonus					Immobilized
+immobilized_immunity_bonus			Immobilize immunity
 restrained_bonus					Restrained
+restrained_immunity_bonus			Restrain immunity
 revealed_bonus						Revealed
 reveal_bonus						{value} Reveal Range
 stealth_bonus						Stealth with {value} second fade time
@@ -306,6 +313,7 @@ nomods						Could not start game.  {slot_color}{player}^* is using modded files 
 game_unpause					{name} has unpaused the game, play will resume in 5 seconds.
 player_ping					{slot_color}{player}^* ping: {ping}ms
 player_ping_no_players				No players to ping.
+team_ping					{team_color}{team_name}^* average ping: {ping}ms
 
 
 //-----------------------------------------------------------------------------
