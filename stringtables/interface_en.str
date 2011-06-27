@@ -2617,7 +2617,7 @@ game_alt_couriers_current					Current Courier Selection
 game_alt_couriers_select					Select This Courier
 game_alt_couriers_purchase					Purchase This Courier
 game_alt_couriers_lock						Lock Courier
-game_alt_couriers_unlock						Unlock Courier
+game_alt_couriers_unlock					Unlock Courier
 
 // game_chat.package
 gamechat_button_send_message				Send Message
