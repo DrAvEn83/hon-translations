@@ -38,8 +38,8 @@ PERIOD			.
 // General
 general_cancel								Abbrechen
 general_ok									OK
-general_edit								Edit
-general_accept								Accept
+general_edit								Bearbeiten
+general_accept								Akzeptieren
 general_go									Weiter
 general_connect								Verbinden
 general_disconnect							Trennen
@@ -47,9 +47,9 @@ general_refresh								Aktualisieren
 general_private_game						Privates Spiel
 general_create_game							Spiel Erstellen
 general_send_message						Nachricht Senden
-general_send								Send
+general_send								Senden
 general_add_friend							Freund Hinzufügen
-general_remove_friend						Remove Friend
+general_remove_friend						Freund entfernen
 general_select_server						Server Wählen
 general_quick_play							Schnellspiel
 general_type								Art
@@ -67,32 +67,32 @@ general_game_mode							Spielmodus
 general_game_mode_short						Mode
 general_game_type							Spielart
 general_game_options						Spieloptionen
-general_yes									Yes
-general_no									No
+general_yes									Ja
+general_no									Nein
 general_full_games							Full Games
-general_all									All
-general_none								None
+general_all									Alle
+general_none								Keins
 general_view								View
-general_wait								Please Wait...
+general_wait								Bitte warte...
 general_date								Date
 general_decline								Decline
 general_approve								Approve
-general_ignore								Ignore
-general_join								Join
+general_ignore								Ignorieren
+general_join								Beitreten
 general_submit								Submit
-general_close								Close
+general_close								Schließen
 general_continue							Continue
-general_back								Back
+general_back								Zurück
 general_apply								Apply
-general_ready								Ready
-general_error								Error
+general_ready								Bereit
+general_error								Fehler
 general_retry								Retry
 general_login								Login
-general_error_login							Login Failed
+general_error_login							Login fehlgeschlagen
 general_error_sea_deny						SEA Users must connect via the Garena client.
 general_error_sea_message1					The Heroes of Newerth beta for users in Singapore, Malaysia, Vietnam and the Philippines will be starting soon.  At the start of closed beta, gamers from these countries will be able to redeem a Beta Key immediately if they are Garena Gold Members, while other keys are given away in other community efforts. Please note that countries not stated here (e.g. Indonesia, Thailand) will be unable to play on Garena servers, and would require purchasing a paid account to enjoy the game in S2 Games' international servers.
 general_error_sea_message2					For more updates from the Garena Team regarding their Heroes of Newerth release, visit their blog at ^yhttp://blog.garena.com^* or the official Garena Heroes of Newerth website at ^yhttp://hon.garena.com^*.
-general_quit								Quit
+general_quit								Beenden
 general_unavailable							Unavailable
 general_set_default							Set As Default
 general_addto_fav							Add To Favorites
@@ -119,7 +119,7 @@ general_mode_allow_veto						Veto Gestatten
 general_mode_shuffle						Team Mischen
 general_mode_autobalance					Auto Balanced
 general_mode_no_leavers						Kein Verlassen des Spiels
-general_mode_no_stats						No Stats
+general_mode_no_stats						Keine Statistiken
 general_mode_official						Offiziell
 general_mode_tournament_rules				Tournament Rules
 general_mode_hardcore						Hardcore
@@ -127,7 +127,7 @@ general_mode_dev_heroes						Dev Heroes
 general_mode_casual_mode					Casual Mode
 
 // main.interface
-main_peel_tip								Visit the Store
+main_peel_tip								Besuche den Store
 main_peel_tip_body							Merrick is looking for you!  Click here to go to the Store!
 main_label_username							Benutzername
 main_label_password							Passwort
@@ -188,23 +188,23 @@ confirm_switchsub_da						Don\'t ask me again
 
 //account.package
 account_retrieve_header						Retrieve Username or Password
-account_lost_username						Lost Username
+account_lost_username						Benutzername vergessen
 account_lost_username_msg					Enter the email address attached to your account below to have your username sent to you.
 account_lost_username_processing			Processing Request, Please Wait...
 account_lost_username_success				An email containing your username has been sent to the email address attached to your account.
 account_lost_username_error1				I'm an error. Look at me. Justin will be making real errors some day!  No I won't!  I don't need your steenking errors!
-account_lost_password						Lost Password
+account_lost_password						Passwort vergessen
 account_lost_password_msg					Enter either your username or email address to have your password sent to the email address attached to your account.
 account_lost_pass_sep						-or-
 account_lost_password_success				An email containing your password has been sent to the email address attached to your account.
 
-main_menu_creategame						Create Game
-main_menu_publicgame						Public Games
+main_menu_creategame						Erstelle Spiel
+main_menu_publicgame						Öffentliche Spiele
 main_menu_amm								Match Making
 main_menu_ladder							Player Ladder
 main_menu_matchstats						Match Stats
 main_menu_compendium						Compendium
-main_menu_options							Options
+main_menu_options							Optionen
 main_menu_tutorial							Tutorial
 main_menu_store								Store
 
@@ -230,7 +230,7 @@ main_leaver_tip_tier4_threshold				5% Leaves
 
 // game_options.package
 options_gameoptions_title					In-Game
-options_label_current_weather				Weather Conditions
+options_label_current_weather				Wetter Bedingungen
 options_disabled							Deaktiviert
 options_very_low							Sehr Niedrig
 options_low									Niedrig
@@ -4147,7 +4147,7 @@ main_lobby_amm_region_use					USA East
 main_lobby_amm_region_eu					Europe
 main_lobby_amm_region_uk					United Kingdom
 main_lobby_amm_region_nl					Netherlands
-main_lobby_amm_region_de					Germany
+main_lobby_amm_region_de					Deutschland
 main_lobby_amm_region_japan					Japan
 main_lobby_amm_region_south_africa			South Africa
 main_lobby_amm_region_sea					South East Asia
