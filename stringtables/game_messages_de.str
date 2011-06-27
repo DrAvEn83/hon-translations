@@ -148,7 +148,7 @@ max_mana_bonus						{value} Max Mana
 max_mana_mult_bonus					{value}% Max Mana
 base_damage_mult_bonus				{value}% Base Damage
 damage_mult_bonus					{value}% Attack Damage
-damage_bonus						{value} Damage
+damage_bonus						{value} Schaden
 damage_bonus_per_charge				{value} Damage per charge
 move_speed_bonus					{value} Movement Speed
 move_speed_mult_bonus				{value}% Movement Speed
@@ -314,7 +314,6 @@ game_unpause					{name} has unpaused the game, play will resume in 5 seconds.
 player_ping					{slot_color}{player}^* ping: {ping}ms
 player_ping_no_players				No players to ping.
 team_ping					{team_color}{team_name}^* average ping: {ping}ms
-
 
 //-----------------------------------------------------------------------------
 // Weather
