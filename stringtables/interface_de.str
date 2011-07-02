@@ -131,7 +131,7 @@ main_peel_tip								Besuche den Store
 main_peel_tip_body							Merrick is looking for you!  Click here to go to the Store!
 main_label_username							Benutzername
 main_label_password							Passwort
-main_checkbox_remember_me					Benutzer Speichern
+main_checkbox_remember_me					Benutzer speichern
 main_checkbox_auto_login					Auto-Login
 main_label_account_type						Accountart
 main_label_account_type_desc	
@@ -3464,11 +3464,11 @@ game_menu_disconnect_confirm				Bist Du Dir sicher, dass Du das Spiel verlassen 
 game_menu_disconnect_hide_checkbox			Diese Nachricht nicht wieder anzeigen
 game_menu_disconnect_noleaver				You may leave without penalty.
 game_menu_leave_percentage_text				Dein ^yProzentsatz der Verlassenen Spiele^* ist der yProzentsatz der Spiele, die Du vor dem Spielende verlassen hast. Viele Spieler erstellen Spiele, die einen gewissen Prozentsatz der Verlassenen Spiele erfordern. Durch das vorzeitige Verlassen von zu vielen Spielen (ein hoher Prozentsatz) verringerst Du die Möglichkeit, an diesen eingeschränkten Spielen teilzunehmen.
-game_menu_quit_header						Verlassen Bestätigen
+game_menu_quit_header						Verlassen bestätigen
 game_menu_quit_confirm						Willst Du wirklich zum Desktop zurückkehren?
-game_menu_leave_rate_text					Prozentsatz der Verlassenen Spiele:
-game_menu_empty_slot						-Slot für Weiteren Spieler-
-game_menu_leave_rate_label					Prozentsatz der Verlassenen Spiele:
+game_menu_leave_rate_text					Prozentsatz der verlassenen Spiele:
+game_menu_empty_slot						-Slot für weiteren Spieler-
+game_menu_leave_rate_label					Prozentsatz der verlassenen Spiele:
 game_menu_dont_show_again					Diese Nachricht nicht wieder anzeigen
 game_menu_kick_tooltip						Call a vote to kick {player}
 game_menu_kick_disabled_other_vote_tooltip	You can not call a new vote until the current vote is over.
@@ -3488,8 +3488,8 @@ game_menu_unpause_button					Unpause
 game_menu_unpause_tooltip					Pressing this button will unpause the game in 5 seconds. The team that paused the game may unpause anytime. The opposing team must wait 1 minute before unpausing.
 game_menu_moved_title						Sharing, Remaking, Conceding, and Pausing Have Moved!
 game_menu_moved								To share control, use the buttons on your team panel on the top left of the game screen. To Remake, Concede, or Pause, use the vote menu in the upper right of the game screen.
-game_menu_nopauseleftshort					0 Pauses Left
-game_menu_nopauseleft						No Pauses Left
+game_menu_nopauseleftshort					0 Pausen übrig
+game_menu_nopauseleft						Keine Pausen übrig
 game_menu_nopauseleft_tooltip				Your team has used the maximum amount of pauses allowed for this match.
 
 game_menu_kick								Kick
@@ -3497,8 +3497,8 @@ game_menu_chat								Chat
 game_menu_vote								Vote
 game_menu_vote_kick							Kick Player
 
-game_menu_menu_tip							Open the game menu
-game_menu_vote_tip							Call a vote
+game_menu_menu_tip							Öffne das Spiel Menü
+game_menu_vote_tip							Starte einen Vote
 game_menu_chat_tip							Open the chat interface
 game_menu_options_tip						Open the options interface
 game_menu_disconnect_tip					Disconnect from the match
