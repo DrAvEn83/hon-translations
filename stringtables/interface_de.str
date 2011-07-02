@@ -1054,9 +1054,13 @@ progstats_immortal				Immortal
 progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
-motd_ad_text1					Thor Thunderbringer
-motd_ad_text2					Winston Charmadon
-motd_ad_text3					Create Your Own Icon Today
+motd_ad_text1					Leprechaun Blacksmith
+motd_ad_text2					Gold Collection
+motd_ad_text3					Go for Gold!
+
+motd_ad_Garena_text1			KING RA
+motd_ad_Garena_text2			Available Now!	
+
 
 // Micro Store Stuff
 mstore_product15_name		Female Pyromancer
@@ -1754,6 +1758,42 @@ mstore_product525_desc		Take control of a whole new creature as Mutant Parasite.
 mstore_product526_name		Hero- Parasite
 mstore_product527_name		Bag O' Bugs Bundle
 mstore_product527_desc		20% off when you purchase with gold! Get your bag o' bugs now!
+mstore_product528_name		Flag- Albania
+mstore_product529_name		Flag- Algeria
+mstore_product530_name		Flag- Andorra
+mstore_product531_name		Flag- Angola
+mstore_product532_name		Flag- Antigua
+mstore_product533_name		Flag- Armenia
+mstore_product534_name		Flag- Azerbaijan
+mstore_product535_name		Flag- Bahamas
+mstore_product536_name		Flag- Bahrain
+mstore_product537_name		Flag- Bangladesh
+mstore_product538_name		DDoS Suspect
+mstore_product539_name		DDos Boss
+mstore_product540_name		Amphibian
+mstore_product541_name		Babysitter
+mstore_product542_name		Danger Monkey
+mstore_product543_name		Demonic
+mstore_product544_name		Lion
+mstore_product545_name		Man Up
+mstore_product546_name		Dryad Warden
+mstore_product546_desc		Spear your enemies as the nature-commanding Dryad Warden!
+mstore_product547_name		Flag- Barbados
+mstore_product548_name		Flag- Belarus
+mstore_product549_name		Flag- Belize
+mstore_product550_name		Flag- Benin
+mstore_product551_name		Flag- Bhutan
+mstore_product552_name		Flag- Bolivia
+mstore_product553_name		Flag- Botswana
+mstore_product554_name		Flag- Brunei
+mstore_product555_name		Flag- Burkina
+mstore_product556_name		Flag- Burundi
+mstore_product557_name		Flag- Cambodia
+mstore_product558_name		Flag- Cameroon
+mstore_product559_name		Flag- Cape Verde
+mstore_product560_name		Flag- Central African Rep.
+mstore_product563_name		Phantom Defiler
+mstore_product563_desc		Unleash vengeful souls upon your enemies as Phantom Defiler!
 
 mstore_product999999001_name	Default Account Icon
 mstore_product999999002_name	Default Chat Symbol
@@ -2046,6 +2086,7 @@ mstore_error35		Unable to determine whether you already own this item.
 mstore_error36		Unable to determine whether you've unlocked account icons.
 mstore_error37		Unable to load list of purchased items.
 mstore_error38		The Goblin Store is closed at this time.
+mstore_error39		VIP Exclusive to purchase a VIP Account, please visit http://shop.garena.com/hon/.
 
 mstore_formerror16		The nickname you entered was too long. Choose a shorter nickname.
 mstore_formerror17		Nicknames cannot begin with a number [0-9] or 'S2'.
@@ -2108,6 +2149,10 @@ mstore_Hero_Kunas_name				Thunderbringer
 mstore_Hero_Rocky_name				Pebbles
 mstore_Hero_Hydromancer_name		Myrmidon
 mstore_Hero_Ra_name					Amun-Ra
+mstore_Hero_EmeraldWarden_name		Emerald Warden
+mstore_Hero_Defiler_name			Defiler
+mstore_Hero_DwarfMagi_name			Blacksmith
+mstore_Hero_Parasite_name			Parasite
 
 //Account Icons
 mstore_unlock_icon_btn				Unlock Icon Slot
@@ -3078,8 +3123,12 @@ mainlobby_label_custom_game_ID				Indonesia
 mainlobby_label_custom_game_ZAF				South Africa
 mainlobby_label_custom_game_SEA				South East Asia
 mainlobby_label_custom_game_GREG			Normal Server
+mainlobby_label_custom_game_REG			Normal Server
 mainlobby_label_custom_game_GVIP			VIP Server
+mainlobby_label_custom_game_VIP			VIP Server
 mainlobby_label_custom_game_MYVIP			Malaysia VIP Server
+mainlobby_label_custom_game_SGVIP			Singapore VIP Server
+mainlobby_label_custom_game_PHVIP			Philippines VIP Server
 mainlobby_label_custom_game_BR				South America
 mainlobby_label_custom_team_size			Team Size
 mainlobby_label_custom_team_size_desc		Restrict games to a particular team size.
@@ -3439,6 +3488,9 @@ game_menu_unpause_button					Unpause
 game_menu_unpause_tooltip					Pressing this button will unpause the game in 5 seconds. The team that paused the game may unpause anytime. The opposing team must wait 1 minute before unpausing.
 game_menu_moved_title						Sharing, Remaking, Conceding, and Pausing Have Moved!
 game_menu_moved								To share control, use the buttons on your team panel on the top left of the game screen. To Remake, Concede, or Pause, use the vote menu in the upper right of the game screen.
+game_menu_nopauseleftshort					0 Pauses Left
+game_menu_nopauseleft						No Pauses Left
+game_menu_nopauseleft_tooltip				Your team has used the maximum amount of pauses allowed for this match.
 
 game_menu_kick								Kick
 game_menu_chat								Chat
@@ -3775,6 +3827,8 @@ tooltip_open_shop							Open Shop
 tooltip_open_shop_msg						Click here to open the shop interface and add items to the selected hero's inventory.
 tooltip_reset_inv							Reset Inventory
 tooltip_reset_inv_msg						Click here to clear the selected hero's inventory.
+tooltip_detailed_hero_info					Detailed Hero Information
+tooltip_detailed_hero_info_msg				Displays detailed information about a hero's role and abilities.
 tooltip_detailed_hero_list					Detailed Hero List
 tooltip_detailed_hero_list_msg				This list displays detailed information about each hero, and heroes within the list can be selected to go to the main hero information page.
 tooltip_simple_hero_list					Simple Hero List
@@ -4023,7 +4077,6 @@ mm_map_txt2						Region popularity will change based on time of day. High popula
 mm_queue_finding				Finding a Match...
 mm_queue_past					Time Waited
 mm_queue_eta					Average Wait Time
-mm_queue_eta_body				{time} seconds
 mm_queue_enter_btn				Enter Queue
 mm_queue_leave_btn				Leave Queue
 mm_ready_btn					Ready
@@ -4124,6 +4177,9 @@ mm_europe_region				Europe
 mm_useast_region				US East
 mm_uswest_region				US West
 mm_southamerica_region			South America
+mm_sgvip_region					Singapore
+mm_gvip_region					Malaysia
+mm_phvip_region					Philippines
 
 
 mm_isleaver_onopen				Unable to join Matchmaking
@@ -4360,11 +4416,18 @@ compendium_abilities						Abilities
 
 compendium_list_simple						Simple Hero List
 compendium_list_detailed					Detailed Hero List
+compendium_list_usage						Usage Stats
+
+compendium_cat_legion_agi					Legion Agility Heroes
+compendium_cat_hellbourne_agi				Hellbourne Agility Heroes
+compendium_cat_legion_int					Legion Intelligence Heroes
+compendium_cat_hellbourne_int				Hellbourne Intelligence Heroes
+compendium_cat_legion_str					Legion Strength Heroes
+compendium_cat_hellbourne_str				Hellbourne Strength Heroes
+compendium_win_percent
 
 tooltip_detailed_hero_info					Hero Details
 tooltip_detailed_hero_info_msg				View basic hero information, ability details, and your statistics using this hero.
-tooltip_compendium_guide					Hero Guides
-tooltip_compendium_guide_msg				View the user submitted guides for this hero.
 
 // Used For stat/lvl stuff
 compendium_lvl								lvl
@@ -4606,6 +4669,8 @@ garenaVIP_taunt								Taunt Ability
 garenaVIP_taunt_txt							Rub your skills in the face of your opponents by laying the Smackdown on them!
 garenaVIP_MMoptions							Matchmaking Options
 garenaVIP_MMoptions_txt						Customize your matchmaking experience for the ultimate matchup!
+garenaVIP_url1								To Purchase a VIP Account, Please Visit
+garenaVIP_url2								http://shop.garena.com/hon/
 
 
 // End - do not delete this line

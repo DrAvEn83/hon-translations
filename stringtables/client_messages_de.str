@@ -34,8 +34,8 @@ disconnect_duplicate_game_connect	You have been disconnected becuase another cli
 disconnect_unique_login_failed		You have been disconnected becuase the game server could not authorize your account. Please try again later.
 disconnect_mm_players_left		One or more players have disconnected from the match.
 disconnect_mm_player_left		A player has left the match.
-disconnect_mm_connect_timeout	Unable to connect: Connection timed out.
-disconnect_mm_start_timeout		It has taken too long for all of the players to join the match. The match has timed out.
+disconnect_mm_connect_timeout	It has taken too long for all of the players to establish a valid connection to the server, the match was aborted.
+disconnect_mm_start_timeout		It has taken too long for all of the players to finish loading, the match was aborted.
 
 
 rejected_invalid_request		Dein Client hat eine ungültige Verbindungsanfrage gestellt.
