@@ -64,7 +64,7 @@ general_ping								Ping
 general_game_name							Name des Spiels
 general_players								Spieler
 general_game_mode							Spielmodus
-general_game_mode_short						Mode
+general_game_mode_short						Modus
 general_game_type							Spielart
 general_game_options						Spieloptionen
 general_yes									Ja
@@ -74,57 +74,57 @@ general_all									Alle
 general_none								Keins
 general_view								View
 general_wait								Bitte warte...
-general_date								Date
-general_decline								Decline
-general_approve								Approve
+general_date								Datum
+general_decline								Ablehnen
+general_approve								Zustimmen
 general_ignore								Ignorieren
 general_join								Beitreten
 general_submit								Submit
 general_close								Schließen
-general_continue							Continue
+general_continue							Fortfahren
 general_back								Zurück
-general_apply								Apply
+general_apply								Anwenden
 general_ready								Bereit
 general_error								Fehler
-general_retry								Retry
+general_retry								EErneut versuchen
 general_login								Login
 general_error_login							Login fehlgeschlagen
-general_error_sea_deny						SEA Users must connect via the Garena client.
-general_error_sea_message1					The Heroes of Newerth beta for users in Singapore, Malaysia, Vietnam and the Philippines will be starting soon.  At the start of closed beta, gamers from these countries will be able to redeem a Beta Key immediately if they are Garena Gold Members, while other keys are given away in other community efforts. Please note that countries not stated here (e.g. Indonesia, Thailand) will be unable to play on Garena servers, and would require purchasing a paid account to enjoy the game in S2 Games' international servers.
+general_error_sea_deny						SEA Nutzer müssen sich über den Garena Client verbinden.
+general_error_sea_message1					Die Heroes of Newerth Beta für Spieler in Singapur, Malaisia, Vietnam and the Philippines will be starting soon.  At the start of closed beta, gamers from these countries will be able to redeem a Beta Key immediately if they are Garena Gold Members, while other keys are given away in other community efforts. Please note that countries not stated here (e.g. Indonesia, Thailand) will be unable to play on Garena servers, and would require purchasing a paid account to enjoy the game in S2 Games' international servers.
 general_error_sea_message2					For more updates from the Garena Team regarding their Heroes of Newerth release, visit their blog at ^yhttp://blog.garena.com^* or the official Garena Heroes of Newerth website at ^yhttp://hon.garena.com^*.
 general_quit								Beenden
-general_unavailable							Unavailable
-general_set_default							Set As Default
-general_addto_fav							Add To Favorites
+general_unavailable							Nicht verfügbar
+general_set_default							Als Standard festlegen
+general_addto_fav							Zu Favoriten hinzufügen
 
 general_mode_all_heroes						Alle Helden
 general_mode_random							Zufälliger Held
 general_mode_easy_mode						Einfacher Modus
-general_mode_no_hero_repick					Keine Erneute Auswahl des Helden
+general_mode_no_hero_repick					Keine erneute Auswahl des Helden
 general_mode_no_hero_swap					Kein Wechsel des Helden
 general_mode_no_agi_heroes					Keine Helden mit Gewandtheit
 general_mode_no_intel_heroes				Keine Helden mit Intelligenz
 general_mode_no_str_heroes					Keine Helden mit Stärke
 general_mode_no_respawn_timer				Kein Respawn-Timer
-general_mode_drop_items						Items Ablegen
+general_mode_drop_items						Items ablegen
 general_mode_no_runes						Keine Power-Ups
 general_mode_super_creeps					Super Team Creeps
 general_mode_alt_hero_pick					Alt Helden-Auswahl
-general_mode_duplicate_heroes				Helden Duplizieren
+general_mode_duplicate_heroes				Helden duplizieren
 general_mode_reverse_hero_select			Umgekehrte Helden-Auswahl
-general_mode_no_top_lane					Kein Oberer Kartenteil
-general_mode_no_middle_lane					Kein Mittlerer Kartenteil
-general_mode_no_bottem_lane					Kein Unterer Kartenteil
-general_mode_allow_veto						Veto Gestatten
-general_mode_shuffle						Team Mischen
+general_mode_no_top_lane					Kein oberer Kartenteil
+general_mode_no_middle_lane					Kein mittlerer Kartenteil
+general_mode_no_bottem_lane					Kein unterer Kartenteil
+general_mode_allow_veto						Veto gestatten
+general_mode_shuffle						Team mischen
 general_mode_autobalance					Auto Balanced
 general_mode_no_leavers						Kein Verlassen des Spiels
 general_mode_no_stats						Keine Statistiken
 general_mode_official						Offiziell
-general_mode_tournament_rules				Tournament Rules
+general_mode_tournament_rules				Turnier Regeln
 general_mode_hardcore						Hardcore
-general_mode_dev_heroes						Dev Heroes
-general_mode_casual_mode					Casual Mode
+general_mode_dev_heroes						Dev Helden
+general_mode_casual_mode					Casual Modus
 
 // main.interface
 main_peel_tip								Besuche den Store
@@ -147,19 +147,19 @@ main_label_login_status_waiting				Anmelden, bitte warten...
 main_label_login_status_success				Du bist jetzt eingeloggt.
 main_label_login_status_failed				Login fehlgeschlagen: {reason}
 main_label_login_garena						You must launch Heroes of Newerth through the Garena Messenger.
-main_button_create_account					Account Erstellen
+main_button_create_account					Account erstellen
 main_button_need_login						Login zum Online-Spiel
-main_button_play_online						Online Spielen
+main_button_play_online						Online spielen
 main_button_local_game						Lokales Spiel
 main_button_options							Optionen
-main_button_view_replay						Replay Ansehen
+main_button_view_replay						Replay ansehen
 main_button_quit							Verlassen
 main_quit_confirm							Bist Du Dir sicher?
-main_quit_confirm2							Are you sure you want to quit HoN?
-main_label_update_avail						A newer version of HoN is available for download! Would you like to download this version now?
-main_button_cancel_update					Update Abbrechen
-main_label_update_calculating				HoN Update Berechnen
-main_label_update_downloading				HoN Update Herunterladen
+main_quit_confirm2							Bist du dir sicher, dass du HoN verlassen willst?
+main_label_update_avail						Eine neue Version von HoN ist zum Download verfügbar! Willst du diese Version nun runterladen?
+main_button_cancel_update					Update abbrechen
+main_label_update_calculating				HoN Update berechnen
+main_label_update_downloading				HoN Update herunterladen
 main_label_old_version						Von: ^w{version}
 main_label_new_version						Nach: ^w{version}
 main_label_update_files						Verbleibende Dateien: ^w{count} / {total}
@@ -167,7 +167,7 @@ main_label_update_progress					Fortschritt: ^w{count}MB / {total}MB
 main_label_update_speed						Download-Geschwindigkeit: ^w{speed}KB/Sek
 main_label_update_time						Verbleibende Zeit: ^w{time}
 main_label_update_error						HoN Update Error
-main_login_save_username					Save Username
+main_login_save_username					Speicher Benutzername
 main_login_save_username_tip				When selected, your username will be saved and automatically entered when you start the game.
 main_login_auto_auth						Auto Auth
 main_login_auto_auth_tip					When selected, your password will be saved and you will be automatically logged in when you start the game.
@@ -177,20 +177,20 @@ main_login_lost_pass						Lost Login Info?
 main_login_password_saved					<saved>
 
 //confirmations.package
-confirm_disconnect_title					Disconnect from the game?
+confirm_disconnect_title					Vom Spiel trennen?
 confirm_disconnect_msg						Are you sure you want to disconnect from this game?
 confirm_leaver_result_nowleaver				You will NOT be able to join leaver protected games if you disconnect from this game.
 confirm_leaver_result_notleaver				You will NOT become a leaver if you disconnect from this game.
 
-confirm_switchsub_title						Switch Accounts?
+confirm_switchsub_title						Accounts wechseln?
 confirm_switchsub_msg						Are you sure you want to switch accounts?
-confirm_switchsub_da						Don\'t ask me again
+confirm_switchsub_da						Frag mich nicht erneut
 
 //account.package
 account_retrieve_header						Retrieve Username or Password
 account_lost_username						Benutzername vergessen
 account_lost_username_msg					Enter the email address attached to your account below to have your username sent to you.
-account_lost_username_processing			Processing Request, Please Wait...
+account_lost_username_processing			Verarbeite Anfrage, bitte warten...
 account_lost_username_success				An email containing your username has been sent to the email address attached to your account.
 account_lost_username_error1				I'm an error. Look at me. Justin will be making real errors some day!  No I won't!  I don't need your steenking errors!
 account_lost_password						Passwort vergessen
@@ -202,7 +202,7 @@ main_menu_creategame						Erstelle Spiel
 main_menu_publicgame						Öffentliche Spiele
 main_menu_amm								Match Making
 main_menu_ladder							Player Ladder
-main_menu_matchstats						Match Stats
+main_menu_matchstats						Match Statistiken
 main_menu_compendium						Compendium
 main_menu_options							Optionen
 main_menu_tutorial							Tutorial
@@ -219,13 +219,13 @@ main_filter_prequery_tip					Selecting this option will filter the game list bas
 main_filter_hide_restricted_tip				Selecting this option will hide all games that are restricted to you due to having a "Leaver" status or having a PSR that does not fall into the Min/Max PSR range the host specified.
 main_leaver_title							Leaver Status
 main_leaver_tip								Your leaver status indicates if you are able to join Leaver Restricted games. The number of leaves allowed is determined by games played.
-main_leaver_tip_tier1						1 - 39 Games
+main_leaver_tip_tier1						1 - 39 Spiele
 main_leaver_tip_tier1_threshold				3 Leaves
-main_leaver_tip_tier2						40 - 79 Games
+main_leaver_tip_tier2						40 - 79 Spiele
 main_leaver_tip_tier2_threshold				4 Leaves
-main_leaver_tip_tier3						79 - 99 Games
+main_leaver_tip_tier3						79 - 99 Spiele
 main_leaver_tip_tier3_threshold				5 Leaves
-main_leaver_tip_tier4						100+ Games
+main_leaver_tip_tier4						100+ Spiele
 main_leaver_tip_tier4_threshold				5% Leaves
 
 // game_options.package
@@ -240,7 +240,7 @@ options_high								Hoch
 options_very_high							Sehr Hoch
 options_header_game_options					Spieleinstellungen
 options_header_video_options				Videoeinstellungen
-options_label_display						Display
+options_label_display						Darstellung
 options_display_tip							The display to use when running the game in fullscreen mode.
 options_label_resolution					Auflösung
 options_resolution_tip						Die Anzahl der horizontal und vertikal am Monitor dargestellten Pixel.
@@ -280,7 +280,7 @@ options_refraction							Lichtbrechung
 options_refraction_tip						Die Lichtbrechung ermöglicht bessere Effekte sowie Spezialeffekte. Durch sie werden auf Kosten der Leistungsfähigkeit bestimmte Spielszenen verzerrt.
 options_post_processing						Bildnachbearbeitung
 options_post_processing_tip					Die Einstellung von Effekten der Bildnachbearbeitung wirkt sich auf die Leistungsfähigkeit des Systems aus.
-options_spec_fog							Enable Fog in Spectator View
+options_spec_fog							Aktiviere Nebel im Spectator View
 options_spec_fog_tip						Renders fog when viewing a game as a spectator.
 options_spec_skybox							Enable Skybox in Spectator View
 options_spec_skybox_tip						Renders the skybox when viewing a game as a spectator.
@@ -300,8 +300,8 @@ options_button_controls						Steuerung
 options_button_awards						Auszeichnungen
 options_button_stats						Statistiken
 options_button_interface					Interface
-options_button_graphics						Graphics
-options_button_voice						Voice
+options_button_graphics						Grafik
+options_button_voice						Sprache
 options_header_volume_options				Lautstärkeeinstellungen
 options_label_master_volume					Gesamtpegel: ^w
 options_master_volume_tip_header			Gesamtpegel
@@ -327,7 +327,7 @@ options_sound_quality_tip					Geringere Soundqualität führt zu geringerer Spei
 options_label_sound_channels				Soundkanäle: ^w
 options_sound_channels_tip_header			Soundkanäle
 options_sound_channels_tip					Die Anzahl der simultan abgespielten Sounds.
-options_checkbox_disable_all_sounds			Alle Töne Abschalten
+options_checkbox_disable_all_sounds			Alle Töne abschalten
 options_disable_all_sounds_tip				Alle Töne stumm schalten
 options_checkbox_unit_reactions				Reaktionen der Einheiten
 options_unit_reactions_tip					Bei einer Aktivierung der Reaktionen der Einheiten antworten die Einheiten bei der Auswahl oder Befehlsvergabe.
@@ -335,10 +335,10 @@ options_checkbox_mute_announcer				Mute Announcer
 options_checkbox_mute_announcer_tip			If enabled, the announcers voice will not be heard.
 options_unit_voice_reaction					Unit Voice Reaction Delay
 options_unit_voice_reaction_tip				How much of a delay should occur before playing a unit voice reaction again.
-options_unit_voice_reaction_delay			Delay (ms)
-options_checkbox_sound_mute					Mute Sounds
+options_unit_voice_reaction_delay			Verzögerung (ms)
+options_checkbox_sound_mute					Sound aus
 options_checkbox_sound_mute_tip				If enabled, all sounds are muted.
-options_checkbox_sound_muteMusic			Mute Music
+options_checkbox_sound_muteMusic			Musik aus
 options_checkbox_sound_muteMusic_tip		If enabled, music will be muted, but other sounds will still be heard.
 
 options_header_voice_chat_options			Voice-Chat Optionen
@@ -549,30 +549,30 @@ options_label_mute_music_keybind			Musik Stumm Schalten
 options_header_misc_controls				Additional Controls
 
 options_header_shop							Shop
-options_label_slot_1_keybind				Shop - Buy Item 1
-options_label_slot_2_keybind				Shop - Buy Item 2
-options_label_slot_3_keybind				Shop - Buy Item 3
-options_label_slot_4_keybind				Shop - Buy Item 4
-options_label_slot_5_keybind				Shop - Buy Item 5
-options_label_slot_6_keybind				Shop - Buy Item 6
-options_label_slot_7_keybind				Shop - Buy Item 7
-options_label_slot_8_keybind				Shop - Buy Item 8
-options_label_slot_9_keybind				Shop - Buy Item 9
-options_label_slot_10_keybind				Shop - Buy Item 10
-options_label_slot_11_keybind				Shop - Buy Item 11
-options_label_slot_12_keybind				Shop - Buy Item 12
-options_label_slot_13_keybind				Shop - Buy Item 13
-options_label_slot_14_keybind				Shop - Buy Item 14
-options_label_slot_15_keybind				Shop - Buy Item 15
-options_label_slot_16_keybind				Shop - Buy Item 16
-options_label_slot_17_keybind				Shop - Buy Item 17
-options_label_slot_18_keybind				Shop - Buy Item 18
-options_label_slot_19_keybind				Shop - Buy Item 19
-options_label_slot_20_keybind				Shop - Buy Item 20
-options_label_close_shop_keybind			Shop - Close Panel
+options_label_slot_1_keybind				Shop - Kaufe Item 1
+options_label_slot_2_keybind				Shop - Kaufe Item 2
+options_label_slot_3_keybind				Shop - Kaufe Item 3
+options_label_slot_4_keybind				Shop - Kaufe Item 4
+options_label_slot_5_keybind				Shop - Kaufe Item 5
+options_label_slot_6_keybind				Shop - Kaufe Item 6
+options_label_slot_7_keybind				Shop - Kaufe Item 7
+options_label_slot_8_keybind				Shop - Kaufe Item 8
+options_label_slot_9_keybind				Shop - Kaufe Item 9
+options_label_slot_10_keybind				Shop - Kaufe Item 10
+options_label_slot_11_keybind				Shop - Kaufe Item 11
+options_label_slot_12_keybind				Shop - Kaufe Item 12
+options_label_slot_13_keybind				Shop - Kaufe Item 13
+options_label_slot_14_keybind				Shop - Kaufe Item 14
+options_label_slot_15_keybind				Shop - Kaufe Item 15
+options_label_slot_16_keybind				Shop - Kaufe Item 16
+options_label_slot_17_keybind				Shop - Kaufe Item 17
+options_label_slot_18_keybind				Shop - Kaufe Item 18
+options_label_slot_19_keybind				Shop - Kaufe Item 19
+options_label_slot_20_keybind				Shop - Kaufe Item 20
+options_label_close_shop_keybind			Shop - Schließe Panel
 options_label_recipe_history_back_keybind	Rezepturverlauf zurück
 options_label_recipe_history_for_keybind	Rezepturverlauf vor
-options_btn_reset_all_controls				Reset All Controls
+options_btn_reset_all_controls				Setze Steuerung zurück
 options_btn_clear_shopkeys					Clear Shop Hotkeys
 
 options_checkbox_health_always_on			Always Show Health Bars
@@ -753,16 +753,16 @@ create_acc_promo_forty_a					With the purchase of a $40
 create_acc_promo_forty_b					Goblin Coin package, your HoN account is free! You may select it below.
 create_acc_promo_forty_box					Yes, Purchase The $40 Coin Package
 
-nickname_exists_response0					Nickname Exists!
-nickname_exists_response1					Nickname Empty!
-nickname_exists_response2					Invalid Nickname
-nickname_exists_response3					Connection Error
+nickname_exists_response0					Nickname existiert!
+nickname_exists_response1					Nickname leer!
+nickname_exists_response2					Ungültiger Nickname
+nickname_exists_response3					Verbindungsfehler
 nickname_exists_response4					Nickname does not exist
 
 // Tooltips for various create/etc. account forms - shared stuff mostly
 web_form_create_account_continue			Once basic account information has been filled out, click "Continue" to move on to payment information.
-web_form_create_acct_title					Create a New Account
-web_form_purchase_acct_title				Purchase New Account
+web_form_create_acct_title					Erstelle einen neuen Account
+web_form_purchase_acct_title				Kaufe neuen Account
 web_form_friend_nickname					Friend Nickname
 web_form_friend_nickname_tip				This is the nickname of the friend whose account you wish to upgrade.
 web_form_promo_code							Promo Code
@@ -3167,8 +3167,8 @@ mainlobby_header_custom_karma				Eingeschränkte Spiele Verlassen/Karma Restrict
 mainlobby_button_custom_instant_upgrade		Sofortiger Upgrade auf Premium-Account
 mainlobby_button_custom_return				Zurück zum Spielbrowser...
 mainlobby_header_custom_prime_req			Premium-Account Erforderlich
-mainlobby_header_create_create_game			Ein Spiel Erstellen
-mainlobby_header_create_public_game			Ein Öffentliches Spiel Erstellen
+mainlobby_header_create_create_game			Ein Spiel erstellen
+mainlobby_header_create_public_game			Ein Öffentliches Spiel erstellen
 mainlobby_label_custom_searching			Suche...
 mainlobby_label_cc_friends					Freunde
 mainlobby_label_cc_clan						Clan
@@ -3211,9 +3211,9 @@ main_lobby_searching						Suche...
 main_lobby_no_games_found					Keine Spiele Gefunden! Eines Erstellen?
 main_lobby_response							{count} Antwort
 main_lobby_responses						{count} Antworten
-main_lobby_no_servers_found					No servers found!
+main_lobby_no_servers_found					Keine Server gefunden!
 
-main_lobby_playersonline					Players Online:
+main_lobby_playersonline					Spieler Online:
 
 mainlobby_gamelist_official_title			Official - Stats
 mainlobby_gamelist_official_desc			This is an official game, stats will be recorded.
@@ -3977,31 +3977,31 @@ main_passchange_btn							Set New Password
 main_passchange_cancel						Cancel, Not Now
 
 // patchnotes.package
-patchnotes_title						Patch Notes
-patchnotes_close_btn					Close
-patchnotes_latest_button				Latest
+patchnotes_title						Patch Notizen
+patchnotes_close_btn					Schließen
+patchnotes_latest_button				Letzte
 patchnotes_history_button				History
 
 // System dates
-weekday_unknown					Unknown
-weekday_sunday					Sunday
-weekday_monday					Monday
-weekday_tuesday					Tuesday
-weekday_wednesday				Wednesday
-weekday_thursday				Thursday
-weekday_friday					Friday
-weekday_saturday				Saturday
+weekday_unknown					Unbekannt
+weekday_sunday					Sontag
+weekday_monday					Montag
+weekday_tuesday					Dienstag
+weekday_wednesday				Mittwoch
+weekday_thursday				Donnerstag
+weekday_friday					Freitag
+weekday_saturday				Samstag
 
-weekday_unknown_short				Unk
-weekday_sunday_short				Sun
-weekday_monday_short				Mon
-weekday_tuesday_short				Tues
-weekday_wednesday_short				Wed
-weekday_thursday_short				Thurs
-weekday_friday_short				Fri
-weekday_saturday_short				Sat
+weekday_unknown_short				Unb
+weekday_sunday_short				So
+weekday_monday_short				Mo
+weekday_tuesday_short				Di
+weekday_wednesday_short				Mi
+weekday_thursday_short				Do
+weekday_friday_short				Fr
+weekday_saturday_short				Sa
 
-loading_tiptitle				Game Hint
+loading_tiptitle				Spiel Tipp
 loading_tip1					Holding ^gCONTROL^* while using the shop will display recipe scrolls instead of the item, allowing you to quickly purchase the recipe.
 loading_tip2					While using an ability, you can hold ^gSHIFT^* and select another ability to put it in your ability queue. As soon as the first ability has completed the next ability will fire immediately after.
 loading_tip3					You can attack your own creeps when they are low health. If you kill them it results in a "deny" and surrounding enemies get much less experience than they would normally.
@@ -4056,7 +4056,7 @@ disconnect_mm_connect_timeout	One or more players failed to connect to the serve
 disconnect_mm_player_left		A player has timed out or left the game, the match will now be cancelled.
 disconnect_mm_start_timeout		One or more players failed to connect to the server, the game will now be cancelled.
 
-mm_title						Play a Game
+mm_title						Spiel ein Spiel
 mm_maps							1. Choose Your Map
 mm_modes						2. Select Game Modes
 mm_region						3. Select Regions
@@ -4079,8 +4079,8 @@ mm_queue_past					Time Waited
 mm_queue_eta					Average Wait Time
 mm_queue_enter_btn				Enter Queue
 mm_queue_leave_btn				Leave Queue
-mm_ready_btn					Ready
-mm_notready_btn					Un-Ready
+mm_ready_btn					Bereit
+mm_notready_btn					Nicht bereit
 mm_arehost						You're Group Leader
 mm_waiting_forgroup				Waiting for Other Players
 mm_waiting_forhost				Waiting on Group Leader
