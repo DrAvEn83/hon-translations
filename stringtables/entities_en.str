@@ -193,9 +193,9 @@ Popup_dot_physical_damage										{value}!
 Popup_timer														{value}
 Popup_timer_hero												{value}
 Popup_morult													{value}
-Popup_warden1													Gawain uses Diving Strike!
-Popup_warden2													Gawain uses Forest's Touch!
-Popup_warden3													Gawain uses Emerald Storm!
+Popup_EmeraldWarden1													Gawain uses Diving Strike!
+Popup_EmeraldWarden2													Gawain uses Forest's Touch!
+Popup_EmeraldWarden3													Gawain uses Emerald Storm!
 Popup_Ra														{value}!
 Popup_ra_rebirth												Rebirth!
 Popup_ra_timer													{value}
@@ -366,7 +366,7 @@ State_Accursed_Ability2_FRAME_effect							{110,140,170,200} damage shield. Once
 // Ability_Accursed3
 Ability_Accursed3_name											Sear
 Ability_Accursed3_description									Causes Accursed's attacks to sear his target, slowing their Movement Speed. Any ally that attacks the affected unit will be buffed with increased Attack Speed and Movement Speed.
-Ability_Accursed3_description2									This ability contains an ^oAttack ^oModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
+Ability_Accursed3_description2									
 Ability_Accursed3_description_simple							Passively causes attacks to apply ^o{-5,-10,-15,-20}% Movement Speed^* to the target.\n\nAllies who attack a target affected by Sear gain ^o{10,20,30,40} Attack Speed^* and ^o10% Movement Speed^*.
 Ability_Accursed3_effect_header									Sear Effects
 Ability_Accursed3_effect_header2								Burning Strikes Effects
@@ -3720,7 +3720,7 @@ Ability_Martyr4_IMPACT_effect									Target an allied hero to set channel for 1
 // Hero_Martyr
 Hero_Martyr_name												Martyr
 Hero_Martyr_description											Few clergy of Sol burn with such brilliance that they may ascend to the highest orders of priesthood. Even fewer dare gift their own souls to the Legion, braving an eternity in damnation so that others may prosper in turn. The few who do earn the forsaken title of the Martyr, wielding a battle-ready relic in one hand and carrying the Codex Solaris in the other. To certain death they march; and some say, with more fervor than those who march towards life.
-Hero_Martyr_role												
+Hero_Martyr_role												Martyr is a support hero who's all about brinkmanship. Knowing exactly how much enemies can deal and what you can take and dish out at all times is key to playing a successful Martyr. Unlike some supports, Martyr scales well with tank items, and can be a big threat if left unchecked. A combination of healing, health swing, and protective skills makes Martyr a versatile and dangerous support.
 
 // Ability_Moraxus1
 Ability_Moraxus1_name											Quake
@@ -4130,7 +4130,7 @@ State_Parasite_Ability4_SelfDisarm_name							Leapin'
 // Hero_Parasite
 Hero_Parasite_name												Parasite
 Hero_Parasite_description										While the world above burned, within the deepest crevices of Newerth an abominable conglomeration of sentient gels, pathogens, and other lurkers of the deep simmered in a primoridial pool, slowly evolving and multiplying. From this cesspool emerged the Parasite, sickeningly intelligent and chaotically evil.
-Hero_Pestilence_role											Parasite is a jungle hero who is extremely powerful in one-vs-one situations. He is capable of staying active in ganking while maintaining his progression in the neutrals.	
+Hero_Parasite_role												Parasite is a jungle hero who is extremely powerful in one-vs-one situations. He is capable of staying active in ganking while maintaining his progression in the neutrals.	
 
 // Ability_Pestilence1
 Ability_Pestilence1_name										Flight
@@ -5311,7 +5311,6 @@ State_Treant_Ability1_Armor_name								Nature's Protection
 Ability_Treant2_name											Animate Forest
 Ability_Treant2_description										The Keeper links his mind with nearby trees, bringing them to life.
 Ability_Treant2_description_simple								Target a tree to Animate it and an additional ^o{1,2,3,4} nearby trees^*. Trees last for ^o45 seconds^*, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
-Ability_Treant2_effect_header									Status Effect
 Ability_Treant2_tooltip_flavor									THE ENTS MARCH!
 Ability_Treant2_IMPACT_effect									Target a tree to Animate it and an additional {1,2,3,4} nearby trees. Trees last for 45 seconds, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
 
@@ -5687,6 +5686,57 @@ Gadget_Voodoo_Ability4_name:ult_boost							Spirit Ward (Boosted)
 Hero_Voodoo_name												Voodoo Jester
 Hero_Voodoo_description											The Voodoo Jester haunts the dreams of countless warriors with his demented laughter, glowing eyes, and deadly magic.  It is said that every time a child weeps, his power grows stronger, though some believe this rumor was invented by parents to quiet their unruly children.
 Hero_Voodoo_role												The Voodoo Jester is a strong support best used in the babysitter role paired with a late-game centered damage dealer. His Acid Cocktail can stun lock charging enemies, while Mojo can simultaneously heal his ally and himself.
+
+// Ability_EmeraldWarden1
+Ability_EmeraldWarden1_name										Silencing Shot
+Ability_EmeraldWarden1_description								Fire a powerful arrow at a target, dealing damage and silencing it.
+Ability_EmeraldWarden1_description_simple						Fire a powerful arrow at a target, dealing ^o{25,50,75,100} plus your Attack as Magic Damage^* and inflicting ^o{2,3,4,5} seconds Silence^*.
+Ability_EmeraldWarden1_description2								On impact, deals {25,50,75,100} plus Attack Damage as Magic Damage and inflicts {2,3,4,5} seconds silence.
+Ability_EmeraldWarden1_tooltip_flavor							"Shh... I'm hunting demons."
+
+// Ability_EmeraldWarden2
+Ability_EmeraldWarden2_name										Hunter's Command
+Ability_EmeraldWarden2_description								Summon two uncontrollable wolves that seek out the two nearest heroes in range, including those in fog, damaging and slowing them on collision.
+Ability_EmeraldWarden2_description_simple						Summon two uncontrollable wolves that seek out the two nearest heroes in range, including those in fog.\n\nThe wolves will collide with their targets, dealing ^o{60,120,180,240} Magic Damage^* and inflicting ^o-20% Movement Speed^*.
+Ability_EmeraldWarden2_description2								On impact, deals {60,120,180,240} Magic Damage and inflicts -20% Movement Speed for 3 seconds.
+Ability_EmeraldWarden2_tooltip_flavor							"Lesser creatures, heed my call!"
+
+// Ability_EmeraldWarden3
+Ability_EmeraldWarden3_name										Overgrowth
+Ability_EmeraldWarden3_description								Grow an invisible Overgrowth at a target location, entangling enemies that trigger it.
+Ability_EmeraldWarden3_description_simple						Grow a root at a target location. If an enemy walks over it, the root causes an overgrowth, immobilizing nearby enemies and dealing ^o80 Magic Damage per second for {1,2,3,4} seconds.^*\n\nThe overgrowth may be destroyed by attacking the root 2 times. Maximum of 3 overgrowths.
+Ability_EmeraldWarden3_description2								Overgrowths deal 80 Magic Damage per second and last {1,2,3,4} seconds.\n\nThe Overgrowth may be destroyed by 2 attacks.\n\nMaximum of 3 overgrowths.
+Ability_EmeraldWarden3_tooltip_flavor							"Flora protect me."
+
+// Ability_EmeraldWarden4
+Ability_EmeraldWarden4_name										Summon Gawain
+Ability_EmeraldWarden4_description								Permanently gain an uncontrollable familiar. Gawain gains Diving Strike at level 1, Forest's Touch at level 2, and Emerald Storm at level 3.\n\nHe has 600 Clearvision.
+Ability_EmeraldWarden4_description_simple						Permanently gain an uncontrollable familiar that grants ^o600 Clearvision^*. Gawain gains Diving Strike at level 1, Forest's Touch at level 2, and Emerald Storm at level 3.
+Ability_EmeraldWarden4_description2								Gawain automatically attacks a nearby hero for {100,200,300} Physical Damage.
+Ability_EmeraldWarden4_tooltip_flavor							"Gawain, your master seeks your aid!"
+
+// Ability_EmeraldWarden4_a
+Ability_EmeraldWarden4_a_name									Diving Strike
+Ability_EmeraldWarden4_a_description							Gawain attacks a nearby hero for {100,200,300} Physical Damage.
+Ability_EmeraldWarden4_a_description_simple						Gawain attacks a nearby hero for {100,200,300} Physical Damage.
+Ability_EmeraldWarden4_a_tooltip_flavor							"Gawain, use Diving Strike!"
+
+// Ability_EmeraldWarden4_b
+Ability_EmeraldWarden4_b_name									Forest's Touch
+Ability_EmeraldWarden4_b_description							When you are below 40% HP, Gawain heals you for 200 HP and grants 40 Attack Speed and 40 Move Speed for 5 seconds.
+Ability_EmeraldWarden4_b_description_simple						When you are below 40% HP, Gawain heals you for 200 HP and grants 40 Attack Speed and 40 Move Speed for 5 seconds.
+Ability_EmeraldWarden4_b_tooltip_flavor							"Gawain, use Forest's Touch!"
+
+// Ability_EmeraldWarden4_c
+Ability_EmeraldWarden4_c_name									Emerald Storm
+Ability_EmeraldWarden4_c_description							Gawain channels a storm that slows 2 or more heroes for 30% and deals 200 Magic Damage.
+Ability_EmeraldWarden4_c_description_simple						Gawain channels a storm that slows 2 or more heroes for 30% and deals 200 Magic Damage.
+Ability_EmeraldWarden4_c_tooltip_flavor							"Gawain, use Emerald Storm!"
+
+// Hero_EmeraldWarden
+Hero_EmeraldWarden_name											Emerald Warden
+Hero_EmeraldWarden_description									From a lost scout's journal: This visage of a great horned beast, imposing in stature and ornately bejeweled, descends to us a representative of an unknown druidic sect of beasts. At his behest lesser creatures of the forest fall under command, and when his bow is raised a foe shall fall. 
+Hero_EmeraldWarden_role											The Emerald Warden is a ranged semi-carry that depends heavily on using high attack and spell range to kite and decimate opponents from afar. He specializes in finding hiding enemy heroes with Hunter's Command and Summon Gawain.
 
 // Ability_WitchSlayer1
 Ability_WitchSlayer1_name										Graveyard
