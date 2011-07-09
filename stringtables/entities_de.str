@@ -6238,6 +6238,15 @@ Item_DustOfRevelation_shop_categories							Filter_Consumable
 // State_DustOfRevelation
 State_DustOfRevelation_name										Revealed
 
+// Item_Energizer
+Item_Energizer_name												Energizer
+Item_Energizer_description										Activates to grant nearby allies movement speed for a short duration.
+Item_Energizer_description_simple								Activate to grant ^o50 Movement Speed and Unitwalking^* to nearby allies for ^o5 seconds^*.
+Item_Energizer_search_terms										energizer,support,regen,regeneration,hpregen,hpregeneration,healthregen,healthregeneration,mpregen,mpregeneration,manaregen,manaregeneration,strength,str,agility,agi,intelligence,int,stats,heal
+Item_Energizer_IMPACT_effect									Activate to grant 50 Movement Speed and Unitwalking to allies in a 600 unit radius for 5 seconds.
+Item_Energizer_shop_categories									Filter_Strength,Filter_Agility,Filter_Intelligence,Filter_Activatable,Filter_Regeneration
+State_Energizer_FRAME_effect									
+
 // Gadget_FlamingEye
 Gadget_FlamingEye_name											Ward of Sight
 

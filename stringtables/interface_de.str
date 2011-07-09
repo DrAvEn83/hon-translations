@@ -1794,6 +1794,9 @@ mstore_product559_name		Flag- Cape Verde
 mstore_product560_name		Flag- Central African Rep.
 mstore_product563_name		Phantom Defiler
 mstore_product563_desc		Unleash vengeful souls upon your enemies as Phantom Defiler!
+mstore_product564_name		Royal Tanzanite Color
+mstore_product564_desc		Flaunt your dominance over all of Newerth with a Royal Tanzanite name color!
+mstore_product566_name		Hero- Emerald Warden
 
 mstore_product999999001_name	Default Account Icon
 mstore_product999999002_name	Default Chat Symbol
@@ -4618,6 +4621,7 @@ lang_es										Spanish
 lang_vn										Vietnamese
 lang_ru										Russian
 lang_ro										Romanian
+lang_ta										Thai
 lang_notnow									You may not change your language at this time. To change your language, you must first log out of your account. If required, you may need to disconnect first.
 purch_subacct								Buy Sub-Account
 purch_resetstats							Reset Stats
