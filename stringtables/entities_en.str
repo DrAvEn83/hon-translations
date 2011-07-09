@@ -5237,9 +5237,9 @@ Hero_Succubis_role												Succubus has an array of disables and debuffs that
 // Ability_Tempest1
 Ability_Tempest1_name											Glacial Blasts
 Ability_Tempest1_description									Tempest blasts a target enemy with icy winds, chilling it every two seconds. Being chilled causes the target to take damage and be stunned briefly.
-Ability_Tempest1_description_simple								Target an enemy unit to instantly blast it with ice. The target gets blasted again every 2 seconds for {2,4,4,6} seconds. Each blast deals ^o{30,40,65,80} Magic Damage^* and appies a ^o0.6 second Sstun^*.
+Ability_Tempest1_description_simple								Target an enemy unit to instantly blast it with ice. The target gets blasted again every 2 seconds for {2,4,4,6} seconds. Each blast deals ^o{30,40,65,80} Magic Damage^* and appies a ^o1 second Stun^*.
 Ability_Tempest1_effect_header									Status Effect
-Ability_Tempest1_IMPACT_effect									On each impact, deals {30,40,65,80} Magic Damage to target and stuns for 0.6 seconds. Impacts a maximum of {1,2,2,3} times. Impacts occur in 2 second intervals.\n\nImpacts will not occur if you do not have line of sight on your target.
+Ability_Tempest1_IMPACT_effect									On each impact, deals {30,40,65,80} Magic Damage to target and stuns for 1 second. Impacts a maximum of {1,2,2,3} times. Impacts occur in 2 second intervals.\n\nImpacts will not occur if you do not have line of sight on your target.
 Ability_Tempest1_tooltip_flavor									Take a chill pill!
 
 // Ability_Tempest2
@@ -6229,6 +6229,15 @@ Item_DustOfRevelation_shop_categories							Filter_Consumable
 // State_DustOfRevelation
 State_DustOfRevelation_name										Revealed
 
+// Item_Energizer
+Item_Energizer_name												Energizer
+Item_Energizer_description										Activates to grant nearby allies movement speed for a short duration.
+Item_Energizer_description_simple								Activate to grant ^o50 Movement Speed and Unitwalking^* to nearby allies for ^o5 seconds^*.
+Item_Energizer_search_terms										energizer,support,regen,regeneration,hpregen,hpregeneration,healthregen,healthregeneration,mpregen,mpregeneration,manaregen,manaregeneration,strength,str,agility,agi,intelligence,int,stats,heal
+Item_Energizer_IMPACT_effect									Activate to grant 50 Movement Speed and Unitwalking to allies in a 600 unit radius for 5 seconds.
+Item_Energizer_shop_categories									Filter_Strength,Filter_Agility,Filter_Intelligence,Filter_Activatable,Filter_Regeneration
+State_Energizer_FRAME_effect									
+
 // Gadget_FlamingEye
 Gadget_FlamingEye_name											Ward of Sight
 
@@ -6852,13 +6861,13 @@ Item_Gloves3_IMPACT_effect										Kills target enemy creep. Gold earned from t
 
 // Item_Astrolabe
 Item_Astrolabe_name												Astrolabe
-Item_Astrolabe_description										When activated, restores 250 Health and applies Fortified to nearby allies.\nApplies an aura to nearby allied units.
+Item_Astrolabe_description										When activated, restores 200 Health to nearby allies.\nApplies an aura to nearby allied units.
 Item_Astrolabe_description_simple								Activate to heal and grant armor to nearby allies.
 Item_Astrolabe_search_terms										astrolabe,astrolab,astro,labe,mekansm,mekanism,mek,meka,mechanism,mecha,mechan,mekan,heal,aura,healthregeneration,strength,agility,intelligence,armor,al,regeneration
 Item_Astrolabe_effect_header									Fortified Effects
 Item_Astrolabe_shop_flavor										Although not all of the secrets of these Ancient tools have been unlocked, Astrolabes enhance one's abilities, bestow protection and regeneration, and can be activated to give greater protection and even swifter healing.
 Item_Astrolabe_shop_categories									Filter_Strength,Filter_Agility,Filter_Intelligence,Filter_Armor,Filter_Regeneration,Filter_Activatable
-Item_Astrolabe_IMPACT_effect									Heals allies in radius for 250 and applies Fortified for 25 seconds. Any units with Fortified active may not be healed again by Astrolabe. 
+Item_Astrolabe_IMPACT_effect									Heals allies in radius for 200 and applies Fortified for 25 seconds. Any units with Fortified active may not be healed again by Astrolabe. 
 
 // State_Astrolabe_Active
 State_Astrolabe_Active_name										Fortified

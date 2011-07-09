@@ -1,0 +1,58 @@
+Version 2.0.38
+-------------
+- Fixed hitting S or H while connecting to a server causing the game to never load
+- Updated text when disconnecting from Matchmaking to be more clear
+- Fixed players respawning attached to projectiles when Gore Taunted when "no respawn timers" is set
+- Fixed custom account icons counting as modified files for the purposes of Tournament Rules
+- Fixed exploit with Rampage and Blood Hunter reveal gadgets
+- Fixes to Emerald Warden bugs with Nullstone and Magic Immunity
+- Nullstone effects tweaked
+
+- Added new Alt Avatar: Phantom Defiler
+
+- Added new Alt Courier: Rat Courier
+
+== Items ==
+
+- Alchemist's Bones cooldown/timer increased by 20 seconds
+
+- Astrolabe
+* Reworked Components
+* Fortified Bracer (510)
+* Refreshing Ornament (603)
+* Astrolabe Recipe (600)
+* Total Cost: 1713
+* Effects
+* +8 Strength, +5 Agility, +5 Intelligence
+* +3 Health Regen aura
+* On use: Heals nearby allies for 200 Health. 100 Mana cost, 45 second cd
+* A hero/unit can still only be healed once every 25 seconds
+
+- Energizer
+* Components
+* Soulscream Ring (460)
+* Major Totem (540)
+* Energizer Recipe (700)
+* Total Cost: 1700
+* Effects
+* +7 Strength, +10 Agility, +7 Intelligence
+* On use: Nearby allies gain 50 Movement Speed and Unitwalking for 5 seconds. 100 Mana cost, 45 second cd
+
+- Ring of Sorcery
+* Reworked Components
+* Amulet of Exile (485)
+* Pickled Brain (900)
+* Auto combines
+* Total Cost: 1385
+* Effects
+* +300 Mana, +3 Strength, +3 Agility, +6 Intelligence
+* On use: Nearby allies gain 135 Mana. 25 Mana cost, 33 second cd
+
+- Shieldbreaker
+* Rework
+* Warhammer (1600)
+* Shieldbreaker Recipe (900)
+* Total Cost: 2500 / 3400 / 4300
+* Effects
+* +30 / 45 / 60 Damage
+* -2 / -4 / -6 Armor debuff on target

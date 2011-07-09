@@ -1054,12 +1054,11 @@ progstats_immortal				Immortal
 progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
-motd_ad_text1					Leprechaun Blacksmith
-motd_ad_text2					Gold Collection
-motd_ad_text3					Go for Gold!
+motd_ad_text1					Phantom Defiler
+motd_ad_text2					Haunt your enemies!
 
-motd_ad_Garena_text1			KING RA
-motd_ad_Garena_text2			Available Now!		
+motd_ad_Garena_text1			Phantom Defiler
+motd_ad_Garena_text2			Haunt your enemies!
 
 
 // Micro Store Stuff
@@ -1709,7 +1708,7 @@ mstore_product486_desc		Hire a goblin to leave the confines of Merrick's shop an
 mstore_product487_name		Pig Courier
 mstore_product487_desc		This may be the day when you finally see pigs fly, once you get a pig courier!
 mstore_product488_name		Rat Courier
-mstore_product488_desc		Use the Halloween bat courier, complete with an order of Chinese takeout!
+mstore_product488_desc		Need a pet rat for all your delivery needs? Try the trusty Rat Courier today!
 mstore_product489_name		Robot Courier
 mstore_product489_desc		It's a bird! It's a plane! It's a... UFO? Beam down your items with a Robot Courier!
 mstore_product490_name		Global Alt Ults
@@ -1794,6 +1793,9 @@ mstore_product559_name		Flag- Cape Verde
 mstore_product560_name		Flag- Central African Rep.
 mstore_product563_name		Phantom Defiler
 mstore_product563_desc		Unleash vengeful souls upon your enemies as Phantom Defiler!
+mstore_product564_name		Royal Tanzanite Color
+mstore_product564_desc		Flaunt your dominance over all of Newerth with a Royal Tanzanite name color!
+mstore_product566_name		Hero- Emerald Warden
 
 mstore_product999999001_name	Default Account Icon
 mstore_product999999002_name	Default Chat Symbol
@@ -3863,6 +3865,8 @@ tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
 
 tooltip_report								Report Abusive Behavior
 
+
+
 // ui_items.package
 ui_items_friend_clan_label					Clan
 ui_items_friend_no_clan_label				None
@@ -4618,6 +4622,7 @@ lang_es										Spanish
 lang_vn										Vietnamese
 lang_ru										Russian
 lang_ro										Romanian
+lang_ta										Thai
 lang_notnow									You may not change your language at this time. To change your language, you must first log out of your account. If required, you may need to disconnect first.
 purch_subacct								Buy Sub-Account
 purch_resetstats							Reset Stats
