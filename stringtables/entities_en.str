@@ -2018,9 +2018,9 @@ Hero_Electrician_role											The Electrician is a mana-dependent tank capable
 // Ability_Empath1
 Ability_Empath1_name											Essence Link
 Ability_Empath1_description										Steals life from the target over time. If the link is shattered from distance, the target is stunned.
-Ability_Empath1_description_simple								Target an enemy unit to tether it for 5 seconds. Deals up to ^o{100,175,250,325} Magic Damage^*, and heals Empath for the same amount.\n\nIf the target gets more than 750 units away, the tether breaks, applying a ^o{1,1.5,2,2.5} second Stun^* to the target. While bonded to an ally with As One, Essence Link heals the host instead of Empath.
+Ability_Empath1_description_simple								Target an enemy unit to tether it for 5 seconds. Deals up to ^o{100,175,250,325} Magic Damage^*, and heals Empath for the same amount.\n\nIf the target gets more than 800 units away, the tether breaks, applying a ^o{1,1.5,2,2.5} second Stun^* to the target. While bonded to an ally with As One, Essence Link heals the host instead of Empath.
 Ability_Empath1_tooltip_flavor									Sucky sucky.
-Ability_Empath1_IMPACT_effect									Deals {20,35,50,65} Magic Damage per second for 5 seconds to the target, healing Empath for the same amount.  The link breaks if the distance between Empath and her target reaches 750 units, and stuns the target for {1,1.5,2,2.5} seconds. While bonded to an ally with As One, Essence Link heals the host instead of Empath.
+Ability_Empath1_IMPACT_effect									Deals {20,35,50,65} Magic Damage per second for 5 seconds to the target, healing Empath for the same amount.  The link breaks if the distance between Empath and her target reaches 800 units, and stuns the target for {1,1.5,2,2.5} seconds. While bonded to an ally with As One, Essence Link heals the host instead of Empath.
 
 // State_Empath_Ability1_Enemy
 State_Empath_Ability1_Enemy_name								Essence Link
@@ -2044,9 +2044,9 @@ State_Empath_Ability2_Effects_FRAME_effect						50 Magic Damage per second
 // Ability_Empath3
 Ability_Empath3_name											Synergy
 Ability_Empath3_description										Grants Health Regeneration to all allied heroes.
-Ability_Empath3_description_simple								Passively grants a health regeneration aura to all allied heroes on the map. The aura heals for ^o{0.75,1.5,2.25,3} Health per second^* plus an additional ^o{0.05,0.1,0.15,0.2}% of Max Health per second^*.
+Ability_Empath3_description_simple								Passively grants a health regeneration aura to all allied heroes on the map. The aura heals for ^o{1,2,3,4} Health per second^* plus an additional ^o{0.05,0.1,0.15,0.2}% of Max Health per second^*.
 Ability_Empath3_tooltip_flavor									Don't I make you all feel warm and fuzzy?
-Ability_Empath3_IMPACT_effect									All allied heroes gain {0.75,1.5,2.25,3} Health Regeneration and additional Health Regeneration equal to {0.05,0.1,0.15,0.2}% of Max Health.
+Ability_Empath3_IMPACT_effect									All allied heroes gain {1,2,3,4} Health Regeneration and additional Health Regeneration equal to {0.05,0.1,0.15,0.2}% of Max Health.
 Ability_Empath3_ACTIVATE_COST_effect						
 
 // State_Empath_Ability3
@@ -2144,8 +2144,8 @@ State_Engineer_Ability3_Enemy_Tower_name						Tinkered
 // Ability_Engineer4
 Ability_Engineer4_name											Energy Field
 Ability_Engineer4_description									Deploying his patented Energy Field Double-Magnetic Modulator v3.0, the Engineer can guarantee that any enemies who enter or exit the active field are purged of all buffs and then silenced and perplexed for a short time.
-Ability_Engineer4_description_simple							Activate to create an Energy Field for ^o{6,8,10} seconds^*. Deals ^o{3,5,7}% of Max Health in Magic Damage^* per second.\n\nEnemies who enter or exit the Field take ^o100 Magic Damage^* and a ^o2 second Silence^*.
-Ability_Engineer4_IMPACT_effect									Places a gadget at the Engineer's location that lasts {6,8,10} seconds, takes 4 hits to kill, and creates an Energy Field in a 475 radius around itself.\n\nAny enemy who enters or exits the Energy Field is dispelled, takes 100 damage, and Energy Field is applied to them for 2 seconds. While inside the bounds of the Energy Field, they take {3,5,7}% of their max Health per second in Magic Damage.
+Ability_Engineer4_description_simple							Activate to create an Energy Field for ^o{6,8,10} seconds^*. Deals ^o{28,58,88} Magic Damage^* per second.\n\nEnemies who enter or exit the Field take ^o100 Magic Damage^* and a ^o2 second Silence^*.
+Ability_Engineer4_IMPACT_effect									Places a gadget at the Engineer's location that lasts {6,8,10} seconds, takes 4 hits to kill, and creates an Energy Field in a 475 radius around itself.\n\nAny enemy who enters or exits the Energy Field is dispelled, takes 100 damage, and Energy Field is applied to them for 2 seconds. While inside the bounds of the Energy Field, they take {28,58,88} Magic Damage per second.
 Ability_Engineer4_tooltip_flavor								Don't ask what happened to version 2.0...
 Ability_Engineer4_effect_header									Energy Field Effects
 
@@ -4437,8 +4437,8 @@ Ability_Ra2_IMPACT_effect										1.5 seconds after use, enemies hit by the exp
 
 // Ability_Ra3
 Ability_Ra3_name												Ashes to Ashes
-Ability_Ra3_description											{2,4,6,8} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
-Ability_Ra3_description_simple									{2,4,6,8} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+Ability_Ra3_description											{1,2,3,4} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+Ability_Ra3_description_simple									{1,2,3,4} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
 
 // Ability_Ra4
 Ability_Ra4_name												Pyroclasmic Rebirth
@@ -6000,6 +6000,141 @@ Hero_Yogi_name													Wildsoul
 Hero_Yogi_description											Is the mighty Wildsoul a Beast who dreamed himself a Man, or a Man who dreamed himself a Beast?  As much a bear as a human, this druidic warrior draws upon primordial woodland energies to strengthen himself and crush those who threaten the natural life of Newerth.
 Hero_Yogi_role													Wildsoul is effective in both the lane and the jungle. He can Summon Beardulon to provide himself a permanent companion capable of using items. To this effect, he is two heroes in one.
 
+// Ability_Revenant1
+Ability_Revenant1_name												Defile
+Ability_Revenant1_description										Enchants targets weapon to slow and deal damage to the next target hit.
+Ability_Revenant1_description2									
+Ability_Revenant1_description_simple								Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
+Ability_Revenant1_description_simple:Revenant_Ability4_1			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
+Ability_Revenant1_description_simple:Revenant_Ability4_2			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
+Ability_Revenant1_description_simple:Revenant_Ability4_3			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
+Ability_Revenant1_effect_header								
+Ability_Revenant1_effect_header2								
+Ability_Revenant1_tooltip_flavor								
+Ability_Revenant1_description_simple								Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_description_simple:Revenant_Ability4_1			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_description_simple:Revenant_Ability4_2			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_description_simple:Revenant_Ability4_3			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+
+// State_Revenant_Ability1
+State_Revenant_Ability1_name										Defile
+State_Revenant_Ability1_description									Next attack deals aoe damage and slows.
+State_Revenant_Ability1_description2							
+State_Revenant_Ability1_description_simple						
+State_Revenant_Ability1_FRAME_effect							
+State_Revenant_Ability1_ATTACK_IMPACT_effect					
+State_Revenant_Ability1_INFLICT_effect							
+
+// State_Revenant_Ability1_Slow
+State_Revenant_Ability1_Slow_name									Defile
+State_Revenant_Ability1_Slow_description							Slowed
+State_Revenant_Ability1_Slow_description2						
+State_Revenant_Ability1_Slow_description_simple				
+State_Revenant_Ability1_Slow_FRAME_effect						
+State_Revenant_Ability1_Slow_INFLICT_effect					
+State_Revenant_Ability1_Slow_REFRESH_effect					
+
+// Ability_Revenant2
+Ability_Revenant2_name												Mortification
+Ability_Revenant2_description										Attaches an area affect DoT to target enemy or ally.
+Ability_Revenant2_description2									
+Ability_Revenant2_description_simple								Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
+Ability_Revenant2_description_simple:Revenant_Ability4_1			Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
+Ability_Revenant2_description_simple:Revenant_Ability4_2			Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
+Ability_Revenant2_description_simple:Revenant_Ability4_3			Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
+Ability_Revenant2_effect_header								
+Ability_Revenant2_effect_header2								
+Ability_Revenant2_tooltip_flavor								
+Ability_Revenant2_IMPACT_effect										Target an ally or enemy unit to deal {15,25,35,45} Magic Damage per second for 6 seconds in a 300 unit radius.\n\nEnemies affected suffer {-1,-2,-3,-4} Magic Armor.
+Ability_Revenant2_IMPACT_effect:Revenant_Ability4_1					Target an ally or enemy unit to deal {15,25,35,45} Magic Damage per second for 6 seconds in a 300 unit radius.\n\nEnemies affected suffer {-1,-2,-3,-4} Magic Armor.
+Ability_Revenant2_IMPACT_effect:Revenant_Ability4_2					Target an ally or enemy unit to deal {15,25,35,45} Magic Damage per second for 6 seconds in a 300 unit radius.\n\nEnemies affected suffer {-1,-2,-3,-4} Magic Armor.
+Ability_Revenant2_IMPACT_effect:Revenant_Ability4_3					Target an ally or enemy unit to deal {15,25,35,45} Magic Damage per second for 6 seconds in a 300 unit radius.\n\nEnemies affected suffer {-1,-2,-3,-4} Magic Armor.
+
+// State_Revenant_Ability2_Debuff
+State_Revenant_Ability2_Debuff_name									Mortification
+State_Revenant_Ability2_Debuff_description							Dealing {15,25,35,45} Magic Damage per second in a 300 unit radius.
+State_Revenant_Ability2_Debuff_description2							
+State_Revenant_Ability2_Debuff_description_simple						
+State_Revenant_Ability2_Debuff_FRAME_effect							
+State_Revenant_Ability2_Debuff_ATTACK_IMPACT_effect					
+State_Revenant_Ability2_Debuff_INFLICT_effect	
+
+// State_Revenant_Ability2
+State_Revenant_Ability2_name										Mortification
+State_Revenant_Ability2_description									Dealing {15,25,35,45} Magic Damage per second in a 300 unit radius.
+State_Revenant_Ability2_description2							
+State_Revenant_Ability2_description_simple						
+State_Revenant_Ability2_FRAME_effect											
+State_Revenant_Ability2_INFLICT_effect		
+
+// State_Revenant_Ability2_Debuff_Aura_2
+State_Revenant_Ability2_Debuff_Aura_2_name							Mortification
+State_Revenant_Ability2_Debuff_Aura_2_description
+State_Revenant_Ability2_Debuff_Aura_2_description_simple			Taking {15,25,35,45} Magic Damage per second
+State_Revenant_Ability2_Debuff_Aura_2_FRAME_effect					
+
+// State_Revenant_Ability2_Debuff_Aura
+State_Revenant_Ability2_Debuff_Aura_name							Mortification
+State_Revenant_Ability2_Debuff_Aura_description
+State_Revenant_Ability2_Debuff_Aura_description_simple				Taking {15,25,35,45} Magic Damage per second
+State_Revenant_Ability2_Debuff_Aura_FRAME_effect			
+
+// Ability_Revenant3
+Ability_Revenant3_name												Essence Shroud
+Ability_Revenant3_description										Shrouds target's essence, granting them stealth for the duration.
+Ability_Revenant3_description2									
+Ability_Revenant3_description_simple								Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
+Ability_Revenant3_description_simple:Revenant_Ability4_1			Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
+Ability_Revenant3_description_simple:Revenant_Ability4_2			Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
+Ability_Revenant3_description_simple:Revenant_Ability4_3			Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
+Ability_Revenant3_effect_header								
+Ability_Revenant3_effect_header2								
+Ability_Revenant3_tooltip_flavor								
+Ability_Revenant3_IMPACT_effect										Grants the target a {10,15,20,25} second stealth with a 1 second fade time.\n\nThe first attack out this stealth will reduce the target's armor by {1,2,3,4}.  This armor reduction can be stacked.
+Ability_Revenant3_IMPACT_effect:Revenant_Ability4_1					Grants the target a {10,15,20,25} second stealth with a 1 second fade time.\n\nThe first attack out this stealth will reduce the target's armor by {1,2,3,4}.  This armor reduction can be stacked.
+Ability_Revenant3_IMPACT_effect:Revenant_Ability4_2					Grants the target a {10,15,20,25} second stealth with a 1 second fade time.\n\nThe first attack out this stealth will reduce the target's armor by {1,2,3,4}.  This armor reduction can be stacked.
+Ability_Revenant3_IMPACT_effect:Revenant_Ability4_3					Grants the target a {10,15,20,25} second stealth with a 1 second fade time.\n\nThe first attack out this stealth will reduce the target's armor by {1,2,3,4}.  This armor reduction can be stacked.
+
+// State_Revenant_Ability3
+State_Revenant_Ability3_name										Essence Shroud
+State_Revenant_Ability3_description									Stealthed.  Next attack will reduce enemy's armor by {1,2,3,4}
+State_Revenant_Ability3_description2							
+State_Revenant_Ability3_description_simple						
+State_Revenant_Ability3_ABILITY_START_effect					
+State_Revenant_Ability3_ATTACK_START_effect					
+State_Revenant_Ability3_ATTACK_effect							
+State_Revenant_Ability3_INFLICT_effect							
+
+// State_Revenant_Ability3_Armor
+State_Revenant_Ability3_Armor_name									Essence Shroud Reduction
+State_Revenant_Ability3_Armor_description							Armor reduced
+State_Revenant_Ability3_Armor_description2						
+State_Revenant_Ability3_Armor_description_simple				
+State_Revenant_Ability3_Armor_FRAME_effect						
+State_Revenant_Ability3_Armor_INFLICT_effect					
+State_Revenant_Ability3_Armor_REFRESH_effect					
+
+// Ability_Revenant4
+Ability_Revenant4_name												Manifestation
+Ability_Revenant4_description										Passively changes the way Revenant may cast abilities
+Ability_Revenant4_description2									
+Ability_Revenant4_description_simple								At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+Ability_Revenant4_description_simple:Revenant_Ability4_1			At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+Ability_Revenant4_description_simple:Revenant_Ability4_2			At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+Ability_Revenant4_description_simple:Revenant_Ability4_3			At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+Ability_Revenant4_effect_header								
+Ability_Revenant4_effect_header2								
+Ability_Revenant4_tooltip_flavor
+Ability_Revenant4_FRAME_effect										At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+Ability_Revenant4_FRAME_effect:Revenant_Ability4_1					At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+Ability_Revenant4_FRAME_effect:Revenant_Ability4_2					At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+Ability_Revenant4_FRAME_effect:Revenant_Ability4_3					At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
+
+// Hero_Revenant
+Hero_Revenant_name													Revenant
+Hero_Revenant_description											Risen from the souls of the fallen and forgotten, the revenant coarses through battle a fiery remembrance of the ill-befallen fate that the damned of war are so sure to fulfill. Soldiers and sorcerers alike cringe at the revenant's silent howl, a savage memory of battles past. Those who look into its empty gaze will find naught but oblivion.
+Hero_Revenant_role													Revenant is a roaming/ganking hero that is most effective when paired with one or more allies.  His ability to cast spells on allies and reduce enemy's armor and magic armor all while initiating from stealth make for a deadly combination.
+
 // Ability_Zephyr1
 Ability_Zephyr1_name											Gust
 Ability_Zephyr1_description										Zephyr summons a gust of wind in the direction of his choosing, pushing and dealing damage to enemies it hits.
@@ -7462,6 +7597,21 @@ Item_Pierce_ATTACK_IMPACT_effect:attack							Applies Broken Armor to target for
 
 // State_Item3B
 State_Item3B_name												Broken Armor
+
+// Item_SolsBulwark
+Item_SolsBulwark_name											Sol's Bulwark
+Item_SolsBulwark_description									Can be toggled between a positive Armor aura for allies and a negative Armor aura for enemies.
+Item_SolsBulwark_description_simple								Grants 5 Armor to nearby Allies or removes 5 Armor from nearby Enemies.
+Item_SolsBulwark_search_terms									Sol,sols,solsbulwark,bul,bulwark,negative,building,aura,armor,armorreduction,reduction,as
+Item_SolsBulwark_effect_header									Ally Aura Effects
+Item_SolsBulwark_effect_header:SolsBulwark_EnemyAura			Enemy Aura Effects
+Item_SolsBulwark_shop_categories								Filter_Armor
+
+// State_SolsBulwark_Ally
+State_SolsBulwark_Ally_name										Sol's Favor
+
+// State_SolsBulwark_Enemy
+State_SolsBulwark_Enemy_name									Sol's Curse
 
 // Item_Stealth
 Item_Stealth_name												Assassin's Shroud
