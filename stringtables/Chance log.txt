@@ -1,3 +1,87 @@
+Version 2.0.39.1
+-------------
+- Fixing an auth error (Uploading a new installer now)
+Version 2.0.39
+-------------
+- Added new chat color, Royal Tanzanite
+- Added new Alt Courier, Robot Courier
+- Stat Resets and Sub Accounts can be bought in the Store with Gold Coins
+
+- Fix to effects with 0 lifetime
+- Fix for custom account icons being treated as modded files
+- Fixed front queue tools not front queueing when double activating
+- Fixed a buffer overflow when attempting to execute a very long console command
+- Russian Stringtables updated
+
+- Channel code change
+* Item swaps between backpack slots no longer breaks channel
+* Moving items to Stash interrupts properly
+* Homecoming Stone tweaked slightly, now consumes the stone at the start of the channel
+
+
+== Items ==
+
+- Added new item: Sol's Bulwark
+* Components
+* Ringmail (550)
+* Ringmail (550)
+* Sol's Bulwark Recipe (700)
+* Total Cost: 1800
+* Passive Effects
+* +5 Armor
+* Can be toggled between a +5 Armor Aura for Allies or a -5 Armor Aura for Enemies. 10 second cooldown
+
+- Daemonic Breastplate
+* Reworked Components
+* Ringmail (550)
+* Sol's Bulwark (1800)
+* Warpcleft (2100)
+* Daemonic Breastplate Recipe (1100)
+* Total Cost: 5550
+
+- Dust of Revelation
+* Visual effect now plays if Empath uses it while inside someone.
+
+
+== Heroes ==
+
+- New hero: Revenant
+
+Aluna
+- Attack cooldown from 1450 to 1700
+
+Dampeer
+- Terrorize now applies a 50% movespeed slow to feared targets
+- Consume cooldown lowered from 50/40/30s to 30s flat
+* Killing a hero now gives 3 essences at all levels
+
+Flux
+- Fixed his Magnetic Surge push so that it applies the same state as the pull
+
+Empath
+- Essence Link cast range from 500 to 550 and break range from 750 to 800
+- Essence Link casttime from 500 to 400 and castactiontime from 250 to 150
+- Synergy numerical regen from .75/1.5/2.25/3 to 1/2/3/4
+- As One cooldown from 100 to 100/80/60 seconds
+
+Forsaken Archer
+- Improved Split Fire so that you won't lose its setting when you die
+- Piercing Arrows cooldown from 120 to 100/80/60 seconds
+
+Parasite
+- Fixed him from following his last-issued command after you Infest
+
+Pyromancer
+- Fixed the DoT from Fervor applying the proper level
+
+Slither
+- Fixed his projectile from Poison Spray hitting units directly behind him if they are too close
+
+Amun-Ra
+- Ashes to Ashes regeneration lowered from 2/4/6/8 to 1/2/3/4
+__________________
+
+___________________________________________________________________________________________________________________
 Version 2.0.38
 -------------
 - Fixed hitting S or H while connecting to a server causing the game to never load
