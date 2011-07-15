@@ -748,10 +748,12 @@ create_acc_total_price						Total Price
 create_acc_price_usd						Price in (USD)
 create_acc_havecode							Have you received a Promo Code?
 create_acc_entercode_btn					Enter a Code
-create_acc_promo_forty						Free Account With $40 Coin Purchase!
-create_acc_promo_forty_a					With the purchase of a $40
-create_acc_promo_forty_b					Goblin Coin package, your HoN account is free! You may select it below.
-create_acc_promo_forty_box					Yes, Purchase The $40 Coin Package
+
+// $20 promo for brad
+create_acc_promo_box_1						One Time Coin Offer - $20
+create_acc_promo_box_2						Take advantage of this one time offer to get 3000 coins. That's more than a $40 package for only $20.
+create_acc_promo_box_4						This offer will not be available after you purchase!
+create_acc_promo_box_5						Yes, Purchase The $20 Coin Package
 
 nickname_exists_response0					Nickname existiert!
 nickname_exists_response1					Nickname leer!
