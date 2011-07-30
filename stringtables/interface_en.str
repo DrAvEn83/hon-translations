@@ -96,9 +96,24 @@ general_quit								Quit
 general_unavailable							Unavailable
 general_set_default							Set As Default
 general_addto_fav							Add To Favorites
-
+general_basic								Basic
+general_verified							Verified
 general_mode_all_heroes						All Heroes
+general_mode_all_pick						All Pick
+general_mode_all_pick_desc					Standard hero selection. First come first serve.
+general_mode_random_draft					Random Draft
+general_mode_random_draft_desc				Limits hero selection to 20 heroes then alternates picking between players.
+general_mode_allrandom						All Random
+general_mode_allrandom_desc					Heroes are randomly distributed to all players.
+general_mode_banningpick					Banning Pick
+general_mode_banningpick_desc					Blue and Pink take turns banning 8 total heroes, and then players alternate picking from the remaining hero pool.
+general_mode_singledraft					Single Draft
+general_mode_singledraft_desc				Each player is given a hero selection of one agility, one intelligence, and one strength hero.
+general_mode_banningdraft					Banning Draft
+general_mode_banningdraft_desc				Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.
 general_mode_random							Random Hero
+general_mode_verified						Verified Only
+general_mode_allPlayers						Basic and Verified							
 general_mode_easy_mode						Easy Mode
 general_mode_no_hero_repick					No Hero Repick
 general_mode_no_hero_swap					No Hero Swap
@@ -125,6 +140,18 @@ general_mode_tournament_rules				Tournament Rules
 general_mode_hardcore						Hardcore
 general_mode_dev_heroes						Dev Heroes
 general_mode_casual_mode					Casual Mode
+general_one_week							One Week
+general_one_day								One Day
+general_one_hour							One Hour
+general_one_minute							One Minute
+general_one_second							One Second
+general_weeks_amount						{amount} Weeks
+general_days_amount							{amount} Days
+general_hours_amount						{amount} Hours
+general_minutes_amount						{amount} Minutes
+general_seconds_amount						{amount} Seconds
+general_permanent							Permanent
+general_help								Help
 
 // main.interface
 main_peel_tip								Visit the Store
@@ -186,6 +213,26 @@ confirm_switchsub_title						Switch Accounts?
 confirm_switchsub_msg						Are you sure you want to switch accounts?
 confirm_switchsub_da						Don\'t ask me again
 
+confirm_verify_congrats						Congratulations!
+confirm_verify_complete						This Account Has Been Verified!
+confirm_verify_text1						Your Verified account allows you to exclude Basic accounts when you play matchmaking games.
+confirm_verify_text2						Excluding Basic accounts will increase your chances of finding a game free of griefers and smurf accounts.
+confirm_verify_text3						As a reward for becoming verified, you have received 5 free Tokens. Tokens can be used to play special game modes and play heroes that you do not own.
+
+confirm_verify_bene_not						This account is not Verified!
+confirm_verify_bene_what					What are the benefits of a Verified Account?
+confirm_verify_bene_txt1					You are currently logged in with a Basic account. You are able to play unlimited games with a Basic account, but there are some perks to being Verified:
+confirm_verify_bene_txt2					You will be able to choose to play with only other Verified Users, you can buy tokens and passes to play other game modes, and you can use the Report a Player feature.
+confirm_verify_bene_txt3					Converting your Basic account into a Verified account is simple. Simply perform ONE of the following tasks:
+confirm_verify_bene_opt1					Play More Games
+confirm_verify_bene_opt1_txt1				You can earn a Verified account for free by simply playing more Matchmaking games! Once you reach the target level, your account will automatically become Verified.
+confirm_verify_bene_opt1_current			Your Current Level:
+confirm_verify_bene_opt1_target				Level Needed:
+confirm_verify_bene_opt2					Purchase Goblin Coins
+confirm_verify_bene_opt2_txt1				To instantly convert to a Verified account, you can make a purchase of any Goblin Coin package.
+confirm_verify_bene_buycoinsnow				Buy Coins Now
+confirm_verify_bene_closeWindow				Close Window
+
 //account.package
 account_retrieve_header						Retrieve Username or Password
 account_lost_username						Lost Username
@@ -203,10 +250,11 @@ main_menu_publicgame						Public Games
 main_menu_amm								Match Making
 main_menu_ladder							Player Ladder
 main_menu_matchstats						Match Stats
-main_menu_compendium						Compendium
+main_menu_compendium						Herodex
 main_menu_options							Options
 main_menu_tutorial							Tutorial
-main_menu_store								Store
+main_menu_store								HoN Store
+main_menu_playnow							PLAY NOW!
 
 main_reconnect_header						Reconnect?
 main_reconnect_ok							Reconnect
@@ -268,6 +316,8 @@ options_label_model_quality					Model Quality
 options_model_quality_tip					Using less complex model vertexes will allow the game to run smoother on lower end systems and video cards.
 options_label_texture_size					Texture Size
 options_texture_size_tip					Using larger textures will result in better visual detail at the cost of both video and physical memory.
+options_shader_water_quality				Water Quality
+options_shader_water_quality_tip			Water quality. Lowering the quality will hinder visuals, but allow the game to run on lower end video cards.
 options_shader_quality						Shader Quality
 options_shader_quality_tip					Shaders require a lot of horsepower from your graphics processor. Lowering the quality will hinder visuals, but allow the game to run on lower end video cards.
 options_shadow_quality						Shadow Quality
@@ -542,6 +592,7 @@ options_label_reset_camera_keybind			Reset Camera
 options_label_camera_up_keybind				Camera Up
 options_label_camera_down_keybind			Camera Down
 
+options_header_specui						Spectator Options
 options_header_random_stuff					Muting Options
 options_label_mute_sound_keybind			Mute Sound
 options_label_mute_music_keybind			Mute Music
@@ -613,6 +664,15 @@ options_checkbox_disable_notifications_ingame_tip	If enabled, no popup notificat
 
 options_checkbox_selection_highlight		Selection Highlight
 options_checkbox_selection_highlight_tip	If enabled, units will be highlighted when hovered over.
+
+options_checkbox_ff_health					Friend/Foe Health Colors
+options_checkbox_ff_health_tip				If enabled, enemy health will always appear red, while your team will always appears green. This option requres you to restart HoN.
+
+options_checkbox_showselectionring			Selection Outlines
+options_checkbox_showselectionring_tip		If enabled, selected units will be outlined.
+
+options_checkbox_showplayerring				Self Hero Outline
+options_checkbox_showplayerring_tip			If enabled, your hero will have an outline.
 
 options_enable_minimap_rightclick			Minimap Right Click
 options_enable_minimap_rightclick_tip		If enabled, a player may direct their character via right-clicking a location on the minimap.
@@ -762,7 +822,7 @@ nickname_exists_response3					Connection Error
 nickname_exists_response4					Nickname does not exist
 
 // Tooltips for various create/etc. account forms - shared stuff mostly
-web_form_create_account_continue			Once basic account information has been filled out, click "Continue" to move on to payment information.
+web_form_create_account_continue			Once the required information has been entered, click the button below to create your account.
 web_form_create_acct_title					Create a New Account
 web_form_purchase_acct_title				Purchase New Account
 web_form_friend_nickname					Friend Nickname
@@ -911,7 +971,7 @@ web_form_reportabuse_lastmatches_status		Retrieving latest matches.  Please wait
 web_form_reportabuse_playerlist_status		Retrieving player list.  Please wait.
 web_form_reportabuse_select_matchid			Please Select a Match ID
 web_form_reportabuse_noplayers				No Players Found
-web_form_reportabuse_blurb					Problematic players may be reported to S2 for review. Please fill out the form carefully and be as accurate as possible in your description of the incident. Once your submission is received and reviewed, a GM will notify you if action is taken. Intentional misuse of the Report Abusive Behavior feature may result in your account being suspended.
+web_form_reportabuse_blurb					Problematic players may be reported to S2 for review. Please fill out the form carefully and be as accurate as possible in your description of the incident. Intentional misuse of the Report Abusive Behavior feature may result in your account being suspended.
 web_form_reportabuse_type0_desc				Spamming or advertising a service in a game.
 web_form_reportabuse_type1_desc				Racially offensive, sexually explicit, or profane nicknames may be reported and recommended for a name change.
 web_form_reportabuse_type2_desc				Deliberate and malicious exploitation of bugs to gain an advantage over the enemy team or grief allies. Some examples follow:
@@ -1038,6 +1098,7 @@ progstats_victory			Victory
 progstats_defeat			Defeat
 progstats_firstofday		First of the Day
 progstats_quickvictory		Quick Victory
+progstats_socialbonus		Social Bonus
 progstats_consecutive		Consecutive (^w{count}^*)
 progstats_additional		Additional Stats
 progstats_totalxp			Total Experience:
@@ -1048,19 +1109,23 @@ progstats_wards				Wards
 progstats_smackdowns		Smackdowns
 progstats_consecutive_plain		Consecutive
 progstats_firstofday_tip		First win of the day, based on a 20 hour cooldown.
-progstats_quickvictory_tip		Achieved victory within 25 minutes.
-progstats_consecutive_tip		Additional gold and experience is earned for consecutive games.
+progstats_quickvictory_tip		Victory in less than 25 minutes.
+progstats_socialbonus_tip		Bonus for grouping with players on your buddy list. 1 for 1-2 buddies, 2 for 3-4 buddies.
+progstats_consecutive_tip		Additional silver and experience is earned for consecutive games.
 progstats_annihilation			Annihilation
 progstats_bloodlust				Bloodlust
 progstats_immortal				Immortal
 progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
-motd_ad_text1					Phantom Defiler
-motd_ad_text2					Haunt your enemies!
+motd_ad_legacy_welcome_msg_btn	View Message from Maliken
+motd_ad_text1					HoN is Free-to-Play
+motd_ad_text2					Monkey King
+motd_ad_text3					Available Now!
 
-motd_ad_Garena_text1			Phantom Defiler
-motd_ad_Garena_text2			Haunt your enemies!
+motd_ad_Garena_text1			Flint Boomstick!
+motd_ad_Garena_text2			A Dwarven Sharpshooter
+motd_ad_Garena_text3			Now Available!
 
 
 // Micro Store Stuff
@@ -1798,13 +1863,130 @@ mstore_product563_desc		Unleash vengeful souls upon your enemies as Phantom Defi
 mstore_product564_name		Royal Tanzanite Color
 mstore_product564_desc		Flaunt your dominance over all of Newerth with a Royal Tanzanite name color!
 mstore_product565_name		Babysitter Bundle
-mstore_product565_desc		Be a true babysitter with the powerful Mermaidon and a shiny new Babysitter icon! Pairs well with Baby Taunt.
+mstore_product565_desc		Be a true babysitter with Mermaidon, a shiny new Babysitter icon, and Baby Taunt!
 mstore_product566_name		Hero- Emerald Warden
+mstore_product572_name		Armadon
+mstore_product573_name		Behemoth
+mstore_product574_name		Chronos
+mstore_product575_name		Defiler
+mstore_product576_name		Devourer
+mstore_product577_name		Blacksmith
+mstore_product578_name		Slither
+mstore_product579_name		Electrician
+mstore_product580_name		Nymphora
+mstore_product581_name		Glacius
+mstore_product582_name		Hammerstorm
+mstore_product583_name		Night Hound
+mstore_product584_name		Swiftblade
+mstore_product585_name		Blood Hunter
+mstore_product586_name		Kraken
+mstore_product587_name		Thunderbringer
+mstore_product588_name		Moon Queen
+mstore_product589_name		Pollywog Priest
+mstore_product590_name		Pebbles
+mstore_product591_name		Soulstealer
+mstore_product592_name		Keeper of the Forest
+mstore_product593_name		The Dark Lady
+mstore_product594_name		Demented Shaman
+mstore_product595_name		Voodoo Jester
+mstore_product596_name		War Beast
+mstore_product597_name		Wild Soul
+mstore_product598_name		Zephyr
+mstore_product599_name		Pharaoh
+mstore_product600_name		Tempest
+mstore_product601_name		Ophelia
+mstore_product602_name		Moraxus
+mstore_product603_name		Magebane
+mstore_product604_name		Legionnaire
+mstore_product605_name		Predator
+mstore_product606_name		Accursed
+mstore_product607_name		Nomad
+mstore_product608_name		The Madman
+mstore_product609_name		Scout
+mstore_product610_name		Pyromancer
+mstore_product611_name		Puppet Master
+mstore_product612_name		Pestilence
+mstore_product613_name		Maliken
+mstore_product614_name		Arachna
+mstore_product615_name		Hellbringer
+mstore_product616_name		Torturer
+mstore_product617_name		Jeraziah
+mstore_product618_name		Andromeda
+mstore_product619_name		Valkyrie
+mstore_product620_name		Wretched Hag
+mstore_product621_name		Succubus
+mstore_product622_name		Magmus
+mstore_product623_name		Plague Rider
+mstore_product624_name		Soul Reaper
+mstore_product625_name		Panda
+mstore_product626_name		Vindicator
+mstore_product627_name		Corrupted Disciple
+mstore_product628_name		Sand Wraith
+mstore_product629_name		Rampage
+mstore_product630_name		Witch Slayer
+mstore_product631_name		Forsaken Archer
+mstore_product632_name		Engineer
+mstore_product633_name		Deadwood
+mstore_product634_name		Chipper
+mstore_product635_name		Bubbles
+mstore_product636_name		Fayde
+mstore_product637_name		Balphagore
+mstore_product638_name		Gauntlet
+mstore_product639_name		Tundra
+mstore_product640_name		Gladiator
+mstore_product641_name		Doctor Repulsor
+mstore_product642_name		Tremble
+mstore_product643_name		Flint Beastwood
+mstore_product644_name		Bombardier
+mstore_product645_name		Myrmidon
+mstore_product646_name		Dampeer
+mstore_product647_name		Empath
+mstore_product648_name		Aluna
+mstore_product649_name		Silhouette
+mstore_product650_name		Flux
+mstore_product651_name		Martyr
+mstore_product652_name		Amun-Ra
+mstore_product653_name		Parasite
+mstore_product654_name		Emerald Warden
+mstore_product655_name		Hero Tokens
+mstore_product655_desc		Play heroes you do not own in SD, BD, BP, and AR game modes.
+mstore_product656_name		Flint Boomstick
+mstore_product656_desc		Snipe your enemies with a shiny boomstick rifle, as the dwarven Flint Boomstick!
+mstore_product660_name		Single Draft Pass
+mstore_product660_desc		Unlimited access to the Single Draft game mode for the duration of the pass.
+mstore_product661_name		Banning Draft Pass
+mstore_product661_desc		Unlimited access to the Banning Draft game mode for the duration of the pass.
+mstore_product662_name		All Random Pass
+mstore_product662_desc		Unlimited access to the All Random game mode for the duration of the pass.
+mstore_product663_name		2X Silver Coins
+mstore_product663_desc		Make the most of your games!  Get double the silver coins in each match.
+mstore_product664_name		British Gentleman Pack
+mstore_product664_desc		Have tea time during your HoN games with the British Gentleman Announcer!
+mstore_product665_name		Monkey King
+mstore_product666_name		Drunken Master
+mstore_product667_name		Revenant
+mstore_product668_name		Snow Zephyr
+mstore_product669_name		Hillbilly Brawler
+mstore_product669_desc		Beat everyone up with 6-packs of beer as the Hillbilly Brawler!
+mstore_product670_name		Hero- Revenant
+mstore_product671_name		Hero- Monkey King
+mstore_product672_name		Hero- Drunken Master
+mstore_product673_name		Alienware
+mstore_product675_name		Hero Starter Pack
+mstore_product675_desc		Get 20 heroes at a discount to start your HoN experience off with a bang!
+mstore_product676_name		Hero Bloodlust Pack
+mstore_product676_desc		Add 10 heroes to your pool at a discount.
+mstore_product678_name		Hero Massacre Pack
+mstore_product678_desc		Add 10 heroes to your pool at a discount.
+
 
 mstore_product999999001_name	Default Account Icon
 mstore_product999999002_name	Default Chat Symbol
 mstore_product999999003_name	Default Announcer
 mstore_product999999003_desc	Return to the original announcer.
+mstore_product999999004_name	Default Name Color
+mstore_product999999004_desc	Return to your original Name Color.
+mstore_product999999005_name	Tokens and Passes
 mstore_product172_name		S2Games Logo
 mstore_product172_desc		S2Games Staff Icon
 mstore_product173_name		Gold Color
@@ -1814,8 +1996,6 @@ mstore_product174_desc		Time to saddle up.
 mstore_product254_name		Banhammer
 mstore_product254_desc		The hammer of justice.
 mstore_product175_name		Taunt Icon
-mstore_product999999004_name	Default Name Color
-mstore_product999999004_desc	Return to your original Name Color.
 
 mstore_aafeature_hasmodel					New Model
 mstore_aafeature_hasmodel_description		This alternate avatar includes a new model for this hero.
@@ -1828,15 +2008,15 @@ mstore_aafeature_hasanimations_description	This alternate avatar includes new an
 mstore_aafeature_haseffects					New Effects
 mstore_aafeature_haseffects_description		This alternate avatar includes new special effects.
 
-mstore_viewcost		View Cost
+mstore_viewcost		See Cost
 mstore_viewcost_desc	You need additional coins to purchase this item.
 
 mstore_category1			New
 mstore_category1_desc		These items have been recently added to the store.
-mstore_category2		Hero Avatars
-mstore_category2_short		Hero Avatars
-mstore_exttip_altavatars	Hero Avatars can be chosen before each match.  If you see one you like before a match, you can always purchase from the Hero Selection screen, too.
-mstore_category2_desc		Hero Avatars change the appearance and visual properties of a hero.
+mstore_category2		Alternate Avatars
+mstore_category2_short		Alt Avatars
+mstore_exttip_altavatars	Alternate Avatars can be chosen before each match.  If you see one you like before a match, you can always purchase from the Hero Selection screen, too.
+mstore_category2_desc		Alternate Avatars change the appearance and visual properties of a hero.
 mstore_category3			Account Icons
 mstore_exttip_accounticons	Account icons link to your account and can be found in the chat list, game lobby, in your in-game stat window, and on your statistics page on our website.
 mstore_category3_desc		These icons appear everywhere your account appears and give a visual to your account name.
@@ -1846,20 +2026,24 @@ mstore_category4_desc		Symbols appear to the left of your account name in the ch
 mstore_category5			Announcers
 mstore_exttip_announcements		Announcers come with new sounds and arcade text for kill streaks and other game events.  All players will hear and see these when you achieve them.  Some sounds such as under attack notifications will be heard only by you.
 mstore_category5_desc		These special sound packs change the announcer that is heard when achieving kill streaks and other special game events.  Some even include new visual effects!
-mstore_category6_short		Misc
-mstore_category6			Miscellaneous
-mstore_category6_desc		Here you can purchase account modifications and additions.
+mstore_category6_short		Other
+mstore_category6			Other
+mstore_category6_desc		Here you can purchase a variety account modifications and other additions.
 mstore_category7			Bundles
 mstore_category7_desc		Save precious Goblin Coins by purchasing items in groups at a discount!
-mstore_category16		Name Colors
+mstore_category16			Name Colors
 mstore_category16_desc		These items change the color of your nickname, give you a higher position in the chat list, and come with a symbol.
 mstore_exttip_namecolor		Name Colors are found in the chat list, in the in-game stat window, and on your forum account.  They come with a default symbol and give you a higher position in the chat list than colorless people.
-mstore_category27		Taunt
+mstore_category27			Taunt
 mstore_category27_desc		Purchase the ability to taunt players here!
-mstore_category56		Alternate Avatars
+mstore_category56			Alternate Avatars
 mstore_category56_desc		This section contains ways to customize Heroes and Couriers.
-mstore_category57		Couriers
+mstore_category57			Couriers
 mstore_category57_desc		Purchase a new look for your courier.
+mstore_category58			Early Access
+mstore_category58_desc		Want to be one of the first to play the latest Heroes?  Get the newest hero today!
+mstore_category58b			Heroes
+mstore_category58b_desc		Browse the wide selection of Heroes available to play as.
 
 mstore_tip_couriers_title		Courier Avatars
 mstore_tip_couriers_desc		The appearance of your courier can be changed using Courier Avatars.  You can only change the courier during the match (when the courier is on the field), and only if you own the courier or its avatar isn't locked by the player who owns the courier.
@@ -1884,17 +2068,68 @@ mstore_category61_desc
 
 mstore_exttip_namecolor		Name Colors are found in the chat list, in the in-game stat window, and on your forum account.  They come with a default symbol and give you a higher position in the chat list than colorless people.
 
+mstore_matches_remaining	{amount} Matches Remaining.  More matches can be purchased above.
+mstore_expireson		Currently owned - Expires on {date}.  More time can be purchased above.
+mstore_herolist_sortby	Sort
+mstore_avatarname		Avatar Name
+mstore_heroname			Hero Name
+mstore_price_asc		Price Low to High
+mstore_price_desc		Price High to Low
+mstore_diff_asc			Difficulty Low to High
+mstore_diff_desc		Difficulty High to Low
+mstore_difficulty		Difficulty
+mstore_difficulty_desc	These stars indicate how difficult the hero is to play.  More stars means that the hero is harder to use effectively.
+mstore_viewallheroes	View All Heroes
+mstore_backtostore		Back to Store
+mstore_duration			Duration
+mstore_games_amount		{amount} Heroes
+mstore_onegame				One Hero
+mstore_expiration		Expiration
+mstore_free				Free
+mstore_amount			Amount
+mstore_avatar_show		Show
+mstore_avatar_show_allavatars	All Avatars
+mstore_avatar_show_ownedheroes	Owned Heroes
+mstore_avatar_show_unownedheroes	Un-Owned Heroes
+mstore_eap				Early Access
+mstore_releasedate		Release Date
+mstore_latestheroes		Latest Heroes
+mstore_eapdesc_legacy	Play the newest heroes today!  Get early access to the heroes before they are added to the hero pool for all Legacy players.
+mstore_eapdesc_f2p		Own the newest heroes and be one of the first players to play them!
+mstore_eapupdate		Update Required
+mstore_eapupdate_body	A new Early Access hero is available.  You must update HoN before it can be displayed.
 mstore_viewspecials		View Specials
 mstore_specials		Specials
 mstore_specials_tip		Items in this section are often offered for low prices and for a limited time.
 mstore_vanity			Account Vanity
 mstore_vanity_tip		These items enhance the visual appearance of your account.
+mstore_gamevanity			Game Vanity
+mstore_gamevanity_tip		These items enhance your visual appearance in-game.
 
+mstore_goldcollection				Gold Collection
+mstore_goldcollection_tip			This avatar is part of the Gold Collection, which is a series of rare and high-quality avatars. It is only available for a very limited time.
+mstore_limitededition				Limited Edition
+mstore_limitededition_tip			This avatar is Limited Edition and is only available for a limited time.
+mstore_goldcollection_owned			Gold Collection
+mstore_goldcollection_owned_tip		This avatar is part of the Gold Collection, which is a series of rare and high-quality avatars. It was only available for a very limited time and you got it!
+mstore_limitededition_owned			Limited Edition
+mstore_limitededition_owned_tip		This avatar is Limited Edition and was only available for a limited time.
+mstore_goldcollection_expired		Gold Collection - Unavailable
+mstore_goldcollection_expired_tip	This avatar is part of the Gold Collection and is no longer available for purchase.
+mstore_limitededition_expired		Limited Edition - Unavailable
+mstore_limitededition_expired_tip	This avatar is Limited Edition and is no longer available for purchase.
+mstore_offer_expired				Offer Expired
+mstore_unavailable_tip				This item no-longer available for purchase.
+expired_tip							No longer available for purchase.
+
+mstore_match
 
 mstore_purchase_gold		Use Gold
 mstore_purchase_silver		Use Silver
 mstore_purchase_choosecurrency			Select Currency
-mstore_purchase_choosecurrency_desc		This item can be purchased with either Gold or Silver Coins.  Please choose a currency type in order to complete your purchase.
+mstore_purchase_choosecurrency_desc		This item can be purchased with either Gold or Silver Coins.  Please choose a currency type to complete your purchase.
+mstore_purchase_itemisfree			This item is available for free!  Click the Claim Item button below to receive this item.
+mstore_purchase_claimfree			Claim Free Item
 mstore_purchase_goldonly		This item can only be purchased with Gold Goblin Coins.
 mstore_purchase_choosecurrency_viewcost		This item can be purchased with either Gold or Silver Coins, but you'll need to either purchase additional Gold Coins or earn additional Silver Coins to afford this item.
 mstore_premiumitem			Premium Item
@@ -1904,6 +2139,22 @@ mstore_costbreakdown_tip	These numbers are a breakdown of how much of each coin 
 
 mstore_buycoins			Buy Coins
 mstore_buycoins_desc	Before you can purchase items from the store, you must first buy Goblin Coins.
+
+mstore_buyavatar_needhero		Need to Purchase Hero
+mstore_buyavatar_needhero_desc		You must first purchase this avatar's hero before you can purchase this avatar.
+mstore_viewhero				View Hero
+mstore_buyhero				Buy Hero
+
+mstore_coins			Coins
+mstore_now				Now
+
+mstore_item_expiration		Item Expiration
+mstore_item_expiration_tip	This item will be usable for the specified duration.  Purchasing this duration again will reset the time, but will not extend it.  The item will expire after the duration ends.
+mstore_item_matches			Match-Based Item
+mstore_item_matches_tip		This item will be usable for the specified number of matches.  Purchasing more matches of this item will stack onto what you already have.  This item will expire after you have played those matches.
+mstore_item_duration		Item Duration
+mstore_item_duration_tip	This item will be usable for the specified duration.  You may extend the duration by making another duration purchase.  The item will expire after the duration ends.
+
 mstore_needcoins		Need Coins
 mstore_needcoins_desc	More coins are needed in order to purchase this item.  Click here to open the Purchase Coins form.
 mstore_openvault		Open Vault
@@ -1927,7 +2178,7 @@ mstore_unlock_taunt			Purchase Taunt
 mstore_icon_slot_locked		Icon Slot Locked
 mstore_taunt_slot_locked	Taunt Not Purchased
 mstore_unlock_taunt_body	You must first purchase Taunt before additional taunt styles can be purchased.
-mstore_unlock_body			You must first purchase the Account Icon Unlock before Account Icons can be purchased.
+mstore_unlock_body			You must purchase the Unlock Icon Slot before Account Icons can be purchased.
 mstore_unlock_taunt_confirm		Purchase Taunt and unlock additional taunt styles?
 mstore_unlock_confirm		Spend Goblin Coins to unlock Account Icons?
 mstore_unlock_icon_slot		Unlock Icon Slot
@@ -2028,16 +2279,17 @@ mstore_buycoin_success_upgrade_body	The purchased coins have been added to your 
 mstore_buycoin_friend_success		Coin Gift Purchase Successful
 mstore_buycoin_friend_success_body	The purchased coins have been added to your friend's account!
 mstore_buyitem_success				Successfully Purchased Item
-mstore_buyitem_success_body			You've successfully purchased the requested item.  Purchased items can be viewed and selected in your vault.
+mstore_buyitem_success_body			You've successfully purchased the requested item.
+mstore_buyitem_success_body_vault	You've successfully purchased the requested item.  Purchased items can be viewed and selected in your vault.
 mstore_nickchange_success_body		You've successfully changed your nickname.  You must log out and back in for the change to take effect.
 mstore_selectupgrade_success		Upgrade Selected
 mstore_selectupgrade_success_body	The chosen upgrade has been selected!
 mstore_firstvisit1					Welcome to the store!
 mstore_firstvisit1_body				Have a look around.  All of the items in the shop are intended to allow you to personalize your HoN experience.
 mstore_firstvisit2					Exchange now for Goblin Coins.
-mstore_firstvisit2_body				Don't miss out on the special offer for first-time visitors.  Exchange your money for Gold Goblin Coins now!  And be sure to check back often for new items and sales.
+mstore_firstvisit2_body				Exchange your money for Gold Goblin Coins now and be sure to check back often for new items and sales.
 mstore_firstvisit3					Item and Coin Types
-mstore_firstvisit3_body				There are two types of coins - Gold and Silver.  Both coin types can be used to purchase any item in the store.  Gold coins can be purchased, while Silver coins are earned in Matchmaking games.\n\nWhen purchasing most items, you'll first spend from your pool of Silver coins, and Gold coins will be deducted as necessary to fill the difference.  However, Premium items can only be purchased with one or the other coin type, and are much less expensive to buy with Gold coins than with Silver.
+mstore_firstvisit3_body				There are two types of coins - Gold and Silver.  Both coin types can be used to purchase most items in the store.  Gold coins can be purchased, while Silver coins are earned in Matchmaking games.\n\nItems can only be purchased with one or the other coin type, and are less expensive to buy with Gold coins than with Silver.
 mstore_error_generic				An error has occurred.
 mstore_nickchange_submit			Change Nickname
 
@@ -2074,7 +2326,7 @@ mstore_error17		The store is unavailable at this time.
 mstore_error18		Inactive user accounts are not permitted to access the store.  If this is in error, please contact customer support.
 mstore_error19		Unable to distribute points to your account.  Please contact customer support for assistance.
 mstore_error20		Unable to validate your session.  Please log out and try again.
-mstore_error21		You do not have enough points to make this purchase.
+mstore_error21		You do not have enough coins to make this purchase.
 mstore_error22		Unable to purchase this item.  Please contact customer support if this issue persists.
 mstore_error23		The requested item is not available for purchase at this time.
 mstore_error24		You have requested an invalid or nonexistent item.
@@ -2159,6 +2411,8 @@ mstore_Hero_EmeraldWarden_name		Emerald Warden
 mstore_Hero_Defiler_name			Defiler
 mstore_Hero_DwarfMagi_name			Blacksmith
 mstore_Hero_Parasite_name			Parasite
+mstore_Hero_Zephyr_name				Zephyr
+mstore_Hero_DrunkenMaster_name		Drunken Master
 
 //Account Icons
 mstore_unlock_icon_btn				Unlock Icon Slot
@@ -2181,10 +2435,27 @@ mstore_custom_faq_A2				No. Once uploaded, you must purchase a new custom icon. 
 mstore_custom_faq_Q3				How do I upload my custom icon?
 mstore_custom_faq_A3				You must visit the custom icon website to upload your icon file. The URL is http://www.heroesofnewerth.com/icons/
 
+
+mstore_vault_tokens_pass_title		Tokens and Passes
+mstore_vault_tokens_owned			Tokens Owned:
+mstore_vault_passtime				Time Left:
+mstore_vault_passexpires			Expires:
+mstore_vault_tip_tokens_title		Tokens
+mstore_vault_tip_tokens_txt			Tokens let you play a match as a hero you do not own. By having at least one token, you are able to join into game modes other than All Pick.
+mstore_vault_tip_ARpass_title		AR Pass
+mstore_vault_tip_ARpass_txt			Allows you to play the All Random game mode without using tokens.
+mstore_vault_tip_BDpass_title		BD Pass
+mstore_vault_tip_BDpass_txt			Allows you to play the Banning Draft game mode without using tokens.
+mstore_vault_tip_SDpass_title		SD Pass
+mstore_vault_tip_SDpass_txt			Allows you to play the Single Draft game mode without using tokens.
+
+
 // Tutorial Stuff
 
 prompt_tutorial_title						Play the Tutorial?
 prompt_tutorial_text						Welcome to Heroes of Newerth.  As a new player, we recommend that you first play through the tutorial before playing a match online.  Would you like to visit the tutorial now?
+prompt_tutorial_play						Play Tutorial
+prompt_tutorial_new							New to HoN?
 
 // Garena Stuff
 #GA001000									Could not connect. Try again.
@@ -2968,6 +3239,7 @@ mm_pregression_victory						Victory
 mm_pregression_loss							Loss
 mm_pregression_fotd							First of the Day
 mm_pregression_quickvict					Quick Victory
+mm_pregression_socialbonus					Social Bonus
 mm_pregression_consecbonus					Consecutive Bonus^y*^*
 mm_pregression_bloodlust_you				Bloodlust (You)
 mm_pregression_bloodlust_team				Bloodlust (Teammate)
@@ -3029,6 +3301,8 @@ hselect_label_agility						Agi
 hselect_label_intelligence					Int
 hselect_swap_request_tip_header				Swap Hero
 hselect_swap_request_tip_text				Request to swap heroes with this player. After swapping you cannot repick or swap again.
+hselect_swap_request_noeap_tip_header		Swap Hero Unavailable
+hselect_swap_request_noeap_tip_text			You are unable to swap with this player as one of you does not have access to this EAP hero.
 hselect_swap_accept_tip_header				Swap Hero
 hselect_swap_accept_tip_text				This player has offered to swap heroes with you. Click on their portrait to complete the swap. After swapping you cannot repick or swap again.
 game_hero_select_repick						Repick Hero
@@ -3221,6 +3495,10 @@ main_lobby_no_servers_found					No servers found!
 
 main_lobby_playersonline					Players Online:
 
+mainlobby_gamelist_verifiedonly_title		Verified Only
+mainlobby_gamelist_verifiedonly_desc		Only verified accounts can join this game.
+mainlobby_gamelist_notverifiedonly_title	Basic
+mainlobby_gamelist_notverifiedonly_desc		Any account can join this game.
 mainlobby_gamelist_official_title			Official - Stats
 mainlobby_gamelist_official_desc			This is an official game, stats will be recorded.
 mainlobby_gamelist_official_2_title			Official - No Stats
@@ -3261,9 +3539,13 @@ mainlobby_gamelist_captainsmode_title		Captains Mode
 mainlobby_gamelist_captainsmode_desc		Captains first take turns banning heroes and then take turns selecting a lineup for their team mates.
 mainlobby_gamelist_deathmatch_title			Deathmatch
 mainlobby_gamelist_deathmatch_desc			After dying, players are forced to select a new hero.
+mainlobby_gamelist_random_title				All Random
+mainlobby_gamelist_random_desc				Heroes are randomly distributed to all players.
 
 mainlobby_gamelist_forcerandom_title		Random Hero
 mainlobby_gamelist_forcerandom_desc			Players are forced to take a random hero.
+mainlobby_gamelist_allrandom_title			Random Hero
+mainlobby_gamelist_allrandom_desc			Players are forced to take a random hero.
 mainlobby_gamelist_allheroes_title			All Heroes
 mainlobby_gamelist_allheroes_desc			All heroes are available to both teams, regardless of faction.
 mainlobby_gamelist_easymode_title			Easy Mode
@@ -3356,13 +3638,17 @@ pofeatures_closemsg							To Pre-purchase your HoN account, log-in to the beta s
 // game_replay_control.interface
 game_replay_control_speed					Speed 
 game_replay_control_viewing					^yViewing:^* 
-game_replay_control_view_as					View Replay As
+game_replay_control_view_as					View As
 game_replay_control_view_as_tip				When a player name is selected, you will view the replay as if you were that player. Selecting spectator will allow you to view the replay using the spectator interface.
 game_replay_control_title					Replay Control
-game_replay_control_fog						Display Fog of War
+game_replay_control_fog						Fog of War
 game_replay_control_fog_tip					When selected, the Fog of War will be displayed as seen by the selected player.
 game_replay_control_lockcam					Lock Camera
 game_replay_control_lockcam_tip				When selected, the camera will always follow the selected player.
+game_replay_tip_UnitFrames					Toggle Unit Frame Visibility
+game_replay_tip_PushBar						Toggle Push Bar Visibility
+game_replay_tip_Info						Toggle Detailed Info Tabs Visibility
+game_replay_tip_Controls					Toggle Replay Controls Visibility
 
 // game_loading.interface
 game_loading_button_cancel					Cancel Loading
@@ -3385,7 +3671,21 @@ globby_alt_avatars							Alternate Avatars
 
 globby_purchase								Purchase
 globby_purchase_avatar						Purchase this Alternate Avatar?
+globby_purchase_hero						Purchase this Hero?
 game_purchase_courier						Purchase this Courier?
+
+globby_purchase_txt1						You don't own this hero!
+globby_purchase_txt2						Do you want to use it for this match only or purchase it?
+globby_purchase_eap_txt1					This is an Early Access Hero!
+globby_purchase_eap_txt2					Early access grants you the ability to play this hero before it is released into the general hero pool.
+globby_purchase_eap_nonleg_txt2				Early access grants you ownership and the ability to play this hero before it is released into the general hero pool.
+globby_purchase_silver						Purchase With Silver
+globby_purchase_gold						Purchase With Gold
+globby_play_token							Play With Tokens
+globby_play_pass							Play Using Pass
+globby_purchase_btn							Purchase Hero
+globby_eap_btn								Purchase Early Access
+globby_purchase_repick						No Thanks, Pick New Hero
 
 _first_game									's ^wFirst Game!
 
@@ -3497,6 +3797,13 @@ game_menu_moved								To share control, use the buttons on your team panel on t
 game_menu_nopauseleftshort					0 Pauses Left
 game_menu_nopauseleft						No Pauses Left
 game_menu_nopauseleft_tooltip				Your team has used the maximum amount of pauses allowed for this match.
+game_menu_sharing_button					Sharing
+game_menu_sharing_tip						Toggles sharing your unit or your controlled units with allies.
+game_menu_nohelp_button						No Help
+game_menu_nohelp_tip						Toggles allowing allies to use potentially harmful abilities on your hero.
+game_menu_voice_button						Voice Chat
+game_menu_voice_tip							Toggles voice chat for this ally on or off.
+
 
 game_menu_kick								Kick
 game_menu_chat								Chat
@@ -3833,8 +4140,14 @@ tooltip_open_shop							Open Shop
 tooltip_open_shop_msg						Click here to open the shop interface and add items to the selected hero's inventory.
 tooltip_reset_inv							Reset Inventory
 tooltip_reset_inv_msg						Click here to clear the selected hero's inventory.
+tooltip_compendium_guide					Hero Guides
+tooltip_compendium_guide_msg				Official and community guides on how to improve your play with a specific hero. 
+tooltip_compendium_usage					Usage
+tooltip_compendium_usage_msg				Hero usage statistics.
 tooltip_detailed_hero_info					Detailed Hero Information
 tooltip_detailed_hero_info_msg				Displays detailed information about a hero's role and abilities.
+tooltip_detailedfree_hero_info				Free Hero Information
+tooltip_detailedfree_hero_info_msg			Displays detailed information about the current free heroes\' roles and abilities.
 tooltip_detailed_hero_list					Detailed Hero List
 tooltip_detailed_hero_list_msg				This list displays detailed information about each hero, and heroes within the list can be selected to go to the main hero information page.
 tooltip_simple_hero_list					Simple Hero List
@@ -3868,8 +4181,17 @@ tooltip_sort_dmg							Sort by Attack Damage
 tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
 
 tooltip_report								Report Abusive Behavior
+tooltip_report_disabled_title				Report Abusive Behavior 
+tooltip_report_disabled_msg					This feature is only available for verified accounts.
 
-
+tooltip_general_nofriend_title				Player
+tooltip_general_nofriend_msg				Right click for interaction options.
+tooltip_general_friend_title				Friend
+tooltip_general_friend_msg					Right click for interaction options.
+tooltip_general_verified_title				Verified
+tooltip_general_verified_msg				Verified accounts have access to verified-only features.
+tooltip_general_basic_title					Basic
+tooltip_general_basic_msg					Basic accounts cannot access verified-only features.
 
 // ui_items.package
 ui_items_friend_clan_label					Clan
@@ -3890,6 +4212,7 @@ ui_items_cc_right_click_remove_buddy		Remove Buddy
 ui_items_cc_right_click_remove_buddytxt		Are you sure you want to remove this buddy?
 ui_items_cc_right_click_invite_to_game		Invite to Game
 
+ui_items_cc_right_click_kick_tmm			Kick Player
 ui_items_cc_right_click_invite_to_tmm		Invite to Group
 ui_items_cc_right_click_user_info			User Info
 ui_items_cc_right_click_channel_kick		Kick from Channel
@@ -4065,10 +4388,20 @@ disconnect_mm_player_left		A player has timed out or left the game, the match wi
 disconnect_mm_start_timeout		One or more players failed to connect to the server, the game will now be cancelled.
 
 mm_title						Play a Game
-mm_maps							1. Choose Your Map
-mm_modes						2. Select Game Modes
-mm_region						3. Select Regions
-mm_start						4. Select Matchmaking Mode
+mm_verified						1. Choose Opponents
+mm_maps							2. Choose Your Map
+mm_modes						3. Select Game Modes
+mm_region						4. Select Regions
+mm_start						5. Select Matchmaking Mode
+mm_current_standing				Your Standing
+mm_current_basic_1				Basic accounts can only play All Pick with other basic accounts.
+mm_current_basic_2				Your account will become Verified upon completing ONE of the following:
+mm_current_basic_verify1		Reach Level 
+mm_current_basic_verify2		Current Level: 
+mm_current_basic_verify3		Buy Goblin Coins
+mm_current_basic_verify4		Any Amount!
+mm_current_verified_1			As a Verified account, you may choose to play Verified Only matches.
+mm_current_verified_2			By thumbing up the "Verified Only" option above, all basic accounts will be excluded when finding your match.
 mm_5v5							5 vs 5
 mm_4v4							4 vs 4
 mm_3v3							3 vs 3
@@ -4077,10 +4410,10 @@ mm_1v1							1 vs 1
 mm_map_locked					Map Locked Due To Team Size
 mm_solo							Solo Matchmaking
 mm_team							Team Matchmaking
-mm_team_cont					Invite Players Into a Custom Player Group
+mm_team_cont					Invite Friends Into a Custom Player Group
 mm_mode_txt1					You may down vote a maximum of {max_downvotes} mode(s) that you do not want to play.
 mm_mode_txt2					Approving modes with high popularity will result in shorter queue times.
-mm_map_txt1						You may down vote a maximum of {max_downvotes} region(s).
+mm_map_txt1						You may down vote a maximum of {max_downvotes} regions.
 mm_map_txt2						Region popularity will change based on time of day. High popularity will result in shorter queue times.
 mm_queue_finding				Finding a Match...
 mm_queue_past					Time Waited
@@ -4095,6 +4428,10 @@ mm_waiting_forhost				Waiting on Group Leader
 mm_group_builder				5. Build Your Group
 mm_group_txt					Invite players to your group by using your friends list to the left or typing in the name of a player below.
 mm_group_disband				Disband This Group
+
+mm_buytoken_title				Buy Token?
+mm_buytoken_body				Purchase a token to play this mode?
+mm_buytoken_buytoken			Purchase Token
 
 mm_servernotidle				Unable to Join Server
 mm_servernotidle_body			Unable to join the server.  Please re-enter the queue.
@@ -4137,7 +4474,7 @@ mm_invitations_view				View Invitations
 mm_tmmdisabled					Matchmaking Disabled
 mm_tmmdisabled_body				Matchmaking is currently disabled, please try again in a few moments.
 mm_disabled						Matchmaking
-mm_disabled_tip					Matchmaking is currently disabled.  It will be enabled periodically while we perform tests and monitor the matchmaking system.  \n\nWe will announce times when it will be enabled, so please check the forums and watch for server wide messages announcing matchmaking availability.
+mm_disabled_tip					Matchmaking is currently disabled, this is usually due to a patch in progress. Check the forums for more information. 
 mm_optionsunavailable			Option Invalid/Disabled
 mm_optionsunavailable_body		The options you specified to create the group are either invalid or have been disabled.
 mm_tmmbusy						Matchmaking Busy
@@ -4148,6 +4485,19 @@ mm_timeout						Group Removed from the Queue
 mm_timeout_body					We're sorry, we were unable to find a match for your group in an acceptable time frame.  Please try again with more popular game options.
 mm_option_disabled				Option Disabled
 mm_option_disabled_body			This option is not available for selection at this time.
+mm_mode_disabled_basicplayer		Disabled - Basic Groupmate
+mm_mode_disabled_basicplayer_desc		This option has been disabled due to a player in the group who cannot access this option.
+mm_option_disabled_unverified				Verified Users Only
+mm_option_disabled_unverified_body			This option is not available to Basic Accounts.
+mm_option_disabled_havetoken_body			Your account must be Verified in order to use Tokens to select this mode.
+mm_option_disabled_havepass_body			Your account must be Verified in order to play this mode via a Pass.
+mm_option_disabled_tokenpass_body			Your account must be Verified in order to use Tokens or Passes to play this mode.
+mm_option_disabled_needtoken			Token Required
+mm_option_disabled_needtoken_body		You must purchase a Token in order to play this mode.
+mm_option_disabled_needtokenpass			Token or Pass Required
+mm_option_disabled_needtokenpass_body		You must purchase a Token or Pass in order to play this mode.
+mm_option_disabled_buytoken		Buy A Token
+
 mm_loading_assets				Loading Assets...
 mm_loading_assets_msg			You will enter the queue when loading is complete.
 mm_loading_game					Loading Game...
@@ -4165,6 +4515,8 @@ mm_popup_invalid_version		Invalid Version
 mm_popup_invalid_version_body	The version of your client is not compatible with the matchmaking server.  Please update your client and try again.
 mm_popup_group_full				Group Full
 mm_popup_group_full_body		The group you are trying to join is full.
+mm_popup_banned					Temporary Ban
+mm_popup_banned_body			You have been temporarily banned from matchmaking because you have failed to properly connect to the game server multiple times in a row.\n\nYou will be able to re-join matchmaking again in a few minutes.\n\n
 mm_popularitymeter				Popularity Meter
 mm_popularitymeter_body			The bars displayed indicate the general popularity of this option.  If you opt to thumbs-down too many options, it will decrease your chances of finding a match.  Try to make sure that you have some popular choices in your preferences to speed up queue times.
 mm_you							You
@@ -4409,6 +4761,7 @@ compendium_attack_type						Attack Type:
 compendium_melee_range						Melee/Range
 compendium_type_melee						Melee
 compendium_type_ranged						Ranged
+compendium_usage_list_header				The following is a summary of the hero usage statistics for the last 7 days. A total of {value} heroes have been used.
 
 compendium_hero_name						Hero Name
 compendium_attribute						Attribute
@@ -4423,8 +4776,12 @@ compendium_abilities						Abilities
 
 compendium_list_simple						Simple Hero List
 compendium_list_detailed					Detailed Hero List
+compendium_list_detailed_free				Free Hero List
 compendium_list_usage						Usage Stats
 
+compendium_guides							Guides
+compendium_details							Details
+compendium_usage							Usage
 compendium_cat_legion_agi					Legion Agility Heroes
 compendium_cat_hellbourne_agi				Hellbourne Agility Heroes
 compendium_cat_legion_int					Legion Intelligence Heroes
@@ -4436,6 +4793,8 @@ compendium_win_percent						Win %
 
 tooltip_detailed_hero_info					Hero Details
 tooltip_detailed_hero_info_msg				View basic hero information, ability details, and your statistics using this hero.
+tooltip_compendium_guide					Hero Guides
+tooltip_compendium_guide_msg				View the user submitted guides for this hero.
 
 // Used For stat/lvl stuff
 compendium_lvl								lvl
@@ -4681,6 +5040,133 @@ garenaVIP_MMoptions_txt						Customize your matchmaking experience for the ultim
 garenaVIP_url1								To Purchase a VIP Account, Please Visit
 garenaVIP_url2								http://shop.garena.com/hon/
 
+// F2P Game Feedback
+create_game_token_required					Token required for this game
+create_game_using_pass						Using game pass
 
+// F2P Confirmations
+confirm_too_many_friends_title				Friend Limit Reached
+confirm_too_many_friends_msg				You have filled all the available friend slots for this account.
+confirm_buy_courier_title					Upgrade Courier?
+confirm_buy_courier_msg						Would you like to upgrade this courier for 200 gold?
+confirm_need_tokens_title					Insufficient Tokens
+confirm_need_tokens_msg						You need to buy tokens to play this mode.
+confirm_warn_tokens_title					Token Required
+confirm_warn_tokens_msg						You will use a token in order to play this match if you choose a hero you do not own.
+confirm_token_warn_da						Don\'t warn me again
+confirm_warn_unverified_title				Unverified Player
+confirm_warn_unverified_msg					{player} is unverified, your settings will be altered if you accept them into your Matchmaking group.
+confirm_warn_unverified_yes					Change Settings
+confirm_warn_unverified_no					Remove Player
+
+general_purchase_token						Purchase Tokens
+
+// F2P Systembar
+sysbar_gold_tip_title						Gold Coins
+sysbar_gold_tip_msg							Gold coins can be used to purchase any item in the store.
+sysbar_silver_tip_title						Silver Coins
+sysbar_silver_tip_msg						Silver coins can be used to purchase items in the store.
+sysbar_token_tip_title						Tokens and Game Passes
+sysbar_token_tip_msg						Tokens and Game Passes are used to play certain game modes.
+sysbar_token_tip_title_legacy				Tokens and Game Passes
+sysbar_token_tip_msg_legacy					As a legacy player, you have an infinite number of tokens and can play any game mode at any time.
+
+// F2P TMM
+tmm_player_needs_tokens					This player it not able to play with the current options.
+tmm_player_not_verified					This player is not verified and is unable to participate in verified-only games.
+tmm_player_is_ready						This player is ready to go!
+tmm_player_not_ready					This player is not ready.
+sysbar_no_passes_active					You have no active game passes
+
+// F2P Main menu
+cg_disabled								Create Multiplayer Game
+cg_disabled_tip							Creating a multiplayer game is only available to verified accounts. Find a game using matchmaking or the public games list.
+
+// SpecUI
+
+specui_kda			Kills Deaths Assists
+specui_kda_tip		This shows the player\'s hero score
+specui_xp			XP/M
+specui_xp_tip		This shows the player\'s experience gain per minunte
+specui_gm			G/M
+specui_gm_tip		This shows the player\'s gold gain per minunte
+specui_ck			Creep Kills
+specui_ck_tip		This shows the player\'s total creep kills.
+specui_cd			Creep Denies
+specui_cd_tip		This shows the player\'s total creep denies.
+specui_bdmg			Building Damage
+specui_bdmg_tip		This shows the player\'s damage to buildings as a percentage of all building damage.
+specui_hdmg			Hero Damage
+specui_hdmg_tip		This shows the player\'s damage to heroes as a percentage of all hero damage.
+specui_bb			Buybacks
+specui_bb_tip		This shows the player\'s remaining buybacks
+specui_gold			Gold
+specui_gold_tip		This shows the player\'s current gold.
+specui_level		Level
+specui_level_tip	This shows the player\'s current level.
+specui_player		Player
+specui_player_tip	Left click to select, right click to follow or double click to jump to location.
+specui_legion		Legion
+specui_legion_tip	Left click to toggle tower and barracks information, right click to toggle team information.
+specui_teaminfo		Team Information
+specui_teaminfo_tip	Left click to change text display format.
+specui_hellbourne	Hellbourne
+specui_hellbourne_tip	Left click to toggle tower and barracks information, right click to toggle team information.
+specui_color_dot	Unit Frames
+specui_color_dot_tip	Left click to toggle min mode, right click to toggle max mode.
+specui_xp_team			Team Experience
+specui_xp_team_tip		Total experience earned of each team as a percentage.
+specui_gm_team			Team Gold
+specui_gm_team_tip		Total gold earned of each team as a percentage.
+specui_tower_team			Team Towers
+specui_tower_team_tip		Remaing towers for this team.
+specui_raxx_team			Team Barracks
+specui_raxx_team_tip		Remaing barracks for this team.
+
+specui_help_1	Welcome Spectator!
+specui_help_2	Here's a few things you can do...
+specui_help_3	Hotkeys
+specui_help_4	Show more infomation
+specui_help_5	Hold
+specui_help_6	Change information tab
+specui_help_7	Tap
+specui_help_8	Mouse
+specui_help_9	Jump to player location
+specui_help_10	  on any Hero Portrait
+specui_help_11    on Health, Mana, or Abilities
+specui_help_12   Click 
+specui_help_13   for more options
+specui_help_14  Display Labels
+specui_help_15  Lock/Unlock camera on player
+specui_help_16  Show / Hide UI Elements
+
+specui_options_header				Spectator Interface Options
+specui_options_showTips				Show Tooltips
+specui_options_showTips_txt			Uncheck to hide tooltips when hovering over team and player info.
+specui_options_showItemPurch		Item Purchases
+specui_options_showItemPurch_txt	Pop up item purchases next to player unitframes.
+specui_options_showHotkeys			Show Hotkeys
+specui_options_showHotkeys_txt		Display hotkeys on the Spec UI.
+specui_options_detectCombat			Detect Combat
+specui_options_detectCombat_txt		Display icons of players currently in combat. Pressing the hotkey will jump the camera to this player.
+specui_options_miniMode				Minimalist Mode
+specui_options_miniMode_txt			Reduce the impact of on-screen elements. Requires HoN restart.
+specui_options_costThreshold		Cost Threshold
+specui_options_costThreshold_txt	The minimum cost of item purchases to be displayed. Note that recipe items will skip this check.
+specui_options_popupLife			Popup Life
+specui_options_popupLife_txt		The time, in seconds, that the combat alert icons display for.
+specui_options_popupCD				Popup CD
+specui_options_popupCD_txt			The delay, in seconds, before each combat alert can reappear.
+specui_options_abilityLvlUps		Ability Levelups
+specui_options_abilityLvlUps_txt	Display ability levelup popups.
+specui_options_abilityUsage			Ability Usage
+specui_options_abilityUsage_txt		Display ability usage popups.
+
+//vid driver options
+options_label_vid_quality			Video Driver
+main_vid_confirm					Video Driver
+main_vid_confirm_info				You must restart HoN before your changes will take effect.
+button_restart_later				Later
+button_restart_now					Restart HoN Now
 
 // End - do not delete this line

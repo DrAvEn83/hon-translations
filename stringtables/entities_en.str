@@ -43,6 +43,13 @@ ImmunityType_AncientImmunity2
 ImmunityType_PhysicalImmunity									
 ImmunityType_BarrierImmunity									
 
+HeroCategory_cc									Crowd Control
+HeroCategory_magic								Magic Damage
+HeroCategory_muc								Multi-unit Control
+HeroCategory_physical							Physical Damage
+HeroCategory_protective							Protective
+HeroCategory_tank								Tank
+
 StealthType_hero												Hero
 StealthType_item												Item
 StealthType_ward												Ward
@@ -209,6 +216,7 @@ Mode_CaptainsDraft												Captains Draft
 Mode_CaptainsMode												Captains Mode
 Mode_Deathmatch													Deathmatch
 Mode_BanningPick												Banning Pick
+Mode_AllRandom													All Random
 Mode_Invalid													Invalid
 
 Option_None														None
@@ -1363,8 +1371,8 @@ State_CorruptedDisciple_Ability3_FRAME_effect					80% Movement Speed slow, decre
 // Ability_CorruptedDisciple4
 Ability_CorruptedDisciple4_name									Overload
 Ability_CorruptedDisciple4_description							The Corrupted Disciple overloads his Armor with electricity, jolting the lowest Health target around him repeatedly, lowering its Armor in the process.
-Ability_CorruptedDisciple4_description_simple					Activate to apply Overload to yourself for {20,25,30} seconds.\n\nOverload deals ^o{37.5,50,62.5} Physical Damage^* and ^o-1 Armor^* every ^o{0.85,0.75,0.6} seconds^* to the lowest health target in an area around you.
-Ability_CorruptedDisciple4_IMPACT_effect						Shoots a jolt every {0.85,0.75,0.6} seconds that does {37.5,50,62.5} Physical Damage to the lowest Health target in a 525 area around the Disciple.\n\nApplies Jolted for 3 seconds to the targeted unit. Adds a charge to Jolted every time the same unit is hit.\n\nOverload lasts {20,25,30} seconds.
+Ability_CorruptedDisciple4_description_simple					Activate to apply Overload to yourself for {20} seconds.\n\nOverload deals ^o{37.5,50,62.5} Physical Damage^* and ^o-1 Armor^* every ^o{0.85,0.75,0.6} seconds^* to the lowest health target in an area around you.
+Ability_CorruptedDisciple4_IMPACT_effect						Shoots a jolt every {0.85,0.75,0.6} seconds that does {37.5,50,62.5} Physical Damage to the lowest Health target in a 525 area around the Disciple.\n\nApplies Jolted for 3 seconds to the targeted unit. Adds a charge to Jolted every time the same unit is hit.\n\nOverload lasts {20} seconds.
 Ability_CorruptedDisciple4_effect_header						Jolted Effects
 
 Ability_CorruptedDisciple4_tooltip_flavor						Too much power!
@@ -1791,6 +1799,72 @@ Hero_DoctorRepulsor_name										Doctor Repulsor
 Hero_DoctorRepulsor_description									The storied professor of archaelogy had never been content. The earth was full of artifacts; artifacts that held secrets to the prior lives of men. Science, psychology, sociology... the forgotten vices of man and the primal tenets of the Hellbourne, poured into the professor as he absorbed the forbidden knowledge and was consumed. Devoid of free will, he is now a slave to the power he once coveted.
 Hero_DoctorRepulsor_role										The most mobile hero in the game, Doctor Repulsor is also one of the most reviled for his ability to constantly shift his position with Ludicrous Speed. However, mana is a neverending issue for him, so a large mana pool and mana regeneration boosted by items are musts.
 
+// Ability_DrunkenMaster1
+Ability_DrunkenMaster1_name										Lunge
+Ability_DrunkenMaster1_description								
+Ability_DrunkenMaster1_description2								
+Ability_DrunkenMaster1_effect_header2							
+Ability_DrunkenMaster1_tooltip_flavor							You spin me right round, baby, right round
+Ability_DrunkenMaster1_description_simple						Target an enemy to lunge at it and hit it with an Enhanced Attack, dealing ^o{70,80,90,100}% of your Attack Damage + {35,50,65,80}^* and then spinning around it for up to 1.5 seconds.\n\nAt the end of the spin, or using the ability again, you will deal another Enhanced Attack and push the target 400 units away from you.\n\n^255With 2 Drunk charges^*:\n^oApplies a {20,30,40,50}% Movespeed Slow for 3 seconds^*
+Ability_DrunkenMaster1_IMPACT_effect							Target an enemy to lunge at it, hitting it with an Enhanced Attack, dealing {70,80,90,100}% of your Attack Damage + {35,50,65,80} and then spinning around it for up to 1.5 seconds.\n\nAt the end of the spin, or upon using the ability again, you will deal another Enhanced Attack and push the target 400 units away from you.\n\nWith 2 Drunk charges:\nApplies a {20,30,40,50}% Movespeed Slow for 3 seconds
+
+// State_Drunkenmaster_Ability1
+State_Drunkenmaster_Ability1_name								Drunken Lunge
+
+// Ability_DrunkenMaster2
+Ability_DrunkenMaster2_name										Drink
+Ability_DrunkenMaster2_description								Channel to drink deeply, making Drunken Master drunk and thereby more effective in combat
+Ability_DrunkenMaster2_description2								
+Ability_DrunkenMaster2_effect_header							Drinking Effects
+Ability_DrunkenMaster2_tooltip_flavor							Yummy yummy yummy
+Ability_DrunkenMaster2_description_simple						On use, channels for up to 3 seconds. Each second, you gain ^o{2,3,4,5} Drunk charges^*.\n\nDrunk charges wear off 1 every 3 seconds and heal you for ^o25 health^* when this happens. ^oMax of 20 charges^*.
+Ability_DrunkenMaster2_IMPACT_effect							On use, channels for up to 3 seconds. Each second, you gain {2,3,4,5} Drunk charges.\n\nDrunk charges wear off 1 every 3 seconds and heal you for 25 health when this happens. Max of 20 charges.
+
+// State_Drunkenmaster_Ability2_Channel
+State_Drunkenmaster_Ability2_Channel_name						Drinking
+State_Drunkenmaster_Ability2_Channel_description				Drunken Master is getting his drank on
+
+// State_DrunkenMaster_Ability2
+State_Drunkenmaster_Ability2_name								Drunk
+State_Drunkenmaster_Ability2_description						One Drunk charge will be consumed every 3 seconds, healing Drunken Master for 25 Health.
+
+// Ability_DrunkenMaster3
+Ability_DrunkenMaster3_name										Stagger
+Ability_DrunkenMaster3_description								Staggers quickly and unpredictably in target direction, disjointing in the process.
+Ability_DrunkenMaster3_description2									
+Ability_DrunkenMaster3_effect_header									
+Ability_DrunkenMaster3_effect_header2									
+Ability_DrunkenMaster3_tooltip_flavor							Dear chap, I might be a wee bit inebriated.
+Ability_DrunkenMaster3_description_simple						Target a location to stagger there, following ^opathing^*, and deal ^o{40,80,120,160} Physical Damage^* at the end of the movement. Disjoints on use.\n\n^255With 2 Drunk charges^*:\nGrants ^o{20,40,60,80} Movement Speed and Attack Damage for 4 seconds^*
+Ability_DrunkenMaster3_IMPACT_effect							Target a location to stagger there, following pathing, and deal {40,80,120,160} Physical Damage at the end of the movement. Disjoints on use.\n\nWith 2 Drunk charges:\nGrants {20,40,60,80} Movement Speed and Attack Damage for 4 seconds
+
+// State_Drunkenmaster_Ability3_Buff
+State_Drunkenmaster_Ability3_Buff_name							Staggerin'
+
+// Ability_DrunkenMaster4
+Ability_DrunkenMaster4_name										Untouchable
+Ability_DrunkenMaster4_description								Drunken Master takes a special tonic to make himself extraordinarily elusive, dodging any spells and projectiles targeted at him.
+Ability_DrunkenMaster4_description2								
+Ability_DrunkenMaster4_effect_header							Untouchable Effects
+Ability_DrunkenMaster4_effect_header2									
+Ability_DrunkenMaster4_tooltip_flavor							Hmm? What's happening? Are they trying to hurt me?
+Ability_DrunkenMaster4_description_simple						On use, the Drunken Master becomes Untouchable, ^onegating^* all enemy abilties targeted at him and ability projectiles that touch him and gaining ^o{25,50,75} Attack Speed^* for ^o{6,8,10} seconds^*.\n\n^255With 4 Drunk charges^*:\nAdditionally, ^oreduces all damage taken by {20,30,40}%^* for the duration
+Ability_DrunkenMaster4_IMPACT_effect							On use, the Drunken Master becomes Untouchable, negating all enemy abilties targeted at him and ability projectiles that touch him and gaining {25,50,75} Attack Speed for {6,8,10} seconds .\n\nWith 4 Drunk charges:\nAdditionally, reduces all damage taken by {20,30,40}% for the duration
+
+// State_Drunkenmaster_Ability4
+State_Drunkenmaster_Ability4_name								Untouchable
+State_Drunkenmaster_Ability4_description						Drunken Master is uber elusive, negating any abilities and ability projectiles targeted against him.
+
+// State_Drunkenmaster_Ability4_Buff
+State_Drunkenmaster_Ability4_Buff_name							Numb to Pain
+State_Drunkenmaster_Ability4_Buff_FRAME_effect					Taking {20,30,40}% reduced damage
+
+// Hero_DrunkenMaster
+Hero_DrunkenMaster_name											Drunken Master
+Hero_DrunkenMaster_description									For the Drunken Master, there exists only a single cardinal rule: that booze shall flow, freely and indefinitely. At first apathetic to the Hellbourne threat, the Drunken Master lept to action when a wise sage explained to him that should the Hellbourne overrrun Newerth, there would be no more booze. Armed with expert combat techniques and fueled by questionable substances, the Drunken Master embodies that which is unpredictable and unyielding.
+Hero_DrunkenMaster_role											Drunken Master is a powerful and mobile Strength hero who can specialize in either physical damage output or survivability. While he lacks an ability to help him farm, he can become extremely powerful with items. Staying on the move is key to playing Drunken Master, as Stagger will help you avoid many a threat.
+Hero_DrunkenMaster_SPAWN_effect										
+
 // Ability_DwarfMagi1
 Ability_DwarfMagi1_name											Fireball
 Ability_DwarfMagi1_description									Hurls a scorching fireball at target opponent, both damaging and stunning them.
@@ -2144,8 +2218,8 @@ State_Engineer_Ability3_Enemy_Tower_name						Tinkered
 // Ability_Engineer4
 Ability_Engineer4_name											Energy Field
 Ability_Engineer4_description									Deploying his patented Energy Field Double-Magnetic Modulator v3.0, the Engineer can guarantee that any enemies who enter or exit the active field are purged of all buffs and then silenced and perplexed for a short time.
-Ability_Engineer4_description_simple							Activate to create an Energy Field for ^o{6,8,10} seconds^*. Deals ^o{28,58,88} Magic Damage^* per second.\n\nEnemies who enter or exit the Field take ^o100 Magic Damage^* and a ^o2 second Silence^*.
-Ability_Engineer4_IMPACT_effect									Places a gadget at the Engineer's location that lasts {6,8,10} seconds, takes 4 hits to kill, and creates an Energy Field in a 475 radius around itself.\n\nAny enemy who enters or exits the Energy Field is dispelled, takes 100 damage, and Energy Field is applied to them for 2 seconds. While inside the bounds of the Energy Field, they take {28,58,88} Magic Damage per second.
+Ability_Engineer4_description_simple							Activate to create an Energy Field for ^o{6,8,10} seconds^*. Deals ^o{50,75,100} Magic Damage^* per second.\n\nEnemies who enter or exit the Field take ^o100 Magic Damage^* and a ^o2 second Silence^*.
+Ability_Engineer4_IMPACT_effect									Places a gadget at the Engineer's location that lasts {6,8,10} seconds, takes 4 hits to kill, and creates an Energy Field in a 475 radius around itself.\n\nAny enemy who enters or exits the Energy Field is dispelled, takes 100 damage, and Energy Field is applied to them for 2 seconds. While inside the bounds of the Energy Field, they take {50,75,100} Magic Damage per second.
 Ability_Engineer4_tooltip_flavor								Don't ask what happened to version 2.0...
 Ability_Engineer4_effect_header									Energy Field Effects
 
@@ -3644,11 +3718,11 @@ Hero_Maliken_role												Maliken is a strong initiator and late game damage 
 Ability_Martyr1_name											Retribution
 Ability_Martyr1_description										
 Ability_Martyr1_description2									
-Ability_Martyr1_description_simple								Target an enemy to deal ^o{75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage^*. Also applies a Movement Speed Slow equal to the percentage of Health you're missing, ^oup to 50%^*.
+Ability_Martyr1_description_simple								Target an enemy to deal ^o{75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage^*. Also applies a Movement Speed Slow equal to the percentage of Health you're missing plus ^o15%^*, ^oup to 50%^*.
 Ability_Martyr1_effect_header									
 Ability_Martyr1_effect_header2									
 Ability_Martyr1_tooltip_flavor									
-Ability_Martyr1_IMPACT_effect									Target an enemy to deal ^o{75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage^*. Also applies a Movement Speed Slow equal to the percentage of Health you're missing, ^oup to 50%^*.
+Ability_Martyr1_IMPACT_effect									Target an enemy to deal {75,100,125,150} plus {1,2,3,4} times the % of Health you are missing in Magic Damage. Also applies a Movement Speed Slow equal to the percentage of Health you're missing plus 15%, up to 50%.
 
 // State_Martyr_Ability1
 State_Martyr_Ability1_name										Retribution
@@ -3664,8 +3738,8 @@ Ability_Martyr2_description_simple								Target an allied hero to apply Guardia
 Ability_Martyr2_effect_header									
 Ability_Martyr2_effect_header2									
 Ability_Martyr2_tooltip_flavor									
-Ability_Martyr2_IMPACT_effect									Target an allied hero to apply Guardian Angel for ^o8 seconds^*. While affected, ^o{20,30,40,50}% of the damage^* that the target takes is redirected to Martyr. Cannot take the Martyr below 10% Health. \n\nIf Martyr dies while Guardian Angel is active, he gains the same experience that the target does for ^o30 seconds^*.
-Ability_Martyr2_FRAME_effect									Passively reduces the damage Martyr takes by ^o{.2,.3,.4,.5}^* times the percentage of Health he is missing.
+Ability_Martyr2_IMPACT_effect									Target an allied hero to apply Guardian Angel for 8 seconds. While affected, {20,30,40,50}% of the damage that the target takes is redirected to Martyr. Cannot take the Martyr below 10% Health. \n\nIf Martyr dies while Guardian Angel is active, he gains the same experience that the target does for 30 seconds.
+Ability_Martyr2_FRAME_effect									Passively reduces the damage Martyr takes by {.2,.3,.4,.5} times the percentage of Health he is missing.
 
 // State_Martyr_Ability2_Target
 State_Martyr_Ability2_Target_name								Guardian Angel
@@ -3698,8 +3772,8 @@ Ability_Martyr3_effect_header2
 Ability_Martyr3_tooltip_flavor									
 Ability_Martyr3_DAMAGED_effect									
 Ability_Martyr3_DEATH_effect									
-Ability_Martyr3_FRAME_effect									When Martyr dies, he applies ^o{15,30,45,60} Attack Speed^* and ^o{50,75,100,125} Movement Speed^* to allied heroes in a 700 radius for ^o10 seconds^*.
-Ability_Martyr3_IMPACT_effect									Activate to spend 20% of your current Health and heal nearby allies for ^o{70,80,90,100}% of that amount^*. 
+Ability_Martyr3_FRAME_effect									When Martyr dies, he applies {15,30,45,60} Attack Speed and {50,75,100,125} Movement Speed to allied heroes in a 700 radius for 10 seconds.
+Ability_Martyr3_IMPACT_effect									Activate to spend 20% of your current Health and heal nearby allies for {70,80,90,100}% of that amount. 
 
 // State_Martyr_Ability3
 State_Martyr_Ability3_name										Righteous Fury		
@@ -4071,11 +4145,11 @@ Hero_Panda_role													Pandamonium is unique in that he deals both physical
 // Ability_Parasite1
 Ability_Parasite1_name											Leech
 Ability_Parasite1_description									The Parasite steals essence from target enemy unit, dealing damage and stealing Movement Speed
-Ability_Parasite1_description_simple							Deals ^o{80,130,180,230} Magic Damage^* to target enemy and steals ^o{50,75,100,125} Movement Speed^* for ^o4 seconds^*.
+Ability_Parasite1_description_simple							Deals ^o{80,140,200,260} Magic Damage^* to target enemy and steals ^o{50,75,100,125} Movement Speed^* for ^o4 seconds^*.
 Ability_Parasite1_effect_header									Leeching Bile Effects
 Ability_Parasite1_effect_header2								Fed Effects
 Ability_Parasite1_tooltip_flavor								All your movespeed are belong to me!
-Ability_Parasite1_IMPACT_effect									Deals {80,130,180,230} Magic Damage to target enemy and applies Leeching Bile to it and Fed to yourself for 4 seconds.
+Ability_Parasite1_IMPACT_effect									Deals {80,140,200,260} Magic Damage to target enemy and applies Leeching Bile to it and Fed to yourself for 4 seconds.
 
 // State_Parasite_Ability1_Self
 State_Parasite_Ability1_Self_name								Fed
@@ -4205,7 +4279,7 @@ State_PollywogPriest_Ability2_FRAME_effect						Base Movement Speed set to 100.
 // Ability_PollywogPriest3
 Ability_PollywogPriest3_name									Tongue Tied
 Ability_PollywogPriest3_description								Pollywog Priest holds an enemy unit with his tongue, preventing it from moving, attacking, casting spells, or using items. The Tongue causes Magic Damage over time to the target enemy.
-Ability_PollywogPriest3_description_simple						Target an enemy unit to channel for ^o{2.5, 3.25, 4.0, 4.75} seconds^*. During the channel, the target is fully disabled and takes up to ^o{100,130,160,190) Magic Damage^*.
+Ability_PollywogPriest3_description_simple						Target an enemy unit to channel for ^o{2.5, 3.25, 4.0, 4.75} seconds^*. During the channel, the target is fully disabled and takes up to ^o{100,130,160,190} Magic Damage^*.
 Ability_PollywogPriest3_effect_header							Tongue Tied Effects
 Ability_PollywogPriest3_IMPACT_effect							Applies Tongue Tied to target for {2.5, 3.25, 4.0, 4.75} seconds or until spell is cancelled.
 Ability_PollywogPriest3_tooltip_flavor							I'm quite good with my tongue.
@@ -4425,8 +4499,8 @@ Hero_Ra_role													Amun-Ra is a "DPS Tank" in that he is capable of both d
 
 // Ability_Ra1
 Ability_Ra1_name												Path of Destruction
-Ability_Ra1_description											^rCosts 20% Max Health to cast.^*\n\nCreate a path of flames in front of you culminating in a meteor. While on the path, you may walk through anything. Enemies struck by the meteor are damaged and stunned while you gain movement speed.
-Ability_Ra1_description_simple									^rCosts 20% Max Health to cast.^*\n\nCreate a path of flames to walk through anything, ending in a meteor.\n\nThe meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies, healing Amun-Ra for ^r5% Max Health^* per enemy hero.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
+Ability_Ra1_description											^rCosts 15% Max Health to cast.^*\n\nCreate a path of flames in front of you culminating in a meteor. While on the path, you may walk through anything. Enemies struck by the meteor are damaged and stunned while you gain movement speed.
+Ability_Ra1_description_simple									^rCosts 15% Max Health to cast.^*\n\nCreate a path of flames to walk through anything, ending in a meteor.\n\nThe meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies, healing Amun-Ra for ^r5% Max Health^* per enemy hero.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
 Ability_Ra1_IMPACT_effect										The meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies. Amun-Ra is healed for ^r5% Max Health^* per enemy hero impacted.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
 
 // Ability_Ra2
@@ -5234,6 +5308,54 @@ Hero_Succubis_name												Succubus
 Hero_Succubis_description										Many a soldier of the Legion has disappeared on solitary watches when the Succubus is at large, lured in by her seductive calls.  Swollen with stolen life, this daemon offers no true pleasure to those who succumb to her advances, but all the same her name carries a certain terrible allure.
 Hero_Succubis_role												Succubus has an array of disables and debuffs that allows her to simultaneously devalue multiple opponents in battle. In a lane, her Heartache deals extremely high damage and heals her at the same time.
 
+// Ability_MonkeyKing1
+Ability_MonkeyKing1_name										Illusive Dash
+Ability_MonkeyKing1_description									The Monkey King dashes forward, damaging enemies caught in his path. As long as he impacts an enemy, he may perform a second dash within a 2 second window.
+Ability_MonkeyKing1_IMPACT_effect								Deals {10,20,30,40} plus Attack Damage to affected enemies per Dash.
+Ability_MonkeyKing1_description_simple							Dash forward, dealing ^o{10,20,30,40} plus Attack Damage^* to enemies on impact.\n\nIf the Monkey King impacts an enemy, he will perform a second dash after 2 seconds or by manual activation.
+Ability_MonkeyKing1_tooltip_flavor								"With every hair on his body able to emulate a perfect copy of himself..."
+
+// Ability_MonkeyKing2
+Ability_MonkeyKing2_name										Heavenly Vault
+Ability_MonkeyKing2_description									The Monkey King vaults over a unit, jumping in front of it while knocking it backwards.
+Ability_MonkeyKing2_IMPACT_effect								Vault over a unit, jumping 300 distance in front of it (600 if building). Enemies at your landing point take {100,150,200,250} Physical Damage and 2 seconds of {20,40,60,80}% slow.\n\nIf the target is an enemy, it will be pushed back 200 distance and take the same damage and slow.\n\n^oVault may be cast a second time for half damage.^*
+Ability_MonkeyKing2_description_simple							Vault over a unit, jumping in front of it (distance doubled if building). Enemies at your landing point take ^o{100,150,200,250} Physical Damage^* and ^o2 seconds of {20,40,60,80}% slow^*.\n\nIf the target is an enemy, it will be pushed back 200 distance and take the same damage and slow.\n\n^yVault may be cast a second time for half damage.^*
+Ability_MonkeyKing2_tooltip_flavor								"...able to ascend a great distance in a single bound..."
+
+// Ability_MonkeyKing3
+Ability_MonkeyKing3_name										Wan Jin Slam
+Ability_MonkeyKing3_description									The Monkey King slams the ground in front of him, raising a mound of earth that disrupts enemies on both creation and destruction.
+Ability_MonkeyKing3_IMPACT_effect								Affected enemies are launched into the air for .5 seconds and take {60,90,120,150} Magic Damage.\n\nAfter 2 seconds, the rock implodes, causing the same effect.\n\n^oYou may Vault on the volcano as if it were a building.^*
+Ability_MonkeyKing3_description_simple							Slam the ground in front of you, raising a small rock. Nearby enemies will be launched into the air for .5 seconds and take ^o{60,90,120,150} Magic Damage.^*\n\nAfter 2 seconds, the rock implodes, again launching nearby enemies into the air and dealing the same damage.\n\n^yYou may Heavenly Vault on the rock as if it were a building.^*
+Ability_MonkeyKing3_tooltip_flavor								"...wielding a magical staff over 10,000 jin with ease..."
+
+// Ability_MonkeyKing4	
+Ability_MonkeyKing4_name										Flying Nimbus
+Ability_MonkeyKing4_description									The Monkey King summons his trusty Nimbus Cloud, gaining a large movement speed boost. He also passively reduces ability cooldowns by using abilities.
+Ability_MonkeyKing4_description2								Passively reduces ability cooldowns by {.5,.75,1} second when the Monkey King uses an ability.
+Ability_MonkeyKing4_IMPACT_effect								When toggled on, grants {10,15,20}% bonus Movement Speed.\n\nIf you take damage while on the Flying Nimbus, the cloud dissipates and a 10 second cooldown begins.\nIf you take damage while not on the Flying Nimbus, a 5 second cooldown begins.
+Ability_MonkeyKing4_description_simple							^rNon-combat mount.^* On activation, jumps upon your trusty Flying Nimbus, granting ^o{10,15,20}% bonus Movement Speed^*. Dissipates and goes on cooldown when you take damage. \n\nPassively decreases the cooldown of your abilities by ^o{.5,.75,1} second^* every time you use an ability.
+Ability_MonkeyKing4_tooltip_flavor								"...The Monkey King commands even the elements in his holy journey."
+
+// State_MonkeyKing_Ability1
+State_MonkeyKing_Ability1_name									Illusive Strike
+State_MonkeyKing_Ability1_description							You may cast a second Illusive Strike.
+
+// State_MonkeyKing_Ability2_Linger
+State_MonkeyKing_Ability2_Linger_name							Heavenly Vault
+State_MonkeyKing_Ability2_Linger_description					You may cast a second Heavenly Vault.
+
+// State_MonkeyKing_Ability2_Slow
+State_MonkeyKing_Ability2_Slow_name								Heavenly Vault
+
+// State_MonkeyKing_Ability4
+State_MonkeyKing_Ability4_name									Flying Nimbus
+
+// Hero_MonkeyKing
+Hero_MonkeyKing_name											Monkey King
+Hero_MonkeyKing_description										Borne of bestial nobility and blessed with the gift of immortality from the fruit of the Sefir Tree, the Monkey King once wrought a burning trail of havoc that stretched from the mortal plane to the heavens before he was imprisoned for his actions. In an act of repentance, he earned his freedom by accepting the tutelage of Ophelia, who seared onto his forehead a golden seal to control his primal urges. Bound to his new mistress, the Monkey King begins his great journey with renewed strength and zeal.
+Hero_MonkeyKing_role											The Monkey King is a highly mobile physical-damage focused hero with short cooldowns. He excels in darting in and out of battle while minimizing damage dealt to himself by swiftly and constantly moving.
+
 // Ability_Tempest1
 Ability_Tempest1_name											Glacial Blasts
 Ability_Tempest1_description									Tempest blasts a target enemy with icy winds, chilling it every two seconds. Being chilled causes the target to take damage and be stunned briefly.
@@ -6002,7 +6124,7 @@ Hero_Yogi_role													Wildsoul is effective in both the lane and the jungle
 
 // Ability_Revenant1
 Ability_Revenant1_name												Defile
-Ability_Revenant1_description										Enchants targets weapon to slow and deal damage to the next target hit.
+Ability_Revenant1_description										Enchants target's next two attacks to slow and deal bonus damage.
 Ability_Revenant1_description2									
 Ability_Revenant1_description_simple								Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
 Ability_Revenant1_description_simple:Revenant_Ability4_1			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
@@ -6011,14 +6133,14 @@ Ability_Revenant1_description_simple:Revenant_Ability4_3			Target yourself or an
 Ability_Revenant1_effect_header								
 Ability_Revenant1_effect_header2								
 Ability_Revenant1_tooltip_flavor								
-Ability_Revenant1_description_simple								Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_description_simple:Revenant_Ability4_1			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_description_simple:Revenant_Ability4_2			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_description_simple:Revenant_Ability4_3			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect										Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_1					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_2					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_3					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
 
 // State_Revenant_Ability1
 State_Revenant_Ability1_name										Defile
-State_Revenant_Ability1_description									Next attack deals aoe damage and slows.
+State_Revenant_Ability1_description									Next attack deals bonus magic damage and slows.
 State_Revenant_Ability1_description2							
 State_Revenant_Ability1_description_simple						
 State_Revenant_Ability1_FRAME_effect							
@@ -6132,7 +6254,7 @@ Ability_Revenant4_FRAME_effect:Revenant_Ability4_3					At level 1 of Manifestati
 
 // Hero_Revenant
 Hero_Revenant_name													Revenant
-Hero_Revenant_description											Risen from the souls of the fallen and forgotten, the revenant coarses through battle a fiery remembrance of the ill-befallen fate that the damned of war are so sure to fulfill. Soldiers and sorcerers alike cringe at the revenant's silent howl, a savage memory of battles past. Those who look into its empty gaze will find naught but oblivion.
+Hero_Revenant_description											Risen from the souls of the fallen and forgotten, the revenant courses through battle a fiery remembrance of the ill fate that the damned of war are destined to fulfill. Soldiers and sorcerers alike cringe at the revenant's silent howl, a savage memory of battles past. Those who look into its empty gaze will find nothing but oblivion.
 Hero_Revenant_role													Revenant is a roaming/ganking hero that is most effective when paired with one or more allies.  His ability to cast spells on allies and reduce enemy's armor and magic armor all while initiating from stealth make for a deadly combination.
 
 // Ability_Zephyr1
@@ -6367,9 +6489,9 @@ State_DustOfRevelation_name										Revealed
 // Item_Energizer
 Item_Energizer_name												Energizer
 Item_Energizer_description										Activates to grant nearby allies movement speed for a short duration.
-Item_Energizer_description_simple								Activate to grant ^o50 Movement Speed and Unitwalking^* to nearby allies for ^o5 seconds^*.
+Item_Energizer_description_simple								Activate to grant ^o75 Movement Speed and Unitwalking^* to nearby allies for ^o5 seconds^*.
 Item_Energizer_search_terms										energizer,support,regen,regeneration,hpregen,hpregeneration,healthregen,healthregeneration,mpregen,mpregeneration,manaregen,manaregeneration,strength,str,agility,agi,intelligence,int,stats,heal
-Item_Energizer_IMPACT_effect									Activate to grant 50 Movement Speed and Unitwalking to allies in a 600 unit radius for 5 seconds.
+Item_Energizer_IMPACT_effect									Activate to grant 75 Movement Speed and Unitwalking to allies in a 600 unit radius for 5 seconds.
 Item_Energizer_shop_categories									Filter_Strength,Filter_Agility,Filter_Intelligence,Filter_Activatable,Filter_Regeneration
 State_Energizer_FRAME_effect									
 
@@ -6414,10 +6536,10 @@ Item_Glowstone_shop_categories									Filter_Booster
 
 // Ability_GroundFamiliar1
 Ability_GroundFamiliar1_name									Winged Courier
-Ability_GroundFamiliar1_description								Upgrade to Winged Courier. Requires the Winged Courier recipe.
-Ability_GroundFamiliar1_description_simple						Upgrades a Courier to a flying Winged Courier.
+Ability_GroundFamiliar1_description								Upgrade to Winged Courier for 200 gold.
+Ability_GroundFamiliar1_description_simple						Upgrades a Courier to a flying Winged Courier for 200 gold.
 Ability_GroundFamiliar1_effect_header							Status Effect
-Ability_GroundFamiliar1_IMPACT_effect							Consumes Winged Courier recipe and transforms the Monkey Courier into a Winged Courier.
+Ability_GroundFamiliar1_IMPACT_effect							Spends 200 gold and transforms the Monkey Courier into a Winged Courier.
 
 // Ability_GroundFamiliar3
 Ability_GroundFamiliar3_name									Delivery
@@ -7806,16 +7928,6 @@ Item_Evasion_effect_header										Status Effect
 Item_Evasion_shop_flavor										Wingbows are the finest bows the Beast Horde ever crafted.  Imbued with the blessings of each of the New Gods and pungent with oils and herbal decoctions, these weapons bestow amazing agility to one who wields them, such that his attacks will almost always go true.
 Item_Evasion_shop_categories									Filter_Agility,Filter_Damage,Filter_AttackSpeed,Filter_Modifier
 
-// Item_WingedFamiliar
-Item_WingedFamiliar_name										Winged Courier
-Item_WingedFamiliar_description									When activated, spawns a Winged Courier under your control.
-Item_WingedFamiliar_description_simple							Use to upgrade a Ground Courier to fly.
-Item_WingedFamiliar_search_terms								wingedcourier,wingcourier,wingedmonkey,wingmonkey,flyingcourier,flycourier,flyingmonkey,flymonkey,chicken,crow,ferry,essential,speedymonkey,courier
-Item_WingedFamiliar_effect_header								Status Effect
-Item_WingedFamiliar_shop_flavor									Enchanted tragra monkeys have been trained for years by the Beast Horde to serve as couriers. These Winged Couriers can now be employed by anyone to carry items to or from an encampment, though certain magical items are beyond their power to hold.
-Item_WingedFamiliar_shop_categories								Filter_Consumable
-Item_WingedFamiliar_IMPACT_effect								Spawns a Winged Courier under your control that can carry items. \n\nWinged Couriers have 150 Health, 300 move speed, 350 sight range, Magic and Splash Immunity, and an unlimited life time.\n\nWinged Couriers also possess an ability to increase their Movement Speed and an ability to grant immunity from damage temporarily.\n\nIf you have a courier near a shop and purchase items, the items will be given to the courier. If the courier dies while holding items, it will drop those items.
-
 // Item_FenrirFang
 Item_FenrirFang_name											Fenrir's Fang
 Item_FenrirFang_description										On attack, applies Fenrir's Bite to target.
@@ -8043,6 +8155,16 @@ Neutral_Goat_name												Goatar
 // Neutral_HunterWarrior
 Neutral_HunterWarrior_name										Wild Hunter
 
+// Ability_HunterWarrior1
+Ability_HunterWarrior1_name										On the Hunt
+Ability_HunterWarrior1_description								The Wild Hunter stalks his prey through the shadows!
+Ability_HunterWarrior1_description_simple						Activate to become ^oStealthed for 15 seconds^* with a 0.5 second fade time.  Stealth grants a bonus ^o20% Movement Speed^*.\n\nAttacking out of stealth adds a ^obonus 50 Physical Damage to your attack^*.
+Ability_HunterWarrior1_IMPACT_effect							Grants the Wild Hunter a 15 second stealth with a 0.5 second fade time.\n\nStealth grants a bonus 20% movement speed and a bonus 50 attack damage when attacking out of stealth.
+
+// State_HunterWarrior_Ability1
+State_HunterWarrior_Ability1_name								On the Hunt
+State_HunterWarrior_Ability1_description						Stealthed, granting 50 bonus attack damage when attacking out of stealth.
+
 // Ability_Minotaur1
 Ability_Minotaur1_name											Body Slam
 Ability_Minotaur1_description									Slams the ground, damaging and stunning nearby enemies.
@@ -8065,7 +8187,7 @@ Neutral_Minotaur_name											Minotaur
 // Neutral_Ogre
 Neutral_Ogre_name												Ice Ogre
 Ability_Ogre1_name												Icy Cold Armor
-Ability_Ogre1_description_simple								Target an ally to give ^o8 Armor^* for 45 seconds. If the ally is then attacked, the attacker will be inflicted with ^o-30% Attack and Movement Speed^*.
+Ability_Ogre1_description_simple								Target an ally to give ^o8 Armor^* for 45 seconds.
 Ability_Ogre1_IMPACT_effect										Applies Icy Cold Armor to any ally for 45 seconds.
 Ability_Ogre1_effect_header										Icy Cold Armor Buff
 Ability_Ogre1_effect_header2									Icy Cold Armor Debuff
