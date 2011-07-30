@@ -43,6 +43,13 @@ ImmunityType_AncientImmunity2
 ImmunityType_PhysicalImmunity									
 ImmunityType_BarrierImmunity									
 
+HeroCategory_cc									Crowd Control
+HeroCategory_magic								Magic Damage
+HeroCategory_muc								Multi-unit Control
+HeroCategory_physical							Physical Damage
+HeroCategory_protective							Protective
+HeroCategory_tank								Tank
+
 StealthType_hero												Held
 StealthType_item												Gegenstand
 StealthType_ward												Ward
@@ -209,6 +216,7 @@ Mode_CaptainsDraft												Captains Draft
 Mode_CaptainsMode												Captains Mode
 Mode_Deathmatch													Deathmatch
 Mode_BanningPick												Banning Pick
+Mode_AllRandom													All Random
 Mode_Invalid													Ungültig
 
 Option_None														Kein
@@ -1790,6 +1798,72 @@ State_DoctorRepulsor_Ability4_name								Ludicrous Speed
 Hero_DoctorRepulsor_name										Doctor Repulsor
 Hero_DoctorRepulsor_description									The storied professor of archaelogy had never been content. The earth was full of artifacts; artifacts that held secrets to the prior lives of men. Science, psychology, sociology... the forgotten vices of man and the primal tenets of the Hellbourne, poured into the professor as he absorbed the forbidden knowledge and was consumed. Devoid of free will, he is now a slave to the power he once coveted.
 Hero_DoctorRepulsor_role										The most mobile hero in the game, Doctor Repulsor is also one of the most reviled for his ability to constantly shift his position with Ludicrous Speed. However, mana is a neverending issue for him, so a large mana pool and mana regeneration boosted by items are musts.
+
+// Ability_DrunkenMaster1
+Ability_DrunkenMaster1_name										Lunge
+Ability_DrunkenMaster1_description								
+Ability_DrunkenMaster1_description2								
+Ability_DrunkenMaster1_effect_header2							
+Ability_DrunkenMaster1_tooltip_flavor							You spin me right round, baby, right round
+Ability_DrunkenMaster1_description_simple						Target an enemy to lunge at it and hit it with an Enhanced Attack, dealing ^o{70,80,90,100}% of your Attack Damage + {35,50,65,80}^* and then spinning around it for up to 1.5 seconds.\n\nAt the end of the spin, or using the ability again, you will deal another Enhanced Attack and push the target 400 units away from you.\n\n^255With 2 Drunk charges^*:\n^oApplies a {20,30,40,50}% Movespeed Slow for 3 seconds^*
+Ability_DrunkenMaster1_IMPACT_effect							Target an enemy to lunge at it, hitting it with an Enhanced Attack, dealing {70,80,90,100}% of your Attack Damage + {35,50,65,80} and then spinning around it for up to 1.5 seconds.\n\nAt the end of the spin, or upon using the ability again, you will deal another Enhanced Attack and push the target 400 units away from you.\n\nWith 2 Drunk charges:\nApplies a {20,30,40,50}% Movespeed Slow for 3 seconds
+
+// State_Drunkenmaster_Ability1
+State_Drunkenmaster_Ability1_name								Drunken Lunge
+
+// Ability_DrunkenMaster2
+Ability_DrunkenMaster2_name										Drink
+Ability_DrunkenMaster2_description								Channel to drink deeply, making Drunken Master drunk and thereby more effective in combat
+Ability_DrunkenMaster2_description2								
+Ability_DrunkenMaster2_effect_header							Drinking Effects
+Ability_DrunkenMaster2_tooltip_flavor							Yummy yummy yummy
+Ability_DrunkenMaster2_description_simple						On use, channels for up to 3 seconds. Each second, you gain ^o{2,3,4,5} Drunk charges^*.\n\nDrunk charges wear off 1 every 3 seconds and heal you for ^o25 health^* when this happens. ^oMax of 20 charges^*.
+Ability_DrunkenMaster2_IMPACT_effect							On use, channels for up to 3 seconds. Each second, you gain {2,3,4,5} Drunk charges.\n\nDrunk charges wear off 1 every 3 seconds and heal you for 25 health when this happens. Max of 20 charges.
+
+// State_Drunkenmaster_Ability2_Channel
+State_Drunkenmaster_Ability2_Channel_name						Drinking
+State_Drunkenmaster_Ability2_Channel_description				Drunken Master is getting his drank on
+
+// State_DrunkenMaster_Ability2
+State_Drunkenmaster_Ability2_name								Drunk
+State_Drunkenmaster_Ability2_description						One Drunk charge will be consumed every 3 seconds, healing Drunken Master for 25 Health.
+
+// Ability_DrunkenMaster3
+Ability_DrunkenMaster3_name										Stagger
+Ability_DrunkenMaster3_description								Staggers quickly and unpredictably in target direction, disjointing in the process.
+Ability_DrunkenMaster3_description2									
+Ability_DrunkenMaster3_effect_header									
+Ability_DrunkenMaster3_effect_header2									
+Ability_DrunkenMaster3_tooltip_flavor							Dear chap, I might be a wee bit inebriated.
+Ability_DrunkenMaster3_description_simple						Target a location to stagger there, following ^opathing^*, and deal ^o{40,80,120,160} Physical Damage^* at the end of the movement. Disjoints on use.\n\n^255With 2 Drunk charges^*:\nGrants ^o{20,40,60,80} Movement Speed and Attack Damage for 4 seconds^*
+Ability_DrunkenMaster3_IMPACT_effect							Target a location to stagger there, following pathing, and deal {40,80,120,160} Physical Damage at the end of the movement. Disjoints on use.\n\nWith 2 Drunk charges:\nGrants {20,40,60,80} Movement Speed and Attack Damage for 4 seconds
+
+// State_Drunkenmaster_Ability3_Buff
+State_Drunkenmaster_Ability3_Buff_name							Staggerin'
+
+// Ability_DrunkenMaster4
+Ability_DrunkenMaster4_name										Untouchable
+Ability_DrunkenMaster4_description								Drunken Master takes a special tonic to make himself extraordinarily elusive, dodging any spells and projectiles targeted at him.
+Ability_DrunkenMaster4_description2								
+Ability_DrunkenMaster4_effect_header							Untouchable Effects
+Ability_DrunkenMaster4_effect_header2									
+Ability_DrunkenMaster4_tooltip_flavor							Hmm? What's happening? Are they trying to hurt me?
+Ability_DrunkenMaster4_description_simple						On use, the Drunken Master becomes Untouchable, ^onegating^* all enemy abilties targeted at him and ability projectiles that touch him and gaining ^o{25,50,75} Attack Speed^* for ^o{6,8,10} seconds^*.\n\n^255With 4 Drunk charges^*:\nAdditionally, ^oreduces all damage taken by {20,30,40}%^* for the duration
+Ability_DrunkenMaster4_IMPACT_effect							On use, the Drunken Master becomes Untouchable, negating all enemy abilties targeted at him and ability projectiles that touch him and gaining {25,50,75} Attack Speed for {6,8,10} seconds .\n\nWith 4 Drunk charges:\nAdditionally, reduces all damage taken by {20,30,40}% for the duration
+
+// State_Drunkenmaster_Ability4
+State_Drunkenmaster_Ability4_name								Untouchable
+State_Drunkenmaster_Ability4_description						Drunken Master is uber elusive, negating any abilities and ability projectiles targeted against him.
+
+// State_Drunkenmaster_Ability4_Buff
+State_Drunkenmaster_Ability4_Buff_name							Numb to Pain
+State_Drunkenmaster_Ability4_Buff_FRAME_effect					Taking {20,30,40}% reduced damage
+
+// Hero_DrunkenMaster
+Hero_DrunkenMaster_name											Drunken Master
+Hero_DrunkenMaster_description									For the Drunken Master, there exists only a single cardinal rule: that booze shall flow, freely and indefinitely. At first apathetic to the Hellbourne threat, the Drunken Master lept to action when a wise sage explained to him that should the Hellbourne overrrun Newerth, there would be no more booze. Armed with expert combat techniques and fueled by questionable substances, the Drunken Master embodies that which is unpredictable and unyielding.
+Hero_DrunkenMaster_role											Drunken Master is a powerful and mobile Strength hero who can specialize in either physical damage output or survivability. While he lacks an ability to help him farm, he can become extremely powerful with items. Staying on the move is key to playing Drunken Master, as Stagger will help you avoid many a threat.
+Hero_DrunkenMaster_SPAWN_effect										
 
 // Ability_DwarfMagi1
 Ability_DwarfMagi1_name											Fireball
@@ -5242,6 +5316,54 @@ Hero_Succubis_name												Succubus
 Hero_Succubis_description										Many a soldier of the Legion has disappeared on solitary watches when the Succubus is at large, lured in by her seductive calls.  Swollen with stolen life, this daemon offers no true pleasure to those who succumb to her advances, but all the same her name carries a certain terrible allure.
 Hero_Succubis_role												Succubus has an array of disables and debuffs that allows her to simultaneously devalue multiple opponents in battle. In a lane, her Heartache deals extremely high damage and heals her at the same time.
 
+// Ability_MonkeyKing1
+Ability_MonkeyKing1_name										Illusive Dash
+Ability_MonkeyKing1_description									The Monkey King dashes forward, damaging enemies caught in his path. As long as he impacts an enemy, he may perform a second dash within a 2 second window.
+Ability_MonkeyKing1_IMPACT_effect								Deals {10,20,30,40} plus Attack Damage to affected enemies per Dash.
+Ability_MonkeyKing1_description_simple							Dash forward, dealing ^o{10,20,30,40} plus Attack Damage^* to enemies on impact.\n\nIf the Monkey King impacts an enemy, he will perform a second dash after 2 seconds or by manual activation.
+Ability_MonkeyKing1_tooltip_flavor								"With every hair on his body able to emulate a perfect copy of himself..."
+
+// Ability_MonkeyKing2
+Ability_MonkeyKing2_name										Heavenly Vault
+Ability_MonkeyKing2_description									The Monkey King vaults over a unit, jumping in front of it while knocking it backwards.
+Ability_MonkeyKing2_IMPACT_effect								Vault over a unit, jumping 300 distance in front of it (600 if building). Enemies at your landing point take {100,150,200,250} Physical Damage and 2 seconds of {20,40,60,80}% slow.\n\nIf the target is an enemy, it will be pushed back 200 distance and take the same damage and slow.\n\n^oVault may be cast a second time for half damage.^*
+Ability_MonkeyKing2_description_simple							Vault over a unit, jumping in front of it (distance doubled if building). Enemies at your landing point take ^o{100,150,200,250} Physical Damage^* and ^o2 seconds of {20,40,60,80}% slow^*.\n\nIf the target is an enemy, it will be pushed back 200 distance and take the same damage and slow.\n\n^yVault may be cast a second time for half damage.^*
+Ability_MonkeyKing2_tooltip_flavor								"...able to ascend a great distance in a single bound..."
+
+// Ability_MonkeyKing3
+Ability_MonkeyKing3_name										Wan Jin Slam
+Ability_MonkeyKing3_description									The Monkey King slams the ground in front of him, raising a mound of earth that disrupts enemies on both creation and destruction.
+Ability_MonkeyKing3_IMPACT_effect								Affected enemies are launched into the air for .5 seconds and take {60,90,120,150} Magic Damage.\n\nAfter 2 seconds, the rock implodes, causing the same effect.\n\n^oYou may Vault on the volcano as if it were a building.^*
+Ability_MonkeyKing3_description_simple							Slam the ground in front of you, raising a small rock. Nearby enemies will be launched into the air for .5 seconds and take ^o{60,90,120,150} Magic Damage.^*\n\nAfter 2 seconds, the rock implodes, again launching nearby enemies into the air and dealing the same damage.\n\n^yYou may Heavenly Vault on the rock as if it were a building.^*
+Ability_MonkeyKing3_tooltip_flavor								"...wielding a magical staff over 10,000 jin with ease..."
+
+// Ability_MonkeyKing4	
+Ability_MonkeyKing4_name										Flying Nimbus
+Ability_MonkeyKing4_description									The Monkey King summons his trusty Nimbus Cloud, gaining a large movement speed boost. He also passively reduces ability cooldowns by using abilities.
+Ability_MonkeyKing4_description2								Passively reduces ability cooldowns by {.5,.75,1} second when the Monkey King uses an ability.
+Ability_MonkeyKing4_IMPACT_effect								When toggled on, grants {10,15,20}% bonus Movement Speed.\n\nIf you take damage while on the Flying Nimbus, the cloud dissipates and a 10 second cooldown begins.\nIf you take damage while not on the Flying Nimbus, a 5 second cooldown begins.
+Ability_MonkeyKing4_description_simple							^rNon-combat mount.^* On activation, jumps upon your trusty Flying Nimbus, granting ^o{10,15,20}% bonus Movement Speed^*. Dissipates and goes on cooldown when you take damage. \n\nPassively decreases the cooldown of your abilities by ^o{.5,.75,1} second^* every time you use an ability.
+Ability_MonkeyKing4_tooltip_flavor								"...The Monkey King commands even the elements in his holy journey."
+
+// State_MonkeyKing_Ability1
+State_MonkeyKing_Ability1_name									Illusive Strike
+State_MonkeyKing_Ability1_description							You may cast a second Illusive Strike.
+
+// State_MonkeyKing_Ability2_Linger
+State_MonkeyKing_Ability2_Linger_name							Heavenly Vault
+State_MonkeyKing_Ability2_Linger_description					You may cast a second Heavenly Vault.
+
+// State_MonkeyKing_Ability2_Slow
+State_MonkeyKing_Ability2_Slow_name								Heavenly Vault
+
+// State_MonkeyKing_Ability4
+State_MonkeyKing_Ability4_name									Flying Nimbus
+
+// Hero_MonkeyKing
+Hero_MonkeyKing_name											Monkey King
+Hero_MonkeyKing_description										Borne of bestial nobility and blessed with the gift of immortality from the fruit of the Sefir Tree, the Monkey King once wrought a burning trail of havoc that stretched from the mortal plane to the heavens before he was imprisoned for his actions. In an act of repentance, he earned his freedom by accepting the tutelage of Ophelia, who seared onto his forehead a golden seal to control his primal urges. Bound to his new mistress, the Monkey King begins his great journey with renewed strength and zeal.
+Hero_MonkeyKing_role											The Monkey King is a highly mobile physical-damage focused hero with short cooldowns. He excels in darting in and out of battle while minimizing damage dealt to himself by swiftly and constantly moving.
+
 // Ability_Tempest1
 Ability_Tempest1_name											Glacial Blasts
 Ability_Tempest1_description									Tempest umfängt ein Ziel mit einigen Winden und fügt ihm alle zwei Sekunden Erfrierungen zu. Die Erfrierungen schädigen das Ziel und paralysieren es für kurze Zeit.
@@ -6011,49 +6133,49 @@ Hero_Yogi_role													Wildsoul is effective in both the lane and the jungle
 
 // Ability_Revenant1
 Ability_Revenant1_name												Defile
-Ability_Revenant1_description										Enchants targets weapon to slow and deal damage to the next target hit.
-Ability_Revenant1_description2
+Ability_Revenant1_description										Enchants target's next two attacks to slow and deal bonus damage.
+Ability_Revenant1_description2									
 Ability_Revenant1_description_simple								Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
 Ability_Revenant1_description_simple:Revenant_Ability4_1			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
 Ability_Revenant1_description_simple:Revenant_Ability4_2			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
 Ability_Revenant1_description_simple:Revenant_Ability4_3			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
-Ability_Revenant1_effect_header
-Ability_Revenant1_effect_header2
-Ability_Revenant1_tooltip_flavor
-Ability_Revenant1_description_simple								Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_description_simple:Revenant_Ability4_1			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_description_simple:Revenant_Ability4_2			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_description_simple:Revenant_Ability4_3			Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_effect_header								
+Ability_Revenant1_effect_header2								
+Ability_Revenant1_tooltip_flavor								
+Ability_Revenant1_IMPACT_effect										Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_1					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_2					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_3					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
 
 // State_Revenant_Ability1
 State_Revenant_Ability1_name										Defile
-State_Revenant_Ability1_description									Next attack deals aoe damage and slows.
-State_Revenant_Ability1_description2
-State_Revenant_Ability1_description_simple
-State_Revenant_Ability1_FRAME_effect
-State_Revenant_Ability1_ATTACK_IMPACT_effect
-State_Revenant_Ability1_INFLICT_effect
+State_Revenant_Ability1_description									Next attack deals bonus magic damage and slows.
+State_Revenant_Ability1_description2							
+State_Revenant_Ability1_description_simple						
+State_Revenant_Ability1_FRAME_effect							
+State_Revenant_Ability1_ATTACK_IMPACT_effect					
+State_Revenant_Ability1_INFLICT_effect							
 
 // State_Revenant_Ability1_Slow
 State_Revenant_Ability1_Slow_name									Defile
 State_Revenant_Ability1_Slow_description							Slowed
-State_Revenant_Ability1_Slow_description2
-State_Revenant_Ability1_Slow_description_simple
-State_Revenant_Ability1_Slow_FRAME_effect
-State_Revenant_Ability1_Slow_INFLICT_effect
-State_Revenant_Ability1_Slow_REFRESH_effect
+State_Revenant_Ability1_Slow_description2						
+State_Revenant_Ability1_Slow_description_simple				
+State_Revenant_Ability1_Slow_FRAME_effect						
+State_Revenant_Ability1_Slow_INFLICT_effect					
+State_Revenant_Ability1_Slow_REFRESH_effect					
 
 // Ability_Revenant2
 Ability_Revenant2_name												Mortification
 Ability_Revenant2_description										Attaches an area affect DoT to target enemy or ally.
-Ability_Revenant2_description2
+Ability_Revenant2_description2									
 Ability_Revenant2_description_simple								Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
 Ability_Revenant2_description_simple:Revenant_Ability4_1			Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
 Ability_Revenant2_description_simple:Revenant_Ability4_2			Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
 Ability_Revenant2_description_simple:Revenant_Ability4_3			Target an ally or enemy unit to deal ^o{15,25,35,45} Magic Damage per second for 6 seconds^* in a 300 unit radius.\n\nEnemies affected suffer ^o{-1,-2,-3,-4} Magic Armor^*.
-Ability_Revenant2_effect_header
-Ability_Revenant2_effect_header2
-Ability_Revenant2_tooltip_flavor
+Ability_Revenant2_effect_header								
+Ability_Revenant2_effect_header2								
+Ability_Revenant2_tooltip_flavor								
 Ability_Revenant2_IMPACT_effect										Target an ally or enemy unit to deal {15,25,35,45} Magic Damage per second for 6 seconds in a 300 unit radius.\n\nEnemies affected suffer {-1,-2,-3,-4} Magic Armor.
 Ability_Revenant2_IMPACT_effect:Revenant_Ability4_1					Target an ally or enemy unit to deal {15,25,35,45} Magic Damage per second for 6 seconds in a 300 unit radius.\n\nEnemies affected suffer {-1,-2,-3,-4} Magic Armor.
 Ability_Revenant2_IMPACT_effect:Revenant_Ability4_2					Target an ally or enemy unit to deal {15,25,35,45} Magic Damage per second for 6 seconds in a 300 unit radius.\n\nEnemies affected suffer {-1,-2,-3,-4} Magic Armor.
@@ -6062,43 +6184,43 @@ Ability_Revenant2_IMPACT_effect:Revenant_Ability4_3					Target an ally or enemy 
 // State_Revenant_Ability2_Debuff
 State_Revenant_Ability2_Debuff_name									Mortification
 State_Revenant_Ability2_Debuff_description							Dealing {15,25,35,45} Magic Damage per second in a 300 unit radius.
-State_Revenant_Ability2_Debuff_description2
-State_Revenant_Ability2_Debuff_description_simple
-State_Revenant_Ability2_Debuff_FRAME_effect
-State_Revenant_Ability2_Debuff_ATTACK_IMPACT_effect
-State_Revenant_Ability2_Debuff_INFLICT_effect
+State_Revenant_Ability2_Debuff_description2							
+State_Revenant_Ability2_Debuff_description_simple						
+State_Revenant_Ability2_Debuff_FRAME_effect							
+State_Revenant_Ability2_Debuff_ATTACK_IMPACT_effect					
+State_Revenant_Ability2_Debuff_INFLICT_effect	
 
 // State_Revenant_Ability2
 State_Revenant_Ability2_name										Mortification
 State_Revenant_Ability2_description									Dealing {15,25,35,45} Magic Damage per second in a 300 unit radius.
-State_Revenant_Ability2_description2
-State_Revenant_Ability2_description_simple
-State_Revenant_Ability2_FRAME_effect
-State_Revenant_Ability2_INFLICT_effect
+State_Revenant_Ability2_description2							
+State_Revenant_Ability2_description_simple						
+State_Revenant_Ability2_FRAME_effect											
+State_Revenant_Ability2_INFLICT_effect		
 
 // State_Revenant_Ability2_Debuff_Aura_2
 State_Revenant_Ability2_Debuff_Aura_2_name							Mortification
 State_Revenant_Ability2_Debuff_Aura_2_description
 State_Revenant_Ability2_Debuff_Aura_2_description_simple			Taking {15,25,35,45} Magic Damage per second
-State_Revenant_Ability2_Debuff_Aura_2_FRAME_effect
+State_Revenant_Ability2_Debuff_Aura_2_FRAME_effect					
 
 // State_Revenant_Ability2_Debuff_Aura
 State_Revenant_Ability2_Debuff_Aura_name							Mortification
 State_Revenant_Ability2_Debuff_Aura_description
 State_Revenant_Ability2_Debuff_Aura_description_simple				Taking {15,25,35,45} Magic Damage per second
-State_Revenant_Ability2_Debuff_Aura_FRAME_effect
+State_Revenant_Ability2_Debuff_Aura_FRAME_effect			
 
 // Ability_Revenant3
 Ability_Revenant3_name												Essence Shroud
 Ability_Revenant3_description										Shrouds target's essence, granting them stealth for the duration.
-Ability_Revenant3_description2
+Ability_Revenant3_description2									
 Ability_Revenant3_description_simple								Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
 Ability_Revenant3_description_simple:Revenant_Ability4_1			Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
 Ability_Revenant3_description_simple:Revenant_Ability4_2			Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
 Ability_Revenant3_description_simple:Revenant_Ability4_3			Target yourself or an ally to grant them a ^o{10,15,20,25} second Stealth^* with a 1 second fade time.\n\nAttacking out this stealth will ^oreduce the target's Armor by {1,2,3,4}^*.
-Ability_Revenant3_effect_header
-Ability_Revenant3_effect_header2
-Ability_Revenant3_tooltip_flavor
+Ability_Revenant3_effect_header								
+Ability_Revenant3_effect_header2								
+Ability_Revenant3_tooltip_flavor								
 Ability_Revenant3_IMPACT_effect										Grants the target a {10,15,20,25} second stealth with a 1 second fade time.\n\nThe first attack out this stealth will reduce the target's armor by {1,2,3,4}.  This armor reduction can be stacked.
 Ability_Revenant3_IMPACT_effect:Revenant_Ability4_1					Grants the target a {10,15,20,25} second stealth with a 1 second fade time.\n\nThe first attack out this stealth will reduce the target's armor by {1,2,3,4}.  This armor reduction can be stacked.
 Ability_Revenant3_IMPACT_effect:Revenant_Ability4_2					Grants the target a {10,15,20,25} second stealth with a 1 second fade time.\n\nThe first attack out this stealth will reduce the target's armor by {1,2,3,4}.  This armor reduction can be stacked.
@@ -6107,32 +6229,32 @@ Ability_Revenant3_IMPACT_effect:Revenant_Ability4_3					Grants the target a {10,
 // State_Revenant_Ability3
 State_Revenant_Ability3_name										Essence Shroud
 State_Revenant_Ability3_description									Stealthed.  Next attack will reduce enemy's armor by {1,2,3,4}
-State_Revenant_Ability3_description2
-State_Revenant_Ability3_description_simple
-State_Revenant_Ability3_ABILITY_START_effect
-State_Revenant_Ability3_ATTACK_START_effect
-State_Revenant_Ability3_ATTACK_effect
-State_Revenant_Ability3_INFLICT_effect
+State_Revenant_Ability3_description2							
+State_Revenant_Ability3_description_simple						
+State_Revenant_Ability3_ABILITY_START_effect					
+State_Revenant_Ability3_ATTACK_START_effect					
+State_Revenant_Ability3_ATTACK_effect							
+State_Revenant_Ability3_INFLICT_effect							
 
 // State_Revenant_Ability3_Armor
 State_Revenant_Ability3_Armor_name									Essence Shroud Reduction
 State_Revenant_Ability3_Armor_description							Armor reduced
-State_Revenant_Ability3_Armor_description2
-State_Revenant_Ability3_Armor_description_simple
-State_Revenant_Ability3_Armor_FRAME_effect
-State_Revenant_Ability3_Armor_INFLICT_effect
-State_Revenant_Ability3_Armor_REFRESH_effect
+State_Revenant_Ability3_Armor_description2						
+State_Revenant_Ability3_Armor_description_simple				
+State_Revenant_Ability3_Armor_FRAME_effect						
+State_Revenant_Ability3_Armor_INFLICT_effect					
+State_Revenant_Ability3_Armor_REFRESH_effect					
 
 // Ability_Revenant4
 Ability_Revenant4_name												Manifestation
 Ability_Revenant4_description										Passively changes the way Revenant may cast abilities
-Ability_Revenant4_description2
+Ability_Revenant4_description2									
 Ability_Revenant4_description_simple								At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
 Ability_Revenant4_description_simple:Revenant_Ability4_1			At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
 Ability_Revenant4_description_simple:Revenant_Ability4_2			At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
 Ability_Revenant4_description_simple:Revenant_Ability4_3			At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
-Ability_Revenant4_effect_header
-Ability_Revenant4_effect_header2
+Ability_Revenant4_effect_header								
+Ability_Revenant4_effect_header2								
 Ability_Revenant4_tooltip_flavor
 Ability_Revenant4_FRAME_effect										At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
 Ability_Revenant4_FRAME_effect:Revenant_Ability4_1					At level 1 of Manifestation: you may cast all of your abilities while affected by Essence Shroud.  Essence Shroud also gives a 10% bonus to Movement Speed.\n\nAt level 2 of Manifestation: all abilities now cast to a 2nd target in range.\n\nAt lvl 3 of Manifestation: your abilities cast now cast to a 3rd target in range.
@@ -6141,7 +6263,7 @@ Ability_Revenant4_FRAME_effect:Revenant_Ability4_3					At level 1 of Manifestati
 
 // Hero_Revenant
 Hero_Revenant_name													Revenant
-Hero_Revenant_description											Risen from the souls of the fallen and forgotten, the revenant coarses through battle a fiery remembrance of the ill-befallen fate that the damned of war are so sure to fulfill. Soldiers and sorcerers alike cringe at the revenant's silent howl, a savage memory of battles past. Those who look into its empty gaze will find naught but oblivion.
+Hero_Revenant_description											Risen from the souls of the fallen and forgotten, the revenant courses through battle a fiery remembrance of the ill fate that the damned of war are destined to fulfill. Soldiers and sorcerers alike cringe at the revenant's silent howl, a savage memory of battles past. Those who look into its empty gaze will find nothing but oblivion.
 Hero_Revenant_role													Revenant is a roaming/ganking hero that is most effective when paired with one or more allies.  His ability to cast spells on allies and reduce enemy's armor and magic armor all while initiating from stealth make for a deadly combination.
 
 // Ability_Zephyr1
@@ -8051,6 +8173,16 @@ Neutral_Goat_name												Goatar
 
 // Neutral_HunterWarrior
 Neutral_HunterWarrior_name										Wild Hunter
+
+// Ability_HunterWarrior1
+Ability_HunterWarrior1_name										On the Hunt
+Ability_HunterWarrior1_description								The Wild Hunter stalks his prey through the shadows!
+Ability_HunterWarrior1_description_simple						Activate to become ^oStealthed for 15 seconds^* with a 0.5 second fade time.  Stealth grants a bonus ^o20% Movement Speed^*.\n\nAttacking out of stealth adds a ^obonus 50 Physical Damage to your attack^*.
+Ability_HunterWarrior1_IMPACT_effect							Grants the Wild Hunter a 15 second stealth with a 0.5 second fade time.\n\nStealth grants a bonus 20% movement speed and a bonus 50 attack damage when attacking out of stealth.
+
+// State_HunterWarrior_Ability1
+State_HunterWarrior_Ability1_name								On the Hunt
+State_HunterWarrior_Ability1_description						Stealthed, granting 50 bonus attack damage when attacking out of stealth.
 
 // Ability_Minotaur1
 Ability_Minotaur1_name											Body Slam
