@@ -21,6 +21,7 @@ disconnect_vote_kicked			You have been kicked from the game by a vote.
 disconnect_unassigned			The host started the game while you were not on a team.
 disconnect_banned				The host has banned you from this match.
 disconnect_leaver				You are not allowed to join this game because your leaver percentage is too high.
+disconnect_not_verified			You are not allowed to join this game because you are not Verified.
 disconnect_overflow				You have been disconnected from the server due to a packet overflow.
 disconnect_flooding				You have been disconnected for flooding the server.
 disconnect_invalid_tier			You are not allowed to play games in this tier.
@@ -36,7 +37,9 @@ disconnect_mm_players_left		One or more players have disconnected from the match
 disconnect_mm_player_left		A player has left the match.
 disconnect_mm_connect_timeout	It has taken too long for all of the players to establish a valid connection to the server, the match was aborted.
 disconnect_mm_start_timeout		It has taken too long for all of the players to finish loading, the match was aborted.
-
+disconnect_basic				Basic accounts cannot create games.
+disconnect_no_tokens			You need tokens or a pass to play this mode.
+disconnect_failed_refresh		Error when refreshing upgrades. You have been logged out.
 
 rejected_invalid_request		Your client sent an invalid connection request.
 rejected_empty_address			The server failed to determine your address.
@@ -117,14 +120,15 @@ chat_failed_buddy_add_duplicate		^279* That user is already on your buddy list.
 chat_failed_buddy_add_reason		^279* Failed to add ^990{target}^279 to your buddy list: {reason}
 chat_failed_buddy_remove			^279* Failed to remove ^990{target}^279 from your buddy list.
 chat_failed_buddy_remove_not_found	^279* Failed to remove user from your buddy list: User not found.
-chat_approved_buddy_adder			^279* Adding ^990{name}^279 as a buddy...
-chat_approved_buddy_added			^279* ^990{name}^279 added you as a buddy...
+chat_approved_buddy_adder			^279* Adding ^990{name}^279 as a buddy.
+chat_approved_buddy_added			^279* ^990{name}^279 added you as a buddy.
 chat_requesting_buddy				^279* Requesting ^990{name}^279 as a buddy...
 chat_requested_approval_adder		^279* You requested ^990{name}^279 as a buddy...
 chat_requested_approval_added		^279* ^990{name}^279 requested you as a buddy...
 chat_requested_approval_failed		^279* Failed to request ^990{name}^279 as a buddy...
 chat_requested_approval_duplicate	^279* Either you or the user ^990{name}^279 has recently initiated an add buddy request, please wait one minute before re-requesting them...
 chat_requested_approval_ignored		^279* The user ^990{name}^279 has you on their ignore list, unable to request them as a buddy.
+chat_requested_approval_limit		^279* You have reached your limit of friends.
 chat_approving_buddy				^279* Approving ^990{name}^279 as a buddy...
 chat_failed_approving_buddy			^279* Failed to approve ^990{name}^279 as a buddy...
 chat_clan_promoting					^279* Promoting clan member ^990{name}^279 to officer...
