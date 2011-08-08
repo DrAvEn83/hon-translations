@@ -18,21 +18,21 @@ disconnect_idle					Du wurdest wegen Untätigkeit getrennt.
 disconnect_terminated			Du warst zu lange vom Server getrennt und kannst nicht mehr an diesem Spiel teilnehmen.
 disconnect_kicked				Du wurdest vom Host aus dem Spiel geworfen.
 disconnect_vote_kicked			Du wurdest duch eine Ausschulsswahl aus dem Spiel geworfen.
-disconnect_unassigned			The host started the game while you were not on a team.
-disconnect_banned				The host has banned you from this match.
+disconnect_unassigned			Der Host hat das Spiel gestartet, obwohl du nicht in einem Team warst.
+disconnect_banned				Der Host hat dich von dieser Partie gebannt.
 disconnect_leaver				You are not allowed to join this game because your leaver percentage is too high.
-disconnect_not_verified			You are not allowed to join this game because you are not Verified.
+disconnect_not_verified			Du darfst dieses Spüiel nicht betreten da dein Account nicht Verifiziert ist.
 disconnect_overflow				You have been disconnected from the server due to a packet overflow.
 disconnect_flooding				You have been disconnected for flooding the server.
 disconnect_invalid_tier			You are not allowed to play games in this tier.
-disconnect_invalid_psr			Your PSR is either too high or too low for this game.
+disconnect_invalid_psr			Deine PSR ist entweder zu hoch oder zu niedrig für dieses Spiel.
 disconnect_not_on_roster		You are not on the roster for this arranged match.
-disconnect_modified_core_files	Your resources0.s2z file has been modified.  This file must NOT be changed!  Re-install Heroes of Newerth.
-disconnect_client_number_mismatch	Connection error, please try again in a moment.
-disconnect_trial_not_allowed		You are not allowed to connect to this match with a trial account. Trial accounts are restricted to "no stats" matches only.
-disconnect_duplicate_login			The server could not authorize your account. You must stay logged in to play.
-disconnect_duplicate_game_connect	You have been disconnected becuase another client has started playing a different game on this account.
-disconnect_unique_login_failed		You have been disconnected becuase the game server could not authorize your account. Please try again later.
+disconnect_modified_core_files	Die Datei resources0.s2z wurde verändert. Diese Datei darf NICHT verändert werden! Du musst Heroes of Newerth neu installieren.
+disconnect_client_number_mismatch	Verbindungs fehler, bitte versuch es in einigen Minuten noch einmal.
+disconnect_trial_not_allowed		Du darfst dieses Spiel nicht mit einem Probeaccount betreten. Probeaccounts sind beschränkt auf "Keine Stats" Spiele.
+disconnect_duplicate_login			Der Server konnte deinen Account nicht autorisieren. Du musst eingeloggt bleiben um spielen zu können.
+disconnect_duplicate_game_connect	Deine Verbindung wurde getrennt, da jemand anderes mit diesem Account ein Spiel gestartet hat.
+disconnect_unique_login_failed		Deine verbindung wurde getrennt, da der Server deinen Account nicht autorisieren konnte.
 disconnect_mm_players_left		One or more players have disconnected from the match.
 disconnect_mm_player_left		A player has left the match.
 disconnect_mm_connect_timeout	It has taken too long for all of the players to establish a valid connection to the server, the match was aborted.
