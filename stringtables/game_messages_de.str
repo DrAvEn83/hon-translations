@@ -4,36 +4,36 @@ kill1								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für
 kill2								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}
 kill3								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
 kill4								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
-first_kill							{killer_color}{killer}^* ist in einem ^rbloodlust^*! (^y+{gold}^* Gold!)
-first_kill_team						{killer_color}{killer}^* hat einen ^rbloodlust^*! (^y+{gold}^* Gold wurde aufgeteilt!)
-killstreak0							{killer_color}{killer}^* ist ein ^082serial killer^*!
-killstreak1							{killer_color}{killer}^* ist ein ^204ultimate warrior^*!
-killstreak2							{killer_color}{killer}^* ist ^808legendary^*!
-killstreak3							{killer_color}{killer}^* ist ^840onslaught^*!
-killstreak4							{killer_color}{killer}^* ist ^440savage sick^*!!
-killstreak5							{killer_color}{killer}^* ist ^848dominating^*!!
-killstreak6							{killer_color}{killer}^* ist ein ^800CHAMPION OF NEWERTH^*!!!
-killstreak7							{killer_color}{killer}^* ist auf einen ^840BLOODBATH^*! Jemand MUSS IHN TÖTEN!
-killstreak8							{killer_color}{killer}^* ist ^860IMMORTAL^*!!
+first_kill							{killer_color}{killer}^* ist in einem ^rBlutrausch^*! (^y+{gold}^* Gold!)
+first_kill_team						{killer_color}{killer}^* hat einen ^rBlutrausch^*! (^y+{gold}^* Gold wurde aufgeteilt!)
+killstreak0							{killer_color}{killer}^* ist ein ^082Serienmörder^*!
+killstreak1							{killer_color}{killer}^* ist ein ^204Ultimativer Krieger^*!
+killstreak2							{killer_color}{killer}^* ist ^808Legendär^*!
+killstreak3							{killer_color}{killer}^* ist auf einen ^840Ansturm^*!
+killstreak4							{killer_color}{killer}^* ist ^440Wild und Krank^*!!
+killstreak5							{killer_color}{killer}^* ^848Dominiert^*!!
+killstreak6							{killer_color}{killer}^* ist ein ^800CHAMPION VON NEWERTH^*!!!
+killstreak7							{killer_color}{killer}^* ist auf einem ^840BLUTBAD^*! Jemand MUSS IHN TÖTEN!
+killstreak8							{killer_color}{killer}^* ist ^860UNBESIEGBAR^*!!
 
-streakend0							{killer} hat {victim}'s ^082serial killer^* serie beendet für ^y{gold}^* Gold!!
-streakend1							{killer} hat {victim}'s ^204ultimate warrior^* serie beendet für ^y{gold}^* Gold!!
-streakend2							{killer} hat {victim}'s ^808legendary^* serie beendet für ^y{gold}^* Gold!!
-streakend3							{killer} hat {victim}'s ^840onslaught^* serie beendet für ^y{gold}^* Gold!!
-streakend4							{killer} hat {victim}'s ^440savage sick^* serie beendet für ^y{gold}^* Gold!!
-streakend5							{killer} hat {victim}'s ^848domination^* serie beendet für ^y{gold}^* Gold!!
-streakend6							{killer} hat {victim}'s ^800CHAMPION OF NEWERTH^* serie beendet für ^y{gold}^* Gold!!
-streakend7							{killer} hat {victim}'s ^840BLOODBATH^* serie beendet für ^y{gold}^* Gold!!
-streakend8							{killer} hat {victim}'s ^860IMMORTAL^* serie beendet für ^y{gold}^* Gold!!
+streakend0							{killer} hat {victim} ^082Serienmörder^* Serie beendet für ^y{gold}^* Gold!!
+streakend1							{killer} hat {victim}'s ^204Ultimativer Krieger* serie beendet für ^y{gold}^* Gold!!
+streakend2							{killer} hat {victim}'s ^808Legendär^* serie beendet für ^y{gold}^* Gold!!
+streakend3							{killer} hat {victim}'s ^840Ansturm^* serie beendet für ^y{gold}^* Gold!!
+streakend4							{killer} hat {victim}'s ^440Wild und Krank^* serie beendet für ^y{gold}^* Gold!!
+streakend5							{killer} hat {victim}'s ^848dDomierungs^* serie beendet für ^y{gold}^* Gold!!
+streakend6							{killer} hat {victim}'s ^800CHAMPION CON NEWERTH^* serie beendet für ^y{gold}^* Gold!!
+streakend7							{killer} hat {victim}'s ^840BLUTBAD^* serie beendet für ^y{gold}^* Gold!!
+streakend8							{killer} hat {victim}'s ^860UNBESIEGBAR^* serie beendet für ^y{gold}^* Gold!!
 
 multikill0							{killer} hat einen ^008Doppeltötung^*!
-multikill1							{killer} hat einen ^084Hat-trick^*!!!
+multikill1							{killer} hat einen ^084Hattrick^*!!!
 multikill2							{killer} hat ein ^084Vierfachtötung^*!!!
-multikill3							{killer} hat seine Gegner ^084ANNIHILATED^*!!!
+multikill3							{killer} hat seine Gegner ^084AUSGELÖSCHT^*!!!
 
-killtower							{killer} hat einen Turm zerstört. {reward} bekommt ^y{gold}^* bonus Gold!
+killtower							{killer} hat einen Turm zerstört. Das Team {reward} bekommt ^y{gold}^* bonus Gold!
 denytower							{player} has ^444denied^* a tower!
-killmeleerax						Die ^724Nahkampfkaserne^* von {victim} wurde zerstört. Die ^724Nahkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
+killmeleerax						Die ^724Nahkampf^* Kasrene von {victim} wurde zerstört. Die ^724Nahkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
 killrangedrax						Die ^266Fernkampfkaserne^* von {victim} wurde zerstört. Die ^266fernkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
 killcourier							{victim}'s Kurier wurde von {killer} getötet!
 boughtwalkingcourier				{player_color}{player}^* hat einen laufenden Kurier gekauft.
@@ -307,13 +307,13 @@ lobby_assign_referee			Der host hat {slot_color}{player}^* zu einem Schiedsricht
 lobby_assign_first_ban				Der Host hat dem Team {team_color}{team}^* erster Ban zugeordnet.
 
 game_info_practice				Übungsspiel
-nosolo							Du musst einen Gegner haben um das Spiel zu starten.  Starte ein ^yÜbungsspiel^* wenn du alleine spielen möchtest.
+nosolo							Du musst einen Gegner haben um das Spiel zu starten. Starte ein ^yÜbungsspiel^* wenn du alleine spielen möchtest.
 warn_nomods					{slot_color}{player}^* benutzt modifizierte Dateien und darf deswegen das Spiel nur beaobachte.
-nomods						Das Spiel konnte nicht gestartet werden. {slot_color}{player}^* benutzt modifizierte Dateien und darf das Spiel nur beobachten oder der Spieler muss alle Mods (interface, texture, etc) ausstellen, bevor er in diesem "Tunier Regeln" Spiel, spielen darf.
+nomods						Das Spiel konnte nicht gestartet werden. {slot_color}{player}^* benutzt modifizierte Dateien und darf das Spiel nur beobachten oder der Spieler muss alle Mods (interface, texture, etc) ausstellen, bevor er in diesem 'Tunier Regeln' Spiel, spielen darf.
 game_unpause					{name} hat die Pause beendet. Das Spiel wird fortgesetzt in 5 Sekunden.
 player_ping					{slot_color}{player}^* Ping: {ping}ms
-player_ping_no_players				Keine Spieler anwesend zum pingen.
-team_ping					{team_color}{team_name}^* durchschnittlicher ping: {ping}ms
+player_ping_no_players				Niemand da zum Pingen
+team_ping					{team_color}{team_name}^* durchschnitts Ping: {ping}ms
 
 //-----------------------------------------------------------------------------
 // Weather
