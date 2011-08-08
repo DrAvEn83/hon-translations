@@ -31,8 +31,8 @@ disconnect_modified_core_files	Die Datei resources0.s2z wurde verändert. Diese 
 disconnect_client_number_mismatch	Verbindungs fehler, bitte versuch es in einigen Minuten noch einmal.
 disconnect_trial_not_allowed		Du darfst dieses Spiel nicht mit einem Probeaccount betreten. Probeaccounts sind beschränkt auf "Keine Stats" Spiele.
 disconnect_duplicate_login			Der Server konnte deinen Account nicht autorisieren. Du musst eingeloggt bleiben um spielen zu können.
-disconnect_duplicate_game_connect	You have been disconnected becuase another client has started playing a different game on this account.
-disconnect_unique_login_failed		You have been disconnected becuase the game server could not authorize your account. Please try again later.
+disconnect_duplicate_game_connect	Deine Verbindung wurde getrennt, da jemand anderes mit diesem Account ein Spiel gestartet hat.
+disconnect_unique_login_failed		Deine verbindung wurde getrennt, da der Server deinen Account nicht autorisieren konnte.
 disconnect_mm_players_left		One or more players have disconnected from the match.
 disconnect_mm_player_left		A player has left the match.
 disconnect_mm_connect_timeout	It has taken too long for all of the players to establish a valid connection to the server, the match was aborted.

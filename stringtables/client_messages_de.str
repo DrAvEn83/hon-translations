@@ -548,7 +548,7 @@ chat_command_help_gameinfo			^279*^707 /gameinfo^279 (in game only)       -Print
 chat_command_help_available			^279*^707 /available^279					 -Toggles chat status to 'available'.
 chat_command_help_afk				^279*^707 /afk <afk message>^279			 -Toggles chat status to 'away from keyboard', automatically replies to whispers with the message specified.
 chat_command_help_dnd				^279*^707 /dnd <dnd message>^279			 -Toggles chat status to 'do not disturb', stops incoming whispers from being sent to you and automatically replies to whispers with the message specified.
-chat_command_help_weather			^279*^707 /weather^279 (in game only)        -Set weather effect
+chat_command_help_weather			^279*^707 /weather^279 (Nur in einem Spiel)        -Einen Wettereffekt erzeugen
 chat_command_help_misc				^900* Gib einen der Befehle ohne Parameter ein, um Informationen über deren Gebrauch zu erhalten.
 
 //End
