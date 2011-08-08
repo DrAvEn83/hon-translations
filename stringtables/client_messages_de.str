@@ -149,7 +149,7 @@ chat_failed_clan_name				^279* Failed to check clan name and tag for availabilit
 chat_failed_clan_name_tip			Failed to check clan name and tag for availability, please try again.
 chat_invalid_clan_name				^279* The clan name ^990{name}^279 and tag ^990{tag}^279 is not available.
 chat_invalid_clan_name_tip			The clan name ^990{name}^* and tag ^990{tag}^* is not available.
-chat_invalid_clan_name_used			^279* The clan name ^990{name}^279 is already in use.
+chat_invalid_clan_name_used			^279* Der Clanname ^990{name}^279 wird bereits benutzt.
 chat_invalid_clan_name_used_tip		The clan name ^990{name}^* is already in use.
 chat_invalid_clan_tag_used			^279* The clan tag ^990{tag}^279 is already in use.
 chat_invalid_clan_tag_used_tip		The clan tag ^990{tag}^* is already in use.

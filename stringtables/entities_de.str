@@ -3180,17 +3180,17 @@ Hero_Javaras_description										Als Bewahrer vergangener Lehren und Priester v
 Hero_Javaras_role												Magebane's early game weakness belies the incredible mobility, survivability, and damage he can output later on. Low mana heroes before; Magebane can instantly kill them with Mana Rift.
 
 // Ability_Jereziah1
-Ability_Jereziah1_name											Inner Light
+Ability_Jereziah1_name											Inneres Licht
 Ability_Jereziah1_description									Jereziah entfesselt zur Heilung einer nahestehenden verbündeten Einheit deren Inneres Licht. Nahestehende Feinde werden durch die Kraft des Lichts verbrannt und erleiden Schaden.
-Ability_Jereziah1_description_simple							Target an allied unit to heal it for ^o{90,180,270,360} Health^* while damaging enemies around it for the same amount in ^oTrue Damage^*.
+Ability_Jereziah1_description_simple							Wähle ein befreundetes Ziel an, um es um ^o{90,180,270,360} Gesundheitspunkte^* zu heilen und dabei den Gegnern in der Nähe des angewählte Zieles ^oMagischen Schaden^* zuzufügen.
 Ability_Jereziah1_effect_header									Status Effect
-Ability_Jereziah1_IMPACT_effect									Heilt das Ziel um {90,180,270,360} Gesundheitspunkte und schädigt Feinde im Radius für {90,180,270,360} True Damage.
+Ability_Jereziah1_IMPACT_effect									Heilt das Ziel um {90,180,270,360} Gesundheitspunkte und schädigt Feinde im Radius für {90,180,270,360} Magischen Schaden.
 Ability_Jereziah1_tooltip_flavor								This is a quarantine zone!
 
 // Ability_Jereziah2
 Ability_Jereziah2_name											Protective Charm
 Ability_Jereziah2_description									Jereziah segnet eine verbündete Einheit mit einem Schutzzauber. Dieser verleiht ihr Magische Immunität, entfernt alle Debuffs und gewährt einen kleinen Anstieg der Bewegungsgeschwindigkeit.
-Ability_Jereziah2_description_simple							Target an allied unit to cause him to become Magic Immune for ^o{5,8,11,14} seconds^*.
+Ability_Jereziah2_description_simple							Wähle ein befreundetes ziel an um es ^o{5,8,11,14} Sekunden^* Magie Immun zu machen.
 Ability_Jereziah2_effect_header									Protective Charm Effects
 Ability_Jereziah2_IMPACT_effect									Bewirkt {5,8,11,14} Sekunden lang den Effekt Protective Charm.
 Ability_Jereziah2_tooltip_flavor								I laugh at your feeble attempts!	
@@ -3201,11 +3201,11 @@ State_Jereziah_Ability2_name									Protective Charm
 // Ability_Jereziah3
 Ability_Jereziah3_name											Righteous Strike
 Ability_Jereziah3_description									In Jereziah bildet sich ein gerechter Zorn. Durch ihn kann er beim Angriff einen Righteous Strike austeilen. Dieser verursacht gesteigerten Schaden, der sich auch auf nahestehende Feinde auswirkt und für kurze Zeit deren Bewegungsgeschwindigkeit verringert. Dieser Zauber kann nur alle paar Sekunden gewirkt werden.
-Ability_Jereziah3_description_simple							Passively causes nearby enemy units to receive ^o{-7,-14,-21,-28}% Movement Speed^*.
+Ability_Jereziah3_description_simple							Passive verringerung der Laufgeschwindigkeit von nahestehenden Gegner um ^o{-7,-14,-21,-28}%^*.
 Ability_Jereziah3_tooltip_flavor								Releasing the demons.
-Ability_Jereziah3_IMPACT_effect									On use, will disable the aura.
+Ability_Jereziah3_IMPACT_effect									Bei benutzung, wird die Aura deaktiviert.
 Ability_Jereziah3_name:jereziahslowaura_off						Righteous Aura (Off)
-Ability_Jereziah3_IMPACT_effect:jereziahslowaura_off			On use, the re-enable the aura.
+Ability_Jereziah3_IMPACT_effect:jereziahslowaura_off			Bei benutzung, wird die Aura aktiviert.
 
 // State_Jereziah_Ability3
 State_Jereziah_Ability3_name									Righteous Strike
@@ -3213,10 +3213,10 @@ State_Jereziah_Ability3_name									Righteous Strike
 // Ability_Jereziah4
 Ability_Jereziah4_name											Sol's Blessing
 Ability_Jereziah4_description									Jereziah ruft zu seinem Schutz und zum Schutz seiner Kameraden die Macht des Sol. Sol segnet Jereziah und die um ihn stehenden Verbündeten. Diese erleiden dadurch praktisch keinen Physischen Schaden und erhalten kurzzeitig eine beschleunigte Regeration.
-Ability_Jereziah4_description_simple							Activate to grant nearby allies ^o25 Health Regeneration and 1,000 Armor for {5,6,7} seconds^*.
+Ability_Jereziah4_description_simple							Aktivieren um nahestehenden Verbündeten ^o25 Gesundheitsregenration und 1,000 Rüstung für {5,6,7} Sekunden^* zu geben.
 Ability_Jereziah4_effect_header									Sol's Blessing Effects
 Ability_Jereziah4_IMPACT_effect									Bewirkt beim Ziel in einem Radius {5,6,7} Sekunden lang den Effekt Sol's Blessing.
-Ability_Jereziah4_tooltip_flavor								My grandmother hits harder than you!
+Ability_Jereziah4_tooltip_flavor								Meine Großmutter schlägt härter zu als du!
 
 // State_Jereziah_Ability4
 State_Jereziah_Ability4_name									Battle Cry
