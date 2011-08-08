@@ -69,7 +69,7 @@ general_game_type							Spielart
 general_game_options						Spieloptionen
 general_yes									Ja
 general_no									Nein
-general_full_games							Full Games
+general_full_games							Volle Spiele
 general_all									Alle
 general_none								Keins
 general_view								View
@@ -102,7 +102,7 @@ general_mode_all_heroes						Alle Helden
 general_mode_all_pick						Alles Auswählen
 general_mode_all_pick_desc					Standard Helden auswahl. Wer zuerst kommt mahlt zuerst.
 general_mode_random_draft					Zufalls Draft
-general_mode_random_draft_desc				Limits hero selection to 20 heroes then alternates picking between players.
+general_mode_random_draft_desc				Die Heldenauswahl wird auf 20 Helden beschränkt und dann wechseln sich die Spieler mit der Heldenauswahl ab.
 general_mode_allrandom						Alles Zufällig
 general_mode_allrandom_desc					Den Spielern werden zufällig Helden zugewiesen.
 general_mode_banningpick					Banning Draft
@@ -110,7 +110,7 @@ general_mode_banningpick_desc				Blau und Pink bannen abwechselnd einen Helden b
 general_mode_singledraft					Single Draft
 general_mode_singledraft_desc				Jeder Spieler bekommt eine Heldenauswahl mit einem AGI, einen INT und einem STR Helden.
 general_mode_banningdraft					Banning Draft
-general_mode_banningdraft_desc				Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.
+general_mode_banningdraft_desc				Funktioniert genauso wie Zufalls Draft, außer dass zuerst Blau und Pink abwechselnd insgesamt 4 Helden bannen.
 general_mode_random							Zufälliger Held
 general_mode_verified						Nur verifizierte Accounts
 general_mode_allPlayers						Standard und verfizierte Accounts							
@@ -130,9 +130,9 @@ general_mode_reverse_hero_select			Reverse Hero Select
 general_mode_no_top_lane					Ohne Obersten Pfad
 general_mode_no_middle_lane					Ohne Mittleren Pfad
 general_mode_no_bottem_lane					Ohne Unteren Pfad
-general_mode_allow_veto						Allow Veto
-general_mode_shuffle						Shuffle Team
-general_mode_autobalance					Auto Balanced
+general_mode_allow_veto						Veto erlauben
+general_mode_shuffle						Teams mischen
+general_mode_autobalance					Automatisches abgleichen
 general_mode_no_leavers						Keine Leavers
 general_mode_no_stats						Keine Statistiken
 general_mode_official						Offiziell
@@ -154,8 +154,8 @@ general_permanent							Permanent
 general_help								Hilfe
 
 // main.interface
-main_peel_tip								Besuche den Laden
-main_peel_tip_body							Merrick sucht nach dir!  Hier klicken um in den Laden zu gelangen!
+main_peel_tip								Besuche den Store
+main_peel_tip_body							Merrick sucht nach dir!  Hier klicken um in den Store zu gelangen!
 main_label_username							Benutzername
 main_label_password							Passwort
 main_checkbox_remember_me					Benutzer speichern
@@ -173,9 +173,9 @@ main_button_logout							Abmelden
 main_label_login_status_waiting				Anmelden, bitte warten...
 main_label_login_status_success				Du bist jetzt eingeloggt.
 main_label_login_status_failed				Anmeldung fehlgeschlagen: {reason}
-main_label_login_garena						Du musst Heroes of Newerth mit dem Garena Messenger starten
+main_label_login_garena						Du musst Heroes of Newerth mit dem Garena Messenger starten.
 main_button_create_account					Account erstellen
-main_button_need_login						Login zum Online-Spiel
+main_button_need_login						Login um Online zu spielen
 main_button_play_online						Online spielen
 main_button_local_game						Lokales Spiel
 main_button_options							Optionen
@@ -221,40 +221,40 @@ confirm_verify_text3						Als Belohnung dafür das du nun einen verifizierten Ac
 
 confirm_verify_bene_not						Dieser Account ist nicht verifiziert!
 confirm_verify_bene_what					Welche Vorteile hat man mit einem verifiziertem Account?
-confirm_verify_bene_txt1					You are currently logged in with a Basic account. You are able to play unlimited games with a Basic account, but there are some perks to being Verified:
-confirm_verify_bene_txt2					You will be able to choose to play with only other Verified Users, you can buy tokens and passes to play other game modes, and you can use the Report a Player feature.
-confirm_verify_bene_txt3					Converting your Basic account into a Verified account is simple. Simply perform ONE of the following tasks:
-confirm_verify_bene_opt1					Play More Games
-confirm_verify_bene_opt1_txt1				You can earn a Verified account for free by simply playing more Matchmaking games! Once you reach the target level, your account will automatically become Verified.
-confirm_verify_bene_opt1_current			Your Current Level:
-confirm_verify_bene_opt1_target				Level Needed:
-confirm_verify_bene_opt2					Purchase Goblin Coins
-confirm_verify_bene_opt2_txt1				To instantly convert to a Verified account, you can make a purchase of any Goblin Coin package.
-confirm_verify_bene_buycoinsnow				Buy Coins Now
-confirm_verify_bene_closeWindow				Close Window
+confirm_verify_bene_txt1					Du bist derzeit mit einem Standardaccount eingeloggt. Du kannst mit dem Standardaccount so viele Spiele spielen wie du willst, aber es gibt einige Nachteile im Gegensatz zu einem verifizierten Account:
+confirm_verify_bene_txt2					Du hast die Möglichkeit, nur mit anderen verifizierten Spielern zu spielen, du kannst Spielsteine und Pässe kaufen für andere Spielmodi und du kannst andere Spieler reporten.
+confirm_verify_bene_txt3					Deinen Standardaccount zu einem verifizierten Account zu machen ist einfach. Du musst nur eine der aufgelisteten Dinge machen:
+confirm_verify_bene_opt1					Mehr Spiele spielen
+confirm_verify_bene_opt1_txt1				Du kannst einen verifizierten Account alleine durch Matchmaking Spiele bekommen! Sobald die das benötigte Level erreichst, wird dein Account automatisch verifiziert.
+confirm_verify_bene_opt1_current			Dein derzeitiges Level:
+confirm_verify_bene_opt1_target				Benötigtes Level:
+confirm_verify_bene_opt2					Goblin Coins kaufen
+confirm_verify_bene_opt2_txt1				Um sofort einen verifizierten Account zu bekommen, kannst du auch einfach eines der vorhanden Goblin Coin Pakete kaufen.
+confirm_verify_bene_buycoinsnow				Goblin Coins jetzt kaufen
+confirm_verify_bene_closeWindow				Fenster schließen
 
 //account.package
-account_retrieve_header						Retrieve Username or Password
+account_retrieve_header						Benutzername und Passwort abfragen
 account_lost_username						Benutzername vergessen
-account_lost_username_msg					Enter the email address attached to your account below to have your username sent to you.
+account_lost_username_msg					Trage unten deine EMailadresse ein, die du für deinen Account benutzt und du bekommst deinen Benutzernamen zugesendet.
 account_lost_username_processing			Verarbeite Anfrage, bitte warten...
-account_lost_username_success				An email containing your username has been sent to the email address attached to your account.
-account_lost_username_error1				I'm an error. Look at me. Justin will be making real errors some day!  No I won't!  I don't need your steenking errors!
+account_lost_username_success				Eine EMail mit deinem Benutzernamen wurde an die angegebene EMailadresse versendet.
+account_lost_username_error1				Hey hier bin ich! Ich bin ein Fehler! Justin wird bald richtige Fehlernachrichten machen! Nein werd ich nicht! Ich brauche deinen stinkenden Fehler nicht!
 account_lost_password						Passwort vergessen
-account_lost_password_msg					Enter either your username or email address to have your password sent to the email address attached to your account.
-account_lost_pass_sep						-or-
-account_lost_password_success				An email containing your password has been sent to the email address attached to your account.
+account_lost_password_msg					Gib entweder deinen Benutzernamen oder deine EMailadresse an, um dein Passwort zu der EMailadresse gesand zu bekommen, die in verbindung mit dem Account steht.
+account_lost_pass_sep						-oder-
+account_lost_password_success				Eine EMail mit dem Passwort des Accounts wurde an die EMailadresse gesendet, die zu diesem Account gehört.
 
 main_menu_creategame						Erstelle Spiel
 main_menu_publicgame						Öffentliche Spiele
 main_menu_amm								Match Making
-main_menu_ladder							Player Ladder
+main_menu_ladder							Spieler Rangliste
 main_menu_matchstats						Match Statistiken
 main_menu_compendium						Compendium
 main_menu_options							Optionen
-main_menu_tutorial							Tutorial
+main_menu_tutorial							Anleitung
 main_menu_store								Store
-main_menu_playnow							PLAY NOW!
+main_menu_playnow							JETZT SPIELEN
 
 main_reconnect_header						Erneut verbinden?
 main_reconnect_ok							Verbinde erneut
@@ -289,7 +289,7 @@ options_very_high							Sehr Hoch
 options_header_game_options					Spieleinstellungen
 options_header_video_options				Videoeinstellungen
 options_label_display						Darstellung
-options_display_tip							The display to use when running the game in fullscreen mode.
+options_display_tip							Der Bildschirm der benutzt wird um das Spiel in Fullscreenmodus darzustellen.
 options_label_resolution					Auflösung
 options_resolution_tip						Die Anzahl der horizontal und vertikal am Monitor dargestellten Pixel.
 options_label_color_depth					Farbtiefe
@@ -316,8 +316,8 @@ options_label_model_quality					Modell-Qualität
 options_model_quality_tip					Die Verwendung von Modellarten mit einfacheren Scheitelpunkten ermöglicht einen flüssigeren Spielverlauf auf weniger leistungsstarken Systemen und Grafikkarten.
 options_label_texture_size					Texturgröße
 options_texture_size_tip					Die Verwendung größerer Texturen führt zu besseren visuellen Details. Dies erfordert allerdings sowohl mehr Videospeicher als auch physikalischen Speicher.
-options_shader_water_quality				Water Quality
-options_shader_water_quality_tip			Water quality. Lowering the quality will hinder visuals, but allow the game to run on lower end video cards.
+options_shader_water_quality				Wasser Qualität
+options_shader_water_quality_tip			Wasser Qualität. Verrringer die Qualität um eine bessere Performace zu haben.
 options_shader_quality						Shader-Qualität
 options_shader_quality_tip					Shader erfordern einen leistungsfähigen Grafikprozessor. Das Herabsetzen der Qualität vermindert das optische Erscheinungsbild, macht das Spiel jedoch auch auf weniger leistungsstarken Grafikkarten lauffähig.
 options_shadow_quality						Schatten-Qualität
@@ -330,9 +330,9 @@ options_refraction							Lichtbrechung
 options_refraction_tip						Die Lichtbrechung ermöglicht bessere Effekte sowie Spezialeffekte. Durch sie werden auf Kosten der Leistungsfähigkeit bestimmte Spielszenen verzerrt.
 options_post_processing						Bildnachbearbeitung
 options_post_processing_tip					Die Einstellung von Effekten der Bildnachbearbeitung wirkt sich auf die Leistungsfähigkeit des Systems aus.
-options_spec_fog							Aktiviere Nebel im Spectator View
+options_spec_fog							Aktiviere Nebel im Zuschauermodus
 options_spec_fog_tip						Renders fog when viewing a game as a spectator.
-options_spec_skybox							Enable Skybox in Spectator View
+options_spec_skybox							Skybox im Zuschauermodus aktivieren
 options_spec_skybox_tip						Renders the skybox when viewing a game as a spectator.
 options_display_foliage						Belaubung Anzeigen
 options_foliage_tip_text					Das Abschalten der Belaubung erhöht die Grafikleistung.
@@ -381,15 +381,15 @@ options_checkbox_disable_all_sounds			Alle Töne abschalten
 options_disable_all_sounds_tip				Alle Töne stumm schalten
 options_checkbox_unit_reactions				Reaktionen der Einheiten
 options_unit_reactions_tip					Bei einer Aktivierung der Reaktionen der Einheiten antworten die Einheiten bei der Auswahl oder Befehlsvergabe.
-options_checkbox_mute_announcer				Mute Announcer
-options_checkbox_mute_announcer_tip			If enabled, the announcers voice will not be heard.
-options_unit_voice_reaction					Unit Voice Reaction Delay
-options_unit_voice_reaction_tip				How much of a delay should occur before playing a unit voice reaction again.
+options_checkbox_mute_announcer				Sprecher stummschalten
+options_checkbox_mute_announcer_tip			Wenn du diese Option auswählst, hörst du die Stimme des Sprechers nicht mehr
+options_unit_voice_reaction					Einheiten Sprachwiedergabe Verzögerung
+options_unit_voice_reaction_tip				Wie viel Zeit soll vergehen bis die Einheiten Sprachwiedergabe wiederkommt.
 options_unit_voice_reaction_delay			Verzögerung (ms)
 options_checkbox_sound_mute					Sound aus
-options_checkbox_sound_mute_tip				If enabled, all sounds are muted.
+options_checkbox_sound_mute_tip				Wenn ausgewählt, alle Geräusche werden stumm geschaltet.
 options_checkbox_sound_muteMusic			Musik aus
-options_checkbox_sound_muteMusic_tip		If enabled, music will be muted, but other sounds will still be heard.
+options_checkbox_sound_muteMusic_tip		Wenn ausgeählt, die Musik wird stumm geschalten, aber andere Geräusche wird man weiterhin hören.
 
 options_header_voice_chat_options			Voice-Chat Optionen
 options_label_test_mic_level				Lautstärketest des Mikrofons
@@ -432,7 +432,7 @@ options_camera_scroll_speed_tip				Die Frequenz der vom Kameraausschnitt sekünd
 options_checkbox_screen_edge_scroll			Scrollen am Bildschirmrand
 options_screen_edge_scroll_tip				Bei einer Aktivierung bewegt sich der Kameraausschnitt, wenn der Cursor den Bildrand berührt.
 
-options_checkbox_camera_lock				Lock Camera
+options_checkbox_camera_lock				Kamera sperren
 options_screen_camera_lock_tip				If enabled, the camera will move with the hero in game.
 
 options_checkbox_constrain_cursor			Eingeschränkter Cursor
@@ -441,7 +441,7 @@ options_checkbox_display_xp_rewards			Anzeige XP Belohnungen
 options_display_xp_rewards_tip				Bei einer Aktivierung erfolgt eine Spielanzeige, sobald dein Held im Spiel Erfahrung sammelt. Dabei werden über der Erfahrungsquelle lila Zahlen eingeblendet.
 
 options_header_control_options				Steueroptionen
-options_yellow_label_action					Action
+options_yellow_label_action					Aktion
 options_yellow_label_primary				Primär
 options_yellow_label_secondary				Sekundär
 
@@ -451,9 +451,9 @@ options_bind_button_default					Standard
 options_bind_button_clear					Verbindung Löschen
 options_bind_header							Eine Neue Verbindung Wählen
 
-options_healthbar_shadows_hero				Hero Health Bar Shadows
-options_healthbar_shadows_creep				Creep Health Bar Shadows
-options_healthbar_shadows_building			Building Health Bar Shadows
+options_healthbar_shadows_hero				Helden Gesundheitsleisten Schatten
+options_healthbar_shadows_creep				Einheiten Gesundheitsleisten Schatten
+options_healthbar_shadows_building			Gebäude Gesundheitsleisten Schatten
 options_healthbar_shadows_misc				Misc Health Bar Shadows
 options_healthbar_shadows_hero_tip			Shows a shadow bar behind hero health bars to indicate damage taken per hit.  The shadow slowly moves to match the hero's actual health.
 options_healthbar_shadows_creep_tip			Shows a shadow bar behind creep health bars to indicate damage taken per hit.  The shadow slowly moves to match the creep's actual health.
@@ -480,7 +480,7 @@ options_label_camera_drag_keybind			Kamera Nachziehen
 options_label_minimap_ping_keybind			Minikarte Ping
 options_label_open_game_menu_keybind		Spielmenü Öffnen
 options_label_open_shop_keybind				Shop Öffnen
-options_label_score_rotate					Toggle Scoreboard
+options_label_score_rotate					Anzeigetafel umschalten
 options_label_chat_team_keybind				Chat (Team)
 options_label_chat_all_keybind				Chat (Alle)
 options_label_show_chat_keybind				Chat Anzeigen
@@ -497,7 +497,7 @@ options_label_select_hero_keybind			Heldenauswahl
 options_label_attack_keybind				Befehl Angriff
 options_label_stop_keybind					Befehl Stop
 options_label_hold_keybind					Befehl Halten
-options_label_cancel_and_hold_keybind				Order Cancel And Hold
+options_label_cancel_and_hold_keybind		Befehl Stop Und Halt
 options_label_move_keybind					Befehl Bewegen
 options_label_patrol_keybind				Befehl Patrouillieren
 options_label_next_unit_keybind				Nächste Einheit
@@ -516,11 +516,11 @@ options_label_acti_extra_ab_1_keybind		Aktiviere Zusatz-Fähigkeit 1
 options_label_acti_extra_ab_2_keybind		Aktiviere Zusatz-Fähigkeit 2
 options_label_acti_extra_ab_3_keybind		Aktiviere Zusatz-Fähigkeit 3
 options_label_attribute_boost_keybind		Boost Zuweisen
-options_label_levelup_ab_1_keybind			Level Up Ability 1
-options_label_levelup_ab_2_keybind			Level Up Ability 2
-options_label_levelup_ab_3_keybind			Level Up Ability 3
-options_label_levelup_ab_4_keybind			Level Up Ability 4
-options_label_levelup_stats_keybind			Level Up Stats
+options_label_levelup_ab_1_keybind			Fähigkeit 1 verbessern
+options_label_levelup_ab_2_keybind			Fähigkeit 2 verbessern
+options_label_levelup_ab_3_keybind			Fähigkeit 3 verbessern
+options_label_levelup_ab_4_keybind			Fähigkeit 4 verbessern
+options_label_levelup_stats_keybind			Stats verbessern
 options_label_acti_shared_1_keybind			Activate Shared Ability 1
 options_label_acti_inven_1_keybind			Aktiviere Inventar 1
 options_label_acti_inven_2_keybind			Aktiviere Inventar 2
@@ -597,7 +597,7 @@ options_header_random_stuff					Beliebiges Zeug
 options_label_mute_sound_keybind			Ton Stumm Schalten
 options_label_mute_music_keybind			Musik Stumm Schalten
 
-options_header_misc_controls				Additional Controls
+options_header_misc_controls				Zusätzliche Steuerung
 
 options_header_shop							Shop
 options_label_slot_1_keybind				Shop - Kaufe Item 1
@@ -624,9 +624,9 @@ options_label_close_shop_keybind			Shop - Schließe Panel
 options_label_recipe_history_back_keybind	Rezepturverlauf zurück
 options_label_recipe_history_for_keybind	Rezepturverlauf vor
 options_btn_reset_all_controls				Setze Steuerung zurück
-options_btn_clear_shopkeys					Clear Shop Hotkeys
+options_btn_clear_shopkeys					Shop Tastenkürzel entfernen
 
-options_checkbox_health_always_on			Always Show Health Bars
+options_checkbox_health_always_on			AGesundheitsleisen immer anzeigen
 options_screen_health_always_on_tip			If enabled, health bars will always be displayed.
 
 options_checkbox_hover_hero_info			Display Hover Info
@@ -1009,7 +1009,7 @@ web_form_lan_account_feature_unavailable_text	This feature is currently only ava
 web_form_login_upgrade_description			Your Heroes of Newerth Trial Account has expired. To continue playing fill out the form below to purchase via credit card.  Additional payment options are available online.  By purchasing an account, you will immediately enjoy additional benefits that your trial account did not offer, such as Stats and Game Tracking, No Leaver Games, Ladder Rankings, and Preferred Server Availability.
 
 // Mulligan
-mulligan_form_error0					Could not connect to the database.
+mulligan_form_error0					Konnte keine Verbindung zum Server herstellen.
 mulligan_form_error5					Required Information Not Specified.
 mulligan_form_error8					Invalid Field.
 mulligan_form_error21					Invoice Error
@@ -1625,7 +1625,7 @@ mstore_product384_desc		It's an old school lockdown.  Icons of your favorite hol
 mstore_product385_name		3 Seconds
 mstore_product386_name		Anon
 mstore_product387_name		Cat
-mstore_product388_name		Cookie
+mstore_product388_name		Keks
 mstore_product389_name		MIA
 mstore_product389_desc		I told you before the game even started!  Didn't you see my icon?
 mstore_product390_name		ROFL
@@ -1661,11 +1661,11 @@ mstore_product412_name		Mystic Tempest
 mstore_product412_desc		Command respect as the revered Mystic Tempest.
 mstore_product413_name		Honcast
 mstore_product414_name		Gamereplays
-mstore_product415_name		Air
-mstore_product416_name		Earth
-mstore_product417_name		Fire
-mstore_product418_name		Water
-mstore_product419_name		Elemental Icon Pack
+mstore_product415_name		Luft
+mstore_product416_name		Erde
+mstore_product417_name		Feuer
+mstore_product418_name		Wasser
+mstore_product419_name		Elemtares Icon Packet
 mstore_product419_desc		These icons are super effective!
 mstore_product420_name		Tempest Bundle
 mstore_product420_desc		Includes a free Mystic Tempest Symbol, currently only available here.
@@ -2793,8 +2793,8 @@ game_scores_header_scores					Scores
 game_button_scores							Scores
 game_halfscores_tooltip						Click to show only the player avatar and level portion of the scoreboard. To fully expand or hide scores, use the button above.
 game_button_menu							Menü
-game_button_open_close_shop					Laden Öffnen/Schließen
-game_shop_label_shopname					Laden
+game_button_open_close_shop					Shop Öffnen/Schließen
+game_shop_label_shopname					Shop
 game_shop_label_accessories					Zusatzausrüstung
 game_shop_label_weapons						Waffen
 game_shop_label_relics						Relikte

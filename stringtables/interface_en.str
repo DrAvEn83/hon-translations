@@ -106,7 +106,7 @@ general_mode_random_draft_desc				Limits hero selection to 20 heroes then altern
 general_mode_allrandom						All Random
 general_mode_allrandom_desc					Heroes are randomly distributed to all players.
 general_mode_banningpick					Banning Pick
-general_mode_banningpick_desc					Blue and Pink take turns banning 8 total heroes, and then players alternate picking from the remaining hero pool.
+general_mode_banningpick_desc				Blue and Pink take turns banning 8 total heroes, and then players alternate picking from the remaining hero pool.
 general_mode_singledraft					Single Draft
 general_mode_singledraft_desc				Each player is given a hero selection of one agility, one intelligence, and one strength hero.
 general_mode_banningdraft					Banning Draft
