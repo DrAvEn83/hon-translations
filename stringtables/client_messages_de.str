@@ -111,11 +111,11 @@ chat_removing_channel				^279* Removing ^g{channel}^279 from your auto join chan
 chat_failed_removing_channel		^279* Failed to remove ^g{channel}^279 from your channel list...
 chat_failed_saving_notification		^279* Failed to save the notification...
 chat_failed_removing_notification	^279* Failed to remove the notification id {id}...
-chat_failed_removing_notifications	^279* Failed to remove all notifications...
+chat_failed_removing_notifications	^279* Fehler beim löschen aller Benachrichtigungne...
 chat_adding_buddy				^900* {name} wird als Freund hinzugefügt...
 chat_failed_buddy_add				^900* Fehler beim Hinzufügen von {target} zu Deiner Freundesliste.
 chat_failed_buddy_add_self			^900* Du kannst Dich nicht selbst als Freund hinzufügen.
-chat_failed_buddy_remove_self		^279* You cannot remove yourself as a buddy.
+chat_failed_buddy_remove_self		^279* Du kannst dich nicht selbst als Freund löschen.
 chat_failed_buddy_add_duplicate			^900* Du kannst Dich nicht selbst als Freund hinzufügen.
 chat_failed_buddy_add_reason			^900* Fehler beim Hinzufügen von {target} zu Deiner Freundesliste: {reason}
 chat_failed_buddy_remove			^900* Fehler beim Entfernen von {target} von Deiner Freundesliste.
@@ -267,22 +267,22 @@ chat_clan_create_sent					^279* Clan creation request submitted, waiting on memb
 chat_clan_create_accept					^279* ^990{name}^279 accepted your clan creation request.
 chat_clan_create_reject					^279* ^990{name}^279 rejected your clan creation request.
 chat_clan_create_result_reject			Failed - ^990{name}^* rejected your request.
-chat_clan_create_success				^279* Your clan has been created successfully.
-chat_clan_create_result_success			Success! Your clan has been created.
-chat_clan_left							^279* ^990{name}^279 has left the clan.
-chat_clan_left_self						^279* You have left the clan.
-chat_clan_kick							^279* ^990{changer}^279 has kicked ^990{name}^279 out of the clan.
-chat_clan_kick_self						^279* ^990{changer}^279 has kicked you out of the clan.
-chat_clan_joined						^279* ^990{name}^279 has joined the clan.
-chat_clan_rank_change					^279* ^990{changer}^279 has changed ^990{name}^279's rank to ^990{rank}^279.
-chat_clan_rank_change_self				^279* ^990{changer}^279 has changed your rank to ^990{rank}^279.
-chat_clan_rank_none						Not In Clan
-chat_clan_rank_member					Member
-chat_clan_rank_officer					Officer
-chat_clan_rank_leader					Leader
-chat_clan_no_clan						^279* You are not in a clan.
+chat_clan_create_success				^279* YDein Clan wurde erfolgreich erstellt
+chat_clan_create_result_success			Erfolg! Dein Clan wurde erstellt
+chat_clan_left							^279* ^990{name}^279 hat den Clan verlassen.
+chat_clan_left_self						^279* Du hast den Clan verlassen.
+chat_clan_kick							^279* ^990{changer}^279 hat ^990{name}^279 aus den Clan geworfen.
+chat_clan_kick_self						^279* ^990{changer}^279 hat dich aus den Clan geworfen.
+chat_clan_joined						^279* ^990{name}^279 ist dem Clan beigetreten.
+chat_clan_rank_change					^279* ^990{changer}^279 hat ^990{name}^279's Rank in ^990{rank}^279 geändert.
+chat_clan_rank_change_self				^279* ^990{changer}^279 hat deinen Rank in ^990{rank}^279 geändert.
+chat_clan_rank_none						Kein Clan
+chat_clan_rank_member					Mitglied
+chat_clan_rank_officer					Offizier
+chat_clan_rank_leader					Führer
+chat_clan_no_clan						^279* Du bist in keinem Clan.
 chat_tourn_match_ready					^279* The match for the tournament you are scheduled to play in, ^990{name}^279, is now ready to join. Use the tournament section in the Community and Clan panel to join.
-chat_unable_to_join_group				Unable to join the TMM group because you are currently in a game or a replay.
+chat_unable_to_join_group				Du kannst TMM nicht beeitreten, da du in einem Spiel oder einem Replay bist.
 
 
 // stats
@@ -302,11 +302,11 @@ chat_notification_clan_joined_game		{name} ist dem Spiel '{game}' beigetreten.
 chat_notification_clan_left_game		{name} hat das Spiel '{game}' verlassen.
 chat_notification_clan_whisper			(Clan) {name}: {message}
 chat_notification_clan_whisper_sent		(Clan) {name}: {message}
-chat_notification_clan_new_user			{name} has joined your clan.
-chat_notification_clan_new_user_self	You have joined the clan {clan}.
-chat_notification_clan_left_self		You have left the clan.
-chat_notification_clan_left				{name} has left the clan.
-chat_notification_clan_joined			{name} has joined the clan.
+chat_notification_clan_new_user			{name} ist Deinem Clan beigetreten.
+chat_notification_clan_new_user_self	Du bist den Clan {clan} beigetreten.
+chat_notification_clan_left_self		Du hast den Clan verlassen.
+chat_notification_clan_left				{name} hat den Clan verlassen.
+chat_notification_clan_joined			{name} ist dem Clan beigetreten.
 chat_notification_clan_rank_change		{changer} has changed ^990{name}^279's rank to ^990{rank}^279.
 chat_notification_clan_rank_change_self	{changer} has changed your rank to ^990{rank}^279.
 chat_notification_clan_kick				{changer} has kicked ^990{name}^279 out of the clan.
@@ -497,11 +497,11 @@ chat_command_gameinfo_short			/gi
 chat_command_ping_all				/pingall
 chat_command_ping_all_short			/pa
 chat_command_available				/available
-chat_command_available_message		^279* Your chat status is now 'available'.
+chat_command_available_message		^279* Dein Chatstatus ist jetzt 'verfügbar'.
 chat_command_afk					/afk
-chat_command_afk_message			^279* Your chat status is now 'away from keyboard': {reason} 
+chat_command_afk_message			^279* Dein Chatstatus ist jetzt 'Nicht am PC': {reason} 
 chat_command_dnd					/dnd
-chat_command_dnd_message			^279* Your chat status is now 'do not disturb': {reason}
+chat_command_dnd_message			^279* Dein Chatstatus ist jetzt 'Bitte Nicht Stören': {reason}
 
 chat_command_weather				/weather
 chat_command_weather_intro			^279* Type a weather command:
@@ -526,7 +526,7 @@ chat_command_help_whois				^279*^707 /whois <user>^279                  -Gets in
 chat_command_help_stats				^279*^707 /stats <user> [pop]^279            -Gets stats for the specified user (Optionally include "pop" to drop stats down).
 chat_command_help_joingame			^279*^707 /joingame <type> <param>^279       -Join a game.
 chat_command_help_topic				^279*^707 /topic [topic]^279                 -Views or sets current channel topic
-chat_command_help_kick				^279*^707 /kick <user>^279                   -Kicks user from the channel (Requires channel admin privileges).
+chat_command_help_kick				^279*^707 /kick <Benutzer>^279                   -Wirft den Benutzer aus den Channel (Benötigt Channeladmin privilegien).
 chat_command_help_ban				^279*^707 /ban <user>^279                    -Bans user from the channel (Requires channel admin privileges).
 chat_command_help_unban				^279*^707 /unban <user>^279                  -Unbans user from the channel (Requires channel admin privileges).
 chat_command_help_silence			^279*^707 /silence <user> <duration>^279     -Silences a user for <duration> minutes (Requires channel admin privileges).
@@ -537,18 +537,18 @@ chat_command_help_ignore			^900*^505 /ignoriere <Benutzer>^900                 -
 chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -Toggles ignoring 'Team' or 'All' chat.
 chat_command_help_notes				^279*^707 /notes <command> <arguments>^279   -Note management commands.
 chat_command_help_auth				^279*^707 /auth <command> <arguments>^279    -Channel authorization user list management (Requires channel admin privileges)
-chat_command_help_password			^279*^707 /password <password>^279           -Sets current channel password (Requires channel admin privileges)
-chat_command_help_password_clear	^279*^707 /password^279						 -Clears current channel password (Requires channel admin privileges)
-chat_command_help_roll				^279*^707 /roll <low> <high>^279			 -Rolls a number between low and high, (1 through 32,767).
-chat_command_help_emote				^279*^707 /emote <message>^279				 -Emotes a message from your username.
-chat_command_help_time				^279*^707 /time^279                          -Prints your current system time.
-chat_command_help_ping				^279*^707 /ping^279 (in game only)           -Prints your current ping to the game server.
-chat_command_help_matchup			^279*^707 /matchup^279 (in game only)        -Prints the team/name/color/hero of players in the current game.
-chat_command_help_gameinfo			^279*^707 /gameinfo^279 (in game only)       -Prints some information about the current game.
-chat_command_help_available			^279*^707 /available^279					 -Toggles chat status to 'available'.
-chat_command_help_afk				^279*^707 /afk <afk message>^279			 -Toggles chat status to 'away from keyboard', automatically replies to whispers with the message specified.
-chat_command_help_dnd				^279*^707 /dnd <dnd message>^279			 -Toggles chat status to 'do not disturb', stops incoming whispers from being sent to you and automatically replies to whispers with the message specified.
-chat_command_help_weather			^279*^707 /weather^279 (Nur in einem Spiel)        -Einen Wettereffekt erzeugen
+chat_command_help_password			^279*^707 /password <passwort>^279           -Legt ein channelpasswort fest (Benötigt Channeladmin privilegien)
+chat_command_help_password_clear	^279*^707 /password^279						 -Löscht das derzeigt Channelpasswort (Benötigt Channeladmin privilegien)
+chat_command_help_roll				^279*^707 /roll <tief> <hoch>^279			 -Würfelt eine Zufallszahl zwischen tief und hoch, (1 bis 32,767).
+chat_command_help_emote				^279*^707 /emote <Nachricht>^279				 -Emotes a message from your username.
+chat_command_help_time				^279*^707 /time^279                          -Zeigt die Deine derzeitge Systemzeit an.
+chat_command_help_ping				^279*^707 /ping^279 (Nur während eines Spieles)           -Zeigt den derzeitigen Ping zum Server an.
+chat_command_help_matchup			^279*^707 /matchup^279 (Nur während eines Spieles)        -Zeigt Team/Name/Farbe/Helden der Spieler die derzeit im Spiel sind.
+chat_command_help_gameinfo			^279*^707 /gameinfo^279 (Nur während eines Spieles)       -Zeigt einige Informationen zum derzeitigen Spiel.
+chat_command_help_available			^279*^707 /available^279					 -Setzt den Chatstatus auf 'verfügbar'.
+chat_command_help_afk				^279*^707 /afk <AFK Nachricht>^279			 -Setzt den Chatstatus auf 'Nicht am PC' und antwortet auf eingehende Chatnahrichten mit der angegeben Nachricht.
+chat_command_help_dnd				^279*^707 /dnd <DND Nachricht>^279			 -Setzt den Chatstatus auf 'Bitte nicht stören', lässt keine Chatnachrichten mehr zu Dir durchkommen und antwortet automatisch mit der angegeben Nachricht.
+chat_command_help_weather			^279*^707 /weather^279 (Nur während eines Spieles)        -Einen Wettereffekt erzeugen
 chat_command_help_misc				^900* Gib einen der Befehle ohne Parameter ein, um Informationen über deren Gebrauch zu erhalten.
 
 //End
