@@ -4547,49 +4547,49 @@ mm_leaver_resetstats			Alternatively, you can purchase a stats reset to clear yo
 
 
 // Matchmaking
-amm_title									Automatic Matchmaking
-amm_jumptier__tip_title						Join Immediately
+amm_title									Autmatisches Matchmaking
+amm_jumptier__tip_title						Sofort beitreten
 amm_jumptier_tip							Clicking this button will join a ranked match automatically at this RSR difference tier.
-amm_stats_header							Matchmaking Statistics
+amm_stats_header							Matchmaking Statistiken
 
 main_lobby_amm_header						Ranked Play
-main_lobby_amm_region_header				Regions Searched
+main_lobby_amm_region_header				Regionen Suche
 main_lobby_amm_region_test					Test
 main_lobby_amm_region_usw					USA West
-main_lobby_amm_region_usc					USA Central
-main_lobby_amm_region_uss					USA South
-main_lobby_amm_region_use					USA East
-main_lobby_amm_region_eu					Europe
-main_lobby_amm_region_uk					United Kingdom
-main_lobby_amm_region_nl					Netherlands
+main_lobby_amm_region_usc					USA Zentral
+main_lobby_amm_region_uss					USA Süd
+main_lobby_amm_region_use					USA Ost
+main_lobby_amm_region_eu					Europa
+main_lobby_amm_region_uk					Vereinigtes Königreich
+main_lobby_amm_region_nl					Niederlande
 main_lobby_amm_region_de					Deutschland
 main_lobby_amm_region_japan					Japan
-main_lobby_amm_region_south_africa			South Africa
-main_lobby_amm_region_sea					South East Asia
-main_lobby_amm_region_australia				Australia
-main_lobby_amm_region_indonesia				Indonesia
-main_lobby_amm_find_team					Find Team
+main_lobby_amm_region_south_africa			Süd Africa
+main_lobby_amm_region_sea					Süd Ost Asien
+main_lobby_amm_region_australia				Australien
+main_lobby_amm_region_indonesia				Indonesien
+main_lobby_amm_find_team					Team finden
 main_lobby_amm_join_team					Join Team Pool
 main_lobby_amm_join_solo					Join Solo Pool
-main_lobby_amm_join_solo_progress			Joining...
-main_lobby_amm_current_wait					Waited: {time}
+main_lobby_amm_join_solo_progress			Beitreten...
+main_lobby_amm_current_wait					Gewaret: {time}
 main_lobby_amm_status_not_in_pool			Not in pool!
 main_lobby_amm_status_requested_match		Joining match making pool...
-main_lobby_amm_status_in_pool				Looking for players...
-main_lobby_amm_looking_for_server			Match found! Looking for a server...
-main_lobby_amm_waiting_for_server			Match found! Waiting for server to start...
-main_lobby_amm_waiting_for_players			Waiting for other players...
-main_lobby_amm_stats_header					Stats
-main_lobby_amm_solo_matches					Matches: {count}
-main_lobby_amm_solo_rating					Rating: {value}
-main_lobby_amm_team_matches					Team Matches: {count}
-main_lobby_amm_team_rating					Team Rating: {value}
+main_lobby_amm_status_in_pool				Suche nach Spielern...
+main_lobby_amm_looking_for_server			Spiel gefunden! Suche nach Server...
+main_lobby_amm_waiting_for_server			Spiel gefunden! Warte auf Serverstart...
+main_lobby_amm_waiting_for_players			Warte auf andere Spiele...
+main_lobby_amm_stats_header					Statistiken
+main_lobby_amm_solo_matches					Partien: {count}
+main_lobby_amm_solo_rating					Bewertung: {value}
+main_lobby_amm_team_matches					Team Partien: {count}
+main_lobby_amm_team_rating					Team Bewertung: {value}
 
 matchmaker_message_header					MatchMaker Status
 matchmaker_alert_join_failed				Failed to join the matchmaking pool.
-matchmaker_alert_no_server_found			Failed to find a server for this match.
-matchmaker_alert_server_failed_to_start		The server failed to start.
-matchamaker_connected_content				You are connected and waiting for the other players to finish loading. Once all the clients have loaded, you will be taken to Hero Selection. Please be patient...
+matchmaker_alert_no_server_found			Das suchen eines Servers ist fehlgeschlagen.
+matchmaker_alert_server_failed_to_start		Der Server konnte nicht starten.
+matchamaker_connected_content				Du bist verbunden und wartest auf die anderen Spieler mit dem fertigwerden des Ladens. Wenn alle Spieler fertig geladen haben, wirst Du zur Heldenauswahl weitergeleitet. Bitte warte...
 matchmaker_alert_leaver_msg					Disconnecting from the queue at this point forward will result in a leave being added to your stats!
 matchmaker_alert_discoed_tip				This player has failed to successfully load. A new player will be found and placed in this slot.
 matchmaker_alert_key_loading				Loading

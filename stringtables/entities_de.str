@@ -23,8 +23,8 @@ EffectType_DeBuff
 EffectType_Returned												
 EffectType_BarrierIdol											
 EffectType_NeutralAggro											
-EffectType_SuperiorMagic										Superior Magic
-EffectType_SuperiorPhysical										Superior Physical
+EffectType_SuperiorMagic										Überlegene Magie
+EffectType_SuperiorPhysical										Überlegende Physische
 
 ImmunityType_MagicImmunity1										Immun gegen Magie
 ImmunityType_DominateImmunity									Immun gegen Dominanz
@@ -43,11 +43,11 @@ ImmunityType_AncientImmunity2
 ImmunityType_PhysicalImmunity									
 ImmunityType_BarrierImmunity									
 
-HeroCategory_cc									Crowd Control
-HeroCategory_magic								Magic Damage
-HeroCategory_muc								Multi-unit Control
-HeroCategory_physical							Physical Damage
-HeroCategory_protective							Protective
+HeroCategory_cc									Massenkontrolle
+HeroCategory_magic								Magischer Schaden
+HeroCategory_muc								Mehrfach-Einheiten kontrolle
+HeroCategory_physical							Physischer Schaden
+HeroCategory_protective							Schutz
 HeroCategory_tank								Tank
 
 StealthType_hero												Held
@@ -71,9 +71,9 @@ TargetScheme_enemy_heroes										Gegnerische Helden
 TargetScheme_ally_units											Verbündete Einheiten
 TargetScheme_ally_heroes										Verbündete Helden
 TargetScheme_all_units											Alle Einheiten
-TargetScheme_all_visible_units									All Visible Units
+TargetScheme_all_visible_units									Alle sichtbaren Einheiten
 TargetScheme_ally_ranged_units									Verbündete Fernkampf-Einheiten
-TargetScheme_ally_ranged_heroes									Ally Ranged Heroes
+TargetScheme_ally_ranged_heroes									Verbündete Fernkampf-Helden
 TargetScheme_ally_melee_units									Verbündete Nachkampf-Einheiten
 TargetScheme_ally_buildings										Verbündete Gebäude
 TargetScheme_enemy_units_and_Towers								
@@ -96,7 +96,7 @@ TargetScheme_visible_enemy_objects								Sichtbare Gegnerische Objekte
 TargetScheme_injured_ally_units									Verwundete Verbündete Einheiten
 TargetScheme_enemy_units_and_trees								Gegnerische Einheiten
 TargetScheme_all_other_units									Alle Weiteren Einheiten
-TargetScheme_all_other_organic_units							All Other Organic Units
+TargetScheme_all_other_organic_units							Alle Weiteren Organischen Einheiten
 TargetScheme_enemy_buildings									Gegnerische Gebäude
 TargetScheme_enemy_melee_heroes									Gegnerische Nachkampf-Helden
 TargetScheme_hook_targets										Alle Einheiten Ohne Belagerungsfunktion
@@ -116,20 +116,20 @@ TargetScheme_ally_well
 TargetScheme_all_other_nonboss_units							Alle Einheiten ohne Bosse
 TargetScheme_boss												
 TargetScheme_other_bosses										
-TargetScheme_enemy_nonboss_units								Non-Boss Enemies
-TargetScheme_nonneutral_organic_enemy_units						Non-Neutral Enemies
+TargetScheme_enemy_nonboss_units								Nicht-Boss Gegner
+TargetScheme_nonneutral_organic_enemy_units						Nicht-Neutrale Gegner
 TargetScheme_boss1												
 TargetScheme_boss2												
 TargetScheme_WellMarker											
-TargetScheme_enemy_nonboss_npc_units							Non-Boss Enemy NPCs
-TargetScheme_enemy_units_and_structures							Enemy units and Structures
-TargetScheme_all_other_heroes									All Other Heroes
-TargetScheme_ally_objects										Ally Objects
+TargetScheme_enemy_nonboss_npc_units							Nicht-Boss Gegner NPCs
+TargetScheme_enemy_units_and_structures							Gegnerische Einheiten und Strukturen
+TargetScheme_all_other_heroes									Alle anderen Helden
+TargetScheme_ally_objects										Verbündete Objekte
 TargetScheme_visible_organic_enemy_units						
 TargetScheme_enemy_units_and_self								
 TargetScheme_all_other_units_and_buildings						
 TargetScheme_summoned_enemy_units								
-TargetScheme_ally_creeps										Ally creeps
+TargetScheme_ally_creeps										Verbündete creeps
 TargetScheme_enemy_ranged_heroes								
 TargetScheme_all_other_nongadget_units							
 TargetScheme_nonneutral_enemy_units_and_other_ally_heroes		
@@ -138,7 +138,7 @@ TargetScheme_other_ally_units
 TargetScheme_nonstealth_organic_enemy_units						
 TargetScheme_nonboss_visible_enemy_units						
 TargetScheme_nongadget_ally_units								
-TargetScheme_nonboss_organic_enemy_units						Enemy Organic Units
+TargetScheme_nonboss_organic_enemy_units						Gegnerische Organische Einheiten
 TargetScheme_neutral_aggro										
 TargetScheme_enemy_creeps_and_corpses							
 TargetScheme_my_pseudo_pets										
@@ -146,21 +146,21 @@ TargetScheme_ally_main_base_structure_and_trees
 TargetScheme_nonillusion_enemy_heroes							
 TargetScheme_my_illusions										
 TargetScheme_other_ally_heroes									
-TargetScheme_nonillusion_other_ally_heroes						Other Ally Heroes
-TargetScheme_engineer_units										Mechanical Units
+TargetScheme_nonillusion_other_ally_heroes						Weitere Verbündete Helden
+TargetScheme_engineer_units										Mechanische Einheiten
 TargetScheme_turret_targets										
 TargetScheme_ally_units_and_structures							
 TargetScheme_pseudo_pets										
 TargetScheme_everything_but_towers								
 TargetScheme_Zephyr_Cyclones									
-TargetScheme_enemy_mana_units									Enemy Units with Mana
-TargetScheme_ally_mana_units									Ally Units with Mana
+TargetScheme_enemy_mana_units									Gegnerische Einheiten mit Mana
+TargetScheme_ally_mana_units									Verbündete Einheiten mit Mana
 TargetScheme_nonboss_organic_enemy_units_and_self				
 TargetScheme_all_corpses										
-TargetScheme_enemy_units_and_deniable							Deniable and Enemy Units
-TargetScheme_ally_nonhero_units									Allied Non-Hero Units
-TargetScheme_player_controlled_enemy_units						Player Controlled Enemy Units
-TargetScheme_all_nonhero_corpses								All Non-Hero Corpses
+TargetScheme_enemy_units_and_deniable							Deniable und Gegnerische Einheiten
+TargetScheme_ally_nonhero_units									Verbündete Nicht-Helden Einheiten
+TargetScheme_player_controlled_enemy_units						Spieler kontrollierte Gegnerische Einheiten
+TargetScheme_all_nonhero_corpses								Alle Nicht-Helden Leichen
 TargetScheme_enemy_units_notmine								
 TargetScheme_touchpowerup										
 TargetScheme_all_units_except_couriers							
@@ -171,7 +171,7 @@ TargetScheme_canattack
 TargetScheme_token												
 TargetScheme_cheese												
 TargetScheme_doombringer
-TargetScheme_enemy_and_willing_ally_heroes						Enemy & Willing Ally Heroes										
+TargetScheme_enemy_and_willing_ally_heroes						Gegnerische & Gewollte Verbündete Helden									
 
 Popup_gold														+{value}
 Popup_experience												+{value}
@@ -242,58 +242,58 @@ Option_AllowVeto												Veto Gestatten
 Option_ShuffleTeams												Teams Mischen
 Option_AutoBalanceTeams											Auto Balanced
 Option_DevHeroes												Helden in Entwicklung
-Option_TournamentRules												Tournament Rules
+Option_TournamentRules											Turnier Regeln
 Option_Hardcore													Hardcore
 Option_Casual													Casual Mode
 
 // Building_HellbourneTower
-Building_HellbourneTower_name									Defense Tower
+Building_HellbourneTower_name									Verteidigungsturm
 
 // Building_HellbourneBase
 Building_HellbourneBase_name									Sacrificial Shrine
 
 // Building_HellbourneRepeater4
-Building_HellbourneRepeater4_name								Meatball
+Building_HellbourneRepeater4_name								Fleischball
 Building_HellbourneRepeater4_description						
 
 // Building_HellbourneMeleeBarracks
-Building_HellbourneMeleeBarracks_name							Melee Barracks
+Building_HellbourneMeleeBarracks_name							Nahkampfkaserne
 
 // Building_HellbourneRangedBarracks
-Building_HellbourneRangedBarracks_name							Ranged Barracks
+Building_HellbourneRangedBarracks_name							Fernkampfkaserne
 
 // Building_HellbourneRepeater1
-Building_HellbourneRepeater1_name								Shrine
+Building_HellbourneRepeater1_name								Schrein
 
 // Building_HellbourneRepeater2
-Building_HellbourneRepeater2_name								Shrine
+Building_HellbourneRepeater2_name								Schrein
 
 // Building_HellbourneRepeater3
-Building_HellbourneRepeater3_name								Shrine
+Building_HellbourneRepeater3_name								Schrein
 
 // Building_HellbourneStore
 Building_HellbourneStore_name									Secret Shop
 
 // Building_HellbourneWell
-Building_HellbourneWell_name									Well of Tar
+Building_HellbourneWell_name									Teerbrunnen
 
 // Building_HellbourneWell_Attack
 
 // State_HellbourneHealingWell
-State_HellbourneHealingWell_name								Tarpit
+State_HellbourneHealingWell_name								Teergrube
 
 // Building_HellbourneWellStore
 Building_HellbourneWellStore_name								Shop
 
 // Building_LegionTower
-Building_LegionTower_name										Defense Tower
+Building_LegionTower_name										Verteidigungsturm
 
 // Building_LegionBase
 Building_LegionBase_name										Weltenbaum
 Building_LegionBase_description									icon.tga
 
 // Building_LegionMeleeBarracks
-Building_LegionMeleeBarracks_name								Nachkampf-Kaserne
+Building_LegionMeleeBarracks_name								Nahkampf-Kaserne
 Building_LegionMeleeBarracks_description						icon.tga
 
 // Building_LegionRangedBarracks
@@ -301,13 +301,13 @@ Building_LegionRangedBarracks_name								Fernkampf-Kaserne
 Building_LegionRangedBarracks_description						icon.tga
 
 // Building_LegionRepeater1
-Building_LegionRepeater1_name									Hut
+Building_LegionRepeater1_name									Baracke
 
 // Building_LegionRepeater2
-Building_LegionRepeater2_name									Hut
+Building_LegionRepeater2_name									Baracke
 
 // Building_LegionRepeater3
-Building_LegionRepeater3_name									Hut
+Building_LegionRepeater3_name									Baracke
 
 // Building_LegionStore
 Building_LegionStore_name										Secret Shop
@@ -318,57 +318,57 @@ Building_LegionWell_name										Brunnen des Lebens
 // Building_LegionWell_Attack
 
 // State_LegionHealingWell
-State_LegionHealingWell_name									Well of Life
+State_LegionHealingWell_name									Heilender Brunnen
 
 // Building_LegionWellStore
 Building_LegionWellStore_name									Shop
 
 // Building_Outpost
-Building_Outpost_name											Outpost
+Building_Outpost_name											Außenposten
 Building_Outpost_description									icon.tga
 
 // Ability_AttributeBoost
 Ability_AttributeBoost_name										Attribute Boost
 Ability_AttributeBoost_description								^Boni Pro Level:^*\n+2 Stärke\n+2 Gewandtheit\n+2 Intelligenz
-Ability_AttributeBoost_description_simple						Grants an increase to your hero's attributes.\n\n^gPer Level Bonuses:^*\n+2 Strength\n+2 Agility\n+2 Intelligence
+Ability_AttributeBoost_description_simple						Gewährt einen Bonus für die Attribute des Helden.\n\n^gLevel Bonus pro Level:^*\n+2 Stärke\n+2 Gewandheit\n+2 Intelligenz
 
 // State_Teleport_GrimmCrossroads
 State_Teleport_GrimmCrossroads_name								Grimm's Crossroads
-State_Teleport_GrimmCrossroads_description						You recently used the teleporters and cannot again for a short time.
+State_Teleport_GrimmCrossroads_description						Du hast erst vor kurzem die Teleportet benutzt und kannst es deshalb nun für eine kurze Zeit nicht.
 
 // Ability_Taunt
-Ability_Taunt_name												Taunt
-Ability_Taunt_name:disco_taunt									Disco Taunt
-Ability_Taunt_name:gore_taunt									Gore Taunt
+Ability_Taunt_name												Spott
+Ability_Taunt_name:disco_taunt									Disco Spott
+Ability_Taunt_name:gore_taunt									Gore Spott
 Ability_Taunt_description								
-Ability_Taunt_description_simple								Taunting is disabled for this account.
-Ability_Taunt_description_simple:perks							Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_description_simple:standard_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_description_simple:disco_taunt					Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_description_simple:gore_taunt						Target an enemy hero to taunt it. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect										Taunting is disabled for this account.
-Ability_Taunt_IMPACT_effect:perks								Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect:standard_taunt						Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect:disco_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
-Ability_Taunt_IMPACT_effect:gore_taunt							Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 40 seconds to earn a Smackdown.
+Ability_Taunt_description_simple								Spott ist auf diesem Account nicht verfügbar.
+Ability_Taunt_description_simple:perks							Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
+Ability_Taunt_description_simple:standard_taunt					Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
+Ability_Taunt_description_simple:disco_taunt					Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
+Ability_Taunt_description_simple:gore_taunt						Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
+Ability_Taunt_IMPACT_effect										Spott ist auf diesem Account nicht verfügbar.
+Ability_Taunt_IMPACT_effect:perks								Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
+Ability_Taunt_IMPACT_effect:standard_taunt						Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
+Ability_Taunt_IMPACT_effect:disco_taunt							Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
+Ability_Taunt_IMPACT_effect:gore_taunt							Wähle ein Gegnerischen Helden zum Spotten. Du wirst für das Team des Zieles sichtbar. Töte das gespottete Ziel in 40 Sekunden um einen Smackdown zu bekommen.
 
 // Ability_Accursed1
-Ability_Accursed1_name											Cauterize
+Ability_Accursed1_name											Kauterisieren
 Ability_Accursed1_description									Auf Kosten der eigenen Gesundheit explodiert die Luft um einen Verfluchten. Dies fügt gegnerischen Einheiten Schaden zu und heilt verbündete Einheiten.
-Ability_Accursed1_description_simple							Target a unit to deal ^o{100,150,200,250} Magic Damage^* if it's an enemy or heal for ^o{100,150,200,250} Health^* if it's an ally.\n\nDeals ^o{50,75,100,125} Magic Damage^* to self.
+Ability_Accursed1_description_simple							Wähle eine Einheit an um ^o{100,150,200,250} Magischen Schaden^* zu machen, wenn es eine Gegnerische Einheit ist oder heil sie für ^o{100,150,200,250} Gesundheit^* wenn es eine freundliche Einheit ist.\n\nFügt sich selbst ^o{50,75,100,125} Magischen Schaden^* zu.
 Ability_Accursed1_IMPACT_effect									Verursacht bei gegnerische Einheiten {100,150,200,250} Magischen Schaden oder heilt verbündete Einheiten mit {100,150,200,250} Gesundheitspunkten. Verursacht bei der eigenen Einheit {50,75,100,125} Magischen Schaden.
-Ability_Accursed1_tooltip_flavor								It's a love/hate kinda thing.
+Ability_Accursed1_tooltip_flavor								Das ist so eine Liebe/Hass Sache.
 
 // Ability_Accursed2
-Ability_Accursed2_name											Fire Shield
+Ability_Accursed2_name											Feuer Schild
 Ability_Accursed2_description									Der Verfluchte schützt eine befreundete Einheit mit einem Schild aus Feuer vor Schaden und entfernt schädliche Einflüsse. Das Schild explodiert, sobald es bis zur Zerreißgrenze beschädigt wurde. In diesem Fall fügt es benachbarten Feinden einen Magischen Schaden zu, der dem absorbierten Schaden des Schildes entspricht.
-Ability_Accursed2_description_simple							Target a friendly unit to remove most debuffs and Stuns, and apply a shield which absorbs up to ^o{110,140,170,200} damage^*.\n\nIf the shield hits its limit, it explodes and deals ^o{110,140,170,200} Magic Damage^* to nearby enemies.
+Ability_Accursed2_description_simple							Wähle eine verbündete Einheit an um Debuffs und Stuns zu entfernen und um ein Schild anzubringen welches ^o{110,140,170,200} Schaden^* absorbiert.\n\nWenn das Limit erreicht wird, explodiert es und richtet ^o{110,140,170,200} Magischen Schaden^* an Gegnerische Einheiten an.
 Ability_Accursed2_effect_header									Fire Shield Effects
 Ability_Accursed2_IMPACT_effect									Entfernt die meisten Debuffs, danach wird das Ziel 15 Sekunden lang mit dem Effekt Fire Shield ausgestattet.
-Ability_Accursed2_tooltip_flavor								Here, wear this!
+Ability_Accursed2_tooltip_flavor								Hier, trag das!
 
 // State_Accursed_Ability2
-State_Accursed_Ability2_name									Fire Shield
+State_Accursed_Ability2_name									Feuer Schild
 State_Accursed_Ability2_FRAME_effect							{110,140,170,200} Schutzschild. Nachdem es den insgesamt möglichen Schaden absorbiert hat, verursacht es bei Feinden in einem Umkreis von 700 Maßeinheiten {110,140,170,200} Magischen Schaden.
 
 // Ability_Accursed3
@@ -382,7 +382,7 @@ Ability_Accursed3_ATTACK_IMPACT_effect					Das Ziel verdorrt 2 Sekunden lang.
 Ability_Accursed3_tooltip_flavor								I'M MELTING!
 
 // State_Accursed_Ability3
-State_Accursed_Ability3_name									Sear
+State_Accursed_Ability3_name									Verdorren
 State_Accursed_Ability3_description								Verdorren
 
 // State_Accursed_Ability3_Buff
@@ -8403,11 +8403,11 @@ State_Glyph_Hellbourne_description
 State_Glyph_Hellbourne_description2								
 
 // State_Glyph_Legion
-State_Glyph_Legion_name											Fortified
+State_Glyph_Legion_name											Befestigt
 State_Glyph_Legion_description									
 State_Glyph_Legion_description2									
 // State_Stunned
-State_Stunned_name												Stunned
+State_Stunned_name												Gestunnt
 
 // State_Taunted
 State_Taunted_name												Taunted
