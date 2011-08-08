@@ -10,7 +10,7 @@ disconnect_snapshot_fragment	Too many snapshot fragments.
 disconnect_not_invited			Um an diesem privaten Spiel teilzunehmen, benötigst Du eine Einladung.
 disconnect_no_cookie			Du musst Dich einloggen, um auf diesem Server zu spielen.
 disconnect_auth_failed			Der Server konnte Dein Account nicht autorisieren. Bitte melde Dich erneut an.
-disconnect_duplicate_connect	You have been disconnected because another client connected to the game using the same account.
+disconnect_duplicate_connect	Du wurdest vom Spiel getrennt, da jemand anderes deinen Account benutzt.
 disconnect_unknown				Du wurdest getrennt.
 disconnect_timeout				Server antwortet nicht.
 disconnect_game_over			Das Spiel ist vorbei.
