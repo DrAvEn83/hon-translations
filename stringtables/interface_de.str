@@ -1,26 +1,26 @@
 // Buttons
-BACKSPACE		Backspace
+BACKSPACE		Rücktaste
 TAB				Tab
-ENTER			Enter
+ENTER			Eingabetaste
 ESC				Escape
-SPACE			Space
-CAPS_LOCK		Caps Lock
+SPACE			Leertaste
+CAPS_LOCK		Feststelltaste
 SHIFT			Shift
-LSHIFT			Left Shift
-RSHIFT			Right Shift
-CTRL			Ctrl
-LCTRL			Left Ctrl
-RCTRL			Right Ctrl
+LSHIFT			Linke Shift
+RSHIFT			Rechte Shift
+CTRL			Strg
+LCTRL			Links Strg
+RCTRL			Rechts Strg
 ALT				Alt
-LALT			Left Alt
-RALT			Right Alt
-WIN				Windows Key
-LWIN			Left Windows Key
-RWIN			Right Windows Key
-UP				Up
-LEFT			Left
-DOWN			Down
-RIGHT			Right
+LALT			Links Alt
+RALT			Rechts Alt
+WIN				Windowstaste
+LWIN			Linke Windowstaste
+RWIN			Rechte Windowstaste
+UP				Oben
+LEFT			Links
+DOWN			Unten
+RIGHT			Rechts
 NUM_LOCK		Num Lock
 DIVIDE			/ (num)
 MULTIPLY		* (num)
@@ -57,7 +57,7 @@ general_options								Optionen
 general_create_account						Account Erstellen
 general_local								Lokal
 general_channel_name						Name des Channels
-general_topic								Topic
+general_topic								Thema
 general_users								Benutzer
 general_server_name							Name des Servers
 general_ping								Ping
@@ -79,101 +79,101 @@ general_decline								Ablehnen
 general_approve								Zustimmen
 general_ignore								Ignorieren
 general_join								Beitreten
-general_submit								Submit
+general_submit								Absenden
 general_close								Schließen
 general_continue							Fortfahren
 general_back								Zurück
 general_apply								Anwenden
 general_ready								Bereit
 general_error								Fehler
-general_retry								EErneut versuchen
-general_login								Login
-general_error_login							Login fehlgeschlagen
+general_retry								Erneut versuchen
+general_login								Anmelden
+general_error_login							Anmeldung ehlgeschlagen
 general_error_sea_deny						SEA Nutzer müssen sich über den Garena Client verbinden.
-general_error_sea_message1					Die Heroes of Newerth Beta für Spieler in Singapur, Malaisia, Vietnam and the Philippines will be starting soon.  At the start of closed beta, gamers from these countries will be able to redeem a Beta Key immediately if they are Garena Gold Members, while other keys are given away in other community efforts. Please note that countries not stated here (e.g. Indonesia, Thailand) will be unable to play on Garena servers, and would require purchasing a paid account to enjoy the game in S2 Games' international servers.
+general_error_sea_message1					Die Heroes of Newerth Beta für Spieler in Singapur, Malaisia, Vietnam und den Philippinen wird bald starten.  Wenn die Closed Beta startet, bekommen Spieler aus diesen Ländern sofort eine Betaeinladung, wenn sie Garena Gold Mitglieder sind, während die anderen Spieler die Einladungen durch andere Möglichkeiten bekommen. Please note that countries not stated here (e.g. Indonesia, Thailand) will be unable to play on Garena servers, and would require purchasing a paid account to enjoy the game in S2 Games' international servers.
 general_error_sea_message2					For more updates from the Garena Team regarding their Heroes of Newerth release, visit their blog at ^yhttp://blog.garena.com^* or the official Garena Heroes of Newerth website at ^yhttp://hon.garena.com^*.
 general_quit								Beenden
 general_unavailable							Nicht verfügbar
 general_set_default							Als Standard festlegen
 general_addto_fav							Zu Favoriten hinzufügen
 general_basic								Basic
-general_verified							Verified
+general_verified							Verifiziert
 general_mode_all_heroes						Alle Helden
-general_mode_all_pick						All Pick
-general_mode_all_pick_desc					Standard hero selection. First come first serve.
-general_mode_random_draft					Random Draft
+general_mode_all_pick						Alles Auswählen
+general_mode_all_pick_desc					Standard Helden auswahl. Wer zuerst kommt mahlt zuerst.
+general_mode_random_draft					Zufalls Draft
 general_mode_random_draft_desc				Limits hero selection to 20 heroes then alternates picking between players.
-general_mode_allrandom						All Random
-general_mode_allrandom_desc					Heroes are randomly distributed to all players.
-general_mode_banningpick					Banning Pick
-general_mode_banningpick_desc					Blue and Pink take turns banning 8 total heroes, and then players alternate picking from the remaining hero pool.
+general_mode_allrandom						Alles Zufällig
+general_mode_allrandom_desc					Den Spielern werden zufällig Helden zugewiesen.
+general_mode_banningpick					Banning Draft
+general_mode_banningpick_desc				Blau und Pink bannen abwechselnd einen Helden bis insgesamt 8 Helden gebannt wurden und danach können sich die Spieler abwechselnd einen der übrig gebliebenden Helden auswählen.
 general_mode_singledraft					Single Draft
-general_mode_singledraft_desc				Each player is given a hero selection of one agility, one intelligence, and one strength hero.
+general_mode_singledraft_desc				Jeder Spieler bekommt eine Heldenauswahl mit einem AGI, einen INT und einem STR Helden.
 general_mode_banningdraft					Banning Draft
 general_mode_banningdraft_desc				Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.
 general_mode_random							Zufälliger Held
-general_mode_verified						Verified Only
-general_mode_allPlayers						Basic and Verified							
-general_mode_easy_mode						Easy Mode
-general_mode_no_hero_repick					No Hero Repick
-general_mode_no_hero_swap					No Hero Swap
-general_mode_no_agi_heroes					No Agi Heroes
-general_mode_no_intel_heroes				No Intel Heroes
-general_mode_no_str_heroes					No Str Heroes
-general_mode_no_respawn_timer				No Respawn Timer
-general_mode_drop_items						Drop Items
-general_mode_no_runes						No Power-Ups
+general_mode_verified						Nur verifizierte Accounts
+general_mode_allPlayers						Standard und verfizierte Accounts							
+general_mode_easy_mode						Einfacher Modus
+general_mode_no_hero_repick					Keine Heldenneuwahl
+general_mode_no_hero_swap					Kein Heldentausch
+general_mode_no_agi_heroes					Keine AGI Helden
+general_mode_no_intel_heroes				Keine INT Helden
+general_mode_no_str_heroes					Keine STR Helden
+general_mode_no_respawn_timer				Sofortige Wiederbelebung
+general_mode_drop_items						Items gehen verloren
+general_mode_no_runes						Keine Power-Ups
 general_mode_super_creeps					Super Team Creeps
-general_mode_alt_hero_pick					Alt Hero Picking
-general_mode_duplicate_heroes				Duplicate Heroes
+general_mode_alt_hero_pick					Alt Hero Auswahl
+general_mode_duplicate_heroes				Doppelte Helden
 general_mode_reverse_hero_select			Reverse Hero Select
-general_mode_no_top_lane					No Top Lane
-general_mode_no_middle_lane					No Middle Lane
-general_mode_no_bottem_lane					No Bottom Lane
+general_mode_no_top_lane					Ohne Obersten Pfad
+general_mode_no_middle_lane					Ohne Mittleren Pfad
+general_mode_no_bottem_lane					Ohne Unteren Pfad
 general_mode_allow_veto						Allow Veto
 general_mode_shuffle						Shuffle Team
 general_mode_autobalance					Auto Balanced
-general_mode_no_leavers						No Leavers
-general_mode_no_stats						No Stats
-general_mode_official						Official
-general_mode_tournament_rules				Tournament Rules
+general_mode_no_leavers						Keine Leavers
+general_mode_no_stats						Keine Statistiken
+general_mode_official						Offiziell
+general_mode_tournament_rules				Turnier Regeln
 general_mode_hardcore						Hardcore
-general_mode_dev_heroes						Dev Heroes
+general_mode_dev_heroes						Dev Helden
 general_mode_casual_mode					Casual Mode
-general_one_week							One Week
-general_one_day								One Day
-general_one_hour							One Hour
-general_one_minute							One Minute
-general_one_second							One Second
-general_weeks_amount						{amount} Weeks
-general_days_amount							{amount} Days
-general_hours_amount						{amount} Hours
-general_minutes_amount						{amount} Minutes
-general_seconds_amount						{amount} Seconds
+general_one_week							Eine Woche
+general_one_day								Einen Tag
+general_one_hour							Eine Stunde
+general_one_minute							Eine Minute
+general_one_second							Eine Sekunde
+general_weeks_amount						{amount} Wochen
+general_days_amount							{amount} Tagen
+general_hours_amount						{amount} Stunden
+general_minutes_amount						{amount} Minuten
+general_seconds_amount						{amount} Sekunden
 general_permanent							Permanent
-general_help								Help
+general_help								Hilfe
 
 // main.interface
-main_peel_tip								Besuche den Store
-main_peel_tip_body							Merrick is looking for you!  Click here to go to the Store!
+main_peel_tip								Besuche den Laden
+main_peel_tip_body							Merrick sucht nach dir!  Hier klicken um in den Laden zu gelangen!
 main_label_username							Benutzername
 main_label_password							Passwort
 main_checkbox_remember_me					Benutzer speichern
 main_checkbox_auto_login					Auto-Login
 main_label_account_type						Accountart
 main_label_account_type_desc	
-main_label_account_level					Level
-main_label_games_played						Spiele
-main_label_leaves							Verlässt das Spiel
+main_label_account_level					Level:
+main_label_games_played						Spiele:
+main_label_leaves							Verlässt das Spiel:
 main_label_record							Protokoll
-main_button_upgrade							Jetzt Upgraden
-main_label_logged_in_as						Angemeldet als
+main_button_upgrade							Jetzt Upgraden:
+main_label_logged_in_as						Angemeldet als:
 main_button_login							Anmelden
 main_button_logout							Abmelden
 main_label_login_status_waiting				Anmelden, bitte warten...
 main_label_login_status_success				Du bist jetzt eingeloggt.
-main_label_login_status_failed				Login fehlgeschlagen: {reason}
-main_label_login_garena						You must launch Heroes of Newerth through the Garena Messenger.
+main_label_login_status_failed				Anmeldung fehlgeschlagen: {reason}
+main_label_login_garena						Du musst Heroes of Newerth mit dem Garena Messenger starten
 main_button_create_account					Account erstellen
 main_button_need_login						Login zum Online-Spiel
 main_button_play_online						Online spielen
@@ -182,8 +182,8 @@ main_button_options							Optionen
 main_button_view_replay						Replay ansehen
 main_button_quit							Verlassen
 main_quit_confirm							Bist Du Dir sicher?
-main_quit_confirm2							Bist du dir sicher, dass du HoN verlassen willst?
-main_label_update_avail						Eine neue Version von HoN ist zum Download verfügbar! Willst du diese Version nun runterladen?
+main_quit_confirm2							Bist Du Dir sicher, dass du HoN verlassen willst?
+main_label_update_avail						Eine neue Version von HoN ist zum Download verfügbar! Willst du diese Version nun herrunterladen?
 main_button_cancel_update					Update abbrechen
 main_label_update_calculating				HoN Update berechnen
 main_label_update_downloading				HoN Update herunterladen
@@ -193,34 +193,34 @@ main_label_update_files						Verbleibende Dateien: ^w{count} / {total}
 main_label_update_progress					Fortschritt: ^w{count}MB / {total}MB
 main_label_update_speed						Download-Geschwindigkeit: ^w{speed}KB/Sek
 main_label_update_time						Verbleibende Zeit: ^w{time}
-main_label_update_error						HoN Update Error
-main_login_save_username					Speicher Benutzername
-main_login_save_username_tip				When selected, your username will be saved and automatically entered when you start the game.
+main_label_update_error						HoN Update Fehler
+main_login_save_username					Benutzername speichern
+main_login_save_username_tip				Wenn du diese Option auswählst, wird deine Benutzername gespeichert und automatisch eingetragen beim nächsten Start.
 main_login_auto_auth						Auto Auth
-main_login_auto_auth_tip					When selected, your password will be saved and you will be automatically logged in when you start the game.
-main_login_invis_mode						Invisible Mode
-main_login_invis_mode_tip					When selected, your friends and clan mates will not be notified when you sign on/off or join/leave games, but you will still receive their notifications.
-main_login_lost_pass						Lost Login Info?
-main_login_password_saved					<saved>
+main_login_auto_auth_tip					Wenn du diese Option auswählst, wird dein Passwort gespeichert und du wirst automatisch eingeloggt wenn du das Spiel startest.
+main_login_invis_mode						Unsichtbarer Modus
+main_login_invis_mode_tip					Wenn du diese Option auswählst, werden deine Freunde und Clan mitglieder nich benachrichtigt, wenn du ein- bzw ausloggst oder ein Spiel beitriettst/verlässt. Aber du wirst immer noch deren Benachrichtigungen bekommen.
+main_login_lost_pass						Logininformationen verloren?
+main_login_password_saved					<gespeichert>
 
 //confirmations.package
 confirm_disconnect_title					Vom Spiel trennen?
-confirm_disconnect_msg						Are you sure you want to disconnect from this game?
-confirm_leaver_result_nowleaver				You will NOT be able to join leaver protected games if you disconnect from this game.
-confirm_leaver_result_notleaver				You will NOT become a leaver if you disconnect from this game.
+confirm_disconnect_msg						Bist du dir sicher das du diese Partie verlassen möchtest?
+confirm_leaver_result_nowleaver				Es ist dir NICHT mehr möglich Lever gesicherte Spiele beizutreten, wenn du diese Parte verlässt.
+confirm_leaver_result_notleaver				Du wirst NICHT zum Leaver wenn du diees Spiel verlässt.
 
 confirm_switchsub_title						Accounts wechseln?
-confirm_switchsub_msg						Are you sure you want to switch accounts?
+confirm_switchsub_msg						Bist du dir sicher das du Accounts wechseln möchtest?
 confirm_switchsub_da						Frag mich nicht erneut
 
-confirm_verify_congrats						Congratulations!
-confirm_verify_complete						This Account Has Been Verified!
-confirm_verify_text1						Your Verified account allows you to exclude Basic accounts when you play matchmaking games.
-confirm_verify_text2						Excluding Basic accounts will increase your chances of finding a game free of griefers and smurf accounts.
-confirm_verify_text3						As a reward for becoming verified, you have received 5 free Tokens. Tokens can be used to play special game modes and play heroes that you do not own.
+confirm_verify_congrats						Gratulation!
+confirm_verify_complete						Dieser Account ist nun verifiziert!
+confirm_verify_text1						Dein verifizierter Account erlaubt es dir dich von Standard Account abzugrenzen, wenn du Matchmaking spielst. 
+confirm_verify_text2						Standard Account auszuschließen wird die Chancen erhöhen ein Spiel zu finden, welches frei von Griefern und "Smurfs" ist.
+confirm_verify_text3						Als Belohnung dafür das du nun einen verifizierten Account hast, bekommst du 5 Spielsteine. Mit Spielsteinen kannst du andere Spielmodis und Helden die du nicht besitzt spielen.
 
-confirm_verify_bene_not						This account is not Verified!
-confirm_verify_bene_what					What are the benefits of a Verified Account?
+confirm_verify_bene_not						Dieser Account ist nicht verifiziert!
+confirm_verify_bene_what					Welche Vorteile hat man mit einem verifiziertem Account?
 confirm_verify_bene_txt1					You are currently logged in with a Basic account. You are able to play unlimited games with a Basic account, but there are some perks to being Verified:
 confirm_verify_bene_txt2					You will be able to choose to play with only other Verified Users, you can buy tokens and passes to play other game modes, and you can use the Report a Player feature.
 confirm_verify_bene_txt3					Converting your Basic account into a Verified account is simple. Simply perform ONE of the following tasks:
@@ -2792,27 +2792,27 @@ game_shop_label_combine						Kombinieren
 game_scores_header_scores					Scores
 game_button_scores							Scores
 game_halfscores_tooltip						Click to show only the player avatar and level portion of the scoreboard. To fully expand or hide scores, use the button above.
-game_button_menu							Menu
-game_button_open_close_shop					Open/Close Shop
-game_shop_label_shopname					Shop
-game_shop_label_accessories					Accessories
-game_shop_label_weapons						Weapons
-game_shop_label_relics						Relics
-game_shop_label_supplies					Supplies
-game_shop_label_secret						Secret Shop
-game_shop_label_legendary					Legendary
-game_shop_label_recipe_outpost				Outpost
-game_shop_label_recipe_one					Initiation
-game_shop_label_recipe_two					Supportive
-game_shop_label_recipe_three				Protective
+game_button_menu							Menü
+game_button_open_close_shop					Laden Öffnen/Schließen
+game_shop_label_shopname					Laden
+game_shop_label_accessories					Zusatzausrüstung
+game_shop_label_weapons						Waffen
+game_shop_label_relics						Relikte
+game_shop_label_supplies					Proviant
+game_shop_label_secret						Geheimer Laden
+game_shop_label_legendary					Legendär
+game_shop_label_recipe_outpost				Außenposten
+game_shop_label_recipe_one					Initiierung
+game_shop_label_recipe_two					Unterstützung
+game_shop_label_recipe_three				Schutz
 game_shop_label_recipe_four					Combative
 game_shop_label_recipe_five					Morph Attack
 game_shop_label_recommended					Recommended
 game_shop_label_consumables					Consumables
 game_shop_label_mobility					Mobility
-game_shop_label_attack_speed				Attack Speed
-game_shop_label_damage						Damage
-game_shop_label_armor						Armor
+game_shop_label_attack_speed				Angriffsgeschwindigkeit
+game_shop_label_damage						Schaden
+game_shop_label_armor						Rüstung
 game_shop_label_regeneration				Regeneration
 game_shop_label_agi							AGI
 game_shop_label_str							STR
@@ -2821,30 +2821,30 @@ game_shop_label_booster						Booster
 game_shop_label_activatable					Activatable
 game_shop_label_modifier					Modifier
 game_shop_label_guide						Guide
-game_shop_label_openguide					Open Hero Guide
-game_shop_label_closeguide					Close Hero Guide
-game_shop_label_shopview					Simple Item View
+game_shop_label_openguide					Helden Guide öffnen
+game_shop_label_closeguide					Helden Guide schließen
+game_shop_label_shopview					Einfache Itemansicht
 game_shop_label_shopview_tip				When selected, only item icon and prices will be displayed.
 
-game_shop_noitemsfound_title				No Items Found
+game_shop_noitemsfound_title				NKeine Items gefunden
 game_shop_noitemsfound1						Searching for Items?  Too bad; it's me, Blacksmith!
 game_shop_noitemsfound2						No matching items were found in your search. 
 
-game_label_stash							Stash
-game_label_stash_tool_tip					The Stash is used to store items when your inventory is full. Items purchased from the shop when you are away from base will automatically be placed in your stash.\n\nLeft-clicking on an auto-forming item in your stash will disassemble it.
+game_label_stash							Lager
+game_label_stash_tool_tip					Das Lager ist dazu da Items aufzubewahren, wenn dein Inventar voll ist. Wenn du auf einem Pfad bist und ein Item kaufst, wird das Item automatisch in dein Lager gelegt.\n\nLinksklick auf ein Item, welches sich automatisch zusammengebaut hat um dieses Item wiedr auseinander zu bauen.
 game_label_stash_deconstruct_tool_tip		Deconstruction tooltip
-game_shop_label_requires					Requires:
-game_shop_label_used_in						Used in:
-game_shop_label_cost						Cost
-game_shop_label_total_cost					Total Cost
-game_shop_label_buyall						Buy All Components
-game_shop_label_buyremaining				Buy Remaining
-game_shop_label_upgrade						Upgrade
+game_shop_label_requires					Benötigt:
+game_shop_label_used_in						Benutzt für:
+game_shop_label_cost						Kosten
+game_shop_label_total_cost					Komplette Kosten
+game_shop_label_buyall						Alle Komponenten kaufen
+game_shop_label_buyremaining				Restliche Komponenten kaufen
+game_shop_label_upgrade						Verbessern
 game_shop_label_buyremaining_dontaxe		Buy Components Confirmation
 game_shop_label_buyremaining_dontaxe_tip	If enabled, you will be prompted to confirm the purchase of multiple recipe components when quick purchasing.
 game_shop_label_itemclick_tip				Left-Click this item to view more information.  Right-click this item to purchase it.  If it's a Recipe, you will attempt to Purchase All Remaining Components.
 game_shop_label_itemrightclick_tip			Right-click this item to purchase it.  If it's a Recipe, you will attempt to Purchase All Remaining Components.
-game_shop_label_buycomponents_title			Buy All Components
+game_shop_label_buycomponents_title			Alle Komponenten kaufen.
 game_shop_label_buycomponents_desc			Are you sure that you want to purchase all remaining components for this recipe?
 game_shop_label_buyupgrade_desc				Are you sure that you want to purchase the upgrade to this item?
 game_shop_label_buycomponents_total			TOTAL COST
@@ -2863,41 +2863,41 @@ game_shop_guide_btn_tip						Open/Close hero guide.
 game_shop_clear_search_tip					Clear Search Box
 game_shop_close_shop_tip					Close Shop
 game_shop_close_tree_tip					Hide Tree
-game_shop_filter_view						Filter View
-game_shop_category_view						Category View 
-game_shop_filter							Filters
-game_shop_category							Categories
-game_shop_label_header_LMB					LMB - Show/Hide Item Details				
-game_shop_label_header_RMB					RMB - Purchase Item
+game_shop_filter_view						Filteransicht
+game_shop_category_view						Kategorieansicht 
+game_shop_filter							Filter
+game_shop_category							Kategorien
+game_shop_label_header_LMB					LMT - Show/Hide Item Details				
+game_shop_label_header_RMB					RMT - Purchase Item
 
 game_shop_key_seperator						+
-game_shop_key_shop_cuts						Shop Shortcuts
-game_shop_key_inv_cuts						Inventory Shortcuts
-game_shop_key_stash_cuts					Stash Shortcuts
-game_shop_key_openclose						Open/Close Shop
-game_shop_key_showhide						Show/Hide Item Details
-game_shop_key_buyitem						Buy Item
-game_shop_key_purchaserecipe				Purchase Recipe Only
+game_shop_key_shop_cuts						Shop Tastaturkürzel
+game_shop_key_inv_cuts						Inventar Tastaturkürzel
+game_shop_key_stash_cuts					Lager Tastaturkürzel
+game_shop_key_openclose						Laden öffnen/schließen
+game_shop_key_showhide						Item Details anzeigen/verstecken
+game_shop_key_buyitem						Item kaufen
+game_shop_key_purchaserecipe				Nur das Rezept kaufen
 game_shop_key_useitem						Use Item (If Activatable)
-game_shop_key_grab							Grab Item
+game_shop_key_grab							Item nehmen
 game_shop_key_viewrecipe					View Recipe In Shop
 game_shop_key_swapitem						Swap Inventory/Stash
-game_shop_key_sellitem						Sell Item
-game_shop_key_dissassemble					Disassemble Item
+game_shop_key_sellitem						Item verkaufen
+game_shop_key_dissassemble					Item auseinanderbauen
 game_shop_key_qs							Quickslot Shortcuts
 game_shop_key_qs1							Shop item to quickslot
 game_shop_key_qs2							Inventory item to quickslot
 
-game_shop_trans								Shop Transparency
+game_shop_trans								Shop sichtbarkeit
 game_shop_trans_tip							Drag the slider to the left to lower transparency, to the right to increase transparency.
 
-game_guide_reco_1							Starting Items
+game_guide_reco_1							Anfangs Items
 game_guide_reco_1_tip						Items you should purchase immediately using your starting gold.
 game_guide_reco_2							Laning Items
 game_guide_reco_2_tip						Items you should work towards acquiring in the laning phase, which typically lasts up to the 10-15 minute mark.
-game_guide_reco_3							Core Items
+game_guide_reco_3							Kern Items
 game_guide_reco_3_tip						Items that are highly recommended in order to obtain the most out of your hero.
-game_guide_reco_4							Luxury Items
+game_guide_reco_4							Luxus Items
 game_guide_reco_4_tip						Optional items that will significantly boost your power should you be able to afford them.
 game_guide_popularity						Popularity
 game_guide_vote_up							Vote Up
@@ -5165,8 +5165,8 @@ specui_options_abilityUsage_txt		Display ability usage popups.
 //vid driver options
 options_label_vid_quality			Video Driver
 main_vid_confirm					Video Driver
-main_vid_confirm_info				You must restart HoN before your changes will take effect.
-button_restart_later				Later
-button_restart_now					Restart HoN Now
+main_vid_confirm_info				Du musst HoN neustarten damit die Änderungen angezeigt werden.
+button_restart_later				Später
+button_restart_now					HoN jetzt neustarten
 
 // End - do not delete this line
