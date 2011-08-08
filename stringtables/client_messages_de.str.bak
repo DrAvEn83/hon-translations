@@ -17,7 +17,7 @@ disconnect_game_over			Das Spiel ist vorbei.
 disconnect_idle					Du wurdest wegen Untätigkeit getrennt.
 disconnect_terminated			Du warst zu lange vom Server getrennt und kannst nicht mehr an diesem Spiel teilnehmen.
 disconnect_kicked				Du wurdest vom Host aus dem Spiel geworfen.
-disconnect_vote_kicked			Du wurdest duch eine Ausschulsswahl aus dem Spiel geworfen.
+disconnect_vote_kicked			You have been kicked from the game by a vote.
 disconnect_unassigned			The host started the game while you were not on a team.
 disconnect_banned				The host has banned you from this match.
 disconnect_leaver				You are not allowed to join this game because your leaver percentage is too high.
