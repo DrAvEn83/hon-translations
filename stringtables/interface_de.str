@@ -1,4 +1,4 @@
-// Buttons
+﻿// Buttons
 BACKSPACE		Rücktaste
 TAB				Tab
 ENTER			Eingabetaste
@@ -51,7 +51,7 @@ general_send								Senden
 general_add_friend							Freund Hinzufügen
 general_remove_friend						Freund entfernen
 general_select_server						Server Wählen
-general_quick_play							Schnellspiel
+general_quick_play							Schnellesspiel
 general_type								Art
 general_options								Optionen
 general_create_account						Account Erstellen
@@ -112,7 +112,7 @@ general_mode_singledraft_desc				Jeder Spieler bekommt eine Heldenauswahl mit ei
 general_mode_banningdraft					Banning Draft
 general_mode_banningdraft_desc				Funktioniert genauso wie Zufalls Draft, außer dass zuerst Blau und Pink abwechselnd insgesamt 4 Helden bannen.
 general_mode_random							Zufälliger Held
-general_mode_verified						Nur verifizierte Accounts
+general_mode_verified						Nur Verifizierte
 general_mode_allPlayers						Standard und verfizierte Accounts							
 general_mode_easy_mode						Einfacher Modus
 general_mode_no_hero_repick					Keine Heldenneuwahl
@@ -120,7 +120,7 @@ general_mode_no_hero_swap					Kein Heldentausch
 general_mode_no_agi_heroes					Keine AGI Helden
 general_mode_no_intel_heroes				Keine INT Helden
 general_mode_no_str_heroes					Keine STR Helden
-general_mode_no_respawn_timer				Sofortige Wiederbelebung
+general_mode_no_respawn_timer				Kein Respawn-Timer
 general_mode_drop_items						Items gehen verloren
 general_mode_no_runes						Keine Power-Ups
 general_mode_super_creeps					Super Team Creeps
@@ -194,13 +194,13 @@ main_label_update_progress					Fortschritt: ^w{count}MB / {total}MB
 main_label_update_speed						Download-Geschwindigkeit: ^w{speed}KB/Sek
 main_label_update_time						Verbleibende Zeit: ^w{time}
 main_label_update_error						HoN Update Fehler
-main_login_save_username					Benutzername speichern
+main_login_save_username					Merke Username
 main_login_save_username_tip				Wenn du diese Option auswählst, wird deine Benutzername gespeichert und automatisch eingetragen beim nächsten Start.
-main_login_auto_auth						Auto Auth
+main_login_auto_auth						Auto. Anmelden
 main_login_auto_auth_tip					Wenn du diese Option auswählst, wird dein Passwort gespeichert und du wirst automatisch eingeloggt wenn du das Spiel startest.
-main_login_invis_mode						Unsichtbarer Modus
-main_login_invis_mode_tip					Wenn du diese Option auswählst, werden deine Freunde und Clan mitglieder nich benachrichtigt, wenn du ein- bzw ausloggst oder ein Spiel beitriettst/verlässt. Aber du wirst immer noch deren Benachrichtigungen bekommen.
-main_login_lost_pass						Logininformationen verloren?
+main_login_invis_mode						Unsichtbar
+main_login_invis_mode_tip					Wenn du diese Option auswählst, werden deine Freunde und Clanmitglieder nicht benachrichtigt, wenn Du Dich ein- bzw ausloggst oder ein Spiel beitretest/verlässt. Aber du wirst immer noch deren Benachrichtigungen bekommen.
+main_login_lost_pass						LoinInfo verloren?
 main_login_password_saved					<gespeichert>
 
 //confirmations.package
@@ -228,22 +228,22 @@ confirm_verify_bene_opt1					Mehr Spiele spielen
 confirm_verify_bene_opt1_txt1				Du kannst einen verifizierten Account alleine durch Matchmaking Spiele bekommen! Sobald die das benötigte Level erreichst, wird dein Account automatisch verifiziert.
 confirm_verify_bene_opt1_current			Dein derzeitiges Level:
 confirm_verify_bene_opt1_target				Benötigtes Level:
-confirm_verify_bene_opt2					Goblin Coins kaufen
+confirm_verify_bene_opt2					Goblin Münzen kaufen
 confirm_verify_bene_opt2_txt1				Um sofort einen verifizierten Account zu bekommen, kannst du auch einfach eines der vorhanden Goblin Coin Pakete kaufen.
-confirm_verify_bene_buycoinsnow				Goblin Coins jetzt kaufen
+confirm_verify_bene_buycoinsnow				Goblin Münzen jetzt kaufen
 confirm_verify_bene_closeWindow				Fenster schließen
 
 //account.package
-account_retrieve_header						Benutzername und Passwort abfragen
-account_lost_username						Benutzername vergessen
-account_lost_username_msg					Trage unten deine EMailadresse ein, die du für deinen Account benutzt und du bekommst deinen Benutzernamen zugesendet.
+account_retrieve_header						Benutzername und Passwort abrufen
+account_lost_username						Benutzernamen vergessen
+account_lost_username_msg					Trage unten deine E-Mailadresse ein, die du für deinen Account benutzt und du bekommst deinen Benutzernamen zugesendet.
 account_lost_username_processing			Verarbeite Anfrage, bitte warten...
-account_lost_username_success				Eine EMail mit deinem Benutzernamen wurde an die angegebene EMailadresse versendet.
+account_lost_username_success				Eine E-Mail mit deinem Benutzernamen wurde an die angegebene EMailadresse versendet.
 account_lost_username_error1				Hey hier bin ich! Ich bin ein Fehler! Justin wird bald richtige Fehlernachrichten machen! Nein werd ich nicht! Ich brauche deinen stinkenden Fehler nicht!
 account_lost_password						Passwort vergessen
-account_lost_password_msg					Gib entweder deinen Benutzernamen oder deine EMailadresse an, um dein Passwort zu der EMailadresse gesand zu bekommen, die in verbindung mit dem Account steht.
+account_lost_password_msg					Gib Entweder den Benutzername oder die E-Mailadresse des Accounts an um eine E-Mail mit dem Passwort zu bekommen.
 account_lost_pass_sep						-oder-
-account_lost_password_success				Eine EMail mit dem Passwort des Accounts wurde an die EMailadresse gesendet, die zu diesem Account gehört.
+account_lost_password_success				Eine E-Mail mit dem Passwort des Accounts wurde an die EMailadresse gesendet, die zu diesem Account gehört.
 
 main_menu_creategame						Erstelle Spiel
 main_menu_publicgame						Öffentliche Spiele
@@ -2058,7 +2058,7 @@ mstore_tip_couriers_btnselect	Select the Courier's Avatar
 mstore_tip_couriers_btnlock		If you own the courier, click this to lock its avatar.
 
 
-mstore_category59		Flags
+mstore_category59		Flaggen
 mstore_category59_desc		Choose from a long list of countries to represent!
 mstore_category60		Hero Symbols
 mstore_category60_desc		Avoiding real life? Choose a hero symbol instead!
@@ -2071,12 +2071,12 @@ mstore_exttip_namecolor		Name Colors are found in the chat list, in the in-game 
 mstore_matches_remaining	{amount} Matches Remaining.  More matches can be purchased above.
 mstore_expireson		Currently owned - Expires on {date}.  More time can be purchased above.
 mstore_herolist_sortby	Sort
-mstore_avatarname		Avatar Name
-mstore_heroname			Hero Name
-mstore_price_asc		Price Low to High
-mstore_price_desc		Price High to Low
-mstore_diff_asc			Difficulty Low to High
-mstore_diff_desc		Difficulty High to Low
+mstore_avatarname		Avatar Namen
+mstore_heroname			Helden Namen
+mstore_price_asc		Preis Hoch bi Niedrig
+mstore_price_desc		Preis Hoch bi Niedrig
+mstore_diff_asc			Schwierigkeit Gering bis Hoch
+mstore_diff_desc		Schwierigkeit Hoch bis Gering
 mstore_difficulty		Difficulty
 mstore_difficulty_desc	These stars indicate how difficult the hero is to play.  More stars means that the hero is harder to use effectively.
 mstore_viewallheroes	View All Heroes
@@ -2085,11 +2085,11 @@ mstore_duration			Duration
 mstore_games_amount		{amount} Heroes
 mstore_onegame				One Hero
 mstore_expiration		Expiration
-mstore_free				Free
-mstore_amount			Amount
-mstore_avatar_show		Show
-mstore_avatar_show_allavatars	All Avatars
-mstore_avatar_show_ownedheroes	Owned Heroes
+mstore_free				Kostenlos
+mstore_amount			Menge
+mstore_avatar_show		Zeigen
+mstore_avatar_show_allavatars	Alle Avatare
+mstore_avatar_show_ownedheroes	Eigene Helden
 mstore_avatar_show_unownedheroes	Un-Owned Heroes
 mstore_eap				Early Access
 mstore_releasedate		Release Date
@@ -2346,9 +2346,9 @@ mstore_error37		Unable to load list of purchased items.
 mstore_error38		The Goblin Store is closed at this time.
 mstore_error39		VIP Exclusive to purchase a VIP Account, please visit http://shop.garena.com/hon/.
 
-mstore_formerror16		The nickname you entered was too long. Choose a shorter nickname.
-mstore_formerror17		Nicknames cannot begin with a number [0-9] or 'S2'.
-mstore_formerror18		Nickname already exists. You must change your entry.
+mstore_formerror16		Der eingegbene Benutzername ist zu lang. Bitte wähle einen kürzeren Benutzernamen.
+mstore_formerror17		Der Benutzername darf nicht mit einer Zahl [0-9] oder 's2' anfangen.
+mstore_formerror18		Der Benutzername existiert bereits. Bitte wähle einen anderen.
 mstore_formerror19		No nickname specified.
 mstore_formerror20		You have submitted a blank promocode.
 mstore_formerror21		Invoice Error
@@ -2888,7 +2888,7 @@ game_shop_key_qs							Quickslot Shortcuts
 game_shop_key_qs1							Shop item to quickslot
 game_shop_key_qs2							Inventory item to quickslot
 
-game_shop_trans								Shop sichtbarkeit
+game_shop_trans								Shop Sichtbarkeit
 game_shop_trans_tip							Drag the slider to the left to lower transparency, to the right to increase transparency.
 
 game_guide_reco_1							Anfangs Items
@@ -2912,13 +2912,13 @@ process_guides_error						Guide Error
 invalid_cookie								Invalid Cookie
 guides_fail									Guide Retrieval Error
 
-guide_last_updated							Last Updated
+guide_last_updated							Letzte Update
 guide_remove_default						Remove Default
 guide_remove_favorite						Remove Favorite
 
-game_guide_report_title						Report a Guide
+game_guide_report_title						Einen Guide emelden
 game_guide_report_descrip					Please provide a short description of why you are reporting this Hero Guide for review.
-game_guide_submit_report					Report This Guide
+game_guide_submit_report					Diesen Guide melden
 
 game_ui_label_gold							Gold
 game_attributes_label_atk_spd				Atk Geschw
@@ -2933,12 +2933,12 @@ game_label_creep_kills_creep				Creep:
 game_invulnerable							Unverwundbar
 game_disconnect								Disconnect
 
-game_alt_couriers							Alternate Courier Selection
-game_alt_couriers_current					Current Courier Selection
-game_alt_couriers_select					Select This Courier
-game_alt_couriers_purchase					Purchase This Courier
-game_alt_couriers_lock						Lock Courier
-game_alt_couriers_unlock					Unlock Courier
+game_alt_couriers							Alternative Kurier Auswahl
+game_alt_couriers_current					Derzeitige Kurier Auswahl
+game_alt_couriers_select					Diesen Kurier wählen
+game_alt_couriers_purchase					Diesen Kurier kaufen
+game_alt_couriers_lock						Kurier fesstellen
+game_alt_couriers_unlock						Kurier entsperren
 
 // game_chat.package
 gamechat_button_send_message				Nachricht Senden
@@ -3008,25 +3008,25 @@ cc_com_button_findoptions_invite			Einladen
 cc_com_button_findoptions_current			Suche im Laufenden Spiel
 cc_com_button_findoptions_recent			Kürzliche Spielpartner
 
-cc_com_newclan_button						Create Clan
-cc_com_newclan_header						Create a New Clan
+cc_com_newclan_button						Clan erstellen
+cc_com_newclan_header						Einen neuen Clan erstellen
 cc_com_newclan_tip_header					Create Clan Tip
-cc_com_newclan_invite_button				Send Invites
-cc_com_newclan_check_name					Check Clan Name and Tag
-cc_com_newclan_clanname						Clan Name
-cc_com_newclan_clantag						Clan Tag (1-4 Chars)
+cc_com_newclan_invite_button				Einladungen versenden
+cc_com_newclan_check_name					Clanname und Clantag überprüfen
+cc_com_newclan_clanname						Clanname
+cc_com_newclan_clantag						Clantag (1-4 Chars)
 cc_com_newclan_leader						Clan Leader
 cc_com_newclan_memberinfo					Enter the Nickname of the four charter members in your clan. All charter members must be logged in and not a member of a different clan. 
-cc_com_newclan_founding1					Member 1
-cc_com_newclan_founding2					Member 2
-cc_com_newclan_founding3					Member 3
-cc_com_newclan_founding4					Member 4
+cc_com_newclan_founding1					Mitglied 1
+cc_com_newclan_founding2					Mitglied 2
+cc_com_newclan_founding3					Mitglied 3
+cc_com_newclan_founding4					Mitglied 4
 cc_com_newclan_waitinginfo					Waiting for your charter members to respond to the clan invitation. If all four charter members accept the invitation before the time limit is reached, your new clan will be created.
-cc_com_newclan_waitingtime					Time Remaining: 
-cc_com_newclan_results_button				Continue
+cc_com_newclan_waitingtime					Verbleibende Zeit: 
+cc_com_newclan_results_button				Weiter
 cc_com_newclan_success						Clan has been created success message
 cc_com_newclan_failure						Clan has been created failure message
-cc_com_newclan_finished_button				Close Window
+cc_com_newclan_finished_button				Fenster schließen
 
 ccpanel_header_options						Einstellungen
 ccpanel_button_config_cc					C&C Panel Konfiguration
@@ -3052,7 +3052,7 @@ ccpanel_label_clan_and_community			Clan & Community Panel
 ccserverlist_checkbox_show_full				Anzeige Voll:
 ccserverlist_checkbox_show_empty			Anzeige Leer:
 ccserverlist_checkbox_show_sandbox			Sandkästen Anzeigen:
-ccserverlist_checkbox_max_ping				Max Ping:
+ccserverlist_checkbox_max_ping				Maximaler Ping:
 ccserverlist_editbox_map					Karte:
 ccserverlist_checkbox_different				Unterschiedliche Version:
 ccserverlist_checkbox_all_level				Alle Levelniveaus:
@@ -3067,8 +3067,8 @@ ccserverlist_editbox_pass					Pass:
 
 // cc_statistics.package
 ccstats_button_fetch						Holen
-ccstats_button_show_stats					Show Stats
-ccstats_button_hide_stats					Hide Stats
+ccstats_button_show_stats					Statistiken anzeigen
+ccstats_button_hide_stats					Statistiken verstecken
 
 // cc_message.package
 cc_message_label_enter_name_message			Nickname zur Nachricht Hinzufügen
@@ -3090,13 +3090,13 @@ cctournament_upcoming_bracket				Bracket:
 cctournament_upcoming_pool					Pool:
 cctournament_upcoming_pooltip				The pool of teams you're playing against determined by the elimination type of the tournament and your number of losses.
 cctournament_upcoming_starttime				Match Start Time:
-cctournament_upcoming_joingame				Join This Game Now
+cctournament_upcoming_joingame				Dieses Spiel jetzt beitreten
 cctournament_upcoming_adminonline			User is online, click their name to send an IM
 
 // social_groups.package
 no_ims										You have no IM conversations. Enter a nickname below to send a message to another player.
-im_user_not_found							Username not found!
-im_user_offline								User is offline!
+im_user_not_found							Benutzername nicht gefunden!
+im_user_offline								Benutzer ist offline!
 
 // game_end_stats.interface
 endstats_label_match_id						Match ID
@@ -3166,12 +3166,12 @@ endstats_label_hero_info_inventory			Inventar
 endstats_label_kda							K / D / A
 endstats_label_apm							APM
 endstats_label_gpm							GPM
-endstats_label_match_name					^yMatch:^*
+endstats_label_match_name					^yPartie:^*
 game_end_stats_victory_legion				Sieg für The Legion!
 game_end_stats_victory_hellbourne			Sieg für The Hellbourne!
 game_end_stats_detailed						Detaillierte Statistiken - {name}
-game_end_stats_show_winner					Show Winner
-game_end_stats_concede						Team Conceded!
+game_end_stats_show_winner					Gewinner anzeigen
+game_end_stats_concede						Team hat Aufgegeben!
 game_end_stats_awards_soon					Match Awards Coming Soon!
 game_end_stats_no_matches					You have not participated in any recorded matches yet. You may fetch a match by entering its ID below.
 game_end_stats_kda							^g{kills}^*/^r{deaths}^*/^y{assists}^*
@@ -3224,33 +3224,33 @@ mm_pregression_key_explanation				The Matchmaking Endgame Progression system all
 mm_pregression_key_aggregate				Aggregate Account Stats
 mm_pregression_key_acct_level				Account Leveling
 mm_pregression_key_acct_levelreached		Level Reached
-mm_pregression_key_level1					Levels 2-5
-mm_pregression_key_level2					Levels 6-10
-mm_pregression_key_level3					Levels 11-15
-mm_pregression_key_level4					Levels 16-20
-mm_pregression_key_level5					6 More Coins Every 5 Levels
+mm_pregression_key_level1					Level 2-5
+mm_pregression_key_level2					Level 6-10
+mm_pregression_key_level3					Level 11-15
+mm_pregression_key_level4					Level 16-20
+mm_pregression_key_level5					6 Münzen mehr jede 5 Level
 mm_pregression_key_consecbonus_exp			^y*Consecutive Bonus^* is earned by playing a new match within 15 minutes of a match concluding. Each consecutive win is worth 1 coin equal to the number of consecutive games, up to a max of 6. Losses are always worth 1 coin.
-mm_pregression_key_consecbonus_exp2			Example: 
+mm_pregression_key_consecbonus_exp2			Beispiel: 
 mm_pregression_key_consecbonus_exp3			For your first consecutive match you win and receive 1 coin. You have two losses, each earning 1 coin. The fourth match is a win, and earns you 4 coins. The bonus caps at a maximum of 6 per win.  Early disconnections from a match forfeits the accumulated bonus.
 
 mm_pregression_gameperformance				Game Performance
 mm_pregression_condition					Condition
-mm_pregression_victory						Victory
-mm_pregression_loss							Loss
-mm_pregression_fotd							First of the Day
-mm_pregression_quickvict					Quick Victory
+mm_pregression_victory						Gewonnen
+mm_pregression_loss							Verloren
+mm_pregression_fotd							Erste des Tages
+mm_pregression_quickvict					Schneller Sieg
 mm_pregression_socialbonus					Social Bonus
 mm_pregression_consecbonus					Consecutive Bonus^y*^*
-mm_pregression_bloodlust_you				Bloodlust (You)
-mm_pregression_bloodlust_team				Bloodlust (Teammate)
-mm_pregression_immortal_you					Immortal (You)
-mm_pregression_immortal_team				Immortal (Teammate)
-mm_pregression_annihilation_you				Annihilation (You)
-mm_pregression_annihilation_team			Annihilation (Teammate)
-mm_pregression_50wins						50 Wins
+mm_pregression_bloodlust_you				Blutdurst (You)
+mm_pregression_bloodlust_team				Blutdurst (Teammate)
+mm_pregression_immortal_you					Unbesiegbar (You)
+mm_pregression_immortal_team				Unbesiegbar (Teammate)
+mm_pregression_annihilation_you				Auslöschungen (You)
+mm_pregression_annihilation_team			Auslöschungen (Teammate)
+mm_pregression_50wins						50 Siehe
 mm_pregression_250kills						250 Kills
-mm_pregression_250assts						250 Assists
-mm_pregression_50wards						50 Wards Placed
+mm_pregression_250assts						250 Unterstützungen
+mm_pregression_50wards						50 Wards platziert
 mm_pregression_10smacks						10 Smackdowns
 
 
@@ -3390,27 +3390,27 @@ mainlobby_label_custom_game_region			Region
 mainlobby_label_custom_game_region_desc		Where the server is located geographically.
 mainlobby_label_custom_game_US				USA - All
 mainlobby_label_custom_game_USC				USA - Central
-mainlobby_label_custom_game_USE				USA - East
-mainlobby_label_custom_game_USS				USA - South
+mainlobby_label_custom_game_USE				USA - Ost
+mainlobby_label_custom_game_USS				USA - Süd
 mainlobby_label_custom_game_USW				USA - West
-mainlobby_label_custom_game_EU				Europe - All
-mainlobby_label_custom_game_DE				Germany
-mainlobby_label_custom_game_UK				United Kingdom
-mainlobby_label_custom_game_NL				Netherlands
+mainlobby_label_custom_game_EU				Europa - All
+mainlobby_label_custom_game_DE				Deutschland
+mainlobby_label_custom_game_UK				Vereinigtes Königreich
+mainlobby_label_custom_game_NL				Niederlande
 mainlobby_label_custom_game_JPN				Japan
 mainlobby_label_custom_game_AU				Australia
-mainlobby_label_custom_game_ID				Indonesia
-mainlobby_label_custom_game_ZAF				South Africa
-mainlobby_label_custom_game_SEA				South East Asia
-mainlobby_label_custom_game_GREG			Normal Server
-mainlobby_label_custom_game_REG			Normal Server
+mainlobby_label_custom_game_ID				Indonesien
+mainlobby_label_custom_game_ZAF				Süd Afrika
+mainlobby_label_custom_game_SEA				Süd Ost Asien
+mainlobby_label_custom_game_GREG			Normaler Server
+mainlobby_label_custom_game_REG			Normaler Server
 mainlobby_label_custom_game_GVIP			VIP Server
 mainlobby_label_custom_game_VIP			VIP Server
 mainlobby_label_custom_game_MYVIP			Malaysia VIP Server
 mainlobby_label_custom_game_SGVIP			Singapore VIP Server
-mainlobby_label_custom_game_PHVIP			Philippines VIP Server
-mainlobby_label_custom_game_BR				South America
-mainlobby_label_custom_team_size			Team Size
+mainlobby_label_custom_game_PHVIP			Phillipinen VIP Server
+mainlobby_label_custom_game_BR				Süd Amerika
+mainlobby_label_custom_team_size			Team Größe
 mainlobby_label_custom_team_size_desc		Restrict games to a particular team size.
 main_lobby_filter_team_size_none			Do Not Limit Team Size
 main_lobby_filter_any						Any
@@ -3566,16 +3566,16 @@ mainlobby_gamelist_hardcore_desc			There is no gold gain per second and creep/to
 mainlobby_gamelist_trial_blocked			Trial Accounts May Not Join Official Stats Recorded Games
 
 // replay_viewer.package
-replayv_header_replay_viewer				Local Replays
-replayv_button_local_replays				Local Replays
+replayv_header_replay_viewer				Lokale Replays
+replayv_button_local_replays				Lokale Replays
 replayv_button_online_replays				Online Replays
-replayv_header_replay_list					Replay List
+replayv_header_replay_list					Replay Liste
 replayv_header_replay_details				Replay Details
-replayv_button_view_replay					View Replay
+replayv_button_view_replay					Replay ansehen
 replayv_button_download_compat				Compatize
-replayv_button_close_window					Close Window
+replayv_button_close_window					Fenster schließen
 replayv_label_replay_detail_info			To view replay details, select a replay file from the list at the left.
-replay_viewer_game_options					^yGame Options:^* {options}
+replay_viewer_game_options					^ySpiel Optionen:^* {options}
 replay_view_tip_online						Durchsuche die Online-Datenbank der Replays.
 replayv_label_match_id						Match ID: 
 replayv_label_version						Version: 
@@ -3584,17 +3584,17 @@ replayv_label_match_length					Matchdauer:
 replayv_label_map							Karte: 
 replayv_label_game_mode						Spielmodus: 
 replayv_button_view_match_winner			Gewinner Ansehen
-replayv_button_view_match_stats				View Stats
+replayv_button_view_match_stats				Statistiken ansehen
 replayv_tip_online_replays					You may download replays of matches by logging in and selecting "Play Online", and then clicking the "Match Stats" button.
 replayv_tip_replay_list						Replays allow you to watch past matches, from the perspective of any player, or that of a spectator. 
-replay_compat_calculating					Calculating Download
-replay_compat_downloading					Downloading
+replay_compat_calculating					Download berechnen
+replay_compat_downloading					Hertunerladen
 replay_compat_writing						Writing Archive
 replay_compat_version						Version: ^w{version}
 replay_compat_files							Files Remaining: ^w{count} / {total}
 replay_compat_progress						Progress: ^w{count}MB / {total}MB
-replay_compat_speed							Download Speed: ^w{speed}KB/sec
-replay_compat_time							Time Left: ^w{time}
+replay_compat_speed							Download Geschwindigkeit: ^w{speed}KB/sec
+replay_compat_time							Verbleibende Zeit: ^w{time}
 
 // preorder_features.package
 pofeatures_header							Pre-Purchase Your HoN Account
@@ -3896,14 +3896,14 @@ player_stats_losses							Niederlagen
 player_stats_disconnects					Unterbr.
 player_stats_win_percent					Siege: {percent}
 player_stats_leave_percent					Leaves
-player_stats_winning_percentage				Winning %
+player_stats_winning_percentage				Sieges %
 player_stats_matches						Spiele
 player_stats_concede						Conceded
-player_stats_em_matches						EM Games %
+player_stats_em_matches						EM Spiele %
 player_stats_em_matches_percent				{percent}
 player_stats_karma							Karma
-player_stats_last_match						Letztes Match
-player_stats_account_age					Acct-Alter
+player_stats_last_match						^yLetztes Match:^* {last}
+player_stats_account_age					^yAcct Alter:^* {age}
 player_stats_header							Spieler-Statistiken
 player_stats_experience_earned				Verdiente XP
 player_stats_experience_per_minute			XP/Minute
@@ -3932,13 +3932,13 @@ player_stats_clan_name						Clanname
 player_stats_level							Spielerlevel
 player_stats_rank							Rank: {rank}
 player_stats_psr							PSR
-player_stats_wards							Wards Placed
+player_stats_wards							Wards platziert
 player_stats_apm							APM
-player_avg_game_length						Game Length
+player_avg_game_length						Spiellänge
 player_avg_kda								K  /  D  /  A
 player_avg_creep_kills						Creep Kills
 player_avg_creep_denies						Creep Denies
-player_stats_mostplayed						Most Played Heroes
+player_stats_mostplayed						Meist gespielte Helden
 player_stats_nohistory						This player has no recorded match history to display.
 player_stats_nostreakstats					These stats are not recorded when playing public games.
 player_stats_public_games					Show Statistics from Public Games
@@ -4333,7 +4333,7 @@ weekday_friday_short				Fr
 weekday_saturday_short				Sa
 
 loading_tiptitle				Spiel Tipp
-loading_tip1					Holding ^gCONTROL^* while using the shop will display recipe scrolls instead of the item, allowing you to quickly purchase the recipe.
+loading_tip1					Halte ^gSTEUERUNG^* während du den Shop benutzt um dir die Rezepte anzeigen zu lassen anstatt den Items.
 loading_tip2					While using an ability, you can hold ^gSHIFT^* and select another ability to put it in your ability queue. As soon as the first ability has completed the next ability will fire immediately after.
 loading_tip3					You can attack your own creeps when they are low health. If you kill them it results in a "deny" and surrounding enemies get much less experience than they would normally.
 loading_tip4					If you attack your tower when it is low and destroy it, the enemy team gets much less gold than if they had destroyed it themselves.
@@ -4388,11 +4388,11 @@ disconnect_mm_player_left		A player has timed out or left the game, the match wi
 disconnect_mm_start_timeout		One or more players failed to connect to the server, the game will now be cancelled.
 
 mm_title						Spiel ein Spiel
-mm_verified						1. Choose Opponents
-mm_maps							1. Choose Your Map
-mm_modes						2. Select Game Modes
-mm_region						3. Select Regions
-mm_start						4. Select Matchmaking Mode
+mm_verified						1. Wähle deine Gegener
+mm_maps							2. Wähle deine Karte
+mm_modes						3. Wähle Spielmodus
+mm_region						4. Wähle Regionen
+mm_start						5. Wähle Matchmaking Modus
 mm_current_standing				Your Standing
 mm_current_basic_1				Basic accounts can only play All Pick with other basic accounts.
 mm_current_basic_2				Your account will become Verified upon completing ONE of the following:
@@ -4400,8 +4400,8 @@ mm_current_basic_verify1		Reach Level
 mm_current_basic_verify2		Current Level: 
 mm_current_basic_verify3		Buy Goblin Coins
 mm_current_basic_verify4		Any Amount!
-mm_current_verified_1			As a Verified account, you may choose to play Verified Only matches.
-mm_current_verified_2			By thumbing up the "Verified Only" option above, all basic accounts will be excluded when finding your match.
+mm_current_verified_1			Mit einem verifiziertem Account kannst du wählen, nur verifizierte Partien zu spielen.
+mm_current_verified_2			Durch das aktivieren der "Nur verifizierte"-Option, werden alle Standard Accounts aus der Suche ausgeschlossen.
 mm_5v5							5 vs 5
 mm_4v4							4 vs 4
 mm_3v3							3 vs 3
@@ -4411,27 +4411,27 @@ mm_map_locked					Map Locked Due To Team Size
 mm_solo							Solo Matchmaking
 mm_team							Team Matchmaking
 mm_team_cont					Invite Players Into a Custom Player Group
-mm_mode_txt1					You may down vote a maximum of {max_downvotes} mode(s) that you do not want to play.
-mm_mode_txt2					Approving modes with high popularity will result in shorter queue times.
-mm_map_txt1						You may down vote a maximum of {max_downvotes} region(s).
+mm_mode_txt1					Du darfst bist zu {max_downvotes} Modis abwählen that, die du nicht spielen möchtest.
+mm_mode_txt2					Wahl von Modis mit hoher Popularität wird zu kürzere Wartezeiten führen.
+mm_map_txt1						Du kannst bis zu {max_downvotes} Regionen abwählen.
 mm_map_txt2						Region popularity will change based on time of day. High popularity will result in shorter queue times.
-mm_queue_finding				Finding a Match...
+mm_queue_finding				Suche nach Gegenern...
 mm_queue_past					Time Waited
-mm_queue_eta					Average Wait Time
-mm_queue_enter_btn				Enter Queue
-mm_queue_leave_btn				Leave Queue
+mm_queue_eta					Durchschnitts Wartezeit
+mm_queue_enter_btn				Warteschlange betreten
+mm_queue_leave_btn				Warteschlange verlassen
 mm_ready_btn					Bereit
 mm_notready_btn					Nicht bereit
-mm_arehost						You're Group Leader
-mm_waiting_forgroup				Waiting for Other Players
+mm_arehost						Du bist der Gruppenleiter
+mm_waiting_forgroup				Warte auf andere Spieler
 mm_waiting_forhost				Waiting on Group Leader
 mm_group_builder				5. Build Your Group
 mm_group_txt					Invite players to your group by using your friends list to the left or typing in the name of a player below.
 mm_group_disband				Disband This Group
 
-mm_buytoken_title				Buy Token?
+mm_buytoken_title				Spielsteine kaufen?
 mm_buytoken_body				Purchase a token to play this mode?
-mm_buytoken_buytoken			Purchase Token
+mm_buytoken_buytoken			Spielsteine kaufen
 
 mm_servernotidle				Unable to Join Server
 mm_servernotidle_body			Unable to join the server.  Please re-enter the queue.
@@ -4453,24 +4453,24 @@ mm_joiningqueue_body			Attempting to enter the Matchmaking Queue, please wait...
 mm_joinmatch					Joining Match
 mm_joinmatch_body				Joining Match, please wait...
 
-mm_group_leave					Leave This Group
-mm_group_invite					Invite by Player Name
-mm_group_slot_empty				-Open Group Slot-
-mm_group_slot_locked			-Locked Due To Map-
-mm_group_current				Current Group Members
-mm_settings_locked				Only the host may change these options.
-mm_settings_locked_queue		These options may not be modified while in the queue.
-mm_disbanded					Group Disbanded
-mm_disbanded_body				Group has been disbanded.
-mm_kicked						Kicked from Group
-mm_kicked_body					You've been kicked from this group.
-mm_invitations					Invitations
-mm_invitations_body				The following users have been invited to your group.
-mm_invite_accepted				Accepted
-mm_invite_rejected				Rejected
-mm_invite_ignored				Ignored
+mm_group_leave					Diese Gruppe verlassen
+mm_group_invite					Einladen via Spielernamen
+mm_group_slot_empty				-Offener Gruppenslot-
+mm_group_slot_locked			-Geschlossen wegen Map-
+mm_group_current				Derzeitige Gruppenmitglieder
+mm_settings_locked				Nur der Host darf diese Optionen ändern.
+mm_settings_locked_queue		Diese Optionen können nicht in der Warteschlange verändert werden.
+mm_disbanded					Gruppe auflösen
+mm_disbanded_body				Gruppe wurde aufgelöst.
+mm_kicked						Gekickt aus Gruppe
+mm_kicked_body					Du wurdest aus der Gruppe gekickt.
+mm_invitations					Einladungen
+mm_invitations_body				Die folgenden Spieler wurden in Deine Gruppe eingeladen.
+mm_invite_accepted				Annehmen
+mm_invite_rejected				Ablehnen
+mm_invite_ignored				Ignorieren
 mm_invite_pending				Pending
-mm_invitations_view				View Invitations
+mm_invitations_view				Einladungen aneshen
 mm_tmmdisabled					Matchmaking Disabled
 mm_tmmdisabled_body				Matchmaking is currently disabled, please try again in a few moments.
 mm_disabled						Matchmaking
@@ -4496,7 +4496,7 @@ mm_option_disabled_needtoken			Token Required
 mm_option_disabled_needtoken_body		You must purchase a Token in order to play this mode.
 mm_option_disabled_needtokenpass			Token or Pass Required
 mm_option_disabled_needtokenpass_body		You must purchase a Token or Pass in order to play this mode.
-mm_option_disabled_buytoken		Buy A Token
+mm_option_disabled_buytoken		Kauf einen Spielstein
 
 mm_loading_assets				Loading Assets...
 mm_loading_assets_msg			You will enter the queue when loading is complete.
@@ -4533,15 +4533,15 @@ mm_player9						9
 mm_player10						10
 mm_connection_limit				Connection Time Limit...
 mm_gameloading_msg				Other players are currently loading the game. When a player connects, their indicator will turn yellow. When they finish loading, it will turn green.
-mm_europe_region				Europe
+mm_europe_region				Europa
 mm_useast_region				US East
 mm_uswest_region				US West
 mm_sgvip_region					Singapore
 mm_gvip_region					Malaysia
-mm_phvip_region					Philippines
+mm_phvip_region					Phillipinen
 
 
-mm_isleaver_onopen				Unable to join Matchmaking
+mm_isleaver_onopen				Beitreten von Matchmaking nicht möglich
 mm_isleaver_onopen_body			You are not currently allowed to join matchmaking due to your leaver status.  With your current games played of ^960{gamesplayed}^* and leaver percentage of ^922{leaverpercent}^*, you'll need to play ^g{matchestoclear}^* more matches without leaving before you can play matches using the Matchmaking system.
 mm_leaver_resetstats			Alternatively, you can purchase a stats reset to clear your leaver percentage and instantly gain access to Matchmaking and other non-leaver games.
 
@@ -4805,18 +4805,18 @@ tooltip_primary_attribute_intelligence		This hero's primary attribute is Intelli
 
 //ladder.package
 ladder_title								Player Ladder
-ladder_field_acc_games_played				Games Played
-ladder_field_acc_wins						Wins
-ladder_field_acc_losses						Losses
-ladder_field_acc_concedes					Concedes
+ladder_field_acc_games_played				Spiele gespielt
+ladder_field_acc_wins						Gewonnen
+ladder_field_acc_losses						Verloren
+ladder_field_acc_concedes					Aufgegeben
 ladder_field_acc_concedevotes				Concede Votes
 ladder_field_acc_buybacks					Buy Backs
 ladder_field_acc_discos						Leaves
 ladder_field_acc_kicked						Kicked
 // Assuming the below is PSR anyways
 ladder_field_acc_pub_skill					PSR
-ladder_field_acc_pub_count					Public Games
-ladder_field_acc_avg_score					Average Score
+ladder_field_acc_pub_count					Öffentliche Spiele
+ladder_field_acc_avg_score					Durchschnitts Wertung
 ladder_field_acc_herokills					Hero Kills
 ladder_field_acc_herodmg					Hero Dmg
 ladder_field_acc_heroexp					Hero Exp
@@ -5062,9 +5062,9 @@ confirm_warn_unverified_no					Remove Player
 general_purchase_token						Purchase Tokens
 
 // F2P Systembar
-sysbar_gold_tip_title						Gold Coins
+sysbar_gold_tip_title						Gold Münzen
 sysbar_gold_tip_msg							Gold coins can be used to purchase any item in the store.
-sysbar_silver_tip_title						Silver Coins
+sysbar_silver_tip_title						Silber Münzen
 sysbar_silver_tip_msg						Silver coins can be used to purchase items in the store.
 sysbar_token_tip_title						Tokens and Game Passes
 sysbar_token_tip_msg						Tokens and Game Passes are used to play certain game modes.
@@ -5123,10 +5123,10 @@ specui_tower_team_tip		Remaing towers for this team.
 specui_raxx_team			Team Barracks
 specui_raxx_team_tip		Remaing barracks for this team.
 
-specui_help_1	Welcome Spectator!
-specui_help_2	Here's a few things you can do...
-specui_help_3	Hotkeys
-specui_help_4	Show more infomation
+specui_help_1	Willkommen lieber Beobachter!
+specui_help_2	Hier sind ein paar Dinge die du tuen kannst...
+specui_help_3	Tastenkürzel
+specui_help_4	Mehr Informationen anzeigen
 specui_help_5	Hold
 specui_help_6	Change information tab
 specui_help_7	Tap

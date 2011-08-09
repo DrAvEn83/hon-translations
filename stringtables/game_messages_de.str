@@ -1,78 +1,78 @@
-deny								{killer_color}{killer}^* denied {victim_color}{victim}^*!
-kill0								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!!
-kill1								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistent: {assist0_color}{assist0}
-kill2								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}
-kill3								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
-kill4								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+ï»¿deny								{killer_color}{killer}^* hat {victim_color}{victim}^* denied!
+kill0								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! fÃ¼r ^y{gold}^* gold!!
+kill1								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! fÃ¼r ^y{gold}^* gold!! Assistent: {assist0_color}{assist0}
+kill2								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! fÃ¼r ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}
+kill3								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! fÃ¼r ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! fÃ¼r ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
 first_kill							{killer_color}{killer}^* ist in einem ^rBlutrausch^*! (^y+{gold}^* Gold!)
 first_kill_team						{killer_color}{killer}^* hat einen ^rBlutrausch^*! (^y+{gold}^* Gold wurde aufgeteilt!)
-killstreak0							{killer_color}{killer}^* ist ein ^082Serienmörder^*!
+killstreak0							{killer_color}{killer}^* ist ein ^082SerienmÃ¶r^*!
 killstreak1							{killer_color}{killer}^* ist ein ^204Ultimativer Krieger^*!
-killstreak2							{killer_color}{killer}^* ist ^808Legendär^*!
+killstreak2							{killer_color}{killer}^* ist ^808LegendÃ¤r^*!
 killstreak3							{killer_color}{killer}^* ist auf einen ^840Ansturm^*!
 killstreak4							{killer_color}{killer}^* ist ^440Wild und Krank^*!!
 killstreak5							{killer_color}{killer}^* ^848Dominiert^*!!
 killstreak6							{killer_color}{killer}^* ist ein ^800CHAMPION VON NEWERTH^*!!!
-killstreak7							{killer_color}{killer}^* ist auf einem ^840BLUTBAD^*! Jemand MUSS IHN TÖTEN!
+killstreak7							{killer_color}{killer}^* ist auf einem ^840BLUTBAD^*! Jemand MUSS IHN TÃ–TEN!
 killstreak8							{killer_color}{killer}^* ist ^860UNBESIEGBAR^*!!
 
-streakend0							{killer} hat {victim} ^082Serienmörder^* Serie beendet für ^y{gold}^* Gold!!
-streakend1							{killer} hat {victim}'s ^204Ultimativer Krieger* serie beendet für ^y{gold}^* Gold!!
-streakend2							{killer} hat {victim}'s ^808Legendär^* serie beendet für ^y{gold}^* Gold!!
-streakend3							{killer} hat {victim}'s ^840Ansturm^* serie beendet für ^y{gold}^* Gold!!
-streakend4							{killer} hat {victim}'s ^440Wild und Krank^* serie beendet für ^y{gold}^* Gold!!
-streakend5							{killer} hat {victim}'s ^848dDomierungs^* serie beendet für ^y{gold}^* Gold!!
-streakend6							{killer} hat {victim}'s ^800CHAMPION CON NEWERTH^* serie beendet für ^y{gold}^* Gold!!
-streakend7							{killer} hat {victim}'s ^840BLUTBAD^* serie beendet für ^y{gold}^* Gold!!
-streakend8							{killer} hat {victim}'s ^860UNBESIEGBAR^* serie beendet für ^y{gold}^* Gold!!
+streakend0							{killer} hat {victim} ^082SerienmÃ¶rder^* Serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend1							{killer} hat {victim}'s ^204Ultimativer Krieger* serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend2							{killer} hat {victim}'s ^808LegendÃ¤r^* serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend3							{killer} hat {victim}'s ^840Ansturm^* serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend4							{killer} hat {victim}'s ^440Wild und Krank^* serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend5							{killer} hat {victim}'s ^848dDomierungs^* serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend6							{killer} hat {victim}'s ^800CHAMPION CON NEWERTH^* serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend7							{killer} hat {victim}'s ^840BLUTBAD^* serie beendet fÃ¼r ^y{gold}^* Gold!!
+streakend8							{killer} hat {victim}'s ^860UNBESIEGBAR^* serie beendet fÃ¼r ^y{gold}^* Gold!!
 
-multikill0							{killer} hat einen ^008Doppeltötung^*!
+multikill0							{killer} hat einen ^008DoppeltÃ¶tung^*!
 multikill1							{killer} hat einen ^084Hattrick^*!!!
-multikill2							{killer} hat ein ^084Vierfachtötung^*!!!
-multikill3							{killer} hat seine Gegner ^084AUSGELÖSCHT^*!!!
+multikill2							{killer} hat ein ^084VierfachtÃ¶tung^*!!!
+multikill3							{killer} hat seine Gegner ^084AUSGELÃ–SCHT^*!!!
 
-killtower							{killer} hat einen Turm zerstört. Das Team {reward} bekommt ^y{gold}^* bonus Gold!
+killtower							{killer} hat einen Turm zerstÃ¶rt Das Team {reward} bekommt ^y{gold}^* bonus Gold!
 denytower							{player} has ^444denied^* a tower!
-killmeleerax						Die ^724Nahkampf^* Kasrene von {victim} wurde zerstört. Die ^724Nahkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
-killrangedrax						Die ^266Fernkampfkaserne^* von {victim} wurde zerstört. Die ^266fernkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
-killcourier							{victim}'s Kurier wurde von {killer} getötet!
+killmeleerax						Die ^724Nahkampf^* Kasrene von {victim} wurde zerst? Die ^724Nahkampf^* Einheiten von {killer} werden auf diesem Pfad stÃ¤rker.
+killrangedrax						Die ^266Fernkampfkaserne^* von {victim} wurde zerst? Die ^266fernkampf^* Einheiten von {killer} werden auf diesem Pfad stÃ¤rker.
+killcourier							{victim}'s Kurier wurde von {killer} getÃ¶tet!
 boughtwalkingcourier				{player_color}{player}^* hat einen laufenden Kurier gekauft.
 boughtflyingcourier					{player_color}{player}^* hat einen fliegenden Kurier gekauft.
 ping_target							{player_color}{player_name} ({player_hero_name})^*: {mode}{unit_team_color}{unit_name}^* jetzt!
 
 teamkillstreak0						Jemand ist am OWNEN!!!
 teamkillstreak1						^rDie Legion^* ist am ^rOWNEN!!!^*
-teamkillstreak2						^170Die Hellbourn^* sind am ^170OWNEN!!!^*
+teamkillstreak2						^170Die Hellbourne^* sind am ^170OWNEN!!!^*
 
 teamwipe							{team} wurde komplett vernichtet!!! 
 
 teamkill							{killer} pwned {victim}'s Kopf!! ^y{gold}^* Gold wurde aufgeteilt.
 
-neutralkill							{victim} wurde von Neutralen Einheiten getötet.
-kongorkill							{victim} wurde von Kongor getötet.
+neutralkill							{victim} wurde von Neutralen Einheiten getÃ¶tet.
+kongorkill							{victim} wurde von Kongor getÃ¶tet.
 
-suicide								{victim} hat sich selbst getötet!
+suicide								{victim} hat sich selbst ggetÃ¶tet!
 
 kill								{victim} ist gestorben.
 
-teamkilltower						Die {killer} haben einen Turm zerstört. Die {killer} werden mit ^y{gold}^* bonus Gold belohnt!
-teamdenytower						{denier} have ^444denied^* a tower!
+teamkilltower						Die {killer} haben einen Turm zerstÃ¶rt Die {killer} werden mit ^y{gold}^* bonus Gold belohnt!
+teamdenytower						{denier} habe einen Turm ^444denied^*!
 
-killkongor							{killer} hat Kongor getötet. {reward} bekommt ^y{gold}^* bonus Gold!
-teamkillkongor						{killer} hat Kongor getötet. {killer} bekommt ^y{gold}^* bonus Gold!
+killkongor							{killer} hat Kongor getÃ¶tet. {reward} bekommt ^y{gold}^* bonus Gold!
+teamkillkongor						{killer} hat Kongor getÃ¶tet. {killer} bekommt ^y{gold}^* bonus Gold!
 
-share0								{player} teilt nicht länger die Kontrolle seiner Einheiten mit Dir.
+share0								{player} teilt nicht mehr die Kontrolle seiner Einheiten mit Dir.
 share1								{player} teilt nun die Kontrolle seiner Einheiten mit Dir.
 share2								{player} teilt nun die Kontroller seines Kuriers mit Dir.
 share3								{player} teilt nun die Kontrolle seiner Einheiten mit Dir.
 
 powerup								{player} hat ^r{powerup}^* bekommen
 
-creepupgrade						Die Creeps sind stärker geworden...
-megacreeps							Die {killer} haben alle von {victim}'s Produktionsgebäuden zerstört. Die {killer} haben jetzt Supercreeps.
+creepupgrade						Die Creeps sind stÃ¤rker geworden...
+megacreeps							Die {killer} haben alle von {victim}'s ProduktionsgebÃ¤uden zerstÃ¶rt. Die {killer} haben jetzt Supercreeps.
 
-smackdown							{victim} wurde GESMACKED DOWN von {killer}!
-humiliation							{killer} DEMÜTIGT {victim}!
+smackdown							{victim} wurde GESMACKEDDOWNED von {killer}!
+humiliation							{killer} DEMÃœTIGT {victim}!
 rival								{killer} ist komplett ^rOWNING^* {victim}!
 payback								{killer} hat es {victim} ^rHEIMGEZAHLT^*!
 
@@ -82,58 +82,58 @@ client_disconnected					{player_color}{player}^* hat die Verbindung getrennt.
 client_timedout						{player_color}{player}^* hat einen Time out.
 client_terminated					{player_color}{player}^* wurde aus dem Spiel geworfen. Sein Held wurde entfernt und sein Guthaben wurde auf sein Team aufgeteilt.
 
-hero_pick							{player_color}{player}^* hat ^885{hero_name}^* ausgewählt.
-hero_pick_blind						{player_color}{player}^* hat einen Helden ausgewählt.
+hero_pick							{player_color}{player}^* hat ^885{hero_name}^* ausgewÃ¤hlt.
+hero_pick_blind						{player_color}{player}^* hat einen Helden ausgewÃ¤hlt.
 hero_random							{player_color}{player}^* hat per Zufall ^885{hero_name}^* bekommen.
 hero_random_blind					{player_color}{player}^* hat per Zufall einen Helden bekommen.
-hero_repick							{player_color}{player}^* wählt einen neuen Helden. ^885{hero_name}^* ist wieder verfügbar.
-hero_repick_blind					{player_color}{player}^* wählt einen neuen Helden.
+hero_repick							{player_color}{player}^* wÃ¤hlt einen neuen Helden. ^885{hero_name}^* ist wieder verfÃ¼gbar.
+hero_repick_blind					{player_color}{player}^* wÃ¤hlt einen neuen Helden.
 hero_swap							{player_color}{player}^* tausche Helden mit {player2_color}{player2}^*.
-hero_swap_request					{player_color}{player}^* möchte gerne mit Dir seinen Helden tauschen.
+hero_swap_request					{player_color}{player}^* mÃ¶chte gerne mit Dir seinen Helden tauschen.
 hero_ban							{player_color}{player}^* hat ^885{hero_name}^* ^rgebannt^*.
 hero_ban_random						Das Schicksal hat ^885{hero_name}^* ^rgebannt^*.
 
 game_phase_banning					Beginne mit ^rBan Phase^*.
 game_phase_picking					Beginne mit ^rAuswahl Phase^*.
 game_turn_ban						{player_color}{player}^* ist dran mit ^rbannen^*.
-game_turn_picking					{player_color}{player}^* ist dran mit ^rauswählen^*.
+game_turn_picking					{player_color}{player}^* ist dran mit ^rauswÃ¤hlen^*.
 
 player_ready						{player_color}{player}^* ist ^gfertig^*.
 player_unready						{player_color}{player}^* ist ^rnicht mehr fertig^*.
 
 player_boughtback					{player_color}{player}^* hat sich wiedergekauft und ist wieder am Brunnen.
-player_boughtback2					{player_color}{player}^* hat sich wiedergekauft und ist wieder am Brunnen. {buybacks_used}/{buybacks_remaining} Rückkäufe genutzt.
+player_boughtback2					{player_color}{player}^* hat sich wiedergekauft und ist wieder am Brunnen. {buybacks_used}/{buybacks_remaining} RÃ¼ckkÃ¤ufe genutzt.
 
-error_all_buybacks_used				Du kannst dich nicht wieder Zurückkaufen.
+error_all_buybacks_used				Du kannst dich nicht wieder ZurÃ¼ckkaufen.
 
 error_target_invulnerable			Das Ziel ist unverwundbar.
 error_not_ready						{tool} ist noch nicht feritg.
 error_low_mana						Nicht genug Mana um {tool} zu nutzen.
-error_no_proxy						Keinen Proxy vorhanden für {tool}.
-error_not_unit_ability				Eine Einheit muss mit dieser Fähigkeit angewählt werden.
-error_not_unit_item					Eine Einheit muss mit diesem Item angewählt werden.
-error_not_unit						Eine Einheit muss angewählt werden.
-error_invalid_target				Dies ist kein gültiges Ziel
+error_no_proxy						Keinen Proxy vorhanden fÃ¼r {tool}.
+error_not_unit_ability				Eine Einheit muss mit dieser FÃ¤higkeit angewÃ¤hlt werden.
+error_not_unit_item					Eine Einheit muss mit diesem Item angewÃ¤hlt werden.
+error_not_unit						Eine Einheit muss angewÃ¤hlt werden.
+error_invalid_target				Dies ist kein gÃ¼ltiges Ziel
 
 chat_all							^269[ALL] {color}{player} ({hero}): ^*{message}
-chat_roll							^190[WÜRFELN]^* {color}{message}
+chat_roll							^190[WÃœRFELN]^* {color}{message}
 chat_emote							^839[EMOTE]^* {color}{message}
 chat_team							^y[TEAM] {color}{player} ({hero}): ^*{message}
 chat_all_lobby						^269[ALL] {color}{player}: ^*{message}
-chat_roll_lobby						^190[WÜRFELN]^* {color}{message}
+chat_roll_lobby						^190[WÃœRFELN]^* {color}{message}
 chat_emote_lobby					^839[EMOTE]^* {color}{message}
 chat_team_lobby						^y[TEAM] {color}{player}: ^*{message}
 server_message						^188[SERVER] ^yServer Nachricht: {message}
 
-error_item_unavailable				{item} ist nicht verfügbar an dieser Stelle.
+error_item_unavailable				{item} ist nicht verfÃ¼gbar an dieser Stelle.
 error_low_gold_item					Du kannst dir {item} nicht leisten.
 error_low_gold_recipe				Du kannst dir {item} nicht leisten.
-error_low_gold_buy_all				Du kannst dir nicht alle Komponenten für das {item} kaufen.
+error_low_gold_buy_all				Du kannst dir nicht alle Komponenten fÃ¼r das {item} kaufen.
 error_not_owned_to_stash_xfer		Du besitzt das Item noch nicht.
 
-str_bonus							{value} Stärke
-str_bonus_per_level					{value_per_level} Stärke pro Level
-str_bonus_per_charge				{value_per_charge} Stärke pro Aufladung
+str_bonus							{value} StÃ¤rke
+str_bonus_per_level					{value_per_level} StÃ¤rke pro Level
+str_bonus_per_charge				{value_per_charge} StÃ¤rke pro Aufladung
 agi_bonus							{value} Gewandheit
 agi_bonus_per_level					{value_per_level} Gewandheit pro Level
 agi_bonus_per_charge				{value_per_charge} Gewandheit pro Aufladung
@@ -162,12 +162,12 @@ attack_speed_mult_bonus				{value}% Angriffsgeschwindigkeit
 attack_speed_slow_bonus				{value}% Angriffs verlangsamung
 cast_speed_bonus					{value} Zaubergeschwindigkeit
 cooldown_speed_bonus				{value} Erholungs Geschwindigkeit
-reduced_cooldowns_bonus				{value}% Verringer Erholung
-increased_cooldowns_bonus			{value}% Erhöhe Erholung
-armor_bonus							{value} Rüstung
-armor_bonus_per_charge				{value} Rüstung pro Aufladung
-magic_armor_bonus					{value} Magische Rüstung
-magic_armor_bonus_per_charge		{value} Magische Rüstung pro Aufladung
+reduced_cooldowns_bonus				{value}% Verringer Cooldown
+increased_cooldowns_bonus			{value}% ErhÃ¶hte Cooldown
+armor_bonus							{value} RÃ¼stung
+armor_bonus_per_charge				{value} RÃ¼stung pro Aufladung
+magic_armor_bonus					{value} Magische RÃ¼stung
+magic_armor_bonus_per_charge		{value} Magische RÃ¼stung pro Aufladung
 health_regen_percent_bonus			{value}% Gesundheit pro Sekunde
 health_regen_bonus					{value} Gesundheitsregeneration
 health_regen_mult_bonus				{value}% Gesundheitsregeneration
@@ -180,49 +180,49 @@ ranged_evasion_bonus				{value}% Fernkampfausweichung
 melee_evasion_bonus					{value}% Nahkampfausweichung
 miss_chance_bonus					{value}% Verfehlen Chance
 lifesteal_bonus						{value}% Lebensraub
-critical_bonus						{value1}% Chance für einen {value2}x Kritischen Schlag
+critical_bonus						{value1}% Chance f?r einen {value2}x Kritischen Schlag
 incoming_damage_mult_bonus			{value}% Schaden genommen
 debuff_duration_mult_bonus			{value}% Debuff Dauer
 heal_mult_bonus						{value}% Heilung erhaltens
 stunned_bonus						Stunned
 stunned_immunity_bonus				Stun immun
 silenced_bonus						Zum Schweigen gebracht
-silenced_immunity_bonus				Schweigen immunität
+silenced_immunity_bonus				Schweigen immunitÃ¤t
 perplexed_bonus						Perplexed
-perplexed_immunity_bonus			Perplex immunität
+perplexed_immunity_bonus			Perplex immunitÃ¤t
 disarmed_bonus						Entwaffnet
-disarmed_immunity_bonus				Entwaffnungs immunität
-immobilized_bonus					Bewegungsunfähig
-immobilized_immunity_bonus			Bewegungsunfähigkeit immunität
-restrained_bonus					Eingezwängt
-restrained_immunity_bonus			Eingezwängt immunität
+disarmed_immunity_bonus				Entwaffnungs immunitÃ¤t
+immobilized_bonus					BewegungsunfÃ¤hig
+immobilized_immunity_bonus			BewegungsunfÃ¤higkeit immunitÃ¤t
+restrained_bonus					EingezwÃ¤ngt
+restrained_immunity_bonus			EingezwÃ¤ngtt immunitÃ¤t
 revealed_bonus						Aufgedeckt
 reveal_bonus						{value} Aufdeckungs Rechweite
 stealth_bonus						Unsichtbarkeit mit {value} Sekunden Schwunddauer
 unitwalking_bonus					Einheitenlaufen
 treewalking_bonus					Baumlaufen
 cliffwalking_bonus					Klippenlaufen
-buildingwalking_bonus				Gebäudelaufen
-immunity_bonus						{type} Immunität
+buildingwalking_bonus				GebÃ¤udelaufen
+immunity_bonus						{type} ImmunitÃ¤t
 invulnerable_bonus					Unverwundbar
-dispel_on_damage_bonus				Hört auf bei Schaden
-dispel_on_action_bonus				Dispel on action
+dispel_on_damage_bonus				HÃ¶rt auf bei Schaden
+dispel_on_action_bonus				HÃ¶rt auf bei Aktion
 truestrike_bonus					Wahrhaftiger Schlag
 health_regen_reduction_bonus		{value}% Verringerte Lebensregeneration
 mana_regen_reduction_bonus			{value}% Verringerte Manaregeneration
 sighted_bonus						Gesichtet
 
 script_on_attack					Bei Angriff
-script_on_attack_impact				Zur Ausführung eines Angriffs
+script_on_attack_impact				Zur Ausf?hrung eines Angriffs
 script_on_attacked_pre_impact		Wenn Angegriffen
 script_on_attacked_post_impact		Wenn Angegriffen
 script_on_activate_pre_impact		Bei Akitvierung
 script_on_activate_impact			Bei Aktivierung
-script_on_ability_impact			Bei nutzung einer Fähigkeit
+script_on_ability_impact			Bei nutzung einer Fä¨©gkeit
 script_on_damage					Bei gemachten Schaden
-script_on_damaged					Bei Beschädigung
-script_on_kill						Bei Tötung
-script_on_killed					Wenn getötet 
+script_on_damaged					Bei Beschä¤©gung
+script_on_kill						Bei T?g
+script_on_killed					Wenn get? 
 
 action_toggle						Schalten
 action_no_target					Kein Ziel
@@ -239,21 +239,21 @@ action_target_dual_position			Ziel Dual
 action_target_vector				Zielsvektor
 
 ability_levelup_max					^gMaximales level^*
-ability_levelup_available			^yKlicken um die Fähigkeit zu verbessern^*
-ability_levelup_unavailable			^rAnfoirderungen nicht erfüllt^*
+ability_levelup_available			^yHier Klicken um die FÃ¤higkeit zu verbessern^*
+ability_levelup_unavailable			^rAnfoirderungen nicht erf?llt^*
 
 aura_range_global					Global
 
 item_recipe							{name} Rezept
 
-activate_ability					Hier klicken, um diese Fähigkeit zu aktivieren
+activate_ability					Hier klicken, um diese FÃ¤higkeit zu aktivieren
 activate_item						Hier klicken, um das Item zu aktivieren
-activate_item_no_share				^rUnbrauchbar - gehört {name}
+activate_item_no_share				^rUnbrauchbar - gehÃ¶rt {name}
 activate_item_no_share_ownerless	^rUnbrauchbar
 activate_item_borrowed				^gGeliehen von {name}
-activate_passive					^gDiese Fähigkeit ist Passiv
+activate_passive					^gDiese FÃ¤higkeit ist Passiv
 
-attribute_strength					Stärke
+attribute_strength					StÃ¤rke
 attribute_agility					Gewandheit
 attribute_intelligence				Intelligenz
 
@@ -261,7 +261,7 @@ attribute_damage_bonus				{value} Schaden
 attribute_health_bonus				{value} Maximale Gesundheit
 attribute_health_regen_bonus		{value} Gesundheitsregeneration
 attribute_attack_speed_bonus		{value} Angriffsgeschwindigkeit
-attribute_armor_bonus				{value} Rüstung
+attribute_armor_bonus				{value} RÃ¼stung
 attribute_mana_bonus				{value} Maximales Mana
 attribute_mana_regen_bonus			{value} Manaregeneration
 
@@ -277,10 +277,10 @@ shop_action_cannot_afford_recipe	^rDu kannst dir dieses Rezept nicht leisten
 shop_action_purchase_item			^yHier klicken um dieses Item zu ^195KAUFEN^*
 shop_action_purchase_item_stash		^yHier klicken um dieses Item in den ^195STASH^* zu legen
 shop_action_purchase_recipe			^yhier klicken um dieses Rezept zu ^195KAUFEN^*
-shop_action_unavailable				^rNicht verfügbar an diesem Standort
+shop_action_unavailable				^rNicht verfÃ¼gbar an diesem Standort
 
 vote_called						{color}{player}^* hat einen Vote gestartet: {vote}
-vote_called_concede				{color}{player}^* hat einen Vote gestartet für die {team_color}{team}^* zum Aufgeben.
+vote_called_concede				{color}{player}^* hat einen Vote gestartet fÃ¼r die {team_color}{team}^* zum Aufgeben.
 vote_called_remake				{color}{player}^* hat einen Vote gestartet zum Neustarten des Spieles.
 vote_called_kick				{color}{player}^* hat einen Vote gestartet um {target_color}{target}^* zu kicken.
 vote_called_kick_afk			{color}{player}^* hat einen Vote gestartet um {target_color}{target}^* zu kicken, da er AFK ist.
@@ -288,9 +288,9 @@ vote_called_pause				{color}{player}^* hat einen Vote gestartet um das Spiel zu 
 vote_passed						Vote passed.
 vote_failed						Vote failed.
 
-team_concede					{color}{team}^* hat Aufgegeben. Statistiken für diese Partie werden nicht gewertet und jeder kann das Spiel ohne Strafe verlassen.
-game_abandoned					Deine Teamkameraden haben dich verlassen. Die Partie wird fortgeführt, aber du kannst die Partie ohne Strafe verlassen.
-afk_warning						Du bist in Gefahr als AFK markiert zu werden! Geh raus da un kämpfe!
+team_concede					{color}{team}^* hat Aufgegeben. Statistiken fÃ¼r diese Partie werden nicht gewertet und jeder kann das Spiel ohne Strafe verlassen.
+game_abandoned					Deine Teamkameraden haben dich verlassen. Die Partie wird fortgefÃ¼hrt, aber du kannst die Partie ohne Strafe verlassen.
+afk_warning						Du bist in Gefahr als AFK markiert zu werden! Geh raus da und kÃ¤mpfe!
 afk_message						Du wurdest nun als AFK markiert und kannst gekickt werden.
 
 lobby_connect					{color}{player}^* verbindet sich gerade.
@@ -298,7 +298,7 @@ lobby_kick						{color}{player}^* wurde vom Host gekickt.
 lobby_disconnect				{color}{player}^* hat die Verbindung getrennt
 lobby_balance					Der Host hat die Teams ausgeglichen
 lobby_force_swap				Der Host hat {slot1_color}{slot1}^* mit {slot2_color}{slot2}^* getauscht.
-lobby_countdown_cancel			Der Countdown für die Partie wurde abgebrochen.
+lobby_countdown_cancel			Der Countdown fÃ¼r die Partie wurde abgebrochen.
 lobby_lock						Der Host hat den {slot_color}{slot}^* Slot gesperrt.
 lobby_unlock					Der Host hat den {slot_color}{slot}^* Slot entsperrt.
 lobby_assign_host				{slot_color}{player}^* wurde zum neuen Host ernannt.
@@ -306,9 +306,9 @@ lobby_assign_spectator			Der Host hat {slot_color}{player}^* zu einem Beobachter
 lobby_assign_referee			Der host hat {slot_color}{player}^* zu einem Schiedsrichter gemacht.
 lobby_assign_first_ban				Der Host hat dem Team {team_color}{team}^* erster Ban zugeordnet.
 
-game_info_practice				Übungsspiel
-nosolo							Du musst einen Gegner haben um das Spiel zu starten. Starte ein ^yÜbungsspiel^* wenn du alleine spielen möchtest.
-warn_nomods					{slot_color}{player}^* benutzt modifizierte Dateien und darf deswegen das Spiel nur beaobachte.
+game_info_practice				Ãœbungsspiel
+nosolo							Du musst einen Gegner haben um das Spiel zu starten. Starte ein ^yÃœbungsspiel^* wenn du alleine spielen mÃ¶chtest.
+warn_nomods					{slot_color}{player}^* benutzt modifizierte Dateien und darf deswegen das Spiel nur beobachten.
 nomods						Das Spiel konnte nicht gestartet werden. {slot_color}{player}^* benutzt modifizierte Dateien und darf das Spiel nur beobachten oder der Spieler muss alle Mods (interface, texture, etc) ausstellen, bevor er in diesem 'Tunier Regeln' Spiel, spielen darf.
 game_unpause					{name} hat die Pause beendet. Das Spiel wird fortgesetzt in 5 Sekunden.
 player_ping					{slot_color}{player}^* Ping: {ping}ms

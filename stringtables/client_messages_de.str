@@ -1,4 +1,4 @@
-error_title						Fehler
+﻿error_title						Fehler
 error_unknown					Unbekannter Fehler.
 
 disconnect_title				Getrennt
@@ -9,7 +9,7 @@ disconnect_server_error			Server-Fehler.
 disconnect_snapshot_fragment	Too many snapshot fragments.
 disconnect_not_invited			Um an diesem privaten Spiel teilzunehmen, benötigst Du eine Einladung.
 disconnect_no_cookie			Du musst Dich einloggen, um auf diesem Server zu spielen.
-disconnect_auth_failed			Der Server konnte Dein Account nicht autorisieren. Bitte melde Dich erneut an.
+disconnect_auth_failed			Der Server konnte Deinen Account nicht autorisieren. Bitte melde Dich erneut an.
 disconnect_duplicate_connect	Du wurdest vom Spiel getrennt, da jemand anderes deinen Account benutzt.
 disconnect_unknown				Du wurdest getrennt.
 disconnect_timeout				Server antwortet nicht.
@@ -52,19 +52,19 @@ rejected_server_taken			Someone else is already starting a game on the server yo
 rejected_not_host				You must have host privileges to start a game on this server.
 
 // chat system messages
-chat_connecting					^900* Verbinde mit Chat-Server...
-chat_reconnecting				^900* Verbinde mit Chat-Server... (Versuch {attempt} von {maxattempts})
-chat_waiting_verification			^900* Warte auf die Bestätigung Deiner Identität durch den Chat-Server...
-chat_connected					^900* Verbunden!
+chat_connecting						^279* Verbinde mit Chat-Server...
+chat_reconnecting					^279* Verbinde mit Chat-Server... (Versuch {attempt} von {maxattempts})
+chat_waiting_verification			^279* Warte auf die Bestätigung Deiner Identität durch den Chat-Server...
+chat_connected						^279* Verbunden!
 chat_connected_invisible			^279* You are now connected in invisible mode. While in this mode your client will not send status updates to friends and clan members, but you will still receive status updates from them as if you were online.
-chat_disconnected				^900* Vom Chat-Server getrennt.
-chat_reconnecting_delay				^900* Erneute Verbindung in 30 Sekunden (Versuch {attempt} von {maxattempts}).
-chat_not_connected				^900* Du bist nicht mit dem Chat-Server verbunden.
-chat_new_channel				^900* Du sprichst jetzt inChannel ^090{channel}^900.
+chat_disconnected					^279* Vom Chat-Server getrennt.
+chat_reconnecting_delay				^279* Erneute Verbindung in 30 Sekunden (Versuch {attempt} von {maxattempts}).
+chat_not_connected					^279* Du bist nicht mit dem Chat-Server verbunden.
+chat_new_channel					^279* Du sprichst jetzt im Channel ^090{channel}^900.
 chat_channel_message				^990{sender}:^888 {message}
 chat_channel_message_sent			^444"{name}:^* {message}
-chat_whisper					^099(Flüstern an {sender}) ^888{message}
-chat_whisper_sent				^066(Geflüstert zu {target}) ^888{message}
+chat_whisper						^099(Flüstern an {sender}) ^888{message}
+chat_whisper_sent					^066(Geflüstert zu {target}) ^888{message}
 chat_whisper_buddies				^099<Geflüstert an Freunde> {message}
 chat_whisper_to_buddies				^099<{sender} Whispered to Buddies> {message}
 chat_whisper_failed_self			^900* Du kannst Dir nicht selbst etwas zuflüstern.
@@ -74,36 +74,36 @@ chat_mode_afk_auto_response			^099* Your message was delivered but ^990{target}^
 chat_mode_afk_default_response		Away from keyboard
 chat_mode_dnd_auto_response			^099 Your message was not delivered, ^990{target}^279 does not want to be disturbed: {message}
 chat_mode_dnd_default_response		Do not disturb
-chat_user_offline				^900* Der Spieler ist nicht online.
-chat_im						^882{sender}: ^888{message}
-chat_im_sent					^444{name}: ^888{message}
-chat_im_failed					^900* {target} ist nicht online.
-chat_clan_whisper				^359(Clan) {name}: ^888{message}
+chat_user_offline					^279* Der Spieler ist nicht online.
+chat_im								^882{sender}: ^888{message}
+chat_im_sent						^444{name}: ^888{message}
+chat_im_failed						^900* {target} ist nicht online.
+chat_clan_whisper					^279(Clan) {name}: ^888{message}
 chat_clan_whisper_sent				^458(Clan) {name}: ^888{message}
 chat_clan_whisper_failed			^900* Du bist in keinem Clan.
-chat_clan_im					^359{name}: ^888{message}
-chat_clan_im_sent				^458{name}: ^888{message}
-chat_flooding					^900* Nachricht nicht gesendet - Du versendest zu viele Nachrichten. Warte bitte einige Sekunden und versuche es danach erneut.
-chat_max_channels				^900* Du kannst derzeit keinen weiteren Channels beitreten. Verlasse zuerst einen anderen Channel.
-chat_banned					^900* Getrennt - Du bist bei diesem Chat-Server {time} Minuten lang gesperrt.
-chat_banned_connections				^900* Grund: Zu viele Verbindungsversuche.
-chat_banned_flooding				^900* Grund: Flooding.
-chat_banned_unknown				^900* Grund: Unbekannt.
-chat_banned_reconnect				^900* Erneuter Verbindungsversuch (Versuch {attempt} von {maxattempts}) in {time} Sekunden."
-chat_info_not_found				^900* Der Benutzer '{name}' wurde nicht gefunden.
-chat_info_offline				^900* {name} ist derzeit offline, letzte Anwesenheit {seen}.
-chat_info_online_no_channels			^900* {name} ist derzeit online und in keinen Channels.
-chat_info_online_one_channel			^900* {name} ist derzeit online und im Channel '{channel}'.
-chat_info_online_multi_channels			^900* {name} ist derzeit online und in folgenden Channels: {channels}
-chat_info_in_game				^900* {name} ist derzeit online und im Spiel '{game}'.
-chat_info_in_game_time				^279* ^990{name}^279 is currently online and in the game '{game}^279'. Current game time: {cgt}.
-chat_ignored					^900* {name} wird ab jetzt ignoriert.
-chat_unignored					^900* {name} wird nicht mehr länger ignoriert.
-chat_joining_game				^900* Trete dem Spiel '{name}' bei.
-chat_left_game					^900* Du hast das Spiel verlassen.
-chat_user_info_online				^900* ^990{name}^900 ist derzeit online.
-chat_user_info_offline				^900* ^990{name}^900 ist derzeit offline.
-chat_user_info_in_game				^900* ^990{name}^900 ist derzeit im Spiel '{game}'.
+chat_clan_im						^359{name}: ^888{message}
+chat_clan_im_sent					^458{name}: ^888{message}
+chat_flooding						^279* Nachricht nicht gesendet - Du versendest zu viele Nachrichten. Warte bitte einige Sekunden und versuche es danach erneut.
+chat_max_channels					^279* Du kannst derzeit keinen weiteren Channels beitreten. Verlasse zuerst einen anderen Channel.
+chat_banned							^279* Getrennt - Du bist bei diesem Chat-Server {time} Minuten lang gesperrt.
+chat_banned_connections				^279* Grund: Zu viele Verbindungsversuche.
+chat_banned_flooding				^279* Grund: Flooding.
+chat_banned_unknown					^279* Grund: Unbekannt.
+chat_banned_reconnect				^279* Erneuter Verbindungsversuch (Versuch {attempt} von {maxattempts}) in {time} Sekunden."
+chat_info_not_found					^279* Der Benutzer '{name}' wurde nicht gefunden.
+chat_info_offline					^279* {name} ist derzeit offline, letzte Anwesenheit {seen}.
+chat_info_online_no_channels		^279* {name} ist derzeit online und in keinen Channels.
+chat_info_online_one_channel		^279* {name} ist derzeit online und im Channel '{channel}'.
+chat_info_online_multi_channels		^279* {name} ist derzeit online und in folgenden Channels: {channels}
+chat_info_in_game					^279* {name} ist derzeit online und im Spiel '{game}'.
+chat_info_in_game_time				^279* ^990{name}^279 ist derzeit online und im Spiel '{game}^279'. Derzeitige Spielzeit: {cgt}.
+chat_ignored						^279* {name} wird ab jetzt ignoriert.
+chat_unignored						^279* {name} wird nicht mehr länger ignoriert.
+chat_joining_game					^279* Trete dem Spiel '{name}' bei.
+chat_left_game						^279* Du hast das Spiel verlassen.
+chat_user_info_online				^279* ^990{name}^279 ist derzeit online.
+chat_user_info_offline				^279* ^990{name}^279 ist derzeit offline.
+chat_user_info_in_game				^279* ^990{name}^279 ist derzeit im Spiel '{game}'.
 chat_saving_channel					^279* Saving ^g{channel}^279 to your auto join channel list...
 chat_failed_saving_channel			^279* Failed saving ^g{channel}^279 to your auto join channel list...
 chat_invalid_channel				^279* Unable to save ^g{channel}^279 to your auto join channel list, it is a group channel or it contains an invalid character. (% or ^)

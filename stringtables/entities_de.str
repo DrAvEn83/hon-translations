@@ -1,4 +1,4 @@
-// Game Mechanics
+﻿// Game Mechanics
 AttackType_none													Kein
 AttackType_melee												Nachkampfangriff
 AttackType_ranged												Fernangriff
