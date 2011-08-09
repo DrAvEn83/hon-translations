@@ -20,26 +20,26 @@ disconnect_kicked				Du wurdest vom Host aus dem Spiel geworfen.
 disconnect_vote_kicked			Du wurdest duch eine Ausschulsswahl aus dem Spiel geworfen.
 disconnect_unassigned			Der Host hat das Spiel gestartet, obwohl du nicht in einem Team warst.
 disconnect_banned				Der Host hat dich von dieser Partie gebannt.
-disconnect_leaver				You are not allowed to join this game because your leaver percentage is too high.
+disconnect_leaver				Du darfst dieses Spiel nicht betreten da deine "Leaver percentage" zu hoch ist.
 disconnect_not_verified			Du darfst dieses Spüiel nicht betreten da dein Account nicht Verifiziert ist.
-disconnect_overflow				You have been disconnected from the server due to a packet overflow.
-disconnect_flooding				You have been disconnected for flooding the server.
-disconnect_invalid_tier			You are not allowed to play games in this tier.
-disconnect_invalid_psr			Deine PSR ist entweder zu hoch oder zu niedrig für dieses Spiel.
-disconnect_not_on_roster		You are not on the roster for this arranged match.
+disconnect_overflow				Du wurdest vom Server getrennt, wegen Datenpacket überflutung.
+disconnect_flooding				Du wurdest wegen überflutung des Servers vom Server getrennt.
+disconnect_invalid_tier			Du bist nicht berechtigt, Spiele in dieser Stufe spielen.
+disconnect_invalid_psr			Deine PSR ist entweder zu hoch oder zu niedrig für diese Partie.
+disconnect_not_on_roster		Du bist nicht auf der Liste für diese Partie.
 disconnect_modified_core_files	Die Datei resources0.s2z wurde verändert. Diese Datei darf NICHT verändert werden! Du musst Heroes of Newerth neu installieren.
 disconnect_client_number_mismatch	Verbindungs fehler, bitte versuch es in einigen Minuten noch einmal.
 disconnect_trial_not_allowed		Du darfst dieses Spiel nicht mit einem Probeaccount betreten. Probeaccounts sind beschränkt auf "Keine Stats" Spiele.
 disconnect_duplicate_login			Der Server konnte deinen Account nicht autorisieren. Du musst eingeloggt bleiben um spielen zu können.
 disconnect_duplicate_game_connect	Deine Verbindung wurde getrennt, da jemand anderes mit diesem Account ein Spiel gestartet hat.
 disconnect_unique_login_failed		Deine verbindung wurde getrennt, da der Server deinen Account nicht autorisieren konnte.
-disconnect_mm_players_left		One or more players have disconnected from the match.
-disconnect_mm_player_left		A player has left the match.
-disconnect_mm_connect_timeout	It has taken too long for all of the players to establish a valid connection to the server, the match was aborted.
-disconnect_mm_start_timeout		It has taken too long for all of the players to finish loading, the match was aborted.
-disconnect_basic				Basic accounts cannot create games.
-disconnect_no_tokens			You need tokens or a pass to play this mode.
-disconnect_failed_refresh		Error when refreshing upgrades. You have been logged out.
+disconnect_mm_players_left		Einer oder mehr Spieler wurden vom der Partie getrennt.
+disconnect_mm_player_left		Ein Spieler hat die Partie verlassen.
+disconnect_mm_connect_timeout	Es hat zu lange gedauert bis alle Spieler eine verbindung mit dem Server hatten, deshalb wurde die Partie abgebrochen.
+disconnect_mm_start_timeout		Es hat zu lange gedauert bis alle Spieler mit dem laden fertig waren, deshalb wurde die Partie abgebrochen.
+disconnect_basic				Standardaccount können kein Spiel erstellen.
+disconnect_no_tokens			Du brauchst Spielsteine oder einen Pass um diesem Modus spielen zu dürfen.
+disconnect_failed_refresh		Fehler bein neuladen der Verbesserungen. Du wurdest ausgeloggt.
 
 rejected_invalid_request		Dein Client hat eine ungültige Verbindungsanfrage gestellt.
 rejected_empty_address			Der Server konnte Deine Adresse nicht ermitteln.
@@ -48,15 +48,15 @@ rejected_wrong_version			Deine Version stimmt nicht mit der des Servers überein
 rejected_banned					Du wurdest auf diesem Server gesperrt.
 rejected_invalid_password		Ungültiges Passwort.
 rejected_server_error			Server-Fehler.
-rejected_server_taken			Someone else is already starting a game on the server you selected. Please try again.
-rejected_not_host				You must have host privileges to start a game on this server.
+rejected_server_taken			Jemand anderes startet bereits eine Partie auf dem ausgewählten Server. Bitte versuch es noch einmal.
+rejected_not_host				Du musst Hostrechte haben um auf diesem Server ein Spiel starten zu dürfen.
 
 // chat system messages
 chat_connecting						^279* Verbinde mit Chat-Server...
 chat_reconnecting					^279* Verbinde mit Chat-Server... (Versuch {attempt} von {maxattempts})
 chat_waiting_verification			^279* Warte auf die Bestätigung Deiner Identität durch den Chat-Server...
 chat_connected						^279* Verbunden!
-chat_connected_invisible			^279* You are now connected in invisible mode. While in this mode your client will not send status updates to friends and clan members, but you will still receive status updates from them as if you were online.
+chat_connected_invisible			^279* Du bist nun im Unsichtbaren Modus. Während du in diesem Modus bist wird dein Client keine Benachrichtigungen an Freunde oder Clanmitglieder senden, aber du wirst immer Benachrichtigungen von ihnen erhalten als wärst du online.
 chat_disconnected					^279* Vom Chat-Server getrennt.
 chat_reconnecting_delay				^279* Erneute Verbindung in 30 Sekunden (Versuch {attempt} von {maxattempts}).
 chat_not_connected					^279* Du bist nicht mit dem Chat-Server verbunden.
@@ -66,14 +66,14 @@ chat_channel_message_sent			^444"{name}:^* {message}
 chat_whisper						^099(Flüstern an {sender}) ^888{message}
 chat_whisper_sent					^066(Geflüstert zu {target}) ^888{message}
 chat_whisper_buddies				^099<Geflüstert an Freunde> {message}
-chat_whisper_to_buddies				^099<{sender} Whispered to Buddies> {message}
+chat_whisper_to_buddies				^099<{sender} Hat einen Freund geflüstert> {message}
 chat_whisper_failed_self			^900* Du kannst Dir nicht selbst etwas zuflüstern.
-chat_failed_invisible				^279* You cannot chat while you are in invisible mode.
-chat_mode_switch_fail				^279* You cannot change your chat status while you are in invisible mode.  Please log out and log back in normally to use this feature.
-chat_mode_afk_auto_response			^099* Your message was delivered but ^990{target}^279 is currently away from keyboard: {message}
-chat_mode_afk_default_response		Away from keyboard
-chat_mode_dnd_auto_response			^099 Your message was not delivered, ^990{target}^279 does not want to be disturbed: {message}
-chat_mode_dnd_default_response		Do not disturb
+chat_failed_invisible				^279* Du kannst nicht chatten wöhrend du im Unsichtbaren Modus bist.
+chat_mode_switch_fail				^279* Du kannst deinen Chatstatus im Unsichtbaren Modus nicht ändern. Bitte log dich aus und verbinde dich im Normalen Modus um dieses Feature nutzen zu können.
+chat_mode_afk_auto_response			^099* Deine Nachricht wurde gesendet aber ^990{target}^279 ist derzeit nicht am PC: {message}
+chat_mode_afk_default_response		Nicht am PC
+chat_mode_dnd_auto_response			^099 Deine Nachricht wurde nicht gesendet, da ^990{target}^279 does nicht gestört werden möchte: {message}
+chat_mode_dnd_default_response		Bitte Nicht Stören
 chat_user_offline					^279* Der Spieler ist nicht online.
 chat_im								^882{sender}: ^888{message}
 chat_im_sent						^444{name}: ^888{message}
@@ -104,11 +104,11 @@ chat_left_game						^279* Du hast das Spiel verlassen.
 chat_user_info_online				^279* ^990{name}^279 ist derzeit online.
 chat_user_info_offline				^279* ^990{name}^279 ist derzeit offline.
 chat_user_info_in_game				^279* ^990{name}^279 ist derzeit im Spiel '{game}'.
-chat_saving_channel					^279* Saving ^g{channel}^279 to your auto join channel list...
+chat_saving_channel					^279* Speichere ^g{channel}^279 zu deiner Automatischen einwahl Channel Liste...
 chat_failed_saving_channel			^279* Failed saving ^g{channel}^279 to your auto join channel list...
 chat_invalid_channel				^279* Unable to save ^g{channel}^279 to your auto join channel list, it is a group channel or it contains an invalid character. (% or ^)
 chat_removing_channel				^279* Removing ^g{channel}^279 from your auto join channel list...
-chat_failed_removing_channel		^279* Failed to remove ^g{channel}^279 from your channel list...
+chat_failed_removing_channel		^279* Fehler beim löschen des Channels ^g{channel}^279 von deiner automatischen Channel Liste...
 chat_failed_saving_notification		^279* Failed to save the notification...
 chat_failed_removing_notification	^279* Failed to remove the notification id {id}...
 chat_failed_removing_notifications	^279* Fehler beim löschen aller Benachrichtigungne...
@@ -120,8 +120,8 @@ chat_failed_buddy_add_duplicate			^900* Du kannst Dich nicht selbst als Freund h
 chat_failed_buddy_add_reason			^900* Fehler beim Hinzufügen von {target} zu Deiner Freundesliste: {reason}
 chat_failed_buddy_remove			^900* Fehler beim Entfernen von {target} von Deiner Freundesliste.
 chat_failed_buddy_remove_not_found		^900* Fehler beim Entfernen des Benutzers von Deiner Freundesliste: Benutzer nicht gefunden.
-chat_approved_buddy_adder			^279* Adding ^990{name}^279 as a buddy...
-chat_approved_buddy_added			^279* ^990{name}^279 added you as a buddy...
+chat_approved_buddy_adder			^279* Füge ^990{name}^279 zu Deiner Freundesliste hinzu...
+chat_approved_buddy_added			^279* ^990{name}^279 hat Dich in seine Freundesliste aufgenommen...
 chat_requesting_buddy				^279* Requesting ^990{name}^279 as a buddy...
 chat_requested_approval_adder		^279* You requested ^990{name}^279 as a buddy...
 chat_requested_approval_added		^279* ^990{name}^279 requested you as a buddy...
@@ -148,7 +148,7 @@ chat_failed_clan_remove_generic			^900* Fehler bei der Entfernung des Benutzers 
 chat_failed_clan_name				^279* Failed to check clan name and tag for availability, please try again.
 chat_failed_clan_name_tip			Failed to check clan name and tag for availability, please try again.
 chat_invalid_clan_name				^279* The clan name ^990{name}^279 and tag ^990{tag}^279 is not available.
-chat_invalid_clan_name_tip			The clan name ^990{name}^* and tag ^990{tag}^* is not available.
+chat_invalid_clan_name_tip			Der Clanname ^990{name}^* und Clantag ^990{tag}^* ist nicht verfügbar.
 chat_invalid_clan_name_used			^279* Der Clanname ^990{name}^279 wird bereits benutzt.
 chat_invalid_clan_name_used_tip		The clan name ^990{name}^* is already in use.
 chat_invalid_clan_tag_used			^279* The clan tag ^990{tag}^279 is already in use.
@@ -162,10 +162,10 @@ chat_success_buddy_remove			^900* {target} wurde von Deiner Freundesliste entfer
 chat_success_clan_promote			^900* Benutzer wurde erfolgreich befördert.
 chat_success_clan_demote			^900* Benutzer wurde erfolgreich degradiert.
 chat_success_clan_remove			^900* Benutzer wurde erfolgreich entfernt.
-chat_success_clan_remove_self		^279* You have left the clan.
-chat_topic_change					^279* Topic changed to '^990{topic}^279'.
-chat_topic							^279* Topic is '^990{topic}^279'.
-chat_not_operator					^279* You do not have admin privileges in this channel.
+chat_success_clan_remove_self		^279* Du hast den clan verlassen.
+chat_topic_change					^279* Thema wurde zu '^990{topic}^279' verändert.
+chat_topic							^279* Das Thema ist'^990{topic}^279'.
+chat_not_operator					^279* Du hast keine Adminrechte in diesem Channel.
 chat_user_kicked					^279* ^990{kickee}^279 was kicked from the channel by ^990{kicker}^279.
 chat_kicked							^279* You were kicked from the channel '^990{channel}^279' by ^990{kicker}^279.
 chat_user_banned					^279* ^990{banned}^279 was banned from the channel by ^990{banner}^279.
@@ -204,9 +204,9 @@ chat_failed_ignore_remove_not_found		^279* Failed to remove user from your ignor
 chat_success_ignore_add					^279* Added ^990{target}^279 to your ignore list.
 chat_success_ignore_remove				^279* Removed ^990{target}^279 from your ignore list.
 chat_user_on_banlist					^279* ^990{name}^279 is on your banlist: ^999{reason}
-chat_admin_level_none				No Admin Status
-chat_admin_level_officer			Channel Officer
-chat_admin_level_leader				Channel Leader
+chat_admin_level_none				Kein Adminstatus
+chat_admin_level_officer			Channel Offizier
+chat_admin_level_leader				Channel Besitzer
 chat_admin_level_administrator		Channel Administrator
 chat_admin_level_staff				Staff
 chat_promote_success				^279* ^990{name}^279 has been promoted to ^990{rank}^279 by ^990{promoter}^279.
@@ -233,24 +233,24 @@ chat_clan_invite_sent				^279* Sending clan invite to ^990{name}^279...
 chat_failed_clan_invite_in_clan			^279* ^990{name}^279 is already in a clan.
 chat_clan_invite_received				^279* ^990{name}^279 has invited you to join the clan ^990{clan}^279.
 chat_clan_invite_rejected				^279* ^990{name}^279 rejected your clan invite.
-chat_clan_invite_failed_online			^279* That user is not online.
-chat_clan_invite_failed_clan			^279* That user is already in a clan.
-chat_clan_invite_failed_invite			^279* That user has already been invited to join a clan.
-chat_clan_invite_failed_permissions		^279* You do not have sufficient privileges to invite a user to your clan.
+chat_clan_invite_failed_online			^279* Der Benutzer ist nicht online.
+chat_clan_invite_failed_clan			^279* Der Benutzer ist bereit in einen Clan.
+chat_clan_invite_failed_invite			^279* Der Benuter wurde bereits eingeladen einen Clan beizutreten.
+chat_clan_invite_failed_permissions		^279* Du hast nicht die benötigten Rechte um andere Leute in den Clan einzuladen.
 chat_clan_invite_failed_unknown			^279* Failed to add ^990{name}^279 to the clan.
 chat_clan_invite_failed_unknown_self	^279* Failed to add you to the clan.
-chat_clan_new_user						^279* ^990{name}^279 has joined your clan.
-chat_clan_new_user_self					^279* You have joined the clan ^990{clan}^279.
-chat_clan_create_fail_clan				^279* You must leave your current clan before creating one.
-chat_clan_create_fail_param				^279* Failed to create clan - Missing parameters!
-chat_clan_create_fail_tag				^279* Failed to create clan - Clan tag is too long.
-chat_clan_create_fail_in_clan			^279* Failed to create clan - ^990{name}^279 is already in a clan.
+chat_clan_new_user						^279* ^990{name}^279 ist dem Clan beigetreten.
+chat_clan_new_user_self					^279* Du bist den Clan ^990{clan}^279 beigetreten.
+chat_clan_create_fail_clan				^279* Du musst deinen Clan verlassen, bevor du einen neuen erstellen kannst.
+chat_clan_create_fail_param				^279* Fehler beim erstellen des Clan - Fehlende Angaben!
+chat_clan_create_fail_tag				^279* Fehler beim erstellen des Clan - Der Clantag ist zu lang.
+chat_clan_create_fail_in_clan			^279* Fehler beim erstellen des Clan - ^990{name}^279 ist bereit in einen Clan.
 chat_clan_create_fail_duplicate			^279* Failed to create clan - Duplicate founding members are not allowed.
-chat_clan_create_fail_invite			^279* Failed to create clan - ^990{name}^* has an outstanding clan invite.
-chat_clan_create_fail_not_found			^279* Failed to create clan - ^990{name}^* not found.
-chat_clan_create_fail_clan_name			^279* Failed to create clan - Your clan name was rejected. Ensure it is 1 to 32 alphanumeric characters and not already in use.
-chat_clan_create_fail_tag				^279* Failed to create clan - Your clan tag was rejected. Ensure it is 1 to 4 alphanumeric characters and not already in use.
-chat_clan_create_fail_unknown			^279* Failed to create clan.
+chat_clan_create_fail_invite			^279* Fehler beim erstellen des Clan - ^990{name}^* hat noch eine ausstehende Claneinladung.
+chat_clan_create_fail_not_found			^279* Fehler beim erstellen des Clan - ^990{name}^* nicht gefunden.
+chat_clan_create_fail_clan_name			^279* Fehler beim erstellen des Clan - Der Name des Clans wurde abgelehnt. Vergewisser dich, dass der Clanname zwischen 1 und 32 Buchstaben lang und nicht bereits benutzt wird.
+chat_clan_create_fail_tag				^279* Fehler beim erstellen des Clan - Der Clantag wurde abgelehnt. Vergewisser dich, dass der Clanname zwischen 1 und 4 Buchstaben lang und nicht bereits benutzt wird.
+chat_clan_create_fail_unknown			^279* Fehler beim erstellen des Clan.
 chat_clan_create_fail_time				^279* Failed to create clan - The time given to the founding members to accept has expired.
 chat_clan_create_result_fail_clan		You must leave your current clan before creating one.
 chat_clan_create_result_fail_param		Failed - Missing parameters!
