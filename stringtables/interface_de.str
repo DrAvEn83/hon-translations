@@ -99,13 +99,13 @@ general_addto_fav							Zu Favoriten hinzufügen
 general_basic								Basic
 general_verified							Verifiziert
 general_mode_all_heroes						Alle Helden
-general_mode_all_pick						Alles Auswählen
+general_mode_all_pick						All Pick
 general_mode_all_pick_desc					Standard Helden auswahl. Wer zuerst kommt mahlt zuerst.
-general_mode_random_draft					Zufalls Draft
+general_mode_random_draft					Random Draft
 general_mode_random_draft_desc				Die Heldenauswahl wird auf 20 Helden beschränkt und dann wechseln sich die Spieler mit der Heldenauswahl ab.
-general_mode_allrandom						Alles Zufällig
+general_mode_allrandom						All Random
 general_mode_allrandom_desc					Den Spielern werden zufällig Helden zugewiesen.
-general_mode_banningpick					Banning Draft
+general_mode_banningpick					Banning Pick
 general_mode_banningpick_desc				Blau und Pink bannen abwechselnd einen Helden bis insgesamt 8 Helden gebannt wurden und danach können sich die Spieler abwechselnd einen der übrig gebliebenden Helden auswählen.
 general_mode_singledraft					Single Draft
 general_mode_singledraft_desc				Jeder Spieler bekommt eine Heldenauswahl mit einem AGI, einen INT und einem STR Helden.
@@ -132,7 +132,7 @@ general_mode_no_middle_lane					Ohne Mittleren Pfad
 general_mode_no_bottem_lane					Ohne Unteren Pfad
 general_mode_allow_veto						Veto erlauben
 general_mode_shuffle						Teams mischen
-general_mode_autobalance					Automatisches abgleichen
+general_mode_autobalance					Auto. abgleichen
 general_mode_no_leavers						Keine Leavers
 general_mode_no_stats						Keine Statistiken
 general_mode_official						Offiziell
@@ -164,7 +164,7 @@ main_label_account_type						Accountart
 main_label_account_type_desc	
 main_label_account_level					Level:
 main_label_games_played						Spiele:
-main_label_leaves							Verlässt das Spiel:
+main_label_leaves							Leaves:
 main_label_record							Protokoll
 main_button_upgrade							Jetzt Upgraden:
 main_label_logged_in_as						Angemeldet als:
@@ -934,7 +934,7 @@ web_form_reportabuse_accountname			Your Account
 web_form_reportabuse_accountname_tip		This is the name of the account that you're currently logged in as.  It will be submitted as part of the report.
 web_form_reportabuse_abuser					Abuser's Account
 web_form_reportabuse_abuser_tip				The name of the user whom you're reporting.
-web_form_reportabuse_type					Abuse Type
+web_form_reportabuse_type					Missbrauchs Art
 web_form_reportabuse_type_tip				Please select the type of abuse that the user is participating in.  Please be sure to choose an accurate abuse type to help us expedite the processing of your report.
 web_form_reportabuse_matchid				Match ID
 web_form_reportabuse_matchid_tip			The Match ID where the incident occurred.  The included dropdown includes the last few matches you entered or participated in.
@@ -942,8 +942,8 @@ web_form_reportabuse_server					Server
 web_form_reportabuse_server_tip				The name of the server where the incident occurred.
 web_form_reportabuse_body					Incident Description
 web_form_reportabuse_body_tip				Please write a short description of the incident that occurred.  If applicable, make sure to include information about the time when the specified user was abusive and details of what had transpired.
-web_form_reportabuse_button					Submit Report
-web_form_reportabuse_submit					Sending report...
+web_form_reportabuse_button					Bericht abschicken
+web_form_reportabuse_submit					Bericht wird abgeschickt...
 web_form_reportabuse_error1					Connection error - please try again.
 web_form_reportabuse_error2					No reporting account specified.
 web_form_reportabuse_error3					No offender account specified.
@@ -998,8 +998,8 @@ web_form_reportabuse_type10_desc2			Political or religious intolerance
 web_form_reportabuse_type10_desc3			Sexual harassment of gender or identity
 web_form_reportabuse_type10_desc4			Excessive profanity
 web_form_reportabuse_type10_desc5			Intent to threaten an individual in any fashion
-web_form_reportabuse_overview				Overview
-web_form_ccnum_short						Credit Card No.
+web_form_reportabuse_overview				Übersicht
+web_form_ccnum_short						Kreditkarten Nummer
 
 web_form_lan_account_feature_unavailable_unpaid		This feature is not available for Unpaid Account Users
 
@@ -1152,21 +1152,21 @@ mstore_product24_desc
 mstore_product25_name		Flag- Canada
 mstore_product25_desc		
 mstore_product26_name		Hero- Night Hound
-mstore_product26_desc		They won't see me coming.
+mstore_product26_desc		Sie sehen mich nicht kommen!
 mstore_product27_name		Hero- Swiftblade
-mstore_product27_desc		For great honor!
+mstore_product27_desc		Für große Ehre!
 mstore_product28_name		Hero- Moon Queen
 mstore_product28_desc		Feel the pull of the moon!
 mstore_product29_name		Hero- Wild Soul
-mstore_product29_desc		I'm smarter than your average bear.
+mstore_product29_desc		Ich bin schlauer als der durchschnitts Bär!
 mstore_product30_name		Hero- Zephyr
-mstore_product30_desc		I go with the wind!
+mstore_product30_desc		Ich gehe mit dem Wind
 mstore_product31_name		Hero- Magebane
-mstore_product31_desc		In the blink of an eye.
+mstore_product31_desc		Mit dem Augenywinkern
 mstore_product32_name		Hero- Scout
-mstore_product32_desc		I walk the road of vengeance.
+mstore_product32_desc		Ich gehe den Weg der Vergeltung
 mstore_product33_name		Hero- Andromeda
-mstore_product33_desc		Gimme some space.
+mstore_product33_desc		Macht mir Platy
 mstore_product34_name		Hero- Valkyrie
 mstore_product34_desc		Leaps and bounds ahead.
 mstore_product35_name		Hero- Engineer
@@ -2165,14 +2165,14 @@ mstore_openstore_desc	Click here to go back to the store so you can purchase add
 mstore_bundle_yousave		You save {costdifference}!
 mstore_close
 mstore_close_desc
-mstore_goldcount			Gold Count
+mstore_goldcount			Gold zähler
 mstore_goldcount_desc		This is how many Goblin Coins you currently own.  Gold coins can be purchased, while Silver coins can be earned via Matchmaking games.  Click here or on the "Buy Coins" button to purchase more Gold Coins.
-mstore_cost					Item Cost
+mstore_cost					Item kosten
 mstore_cost_desc			This is how many Goblin Coins are required to purchase this item.  If this is a Premium item, the number displayed is how many Gold coins are required to purchase this item.
-mstore_purchase				Purchase
+mstore_purchase				Kaufen
 
-mstore_needunlockicons		Unlock
-mstore_needunlocktaunt		Unlock
+mstore_needunlockicons		Freischalten
+mstore_needunlocktaunt		Freischalten
 mstore_unlock_title			Unlock Account Icons
 mstore_unlock_taunt			Purchase Taunt
 mstore_icon_slot_locked		Icon Slot Locked
@@ -2303,7 +2303,7 @@ mstore_customizeeachmatch	Customize Each Match
 mstore_forums	Forums
 mstore_replacedefsymbol		Replace Default Symbol
 
-mstore_redeemcoins			Redeem Coins
+mstore_redeemcoins			Münzen ausgeben
 
 mstore_sectionhelp			What Are These?
 mstore_error1		Invalid store request.
@@ -2954,9 +2954,9 @@ game_chat_for								^yChat Für: ^* {target}
 local_header_local_game						Lokales Spiel
 local_header_join_local_game				Einem Lokalen Spiel Beitreten
 local_label_your_name						Dein Name
-local_button_refresh_list					Liste Aktualisieren
+local_button_refresh_list					Aktualisieren
 local_button_connect_ip						Verbinden mit IP
-local_button_join_selected					Dem ausgewählten Spiel Beitreten
+local_button_join_selected					Spiel Beitreten
 local_create_game_header					Ein Lokales Spiel Erstellen
 local_select_server_header					Einen Server Auswählen
 local_select_server_button					Server Auswählen
@@ -2991,7 +2991,7 @@ cc_com_aside_header_recently_with			Kürzliche Spielpartner
 cc_com_aside_recent_button_add				Hinzufügen
 
 cc_com_header_clan_management				Clan-Management
-cc_com_create_button						Create New Clan
+cc_com_create_button						Erstelle einen neuen Clan
 cc_com_label_not_in_clan					Du bist derzeit in keinem Clan.
 cc_com_label_start_clan						Start your own clan instantly! You simply need 5 charter members (including yourself). All charter members must be currently logged into HoN and not already a member of a clan.
 cc_com_label_if_interested					Falls Du einem Clan beitreten möchtest, ändere bitte Deinen Status. Dein Status wird für die Clan-Führer sichtbar.
@@ -3102,7 +3102,7 @@ im_user_offline								Benutzer ist offline!
 endstats_label_match_id						Match ID
 endstats_label_date							Datum
 endstats_label_time							Zeit
-endstats_label_match_length					Match-Länge
+endstats_label_match_length					Länge
 endstats_label_match_ver					Version
 endstats_label_server						Server
 endstats_label_match_comments				Match-Anmerkungen
@@ -3178,7 +3178,7 @@ game_end_stats_kda							^g{kills}^*/^r{deaths}^*/^y{assists}^*
 game_end_stats_progress_bar					Please wait...
 game_end_stats_download_in_progress			Please wait for the download to finish.
 game_end_stats_download_retry_btn			Failed - Retry
-game_end_stats_watch_replay_btn				Schaue Wiederholung an!
+game_end_stats_watch_replay_btn				Wiederholung anschauen
 game_end_stats_compat_btn					Compatize
 game_end_stats_refresh_btn					Check for File
 
@@ -3203,7 +3203,7 @@ game_end_stats_download_tootlip				Download the replay for this match.
 game_end_stats_comment_btn					Comment
 game_end_stats_comment_tooltip				Match comments will be viewable on the HoN replays website.
 game_end_stats_awards						Match Awards
-game_end_stats_close_button					Close Stats
+game_end_stats_close_button					Stats schließen
 game_end_stats_download_waiting_btn			Checking...
 game_end_stats_download_waiting_tootlip		Checking for replay file.
 game_end_stats_download_retry_tooltip		The replay download has failed, the file may not yet be uploaded, click here to try again.
@@ -3343,9 +3343,9 @@ mainlobby_button_save_qp_config				Quick Play Konfiguration Abspeichern
 mainlobby_label_join_size					Nur Spielen mit dieser Teamgröße Beitreten
 mainlobby_header_team_size					Teamgröße
 mainlobby_header_game_type					Spielart
-mainlobby_label_normal						Normal
-mainlobby_label_random_draft				Zufällige Auswahl
-mainlobby_label_single_draft				Einmalige Auswahl
+mainlobby_label_normal						All Pick
+mainlobby_label_random_draft				Random Draft
+mainlobby_label_single_draft				Single Draft
 mainlobby_label_banning_draft				Banning Draft
 mainlobby_label_banning_pick				Banning Pick
 mainlobby_label_all_random					All Random
@@ -3355,9 +3355,9 @@ mainlobby_label_deathmatch					Deathmatch
 mainlobby_header_game_options				Spieleinstellungen
 mainlobby_label_tier						Rang
 mainlobby_label_tier_tip					Beschränkt die Server bezüglich bestimmter Rangvorgaben.\n\n^yNoobs Only^* - Es dürfen nur Accounts mit einer allgemein niedrigen Erfahrungsstufe teilnehmen.\n^yNoobs Erlaubt^* - Jeder Spieler darf teilnehmen, unabhängig von seiner Erfahrungsstufe.\n^yPro^* - Es dürfen nur Accounts mit einer allgemein hohen Erfahrungsstufe teilnehmen.
-mainlobby_header_game_tier1					Noobs Only
-mainlobby_header_game_tier2					Noobs Erlaubt
-mainlobby_header_game_tier3					Pro
+mainlobby_header_game_tier1					Nur Anfänger
+mainlobby_header_game_tier2					Anfänger erlaubt
+mainlobby_header_game_tier3					Profi
 mainlobby_label_min_max_psr					Min/Max PSR
 mainlobby_label_min_max_psr_tip				Only allows players to join games if their specified PSR falls in within 2% of the servers Min/Max PSR range. A player who is invited to a game will bypass all Min/Max PSR restrictions.
 mainlobby_header_game_official				Offiziell - Aufgezeichnete Statistiken
@@ -3380,7 +3380,7 @@ mainlobby_button_create_game				Spiel Erstellen
 mainlobby_button_create_game_desc			Möchtest Du ein Spiel hosten, das genau Deinen Erwartungen entspricht oder möchtest Du Deinen Freunden die Teilnahme erleichtern? Dann verwende dieses Feature. Bei der Erstellung eines Spiels kannst Du dieses auf Private setzen, auf die Teilnahme Deiner Freunde warten und es anschließend auf Bekanntgeben setzen, um die restlichen freien Plätze zu füllen.
 mainlobby_header_custom_join_a_game			Einem Spiel Beitreten
 mainlobby_header_custom_filter_results		Server-Ergebnisse Filtern
-main_lobby_filter_description				Durch die Verwendung der untenstehenden Filter schränkst Du die angezeigten Spiele ein. Diese beinhalten ausschließlich die von Dir gewünschten Parameter.
+main_lobby_filter_description				
 mainlobby_label_custom_game_name			Spielname
 main_lobby_game_name_desc					Filtere den Spielbrowser durch die Eingabe eines ganzen Spielnamens oder durch die Eingabe von Teilen eines Spielnamens in die Suchmaske.
 mainlobby_label_custom_game_type			Spielart
@@ -3413,28 +3413,28 @@ mainlobby_label_custom_game_BR				Süd Amerika
 mainlobby_label_custom_team_size			Team Größe
 mainlobby_label_custom_team_size_desc		Restrict games to a particular team size.
 main_lobby_filter_team_size_none			Do Not Limit Team Size
-main_lobby_filter_any						Any
+main_lobby_filter_any						Egal
 main_lobby_filter_advanced					Advanced
-main_lobby_filter_team_size_one_v_one		One versus One
-main_lobby_filter_team_size_two_v_two		Two versus Two
-main_lobby_filter_team_size_three_v_three	Three versus Three
-main_lobby_filter_team_size_four_v_four		Four versus Four
-main_lobby_filter_team_size_five_v_five		Five versus Five
-mainlobby_label_custom_map					Map
-mainlobby_label_custom_map_desc				Restrict games to a particular map.
-mainlobby_label_custom_server_type			Server Type
+main_lobby_filter_team_size_one_v_one		Eins gegen Eins
+main_lobby_filter_team_size_two_v_two		Zwei gegen Zwei
+main_lobby_filter_team_size_three_v_three	Drei gegen Drei
+main_lobby_filter_team_size_four_v_four		Vier gegen Vier
+main_lobby_filter_team_size_five_v_five		Fünf gegen Fünf
+mainlobby_label_custom_map					Karte
+mainlobby_label_custom_map_desc				Die Spiel auf eine bestimmte Karte beschränken.
+mainlobby_label_custom_server_type			Server Typ
 mainlobby_label_custom_server_type_desc		Restrict games based on server type. Official servers are S2 hosted servers that are guaranteed to run official, non-modified game settings and maps. Unofficial servers are community hosted servers that may or may not be using modified maps and game settings.
-main_lobby_server_official_stats			Official - Stats
-main_lobby_server_official_nostats			Official - No Stats
-main_lobby_server_unofficial				Unofficial
+main_lobby_server_official_stats			Offiziell - Mit Stats
+main_lobby_server_official_nostats			Offiziell - Ohne Stats
+main_lobby_server_unofficial				Nicht Offiziell
 msin_lobby_game_access						Game Access
-main_lobby_view_advanced_filters			Click ^yView^* ^yAdvanced^* below to display all additional options.
-mainlobby_show_advanced_filters_button		View Advanced
-mainlobby_hide_advanced_filters_button		Hide Advanced
+main_lobby_view_advanced_filters			Klick den Button ^yMehr^* ^yOptionen^* um mehr Optionen angezeigt zu bekommen.
+mainlobby_show_advanced_filters_button		Mehr Optionen
+mainlobby_hide_advanced_filters_button		Verstecke Optionen
 
 mainlobby_header_custom_name				Name
-mainlobby_header_custom_map					Map
-mainlobby_header_custom_slots				Slots
+mainlobby_header_custom_map					Karte
+mainlobby_header_custom_slots				Spieler
 mainlobby_header_custom_ping				Ping
 mainlobby_header_custom_size				Größe
 mainlobby_header_custom_type				Art
@@ -3461,9 +3461,9 @@ mainlobby_label_filter_server_name			Servername Filtern
 mainlobby_tip_filter_server_name			Um die Ergebnisse zu filtern, gib bitte einen Servernamen oder einen Teil eines Servernamen ein.
 mainlobby_create_game_remote				Starte Remote-Spiel...
 
-mainlobby_label_icon_key					Symbolschlüssel Ansehen
-mainlobby_filter_prequery					Filter Pre-Query
-mainlobby_filter_hide_restricted			Hide Restricted Games
+mainlobby_label_icon_key					Symbole ansehen
+mainlobby_filter_prequery					Vorfilterung
+mainlobby_filter_hide_restricted			Verstecke verbotene Spiele
 mainlobby_icon_key_options_header			Spiel-Setup und Optionen
 mainlobby_icon_key_maps_header				Maps
 mainlobby_icon_key_checkboxes				Option Checkboxes
@@ -3579,7 +3579,7 @@ replay_viewer_game_options					^ySpiel Optionen:^* {options}
 replay_view_tip_online						Durchsuche die Online-Datenbank der Replays.
 replayv_label_match_id						Match ID: 
 replayv_label_version						Version: 
-replayv_label_date_played					Gespieltes Datum: 
+replayv_label_date_played					Datum: 
 replayv_label_match_length					Matchdauer: 
 replayv_label_map							Karte: 
 replayv_label_game_mode						Spielmodus: 
@@ -3666,15 +3666,15 @@ globby_quick_stats							Wins\nLosses\nK:D\nA:D\nK+A:D\nWards\nXPM\nGPM
 game_gold_report							^wGold Earned From Killing Players\n^wGold Earned From Assisting Players Deaths\n^wGold Earned From Buildings\n^wGold Earned From Last Hitting Creeps\n^wGold Lost To Dying\n^vCurrent Buy Back Cost\n^vCurrent Gold To Be Lost On Death\n^wGold Per Min\n
 globby_current_selection					Current Selection
 
-globby_select_avatar						Select Avatar
-globby_alt_avatars							Alternate Avatars
+globby_select_avatar						Avatar auswählen
+globby_alt_avatars							Alternativer Avatar
 
-globby_purchase								Purchase
-globby_purchase_avatar						Purchase this Alternate Avatar?
-globby_purchase_hero						Purchase this Hero?
-game_purchase_courier						Purchase this Courier?
+globby_purchase								Kaufen
+globby_purchase_avatar						Diesen Alternativen Avatar kaufen?
+globby_purchase_hero						Diesen Helden kaufen?
+game_purchase_courier						Diesen Kurier kaufen?
 
-globby_purchase_txt1						You don't own this hero!
+globby_purchase_txt1						Du besitzt diesen Helden nicht!
 globby_purchase_txt2						Do you want to use it for this match only or purchase it?
 globby_purchase_eap_txt1					This is an Early Access Hero!
 globby_purchase_eap_txt2					Early access grants you the ability to play this hero before it is released into the general hero pool.
@@ -3687,7 +3687,7 @@ globby_purchase_btn							Purchase Hero
 globby_eap_btn								Purchase Early Access
 globby_purchase_repick						No Thanks, Pick New Hero
 
-_first_game									's ^wFirst Game!
+_first_game									's ^wErstes Spiel!
 
 gamelobby_add_friend_tip					Zur Freundesliste Hinzufügen
 gamelobby_take_slot_button					Diesen Spielerslot Auswählen
@@ -4180,17 +4180,17 @@ tooltip_extras								Click here to open the account extras menu.
 tooltip_sort_dmg							Sort by Attack Damage
 tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
 
-tooltip_report								Report Abusive Behavior
-tooltip_report_disabled_title				Report Abusive Behavior 
-tooltip_report_disabled_msg					This feature is only available for verified accounts.
+tooltip_report								Missbräuchliches Verhalten melden
+tooltip_report_disabled_title				Missbräuchliches Verhalten melden 
+tooltip_report_disabled_msg					Dieses Feature ist nur für verifizierte Accounts aktiviert.
 
-tooltip_general_nofriend_title				Player
+tooltip_general_nofriend_title				Spieler
 tooltip_general_nofriend_msg				Right click for interaction options.
-tooltip_general_friend_title				Friend
+tooltip_general_friend_title				Freund
 tooltip_general_friend_msg					Right click for interaction options.
-tooltip_general_verified_title				Verified
+tooltip_general_verified_title				Verifiziert
 tooltip_general_verified_msg				Verified accounts have access to verified-only features.
-tooltip_general_basic_title					Basic
+tooltip_general_basic_title					Standard
 tooltip_general_basic_msg					Basic accounts cannot access verified-only features.
 
 // ui_items.package
@@ -5159,12 +5159,12 @@ specui_options_popupCD				Popup CD
 specui_options_popupCD_txt			The delay, in seconds, before each combat alert can reappear.
 specui_options_abilityLvlUps		Ability Levelups
 specui_options_abilityLvlUps_txt	Display ability levelup popups.
-specui_options_abilityUsage			Ability Usage
+specui_options_abilityUsage			Fähigkeit benutzung
 specui_options_abilityUsage_txt		Display ability usage popups.
 
 //vid driver options
-options_label_vid_quality			Video Driver
-main_vid_confirm					Video Driver
+options_label_vid_quality			Video Treiber
+main_vid_confirm					Video Treiber
 main_vid_confirm_info				Du musst HoN neustarten damit die Änderungen angezeigt werden.
 button_restart_later				Später
 button_restart_now					HoN jetzt neustarten

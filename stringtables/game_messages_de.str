@@ -33,8 +33,8 @@ multikill3							{killer} hat seine Gegner ^084AUSGELÖSCHT^*!!!
 
 killtower							{killer} hat einen Turm zerstört Das Team {reward} bekommt ^y{gold}^* bonus Gold!
 denytower							{player} has ^444denied^* a tower!
-killmeleerax						Die ^724Nahkampf^* Kasrene von {victim} wurde zerst? Die ^724Nahkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
-killrangedrax						Die ^266Fernkampfkaserne^* von {victim} wurde zerst? Die ^266fernkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
+killmeleerax						Die ^724Nahkampf^* Kaserne von {victim} wurde zerst? Die ^724Nahkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
+killrangedrax						Die ^266Fernkampf^* Kaserne von {victim} wurde zerst? Die ^266fernkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
 killcourier							{victim}'s Kurier wurde von {killer} getötet!
 boughtwalkingcourier				{player_color}{player}^* hat einen laufenden Kurier gekauft.
 boughtflyingcourier					{player_color}{player}^* hat einen fliegenden Kurier gekauft.
