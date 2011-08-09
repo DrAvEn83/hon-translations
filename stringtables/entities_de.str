@@ -2091,40 +2091,40 @@ Hero_Electrician_description									Die besten Spione der Legion erfuhren erst 
 Hero_Electrician_role											The Electrician is a mana-dependent tank capable of acting as both support and carry thanks to his potentially high damage output and disables. Cleansing Shock will almost any debuff from an ally while speeding his movement speed simultaneously.
 
 // Ability_Empath1
-Ability_Empath1_name											Essence Link
-Ability_Empath1_description										Steals life from the target over time. If the link is shattered from distance, the target is stunned.
-Ability_Empath1_description_simple								Target an enemy unit to tether it for 5 seconds. Deals up to ^o{100,175,250,325} Magic Damage^*, and heals Empath for the same amount.\n\nIf the target gets more than 750 units away, the tether breaks, applying a ^o{1,1.5,2,2.5} second Stun^* to the target. While bonded to an ally with As One, Essence Link heals the host instead of Empath.
-Ability_Empath1_tooltip_flavor									Sucky sucky.
-Ability_Empath1_IMPACT_effect									Deals {20,35,50,65} Magic Damage per second for 5 seconds to the target, healing Empath for the same amount.  The link breaks if the distance between Empath and her target reaches 750 units, and stuns the target for {1,1.5,2,2.5} seconds. While bonded to an ally with As One, Essence Link heals the host instead of Empath.
+Ability_Empath1_name											Essenz Verbindung
+Ability_Empath1_description										Klaut dem Ziel Leben über Zeit und wenn die Verbindung durch die Distanz der verbundenen gebrochen wird, wird das Ziel paralysiert
+Ability_Empath1_description_simple								Wähle eine Gegnerische Einheit an um es 5 Sekunden lang an dich zu binden. Verursacht bis zu ^o{100,175,250,325} Magischen Schaden^* und heilt Empath um die gleiche Menge.\n\nWenn das Ziel weiter als 750 Einheiten von dir entfernt ist, bricht die Verbindung ab und das Ziel wird ^o{1,1.5,2,2.5} Sekunden paralysiert^*. Während man mit einem Verbündeten vereint ist, wird der Verbündete geheilt.
+Ability_Empath1_tooltip_flavor									Saugen saugen.
+Ability_Empath1_IMPACT_effect									Verursacht {20,35,50,65} Magischen Schaden pro Sekunde für 5 Sekunden und heilt Empath um den verursachten Schaden. Die Verbindung bricht ab, wenn sich das Ziel und Empath 750 Einheiten oder mehr von einander entfernen und das Ziel wird für {1,1.5,2,2.5} Sekunden paralysiert. Während man mit einem Verbündeten vereint ist, wird der Verbündete geheilt, anstatt Empath.
 
 // State_Empath_Ability1_Enemy
-State_Empath_Ability1_Enemy_name								Essence Link
+State_Empath_Ability1_Enemy_name								Essenz Verbindung
 
 // State_Empath_Ability1_Self
-State_Empath_Ability1_Self_name									Essence Link
+State_Empath_Ability1_Self_name									Essenz Verbindung
 
 // State_Empath_Ability1_Inside
-State_Empath_Ability1_Inside_name								Essence Link
+State_Empath_Ability1_Inside_name								Essenz Verbindung
 
 // Ability_Empath2
-Ability_Empath2_name											Illusory Veil
-Ability_Empath2_description										Creates a wall that blocks enemies, but not allies.  Enemies close to the wall take damage over time.
-Ability_Empath2_description_simple								Click and drag cursor to create a wall that will block enemy movement, but not allies. The wall lasts ^o{2,3,4,5} seconds^*. Enemies who come near the wall take ^o50 Magic Damage per second^*.
-Ability_Empath2_tooltip_flavor									YOU SHALL NOT PASS!
-Ability_Empath2_IMPACT_effect									Creates a 650 width wall that blocks enemies and grants slight vision. The wall lasts for {2,3,4,5} seconds.\n\nEnemies within 150 units of the wall take 50 damage per second.
+Ability_Empath2_name											Trügerischer Vorhang
+Ability_Empath2_description										Erschafft einen Vorhang der Gegner blockt, aber nicht Verbündete. Gegner die in der Nähe des Vorhanges stehen bekommen Schaden über Zeit.
+Ability_Empath2_description_simple								Drücke und ziehe die Maus um den Vorhang zu erschaffen der Gegnerische Einheiten blockt, aber keine Verbündeten. Der Vorhang bleibt für ^o{2,3,4,5} Sekunden^* bestehen. Gegner die in die Nähe des Vorhanges kommen bekommen ^o50 Magischen Schaden pro Sekunde^*.
+Ability_Empath2_tooltip_flavor									DU WIRST HIER NICHT DURCHKOMMEN!
+Ability_Empath2_IMPACT_effect									Erschafft einen 650 Einheiten langen Vorhang, welcher Gegnerische Einheiten blockt und ein wenig Sicht gewährt. Der Vorhang hält für {2,3,4,5} Sekunden.\n\nGegner die in einer Reichweite von 150 Einheiten zum Vorhang stehen bekommen 50 Schaden pro Sekunde.
 
 // State_Empath_Ability2_Effects
-State_Empath_Ability2_Effects_FRAME_effect						50 Magic Damage per second
+State_Empath_Ability2_Effects_FRAME_effect						50 Magischen Schaden pro Sekunde
 // Ability_Empath3
-Ability_Empath3_name											Synergy
-Ability_Empath3_description										Grants Health Regeneration to all allied heroes.
-Ability_Empath3_description_simple								Passively grants a health regeneration aura to all allied heroes on the map. The aura heals for ^o{0.75,1.5,2.25,3} Health per second^* plus an additional ^o{0.05,0.1,0.15,0.2}% of Max Health per second^*.
-Ability_Empath3_tooltip_flavor									Don't I make you all feel warm and fuzzy?
-Ability_Empath3_IMPACT_effect									All allied heroes gain {0.75,1.5,2.25,3} Health Regeneration and additional Health Regeneration equal to {0.05,0.1,0.15,0.2}% of Max Health.
+Ability_Empath3_name											Synergie
+Ability_Empath3_description										Gibt Verbündeten Gesundheitsregeneration.
+Ability_Empath3_description_simple								Gibt Verbündeten auf der ganzen Karte eine passive Gesundheitsregenration. Die heilt ^o{0.75,1.5,2.25,3} Gesundheit pro Sekunde^* plus zusätzlich ^o{0.05,0.1,0.15,0.2}% der Maximalen Gesundheit pro Sekunde^*.
+Ability_Empath3_tooltip_flavor									Mache ich euch nicht alle ein wenig heiß und scharf?
+Ability_Empath3_IMPACT_effect									Alle Verbündeten Helden bekommen {0.75,1.5,2.25,3} Gesundheitsregeneration und eine zusätzlich Gesundheitsregeneration von {0.05,0.1,0.15,0.2}% der Maximalen Gesundheit.
 Ability_Empath3_ACTIVATE_COST_effect						
 
 // State_Empath_Ability3
-State_Empath_Ability3_name										Synergy
+State_Empath_Ability3_name										Synergie
 
 // Gadget_Empath_Ability3
 Gadget_Empath_Ability3_name									
@@ -2132,22 +2132,22 @@ Gadget_Empath_Ability3_description
 
 // Ability_Empath4
 Ability_Empath4_name											As One
-Ability_Empath4_description										Empath becomes one with an allied hero, buffing the host. Empath may continue to cast spells and use items as normal. Grants a sub-skill, "Faster!"
-Ability_Empath4_description_simple								Target an allied hero to go inside them for up to 30 seconds. While inside, Empath is invulnerable and her host receives ^o{40,60,80} Attack Damage and Attack Speed^*.\n\nFor the duration, grants an additional skill that allows you to apply a burst of speed to your host.
-Ability_Empath4_description_simple:Empath_Inside				Activate to break the bond between the host and Empath, placing Empath outside the host.
-Ability_Empath4_tooltip_flavor									Help me, help you.
-Ability_Empath4_IMPACT_effect									Host hero receives {40,60,80} bonus Attack Damage and Attack Speed. The bond lasts for 30 seconds, and expires if the host dies or Empath chooses to end the bond.
-Ability_Empath4_IMPACT_effect:Empath_Inside						Will instantly end the bond between the host and Empath, placing Empath outside and adjacent to the host.
+Ability_Empath4_description										Empath bekommt Eins mit einem Verbündete und verstärkt Ihren Host. Empath kann weiterhin Fähigkeiten sowie Items nutzten. Gewährt eine Zusatz Fähigkeit "Schneller"!
+Ability_Empath4_description_simple								Wähle einen Verbündeten Helden an um sich mit ihm für 30 Sekunden zu verbinden. Während Sie in einen Verbündeten ist, ist Empath unverwundbar und der Host bekommt ^o{40,60,80} Angriffsschaden und Angriffsgeschwindigkeit^*.\n\nFür die Dauer der Fähigkeit bekommt Empath eine zusätzliche Fähigkeit, die sie benutzen kann um ihren Host zu verschnellern.
+Ability_Empath4_description_simple:Empath_Inside				Benutzen die Fähigkeit um die Verbindung mit dem Host zu Unterbrechen und Empath wieder außerhalb des Hostes zu platzieren
+Ability_Empath4_tooltip_flavor									Hilfst du  mir, helf ich dir! 
+Ability_Empath4_IMPACT_effect									Der Host Held bkommt {40,60,80} Bonus Angriffsschaden und Angriffsgeschwindigkeit. Die Verbindung hält für 30 Sekunden und hört auf wenn der Host stirbt oder Empath die Verbindung abbricht.
+Ability_Empath4_IMPACT_effect:Empath_Inside						Wird die Verbindung zwischen Empath und Ihrem Host unterbrechen und Empath direkt neben Ihrem Host platzieren
 
 // Ability_Empath5
-Ability_Empath5_name											Faster!
-Ability_Empath5_description										Empath does some back-mind driving and spurs her host to move more quickly
-Ability_Empath5_description_simple								Activate to grant ^o150 Movement Speed^* to your host, which decreases to 0 over 2 seconds.
+Ability_Empath5_name											Schneller!
+Ability_Empath5_description										Empath macht einige Gedankenspiele und spornt Ihren Host an schneller zu laufen.
+Ability_Empath5_description_simple								Aktivieren um dem Host ^o150 Laufgeschwindigkeit^* zu geben für 20 Sekunden.
 Ability_Empath5_description2									
 Ability_Empath5_effect_header									
 Ability_Empath5_effect_header2									
-Ability_Empath5_tooltip_flavor									Turn left! No! The other left! You're doing it wrong!
-Ability_Empath5_IMPACT_effect									Grants the host 150 bonus Movement Speed which tapers to 0 over 2 seconds.
+Ability_Empath5_tooltip_flavor									Nach Links! Nein! Das andere Links! du machst alles falsch!
+Ability_Empath5_IMPACT_effect									Gibt dem Host 150 Laufgeschwindigkeit, welche nach 2 Sekunden schwindet.
 
 // Gadget_Empath_Ability4
 Gadget_Empath_Ability4_name										
@@ -2155,17 +2155,17 @@ Gadget_Empath_Ability4_description
 Gadget_Empath_Ability4_SPAWN_effect								
 
 // State_Empath_Ability4_Target
-State_Empath_Ability4_Target_name								As One With Empath
-State_Empath_Ability4_Target_description						Empath is inside!
+State_Empath_Ability4_Target_name								As One mit Empath
+State_Empath_Ability4_Target_description						Empath ist Innen.
 State_Empath_Ability4_Target_description2							
-State_Empath_Ability4_Target_effect_header						None
-State_Empath_Ability4_Target_effect_header2						None
-State_Empath_Ability4_Target_tooltip_flavor						None
+State_Empath_Ability4_Target_effect_header						Nichts
+State_Empath_Ability4_Target_effect_header2						Nichts
+State_Empath_Ability4_Target_tooltip_flavor						Nichts
 State_Empath_Ability4_Target_INFLICT_effect						
 
 // State_Empath_Ability4_Speed
-State_Empath_Ability4_Speed_name								Faster!
-State_Empath_Ability4_Speed_description							Empath has spurred this hero to move faster, gaining a bonus 150 Movement Speed which tapers to 0 over 2 seconds.
+State_Empath_Ability4_Speed_name								Schneller
+State_Empath_Ability4_Speed_description							Empath sport Ihren Host an um schneller zu laufen. Gibt Ihrem Host 150 Laufgeschwindigkeit für 2 Sekunden.
 State_Empath_Ability4_Speed_description2						
 State_Empath_Ability4_Speed_effect_header					
 State_Empath_Ability4_Speed_effect_header2					
@@ -2174,7 +2174,7 @@ State_Empath_Ability4_Speed_tooltip_flavor
 // Hero_Empath
 Hero_Empath_name												Empath
 Hero_Empath_description											Tied to the lifeforce of all creatures that move across the lands of Newerth, the Empath has suffered greatly in the war against the daemons. Nevertheless, her gift -- and curse -- is a powerful asset for the Legion, for the Empath is able to call on her magic to heal allies, weaken foes, and even merge her essence with other heroes.
-Hero_Empath_role												The Empath is a unique support hero capable of entering an ally with As One and greatly buffing it. Meanwhile, Essence Link fulfills multiple roles by siphoning an enemy's health to the Empath herself.
+Hero_Empath_role												Empath ist ein einzigartiger Unterstützer die sich in mit As One mit Ihren Verbündeten verbinden kann um sie zu verstärken. Währenddessen, saugt Essenz Link das Leben eines Gegner ab und gibt es Ihr selber.
 
 // Ability_Engineer1
 Ability_Engineer1_name											The Keg
@@ -2689,51 +2689,51 @@ Hero_Gladiator_description										Watch your back, or you might find yourself 
 Hero_Gladiator_role												The Gladiator's Flagellation is the core skill to his play style, allowing him to farm and harass with one skill. Late game, skilled players can use well-placed Pitfalls and Calls to Arms to demolish the opposing team.
 
 // Ability_Hammerstorm1
-Ability_Hammerstorm1_name										Hammer Throw
+Ability_Hammerstorm1_name										Hammer Wurf
 Ability_Hammerstorm1_description								Hammerstorm schleudert seinen mächtigen Hammer auf ein feindliches Ziel, fügt diesem Schaden zu und paralysiert es.
-Ability_Hammerstorm1_description_simple							Target an enemy unit to deal ^o{100,175,250,325} Magic Damage^* and apply a ^o2 second Stun^* in an area around the target.
-Ability_Hammerstorm1_effect_header								Status Effect
+Ability_Hammerstorm1_description_simple							Wähle einen Gegner an um ihn und alles um ihn herum ^o{100,175,250,325} Magischen Schaden^* zuzufügen und jeden in der Reichweite für ^o2 Sekunden^* zu ^oparalysieren^*.
+Ability_Hammerstorm1_effect_header								Status Effekt
 Ability_Hammerstorm1_IMPACT_effect								Verursacht {100,150,200,250} Magischen Schaden und paralysiert das Ziel 2 Sekunden lang.
-Ability_Hammerstorm1_tooltip_flavor								Olympics, here I come!
+Ability_Hammerstorm1_tooltip_flavor								Olympische Spiele, hier bin ich!
 
 // Ability_Hammerstorm2
-Ability_Hammerstorm2_name										Mighty Swing
+Ability_Hammerstorm2_name										Mächtiger Schwung
 Ability_Hammerstorm2_description								Hammerstorm attackiert mit großer Macht. Durch seine Angriffe erleiden auch Feindeinheiten neben dem Zielobjekt Schaden.
-Ability_Hammerstorm2_description_simple							Passively applies ^o{12.5,25,37.5,50}% Splash^* to your attacks.
-Ability_Hammerstorm2_effect_header								Status Effect
-Ability_Hammerstorm2_IMPACT_effect								On use, toggles Mighty Swing off.
-Ability_Hammerstorm2_ATTACK_IMPACT_effect						Verursacht in einem Radius von 350 einen Schaden von {12.5,25.5,37.5,50} % durch Querschläger.
-Ability_Hammerstorm2_tooltip_flavor								I'll take you all on.
-Ability_Hammerstorm2_IMPACT_effect:hammerstormcleavetoggle		On use, toggles Mighty Swing on.
-Ability_Hammerstorm2_name:hammerstormcleavetoggle				Mighty Swing (Off)
+Ability_Hammerstorm2_description_simple							Bekommt einen Passiven ^o{12.5,25,37.5,50}% Splash^* für seine Angriffe.
+Ability_Hammerstorm2_effect_header								Status Effekt
+Ability_Hammerstorm2_IMPACT_effect								Bei Benutzung, wird Mächtiger Schwung deaktiviert.
+Ability_Hammerstorm2_ATTACK_IMPACT_effect						Verursacht in einem Radius von 350 einen Schaden von {12.5,25.5,37.5,50} % seiner Normalen Angriffe.
+Ability_Hammerstorm2_tooltip_flavor								Ich nehms mir euch allen auf!
+Ability_Hammerstorm2_IMPACT_effect:hammerstormcleavetoggle		Bei Benutzung, wird Mächtiger Schwung aktiviert.
+Ability_Hammerstorm2_name:hammerstormcleavetoggle				Mächtiger Schwung (Aus)
 Ability_Hammerstorm2_ATTACK_IMPACT_effect:hammerstormcleavetoggle
 
 // Ability_Hammerstorm3
-Ability_Hammerstorm3_name										Galvanize
+Ability_Hammerstorm3_name										Galvanisieren
 Ability_Hammerstorm3_description								Im Vergleich zu Hammerstorm ist jeder ein Schwächling.  Glücklicherweise ist Hammerstorms Großartigkeit so unglaublich, dass sich dies bei seinen nahestehenden Verbündeten in einer Verbesserung der Rüstung auswirkt.
-Ability_Hammerstorm3_description_simple							Activate to apply ^o{3,5,7,10} Armor^* and ^o14% Movement Speed^* to you and nearby allies for 6 seconds.
-Ability_Hammerstorm3_effect_header								Status Effect
-Ability_Hammerstorm3_IMPACT_effect								Applies Galvanize to targets in radius for 6 seconds.
-Ability_Hammerstorm3_tooltip_flavor								Why am I so amazing?
+Ability_Hammerstorm3_description_simple							Aktiviern um  ^o{3,5,7,10} Rüstung^* und ^o14% Laufgeschwindigkeit^* für Dich und deine Verbündeten zu buffen.
+Ability_Hammerstorm3_effect_header								Galvanisieren
+Ability_Hammerstorm3_IMPACT_effect								Bufft Verbündete in einem bestimmten Bereich mit Galvanisieren für 6 Sekunden
+Ability_Hammerstorm3_tooltip_flavor								Warum bin ich so großartig?
 
 // Ability_Hammerstorm4
-Ability_Hammerstorm4_name										Brute Strength
+Ability_Hammerstorm4_name										Brutale Stärke
 Ability_Hammerstorm4_description								Hammerstorm entfesselt in sich eine wilde Raserei, die zeitweilig den Schaden seiner Angriffe vergrößert.
-Ability_Hammerstorm4_description_simple							Activate to add ^o{100,125,150}% Base Damage^* to your attacks for 25 seconds.
-Ability_Hammerstorm4_effect_header								Brute Strength Effects
+Ability_Hammerstorm4_description_simple							Aktivieren um ^o{100,125,150}% Basis Schaden^* für die nächsten 25 Sekunden zu bekommen.
+Ability_Hammerstorm4_effect_header								Brutale Stärke Effekt
 Ability_Hammerstorm4_IMPACT_effect								Bewirkt an sich selbst 25 Sekunden lang den Effekt Brute Strength.
-Ability_Hammerstorm4_tooltip_flavor								I have two tickets to the gun show!
+Ability_Hammerstorm4_tooltip_flavor								Ich habe 2 Eintrittskarten für die Waffenmesse?
 
 // Hero_Hammerstorm
 Hero_Hammerstorm_name											Hammerstorm
 Hero_Hammerstorm_description									Gewaltig und stoisch ließ dieser berühmte Krieger die Ruinen seiner Heimat zurück und trat der ersten Legion von King Maliken bei.  Seit seiner Kindheit kennt er nur das Schlachtfeld. Durch seine schweigsame Entschlossenheit und seine tödliche Stärke hat er sich den Beinamen "Hammerstorm" verdient.  Jeder Hieb seines Hammers hallt wie eine Totenglocke über das Schlachtfeld.
-Hero_Hammerstorm_role											Hammerstorm revolves around performing well-tiomed Hammer Throws to stun opponents, then following up with relentless pounding amplified by Brute Strength. A Shrunken Head will go a long way in keeping Hammerstorm alive.
+Hero_Hammerstorm_role											Bei Hammerstorm geht es um gut getimte Stuns mit seinem Hammer Wurf und darauffolgendem Schaden mit seinem Ultimate. Mit Shrunken Head wird man Hammerstorm lange am leben erhalten können.
 
 // State_Hammerstorm_Ability3
-State_Hammerstorm_Ability3_name									Galvanize
+State_Hammerstorm_Ability3_name									Galvanisieren
 
 // State_Hammerstorm_Ability4
-State_Hammerstorm_Ability4_name									Lion's Rage
+State_Hammerstorm_Ability4_name									Brutale Stärke
 
 // Ability_Hantumon1
 Ability_Hantumon1_name											Smoke Bomb

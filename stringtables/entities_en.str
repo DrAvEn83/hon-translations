@@ -2719,7 +2719,7 @@ Ability_Hammerstorm4_tooltip_flavor								I have two tickets to the gun show!
 // Hero_Hammerstorm
 Hero_Hammerstorm_name											Hammerstorm
 Hero_Hammerstorm_description									Mighty and stoic, this famed warrior left behind the ruins of his home for a place in King Maliken's first Legion.  From boyhood on, he has known nothing but battle, and his silent determination and deadly strength have earned him the epithet "Hammerstorm."  Every blow of his hammer resounds like a death knell across the battlefield.
-Hero_Hammerstorm_role											Hammerstorm revolves around performing well-tiomed Hammer Throws to stun opponents, then following up with relentless pounding amplified by Brute Strength. A Shrunken Head will go a long way in keeping Hammerstorm alive.
+Hero_Hammerstorm_role											Hammerstorm revolves around performing well-timed Hammer Throws to stun opponents, then following up with relentless pounding amplified by Brute Strength. A Shrunken Head will go a long way in keeping Hammerstorm alive.
 
 // State_Hammerstorm_Ability3
 State_Hammerstorm_Ability3_name									Galvanize
