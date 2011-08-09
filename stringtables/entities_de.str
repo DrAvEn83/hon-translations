@@ -200,9 +200,9 @@ Popup_dot_physical_damage										{value}!
 Popup_timer														{value}
 Popup_timer_hero												{value}
 Popup_morult													{value}
-Popup_EmeraldWarden1													Gawain uses Diving Strike!
-Popup_EmeraldWarden2													Gawain uses Forest's Touch!
-Popup_EmeraldWarden3													Gawain uses Emerald Storm!
+Popup_EmeraldWarden1													Gawain benutzt Diving Strike!
+Popup_EmeraldWarden2													Gawain benutzt Forest's Touch!
+Popup_EmeraldWarden3													Gawain benutzt Emerald Storm!
 Popup_Ra														{value}!
 Popup_ra_rebirth												Rebirth!
 Popup_ra_timer													{value}
@@ -329,7 +329,7 @@ Building_Outpost_description									icon.tga
 
 // Ability_AttributeBoost
 Ability_AttributeBoost_name										Attribute Boost
-Ability_AttributeBoost_description								^Boni Pro Level:^*\n+2 Stärke\n+2 Gewandtheit\n+2 Intelligenz
+Ability_AttributeBoost_description								^yBoni Pro Level:^*\n+2 Stärke\n+2 Gewandtheit\n+2 Intelligenz
 Ability_AttributeBoost_description_simple						Gewährt einen Bonus für die Attribute des Helden.\n\n^gLevel Bonus pro Level:^*\n+2 Stärke\n+2 Gewandheit\n+2 Intelligenz
 
 // State_Teleport_GrimmCrossroads
@@ -3182,50 +3182,50 @@ Hero_Javaras_role												Magebane's early game weakness belies the incredibl
 // Ability_Jereziah1
 Ability_Jereziah1_name											Inneres Licht
 Ability_Jereziah1_description									Jereziah entfesselt zur Heilung einer nahestehenden verbündeten Einheit deren Inneres Licht. Nahestehende Feinde werden durch die Kraft des Lichts verbrannt und erleiden Schaden.
-Ability_Jereziah1_description_simple							Wähle ein befreundetes Ziel an, um es um ^o{90,180,270,360} Gesundheitspunkte^* zu heilen und dabei den Gegnern in der Nähe des angewählte Zieles ^oMagischen Schaden^* zuzufügen.
-Ability_Jereziah1_effect_header									Status Effect
-Ability_Jereziah1_IMPACT_effect									Heilt das Ziel um {90,180,270,360} Gesundheitspunkte und schädigt Feinde im Radius für {90,180,270,360} Magischen Schaden.
-Ability_Jereziah1_tooltip_flavor								This is a quarantine zone!
+Ability_Jereziah1_description_simple							Wähle ein befreundetes Ziel an, um es um ^o{90,180,270,360} Gesundheit^* zu heilen und dabei deinen Gegnern in der Nähe des angewählte Zieles ^oMagischen Schaden^* zuzufügen.
+Ability_Jereziah1_effect_header									Status Effekt
+Ability_Jereziah1_IMPACT_effect									Heilt das Ziel um {90,180,270,360} Gesundheitspunkte und schädigt Feinde in einem Radius für {90,180,270,360} Magischen Schaden.
+Ability_Jereziah1_tooltip_flavor								Diese Zone ist unter Quarantäne!
 
 // Ability_Jereziah2
-Ability_Jereziah2_name											Protective Charm
+Ability_Jereziah2_name											Schützender Charme
 Ability_Jereziah2_description									Jereziah segnet eine verbündete Einheit mit einem Schutzzauber. Dieser verleiht ihr Magische Immunität, entfernt alle Debuffs und gewährt einen kleinen Anstieg der Bewegungsgeschwindigkeit.
 Ability_Jereziah2_description_simple							Wähle ein befreundetes ziel an um es ^o{5,8,11,14} Sekunden^* Magie Immun zu machen.
-Ability_Jereziah2_effect_header									Protective Charm Effects
-Ability_Jereziah2_IMPACT_effect									Bewirkt {5,8,11,14} Sekunden lang den Effekt Protective Charm.
-Ability_Jereziah2_tooltip_flavor								I laugh at your feeble attempts!	
+Ability_Jereziah2_effect_header									Schützender Charme Effekt
+Ability_Jereziah2_IMPACT_effect									Gibt dem Ziel {5,8,11,14} Sekunden lang den Effekt Schützender Chame.\n\nKann durch ein Nullfire Blade entfernt werden
+Ability_Jereziah2_tooltip_flavor								Ich lache über schwachen Versuche!	
 
 // State_Jereziah_Ability2
-State_Jereziah_Ability2_name									Protective Charm
+State_Jereziah_Ability2_name									Schützender Charme
 
 // Ability_Jereziah3
-Ability_Jereziah3_name											Righteous Strike
-Ability_Jereziah3_description									In Jereziah bildet sich ein gerechter Zorn. Durch ihn kann er beim Angriff einen Righteous Strike austeilen. Dieser verursacht gesteigerten Schaden, der sich auch auf nahestehende Feinde auswirkt und für kurze Zeit deren Bewegungsgeschwindigkeit verringert. Dieser Zauber kann nur alle paar Sekunden gewirkt werden.
+Ability_Jereziah3_name											Rechtschaffender Stoß
+Ability_Jereziah3_description									In Jereziah bildet sich ein gerechter Zorn. Durch ihn kann er beim Angriff einen Rechtschaffenden Stoß austeilen. Dieser verursacht gesteigerten Schaden, der sich auch auf nahestehende Feinde auswirkt und für kurze Zeit deren Bewegungsgeschwindigkeit verringert. Dieser Zauber kann nur alle paar Sekunden gewirkt werden.
 Ability_Jereziah3_description_simple							Passive verringerung der Laufgeschwindigkeit von nahestehenden Gegner um ^o{-7,-14,-21,-28}%^*.
-Ability_Jereziah3_tooltip_flavor								Releasing the demons.
-Ability_Jereziah3_IMPACT_effect									Bei benutzung, wird die Aura deaktiviert.
-Ability_Jereziah3_name:jereziahslowaura_off						Righteous Aura (Off)
-Ability_Jereziah3_IMPACT_effect:jereziahslowaura_off			Bei benutzung, wird die Aura aktiviert.
+Ability_Jereziah3_tooltip_flavor								Freilassung des Dämonen.
+Ability_Jereziah3_IMPACT_effect									Bei Benutzung, wird die Aura deaktiviert.
+Ability_Jereziah3_name:jereziahslowaura_off						Rechtschaffender Stoß (Aus)
+Ability_Jereziah3_IMPACT_effect:jereziahslowaura_off			Bei Benutzung, wird die Aura aktiviert.
 
 // State_Jereziah_Ability3
-State_Jereziah_Ability3_name									Righteous Strike
+State_Jereziah_Ability3_name									Rechtschaffender Stoß
 
 // Ability_Jereziah4
-Ability_Jereziah4_name											Sol's Blessing
+Ability_Jereziah4_name											Sol's Segen
 Ability_Jereziah4_description									Jereziah ruft zu seinem Schutz und zum Schutz seiner Kameraden die Macht des Sol. Sol segnet Jereziah und die um ihn stehenden Verbündeten. Diese erleiden dadurch praktisch keinen Physischen Schaden und erhalten kurzzeitig eine beschleunigte Regeration.
 Ability_Jereziah4_description_simple							Aktivieren um nahestehenden Verbündeten ^o25 Gesundheitsregenration und 1,000 Rüstung für {5,6,7} Sekunden^* zu geben.
-Ability_Jereziah4_effect_header									Sol's Blessing Effects
-Ability_Jereziah4_IMPACT_effect									Bewirkt beim Ziel in einem Radius {5,6,7} Sekunden lang den Effekt Sol's Blessing.
+Ability_Jereziah4_effect_header									Sol's Segen Effekt
+Ability_Jereziah4_IMPACT_effect									Gibt in der nähe stehende Ziele {5,6,7} Sekunden lang den Effekt Sol's Blessing.
 Ability_Jereziah4_tooltip_flavor								Meine Großmutter schlägt härter zu als du!
 
 // State_Jereziah_Ability4
-State_Jereziah_Ability4_name									Battle Cry
-State_Jereziah_Ability4_description								Nahezu vollständige Physische Unverwundbarkeit und eine auf das Äußerste beschleunigte Regeneration
+State_Jereziah_Ability4_name									Sol's Segen
+State_Jereziah_Ability4_description								
 
 // Hero_Jereziah
 Hero_Jereziah_name												Jereziah
-Hero_Jereziah_description										King Jereziah, die Hoffnung der Menschheit und einer der beiden Anführer der neuen Legion, ist nicht einfach nur ein mächtiger Krieger, sondern gleichzeitig der Auserwählte des Sol höchstpersönlich.  Angereichert mit göttlichem Eifer und himmlischer Gunst sammelt er seine Mannen und bringt den Dämonen Verwüstung.  Das von ihm ausstrahlende Licht führt seine Verbündeten zum Sieg und verkörpert den Anbruch eines neuen Tages ohne Schatten und Dunkelheit.
-Hero_Jereziah_role												Jeraziah is a support powerhouse with a powerful heal in Inner Light, magic immunity with Protective Charm, and mass physical resistance with Sol's Blessing. Jeraziah is best played as a support to a late game damage dealer.
+Hero_Jereziah_description										König Jereziah, die Hoffnung der Menschheit und einer der beiden Anführer der neuen Legion, ist nicht einfach nur ein mächtiger Krieger, sondern gleichzeitig der Auserwählte des Sol höchstpersönlich. Angereichert mit göttlichem Eifer und himmlischer Gunst sammelt er seine Mannen und bringt den Dämonen Verwüstung.  Das von ihm ausstrahlende Licht führt seine Verbündeten zum Sieg und verkörpert den Anbruch eines neuen Tages ohne Schatten und Dunkelheit.
+Hero_Jereziah_role												Jereziah ist ein starker Unterstützer mit einer starken Heilung, magische Immunität mir Schützender Charme und massiver Physischer Abhärtung mit Sol's Segen. Jereziah spielt man am besten als Unterstützer und im späteren Verlauf des Spieles als Schadensausteiler.
 
 // Ability_Kraken1
 Ability_Kraken1_name											Drench

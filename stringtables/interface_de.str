@@ -2786,7 +2786,7 @@ game_scores_label_tab_player_name			Spielername
 game_scores_label_tab_k						K
 game_scores_label_tab_d						D
 game_scores_label_tab_a						A
-game_shop_label_recipe						Rezeptur
+game_shop_label_recipe						Rezept
 game_shop_label_combine						Kombinieren
 
 game_scores_header_scores					Scores
@@ -4393,12 +4393,12 @@ mm_maps							2. Wähle deine Karte
 mm_modes						3. Wähle Spielmodus
 mm_region						4. Wähle Regionen
 mm_start						5. Wähle Matchmaking Modus
-mm_current_standing				Your Standing
-mm_current_basic_1				Basic accounts can only play All Pick with other basic accounts.
-mm_current_basic_2				Your account will become Verified upon completing ONE of the following:
+mm_current_standing				Dein Status
+mm_current_basic_1				Standard Accounts können nur All Pick spielen mit anderen Standard Accounts.
+mm_current_basic_2				Dein Account wird verifiziert wenn du EINEN der folgenden Bedingungen erfüllst:
 mm_current_basic_verify1		Reach Level 
-mm_current_basic_verify2		Current Level: 
-mm_current_basic_verify3		Buy Goblin Coins
+mm_current_basic_verify2		Derzeitiges Level: 
+mm_current_basic_verify3		Golbinmünzen kaufen
 mm_current_basic_verify4		Any Amount!
 mm_current_verified_1			Mit einem verifiziertem Account kannst du wählen, nur verifizierte Partien zu spielen.
 mm_current_verified_2			Durch das aktivieren der "Nur verifizierte"-Option, werden alle Standard Accounts aus der Suche ausgeschlossen.
@@ -4407,7 +4407,7 @@ mm_4v4							4 vs 4
 mm_3v3							3 vs 3
 mm_2v2							2 vs 2
 mm_1v1							1 vs 1
-mm_map_locked					Map Locked Due To Team Size
+mm_map_locked					Map geschlossen wegen der Teamgröße
 mm_solo							Solo Matchmaking
 mm_team							Team Matchmaking
 mm_team_cont					Invite Players Into a Custom Player Group
@@ -4416,7 +4416,7 @@ mm_mode_txt2					Wahl von Modis mit hoher Popularität wird zu kürzere Wartezei
 mm_map_txt1						Du kannst bis zu {max_downvotes} Regionen abwählen.
 mm_map_txt2						Region popularity will change based on time of day. High popularity will result in shorter queue times.
 mm_queue_finding				Suche nach Gegenern...
-mm_queue_past					Time Waited
+mm_queue_past					gewartete Zeit
 mm_queue_eta					Durchschnitts Wartezeit
 mm_queue_enter_btn				Warteschlange betreten
 mm_queue_leave_btn				Warteschlange verlassen
@@ -4424,19 +4424,19 @@ mm_ready_btn					Bereit
 mm_notready_btn					Nicht bereit
 mm_arehost						Du bist der Gruppenleiter
 mm_waiting_forgroup				Warte auf andere Spieler
-mm_waiting_forhost				Waiting on Group Leader
-mm_group_builder				5. Build Your Group
+mm_waiting_forhost				Warte auf Gruppenleiter
+mm_group_builder				5. Mach dir eine Gruppe
 mm_group_txt					Invite players to your group by using your friends list to the left or typing in the name of a player below.
-mm_group_disband				Disband This Group
+mm_group_disband				Gruppe auflösen
 
 mm_buytoken_title				Spielsteine kaufen?
-mm_buytoken_body				Purchase a token to play this mode?
+mm_buytoken_body				Spielstein kaufen um diesen Modi spieln zu können?
 mm_buytoken_buytoken			Spielsteine kaufen
 
-mm_servernotidle				Unable to Join Server
-mm_servernotidle_body			Unable to join the server.  Please re-enter the queue.
+mm_servernotidle				Server betreten nicht möglich
+mm_servernotidle_body			Es war nicht möglich den Server zu betreten, bitte reih dich wieder in die Schlange ein.
 
-mm_left							Left Group
+mm_left							Gruppe verlassen
 mm_left_body					You have left the matchmaking group.
 mm_disconnected					Disconnected
 mm_disconnected_body			You have been disconnected from matchmaking.
@@ -4446,7 +4446,7 @@ mm_groupqueued					Unable to Join Matchmaking
 mm_groupqueued_body				You were unable to join the group because the group has already been placed into the matchmaking queue.
 mm_istrial						Unable to Join Matchmaking
 mm_istrial_body					Trial accounts are not allowed to join matchmaking games.
-mm_unknown						Disconnected
+mm_unknown						Getrennt
 mm_unknown_body					Disconnected from matchmaking.
 mm_joiningqueue					Joining Queue
 mm_joiningqueue_body			Attempting to enter the Matchmaking Queue, please wait...
@@ -4534,7 +4534,7 @@ mm_player10						10
 mm_connection_limit				Connection Time Limit...
 mm_gameloading_msg				Other players are currently loading the game. When a player connects, their indicator will turn yellow. When they finish loading, it will turn green.
 mm_europe_region				Europa
-mm_useast_region				US East
+mm_useast_region				US Ost
 mm_uswest_region				US West
 mm_sgvip_region					Singapore
 mm_gvip_region					Malaysia
@@ -4619,7 +4619,7 @@ matchmaker_not_leaver_description			You are in good standing.
 matchmaker_provisional_description			You have {count} provisional games remaining.
 
 // communicator.package
-irc_join_create_tip_title					Join / Create Room
+irc_join_create_tip_title					Raum erstellen / beitreten
 irc_join_create_tip							Enter the name of a chat room to enter it. If it does not exist, it will be created.
 irc_status_chan								Status
 
@@ -4628,11 +4628,11 @@ amm_chat_wait_msg							Players are currently connecting. Please be patient whil
 amm_chat_drops_msg							{X} player(s) did not join the match from the queue and will be replaced with other players who are currently in the queue.  Please be patient, this should take much time at all.
 
 //notifications.package
-notify_join_game							Join This Game
-notify_join_group							Join This Group
-notify_view_tournaments						View Tournaments
-notify_join_chan							Join Channel
-notify_view_results							View Game Results
+notify_join_game							Dieses Spiel beitreten
+notify_join_group							Diese Gruppe beitreten
+notify_view_tournaments						Turniere ansehen
+notify_join_chan							Channel beitreten
+notify_view_results							Spielergebnisse ansehen
 
 // New notification strings    situation = title, dependent = text line 1, info = text line 2
 // 0
@@ -4722,45 +4722,45 @@ notify_self_join_game_situation				Self Join
 notify_self_join_game_dependent				You
 notify_self_join_game_info					joined '{gamename}'.
 // 22
-notify_buddy_requested_adder_situation		Friend Request
-notify_buddy_requested_adder_dependent		You
-notify_buddy_requested_adder_info			requested {name} as a friend.
+notify_buddy_requested_adder_situation		Freundesanfrage
+notify_buddy_requested_adder_dependent		Du
+notify_buddy_requested_adder_info			hast {name} eine Freundschaftsanfrage gesendet.
 // 23
 notify_buddy_requested_added_situation		Friend Request
 notify_buddy_requested_added_dependent		{name}
 notify_buddy_requested_added_info			requested you as a friend.
 // 24
-notify_group_invite_situation				Group Invite
+notify_group_invite_situation				Gruppen einladung
 notify_group_invite_dependent				{name}
-notify_group_invite_info					invited you to join a group.
+notify_group_invite_info					hat dich in eine Gruppe eingeladen.
 
 // compendium.package
-compendium_title							Hero Compendium
-compendium_ability1							Ability 1
-compendium_ability2							Ability 2
-compendium_ability3							Ability 3
-compendium_ability4							Ability 4
-compendium_hero_name						Hero Name
-compendium_type								Type:
-compendium_range							Range:
-compendium_dmg								Dmg:
-compendium_speed							Speed:
+compendium_title							Helden Compendium
+compendium_ability1							Fähigkeit 1
+compendium_ability2							Fähigkeit 2
+compendium_ability3							Fähigkeit 3
+compendium_ability4							Fähigkeit 4
+compendium_hero_name						Heldenname
+compendium_type								Art:
+compendium_range							Fernkampf:
+compendium_dmg								Schaden:
+compendium_speed							Geschw.:
 compendium_usage_soon						Usage Stats Coming Soon!
-compendium_health							Health
+compendium_health							Gesundheit
 compendium_mana								Mana
-compendium_lvl_inventory					Hero Level and Inventory
-compendium_rec_items						Recommended Items
-compendium_inventory						Inventory
+compendium_lvl_inventory					Helden Level und Inventar
+compendium_rec_items						Vorgeschlagene Items
+compendium_inventory						Inventar
 compendium_items							Items
-compendium_current_lvl						Current Level:
-compendium_totalcost						Total Cost:
+compendium_current_lvl						Derzeitiges Level:
+compendium_totalcost						Insgesamte Kosten:
 compendium_controls_soon					Hero Controls Coming Soon!
-compendium_primary_atrib					Primary Attribute:
+compendium_primary_atrib					Hauptattribut:
 compendium_attrib_types						Str/Agi/Int
-compendium_attack_type						Attack Type:
-compendium_melee_range						Melee/Range
-compendium_type_melee						Melee
-compendium_type_ranged						Ranged
+compendium_attack_type						Angriffsart:
+compendium_melee_range						Nachkampf/Fernkampf
+compendium_type_melee						Nahkampf
+compendium_type_ranged						Fernkampf
 compendium_usage_list_header				The following is a summary of the hero usage statistics for the last 7 days. A total of {value} heroes have been used.
 
 compendium_hero_name						Hero Name
@@ -4865,15 +4865,15 @@ ladder_field_acc_buildingsPerGame			Buildings Per Game
 ladder_field_Player							Player Name
 ladder_field_PlayerSkillRating				Player Skill Rating
 ladder_field_Rank							Rank
-ladder_error_nodata							Ladder data is not available at this time.
+ladder_error_nodata							Ladder Daten sind zur Zeit nicht verfügbar.
 
-ladder_title								Player Ladder
+ladder_title								Spieler Ladder
 ladder_fieldshort_acc_games_played				G.P.
-ladder_fieldshort_acc_wins						Wins
-ladder_fieldshort_acc_losses					Losses
+ladder_fieldshort_acc_wins						Siege
+ladder_fieldshort_acc_losses					Niederlagen
 ladder_fieldshort_acc_concedes					C
 ladder_fieldshort_acc_concedevotes				C.V.
-ladder_fieldshort_acc_buybacks					Buy Backs
+ladder_fieldshort_acc_buybacks					Zurückgekauft
 ladder_fieldshort_acc_discos					Leaves
 ladder_fieldshort_acc_kicked					Kicked
 // Assuming the below is PSR anyways
@@ -4906,8 +4906,8 @@ ladder_fieldshort_acc_gold						G Earned
 ladder_fieldshort_acc_gold_spent				G Spent
 ladder_fieldshort_acc_exp						Total XP
 // Not actions per minute? just a total count of all actions?
-ladder_fieldshort_acc_actions					Actions
-ladder_fieldshort_acc_secs						Secs Played
+ladder_fieldshort_acc_actions					Aktionen
+ladder_fieldshort_acc_secs						Sek gespielt
 ladder_fieldshort_acc_consumables				Cons.
 ladder_fieldshort_acc_wards						Wards
 ladder_fieldshort_acc_em_played					EM %
@@ -4921,7 +4921,7 @@ ladder_fieldshort_acc_avgGameLength				Avg GL
 ladder_fieldshort_acc_expPerGame				XP/Game
 ladder_fieldshort_acc_goldPerGame				Gold/Game
 ladder_fieldshort_acc_goldPerMin				Gold/M
-ladder_fieldshort_acc_spentPerMin				Spent/M
+ladder_fieldshort_acc_spentPerMin				Ausg./M
 ladder_fieldshort_acc_deniesPerMin				Deny/M
 ladder_fieldshort_acc_deniesPerGame				Deny/G
 ladder_fieldshort_acc_buildingsPerGame			Bld/G
@@ -4929,17 +4929,17 @@ ladder_fieldshort_Player						Player
 ladder_fieldshort_PlayerSkillRating				PSR
 ladder_fieldshort_Rank							Rank
 
-ladder_reset_fields							Reset Fields
-ladder_first_page							First Page
-ladder_previous_page						Previous Page
-ladder_next_page							Next Page
+ladder_reset_fields							Felder zurücksetzten
+ladder_first_page							Erste Seite
+ladder_previous_page						Vorherige Seite
+ladder_next_page							Nächste Seite
 ladder_fields								Ladder Fields
-ladder_currentpage							Current Page: {page} of {totalpages}
-ladder_loading_title						Loading Ladder
-ladder_loading_body							Loading ladder data, please wait...
-ladder_view_page							View Page:
-ladder_page_go								Go
-ladder_merow_nohistory						You have no match history!
+ladder_currentpage							Derzeitige Seite {page} von {totalpages}
+ladder_loading_title						Lade Ladder
+ladder_loading_body							Ladder Daten werden geladen, bitte warten...
+ladder_view_page							Siehe Seite:
+ladder_page_go								Los
+ladder_merow_nohistory						Du hast keine Match Geschichte!
 
 ladder_error_message						An error was encountered while retrieving the player ladder.
 
@@ -4951,18 +4951,18 @@ social_groups_newIM_msg						Enter a nickname to start a conversation with a pla
 news_title									News Updates
 
 //tournaments.package
-tournament_name								Tournament Name
+tournament_name								Turnier Name:
 tournament_teams							Teams:
-tournament_avg_lvl							Avg Lvl:
-tournament_details							Click For Details
-tournament_official							Official Tournament
-tournament_prizes							Prizes
-tournament_start_date						Start Date:
-tournament_end_date							End Date:
-tournament_signups							Signups Start:
-tournament_endsignups						Signups End:
-tournament_teamsize							Team Size:
-tournament_avg_games						Average Games:
+tournament_avg_lvl							Durchschnitts Lvl:
+tournament_details							Hier klicken für Details
+tournament_official							Offizielles Turnier
+tournament_prizes							Preise
+tournament_start_date						Start Datum:
+tournament_end_date							End Datum:
+tournament_signups							Einschreiben startet:
+tournament_endsignups						Einschreiben ended:
+tournament_teamsize							Team Größe:
+tournament_avg_games						Durchschnitts Spiele:
 tournament_elim								Elimination:
 tournament_strict_lvl						Strict Level:
 tournament_strict_games						Strict Games:
@@ -4977,42 +4977,42 @@ tournament_not_played						You have not played in any tournament matches.
 amm_no_disco_msg							You have been successfully placed in a game and are unable to leave without penalty at this point!
 
 //system_bar.package
-lang_en										English
-lang_fr										French
-lang_de										German
-lang_br										Portuguese
-lang_es										Spanish
-lang_vn										Vietnamese
-lang_ru										Russian
-lang_ro										Romanian
-lang_ta										Thai
+lang_en										Englisch
+lang_fr										Französisch
+lang_de										Deutsch
+lang_br										Portugisisch
+lang_es										Spanisch
+lang_vn										Vietnamesisch
+lang_ru										Russisch
+lang_ro										Romanisch
+lang_ta										Thailändisch
 lang_notnow									You may not change your language at this time. To change your language, you must first log out of your account. If required, you may need to disconnect first.
-purch_subacct								Buy Sub-Account
-purch_resetstats							Reset Stats
-purch_reset									Reset
-purch_giftacct								Buy Gift Account
-purch_upgradefriend							Upgrade Friend
-purch_upgradeaccount						Upgrade Account
-purch_nickchange							Change Nickname
-client_outofdate							A newer version of HoN is available! You must update to play online.
-update_now									Update Now
+purch_subacct								Einen Sub-Account kaufen
+purch_resetstats							Statistiken zurücksetzten
+purch_reset									Zurücksetzen
+purch_giftacct								Kauf einen Schenk Account
+purch_upgradefriend							Freund Upgraden
+purch_upgradeaccount						Account Upgraden
+purch_nickchange							Benutzernamen ändern
+client_outofdate							Eine neue Version von HoN ist verfügbar! Du musst das Spiel updaten um online spielen zu können.
+update_now									Jetzt Updaten
 
 //trial_accounts.package
-trial_gen_limited_title						Trial Accounts Can't Do That!
-trial_gen_btn_nothanks						No Thanks, Continue Trial
-trial_gen_btn_upgrade						Upgrade My Account Now!
+trial_gen_limited_title						Test Accounts können das nicht machen
+trial_gen_btn_nothanks						Nein Danke, Testphase fortführen
+trial_gen_btn_upgrade						Meinen Account jetzt upgraden!
 trial_matchmaking_limited					As a trial account, you can not play in any stats recorded matches, including matchmaking games. If you would like to play a matchmaking game, you must first instantly upgrade your account.
 
 //mod_options.package
-movf_ingame_only							You need to join a game first.\n\nCreate a practice game to get started!
+movf_ingame_only							Du musst zuerst ein Spiel betreten.\n\nErstelle ein Übungsspiel um loszulegen!
 
 //watch_user.package
-watch_user_waiting_for_update				Retrieving match info...
-watch_user_win_chance						Win Chance:
-watch_user_towers							Towers:
-watch_user_melee							Melee:
-watch_user_ranged							Ranged:
-watch_user_base_health						Base Health:
+watch_user_waiting_for_update				Matchinformationen werden abgerufen...
+watch_user_win_chance						Win Chancen:
+watch_user_towers							Türme:
+watch_user_melee							Nahkampf:
+watch_user_ranged							Fernkampf:
+watch_user_base_health						Basis Gesundheit:
 watch_user_totals							Totals: 
 
 //game_lobby_hero_info.package
@@ -5033,53 +5033,53 @@ garenaVIP_eap								Early Access to New Heroes
 garenaVIP_eap_txt							Play heroes as soon as they are released! Get an early start on mastering new heroes.
 garenaVIP_goldstatus						Gold Status
 garenaVIP_goldstatus_txt					Let your fellow HoN players know that you are VIP with our custom gold icon.
-garenaVIP_taunt								Taunt Ability
+garenaVIP_taunt								Spott Fähigkeit
 garenaVIP_taunt_txt							Rub your skills in the face of your opponents by laying the Smackdown on them!
-garenaVIP_MMoptions							Matchmaking Options
+garenaVIP_MMoptions							Matchmaking Optionen
 garenaVIP_MMoptions_txt						Customize your matchmaking experience for the ultimate matchup!
-garenaVIP_url1								To Purchase a VIP Account, Please Visit
+garenaVIP_url1								Um einen VIP-Account zu kaufen besuche
 garenaVIP_url2								http://shop.garena.com/hon/
 
 // F2P Game Feedback
-create_game_token_required					Token required for this game
-create_game_using_pass						Using game pass
+create_game_token_required					Spielstein gebraucht für dieses Spiel
+create_game_using_pass						Spielpass benutzen
 
 // F2P Confirmations
-confirm_too_many_friends_title				Friend Limit Reached
-confirm_too_many_friends_msg				You have filled all the available friend slots for this account.
-confirm_buy_courier_title					Upgrade Courier?
-confirm_buy_courier_msg						Would you like to upgrade this courier for 200 gold?
-confirm_need_tokens_title					Insufficient Tokens
-confirm_need_tokens_msg						You need to buy tokens to play this mode.
-confirm_warn_tokens_title					Token Required
-confirm_warn_tokens_msg						You will use a token in order to play this match if you choose a hero you do not own.
-confirm_token_warn_da						Don\'t warn me again
-confirm_warn_unverified_title				Unverified Player
-confirm_warn_unverified_msg					{player} is unverified, your settings will be altered if you accept them into your Matchmaking group.
-confirm_warn_unverified_yes					Change Settings
-confirm_warn_unverified_no					Remove Player
+confirm_too_many_friends_title				Freundschaftslimit erreicht
+confirm_too_many_friends_msg				Du hast zu viele Freunde in deiner Freundesliste.
+confirm_buy_courier_title					Kurier verbessern?
+confirm_buy_courier_msg						Möchtest du den Kurier für 200 Gold verbessern?
+confirm_need_tokens_title					Nicht genügend Spielsteine
+confirm_need_tokens_msg						Du musst Spielsteine kaufen um diesen Modi spielen zu können.
+confirm_warn_tokens_title					Spielsteine benötigt
+confirm_warn_tokens_msg						Du wirst einen Spielstein verbrauchen, wenn du dieses Spiel spielst und einen Helden wählst den du nicht besitzt.
+confirm_token_warn_da						Warne micht nicht noch einmal
+confirm_warn_unverified_title				Nicht verifizierter Spieler
+confirm_warn_unverified_msg					{player} ist nicht verifiziert. Deine Einstellungen werden angepasst wenn du den Spieler in deiner Gruppe aktzepierst.
+confirm_warn_unverified_yes					Einstellungen ändern
+confirm_warn_unverified_no					Spieler entfernen
 
-general_purchase_token						Purchase Tokens
+general_purchase_token						Spielsteine kaufen
 
 // F2P Systembar
-sysbar_gold_tip_title						Gold Münzen
-sysbar_gold_tip_msg							Gold coins can be used to purchase any item in the store.
-sysbar_silver_tip_title						Silber Münzen
-sysbar_silver_tip_msg						Silver coins can be used to purchase items in the store.
-sysbar_token_tip_title						Tokens and Game Passes
-sysbar_token_tip_msg						Tokens and Game Passes are used to play certain game modes.
-sysbar_token_tip_title_legacy				Tokens and Game Passes
+sysbar_gold_tip_title						Goldmünzen
+sysbar_gold_tip_msg							Goldmünzen können dazu verwendet werden um etwas im Store zu kaufen.
+sysbar_silver_tip_title						Silbermünzen
+sysbar_silver_tip_msg						Silbermünzen können dazu verwendet werden um etwas im Store zu kaufen.
+sysbar_token_tip_title						Spielsteine und Pässe
+sysbar_token_tip_msg						Spielsteine und Pässe werden benutzt um bestimte Spiel Modi zu süielen
+sysbar_token_tip_title_legacy				Spielsteine und Pässe
 sysbar_token_tip_msg_legacy					As a legacy player, you have an infinite number of tokens and can play any game mode at any time.
 
 // F2P TMM
-tmm_player_needs_tokens					This player it not able to play with the current options.
+tmm_player_needs_tokens					Dieser Spieler kann nicht mit den derzeitigen Optionen spielen-
 tmm_player_not_verified					This player is not verified and is unable to participate in verified-only games.
-tmm_player_is_ready						This player is ready to go!
-tmm_player_not_ready					This player is not ready.
+tmm_player_is_ready						Dieser Spieler ist fertig zum loslegen!
+tmm_player_not_ready					Dieser Spieler ist nicht fertig
 sysbar_no_passes_active					You have no active game passes
 
 // F2P Main menu
-cg_disabled								Create Multiplayer Game
+cg_disabled								Multiplayerspiel erstellen
 cg_disabled_tip							Creating a multiplayer game is only available to verified accounts. Find a game using matchmaking or the public games list.
 
 // SpecUI
@@ -5119,29 +5119,29 @@ specui_xp_team_tip		Total experience earned of each team as a percentage.
 specui_gm_team			Team Gold
 specui_gm_team_tip		Total gold earned of each team as a percentage.
 specui_tower_team			Team Towers
-specui_tower_team_tip		Remaing towers for this team.
-specui_raxx_team			Team Barracks
-specui_raxx_team_tip		Remaing barracks for this team.
+specui_tower_team_tip		Verbleibende Türme für dieses Team.
+specui_raxx_team			Team Kasernen
+specui_raxx_team_tip		Verbleibende Kasernen für dieses Team.
 
 specui_help_1	Willkommen lieber Beobachter!
 specui_help_2	Hier sind ein paar Dinge die du tuen kannst...
 specui_help_3	Tastenkürzel
 specui_help_4	Mehr Informationen anzeigen
-specui_help_5	Hold
-specui_help_6	Change information tab
+specui_help_5	Halt
+specui_help_6	Informations Tab ändern
 specui_help_7	Tap
-specui_help_8	Mouse
-specui_help_9	Jump to player location
-specui_help_10	  on any Hero Portrait
-specui_help_11    on Health, Mana, or Abilities
-specui_help_12   Click 
-specui_help_13   for more options
+specui_help_8	Maus
+specui_help_9	Spring zur Spielerposition
+specui_help_10	  auf einen belibigen Heldenporträt
+specui_help_11    auf Gesundheit, Mana oder Fähigkeiten
+specui_help_12   Klicken 
+specui_help_13   für mehr Informationen
 specui_help_14  Display Labels
-specui_help_15  Lock/Unlock camera on player
-specui_help_16  Show / Hide UI Elements
+specui_help_15  Kamera auf Spieler Festsetzen/Freisetzen
+specui_help_16  Interface Elemente Anzeigen / Ausblenden
 
 specui_options_header				Spectator Interface Options
-specui_options_showTips				Show Tooltips
+specui_options_showTips				Tooltips anzeigen
 specui_options_showTips_txt			Uncheck to hide tooltips when hovering over team and player info.
 specui_options_showItemPurch		Item Purchases
 specui_options_showItemPurch_txt	Pop up item purchases next to player unitframes.
