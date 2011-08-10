@@ -200,7 +200,7 @@ main_login_auto_auth						Auto. Anmelden
 main_login_auto_auth_tip					Wenn du diese Option auswählst, wird dein Passwort gespeichert und du wirst automatisch eingeloggt wenn du das Spiel startest.
 main_login_invis_mode						Unsichtbar
 main_login_invis_mode_tip					Wenn du diese Option auswählst, werden deine Freunde und Clanmitglieder nicht benachrichtigt, wenn Du Dich ein- bzw ausloggst oder ein Spiel beitretest/verlässt. Aber du wirst immer noch deren Benachrichtigungen bekommen.
-main_login_lost_pass						LoinInfo verloren?
+main_login_lost_pass						LoginInfo verloren?
 main_login_password_saved					<gespeichert>
 
 //confirmations.package
@@ -3894,7 +3894,7 @@ player_stats_next_level_needed				XP Needed For Next Level
 player_stats_wins							Siege
 player_stats_losses							Niederlagen
 player_stats_disconnects					Unterbr.
-player_stats_win_percent					Siege: {percent}
+player_stats_win_percent					{percent}
 player_stats_leave_percent					Leaves
 player_stats_winning_percentage				Sieges %
 player_stats_matches						Spiele
@@ -4085,99 +4085,99 @@ tooltip_attack_cooldown						Regeneration des Angriffs: ^y{time} Sekunden
 tooltip_attacks_per_second					^y{value}^* Angriffe pro Sekunde
 tooltip_gold								Gold: 
 tooltip_label_changecolors					Toggle unique player colors on/off
-tooltip_combattype							Combat Type: 
-tooltip_movespeed							Move Speed
-tooltip_movespeed_msg						This is how quickly the hero moves in relation to other heroes.
+tooltip_combattype							Angriffsart: 
+tooltip_movespeed							Laufgeschwindigkeit
+tooltip_movespeed_msg						Dies ist die Laufgeschwindigkeit die der Held hat im Gegensatz zu den anderen Helden.
 tooltip_teamshare							Toggle Sharing Courier With Team
-tooltip_open_scores							Open Scoreboard
-tooltip_close_scores						Close Scoreboard
-tooltip_activate_passive					This ability is passive
+tooltip_open_scores							Scoreboard öffnen
+tooltip_close_scores						Scoreboard schließen
+tooltip_activate_passive					Diese Fähigkeit ist passiv
 
-tooltip_viewstats							View Statistics
-tooltip_purchase							Purchase HoN
-tooltip_logout								Log Out
-tooltip_options								Options
-tooltip_offlinereplays						Local Replays
-tooltip_changelog							Change Log
-tooltip_motd								Message of the Day
-tooltip_lang								Language
-tooltip_players_online						Players Online
-tooltip_friends								Friends
+tooltip_viewstats							Statistiken ansehen
+tooltip_purchase							HoN kaufen
+tooltip_logout								Ausloggen
+tooltip_options								Optionen
+tooltip_offlinereplays						Lokale Replays
+tooltip_changelog							Patch Notizen
+tooltip_motd								Nachricht des Tages
+tooltip_lang								Sprache
+tooltip_players_online						Spieler Online
+tooltip_friends								Freunde
 tooltip_clan								Clan
-tooltip_ims									IMs Received
-tooltip_notifications						Notifications Received
-tooltip_autoconnect_title					Auto-Connect
+tooltip_ims									IMs Erhalten
+tooltip_notifications						Benachrichtigungen erhalten
+tooltip_autoconnect_title					Auto. verbindung
 tooltip_autoconnect							When selected, you will connect to this channel every time you log in.  Right clicking the checkbox will remove you from all auto join channels you are currently in and permanently delete them from your saved channel list.
-tooltip_recitems							Recommended Items
+tooltip_recitems							Vorgeschlagene Items
 tooltip_recitems_msg						These items are recommended for this hero...
-tooltip_prim_attrib							Primary Attribute
+tooltip_prim_attrib							Haupt-Items
 tooltip_prim_attrib_msg						This is the primary something or other whatever.
-tooltip_dps									Damage Per Second
+tooltip_dps									Schaden pro Sekunde
 tooltip_dps_msg								This is the average damage per second dealt by this hero, before the target's armor and abilities are taken into account.
-tooltip_attack_dmg							Attack Damage
+tooltip_attack_dmg							Angriffsschaden
 tooltip_attack_dmg_msg						This is the average damage per attack dealt by this hero, before the target's armor and abilities are taken into account.
-tooltip_total_health						Total Health
+tooltip_total_health						Insgesamte Gesundheit
 tooltip_total_health_msg					This value is how much health this hero has, and represents how much damage the hero can withstand before being killed.
-tooltip_total_mana							Total Mana
+tooltip_total_mana							Insgesamte Mana
 tooltip_total_mana_msg						This value is how much mana this hero has.  Mana is consumed when the hero uses its abilities or casts spells.
-tooltip_attack_range						Attack Range
+tooltip_attack_range						Angriffsreichweite
 tooltip_attack_range_msg					This value is maximum distance away from a target that the hero can be to successfully attack.  This value generally will have no bearing on the ranges of most active abilities and spells.
 tooltip_lvl_controls						Level and Inventory Controls
 tooltip_lvl_controls_msg					See how items and levels affect your character.
 tooltip_total_cost							Total Cost
 tooltip_total_cost_msg						This is the total cost of all items in your hero's inventory.
-tooltip_hero_announcement					Hero Announcement
+tooltip_hero_announcement					Helden Ankündigung
 tooltip_hero_announcement_msg				Click here to listen to the announcer say this hero's name.
-tooltip_hero_lvl							Hero Level
+tooltip_hero_lvl							Helden Level
 tooltip_hero_lvl_msg						This is the current level of the hero you're viewing.  You can increase and decrease the hero's level to see how its attributes change over the course of a match.
-tooltip_increase_lvl						Increase Level
+tooltip_increase_lvl						Level erhöhen
 tooltip_increase_lvl_msg					Click here to increase the level of the hero you're viewing.
-tooltip_decrease_lvl						Decrease Level
+tooltip_decrease_lvl						Level verringern
 tooltip_decrease_lvl_msg					Click here to decrease the level of the hero you're viewing.
-tooltip_reset_lvl							Reset Level
+tooltip_reset_lvl							Level zurücksetzen
 tooltip_reset_lvl_msg						Click here to reset the hero's level back to 1.
-tooltip_open_shop							Open Shop
+tooltip_open_shop							Shop öffnen
 tooltip_open_shop_msg						Click here to open the shop interface and add items to the selected hero's inventory.
-tooltip_reset_inv							Reset Inventory
+tooltip_reset_inv							Inventar zurücksetzen
 tooltip_reset_inv_msg						Click here to clear the selected hero's inventory.
-tooltip_compendium_guide					Hero Guides
+tooltip_compendium_guide					Helden Guides
 tooltip_compendium_guide_msg				Official and community guides on how to improve your play with a specific hero. 
-tooltip_compendium_usage					Usage
-tooltip_compendium_usage_msg				Hero usage statistics.
-tooltip_detailed_hero_info					Detailed Hero Information
+tooltip_compendium_usage					Benutzung
+tooltip_compendium_usage_msg				Helden Benutzung Statistiken.
+tooltip_detailed_hero_info					Detailierte Helden Informationen
 tooltip_detailed_hero_info_msg				Displays detailed information about a hero's role and abilities.
-tooltip_detailedfree_hero_info				Free Hero Information
+tooltip_detailedfree_hero_info				Kostenlose Helden Inforamtionen
 tooltip_detailedfree_hero_info_msg			Displays detailed information about the current free heroes\' roles and abilities.
-tooltip_detailed_hero_list					Detailed Hero List
+tooltip_detailed_hero_list					Detailierte Heldenliste
 tooltip_detailed_hero_list_msg				This list displays detailed information about each hero, and heroes within the list can be selected to go to the main hero information page.
-tooltip_simple_hero_list					Simple Hero List
+tooltip_simple_hero_list					Einfache Heldenliste
 tooltip_simple_hero_list_msg				This list is a simplified display of all heroes.  Click a hero within this list to view detailed information about the hero.
-tooltip_sort_name							Sort by Hero Name
+tooltip_sort_name							Sortiren bei Heldennamen
 tooltip_sort_name_msg						Click here to sort the hero list by hero name.
-tooltip_sort_primary						Sort by Primary Attribute
+tooltip_sort_primary						Sortiren bei Hauptattribut
 tooltip_sort_primary_msg					Click here to sort the hero list by Primary Attribute (Strength, Agility, or Intelligence).
-tooltip_sort_attack							Sort by Attack Type
+tooltip_sort_attack							Sortiren bei Angriffsart
 tooltip_sort_attack_msg						Click here to sort the hero list by Attack Type (melee or ranged).
-tooltip_sort_str							Sort by Strength
+tooltip_sort_str							Sortiren bei Stärke
 tooltip_sort_str_msg						Click here to sort the hero list by Strength.
-tooltip_sort_agi							Sort by Agility
+tooltip_sort_agi							Sortiren bei Gewandheit
 tooltip_sort_agi_msg						Click here to sort the hero list by Agility.
-tooltip_sort_int							Sort by Intelligence
+tooltip_sort_int							Sortiren bei Intelligenz
 tooltip_sort_int_msg						Click here to sort the hero list by Intelligence.
-tooltip_sort_armor							Sort by Armor
+tooltip_sort_armor							Sortiren bei Rüstung
 tooltip_sort_armor_msg						Click here to sort the hero list by Armor.
-tooltip_sort_magi_armor						Sort by Magic Armor
+tooltip_sort_magi_armor						Sortiren bei Magische Rüstung
 tooltip_sort_magi_armor_msg					Click here to sort the hero list by Magic Armor.
-tooltip_sort_movement						Sort by Movement Speed
+tooltip_sort_movement						Sortiren bei Laufgeschwindigkeit
 tooltip_sort_movement_msg					Click here to sort the hero list by Movement Speed.
-tooltip_sort_dps							Sort by Average Damage Per Second
+tooltip_sort_dps							Sortiren bei Durschnittlichen Schaden pro Sekunde
 tooltip_sort_dps_msg						Click here to sort the hero list by Average Damage Per Second (DPS).
-tooltip_hero_abils							Hero Abilities
+tooltip_hero_abils							Helden Fähigkeiten
 tooltip_hero_abils_msg						Listed in this column for each hero are its four abilities.  Hover over each ability icon for a description of the ability.
-tooltip_faction								Hero Faction
+tooltip_faction								Helten Frraktion
 tooltip_faction_msg							This icon represents the faction that the hero is aligned with.  The green icon indicates that the hero has aligned with the Legion, while the red icon indicates that the hero belongs has aligned with the Hellbourne.
 tooltip_extras								Click here to open the account extras menu.
-tooltip_sort_dmg							Sort by Attack Damage
+tooltip_sort_dmg							Sortiren bei Angriffsschaden
 tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
 
 tooltip_report								Missbräuchliches Verhalten melden
@@ -4212,35 +4212,35 @@ ui_items_cc_right_click_remove_buddy		Freund Entfernen
 ui_items_cc_right_click_remove_buddytxt		Are you sure you want to remove this buddy?
 ui_items_cc_right_click_invite_to_game		Zum Spiel Einladen
 
-ui_items_cc_right_click_kick_tmm			Kick Player
-ui_items_cc_right_click_invite_to_tmm		Invite to Group
-ui_items_cc_right_click_user_info			User Info
-ui_items_cc_right_click_channel_kick		Kick from Channel
-ui_items_cc_right_click_channel_ban			Ban from Channel
-ui_items_cc_right_click_channel_silence		Silence User
-ui_items_cc_right_click_ignore				Ignore
+ui_items_cc_right_click_kick_tmm			Spieler kicken
+ui_items_cc_right_click_invite_to_tmm		In Gruppe einladen
+ui_items_cc_right_click_user_info			Spieler Informationen
+ui_items_cc_right_click_channel_kick		Vom Channel kicken
+ui_items_cc_right_click_channel_ban			Vom Channel bannen
+ui_items_cc_right_click_channel_silence		Spieler stumm schalten
+ui_items_cc_right_click_ignore				Ignorieren
 ui_items_cc_right_click_ignoretxt			Are you sure you want to ignore this player?
-ui_items_cc_right_click_unignore			Unignore
-ui_items_cc_right_click_addban				Add to Banlist
+ui_items_cc_right_click_unignore			Nicht mehr Ignorieren
+ui_items_cc_right_click_addban				Zur Banliste hinzufügen
 ui_items_cc_right_click_addbantxt			Are you sure you want to add this player to your banlist?
 ui_items_cc_right_click_remban				Remove from Banlist
 ui_items_cc_right_click_channel_promote		Promote (Channel)
 ui_items_cc_right_click_channel_demote		Demote (Channel)
 ui_items_cc_right_click_clan_promote		Promote (Clan)
 ui_items_cc_right_click_clan_demote			Demote (Clan)
-ui_items_cc_right_click_clan_remove			Remove from Clan
+ui_items_cc_right_click_clan_remove			Vom Clan entfernen
 ui_items_cc_right_click_clan_removetxt		Are you sure you want to remove this clan member?
-ui_items_cc_right_click_clan_invite			Invite To Clan
-ui_items_cc_right_click_clan_leave			Leave Clan
-ui_items_cc_right_click_watch_game			Monitor Game
-ui_items_cc_friends_online					Online Friends
-ui_items_cc_friends_in_game					Friends In Game
-ui_items_cc_friends_offline					Offline Friends
-ui_items_cc_clan_online						Online Members
-ui_items_cc_clan_in_game					Members In Game
-ui_items_cc_clan_offline					Offline Members
-ui_items_chat_leavechan						Leave this Channel
-ui_items_patchupdate						Update your client?
+ui_items_cc_right_click_clan_invite			In den Clan einladen
+ui_items_cc_right_click_clan_leave			Clan verlassen
+ui_items_cc_right_click_watch_game			Spiel verfolgen
+ui_items_cc_friends_online					Freunde online
+ui_items_cc_friends_in_game					Freunde im Spiel
+ui_items_cc_friends_offline					Freunde offline
+ui_items_cc_clan_online						Mitglieder online
+ui_items_cc_clan_in_game					Mitglieder im Spiel
+ui_items_cc_clan_offline					Mitglieder offline
+ui_items_chat_leavechan						Diesen Channel verlassen
+ui_items_patchupdate						Spielclienten updaten?
 ui_items_patchupdatetxt						Your client will be disconnected before updating to the new patch.  Do you want to continue?
 
 // player_statistics.package
@@ -4284,13 +4284,13 @@ Shop_Filter_Activatable_description								Items that may be activated.
 Shop_Filter_Modifier_description								Items that contain a unique modifier effect.
 Shop_Search_Shop												Search Shop...
 
-game_command_tooltip_name_move			Move
-game_command_tooltip_name_attack		Attack
+game_command_tooltip_name_move			Bewegen
+game_command_tooltip_name_attack		Angriff
 game_command_tooltip_name_stop			Stop
-game_command_tooltip_name_hold			Hold
-game_command_tooltip_name_patrol		Patrol
-game_command_tooltip_name_taunt			Taunt
-game_command_tooltip_desc_move			Moves units to a target position.
+game_command_tooltip_name_hold			Halt
+game_command_tooltip_name_patrol		Patrolieren
+game_command_tooltip_name_taunt			Spott
+game_command_tooltip_desc_move			Bewegt die Einheit zu einer bestimmten Position
 game_command_tooltip_desc_attack		Issues an attack command. Your units will move to the area or target unit and attack.
 game_command_tooltip_desc_stop			Stops your unit from completing any previously given order.
 game_command_tooltip_desc_hold			Holds position and will not attack any units.

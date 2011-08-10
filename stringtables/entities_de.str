@@ -3337,48 +3337,48 @@ Ability_Krixi4_tooltip_flavor									If the first doesn't kill you...
 State_Krixi_Ability3_name										Lunar Glow
 
 // Ability_Kunas1
-Ability_Kunas1_name												Chain Lightning
+Ability_Kunas1_name												Kettenblitz
 Ability_Kunas1_description										Der Thunderbringer trifft eine Feindeinheit mit einem unberechenbaren Blitzschlag. Anschließend springt der Blitzschlag auf nahestehende Feindeinheiten über.
-Ability_Kunas1_description_simple								Target an enemy unit to zap it with lightning. The lightning then bounces between the closest ^o{5,7,9,15}^* targets, dealing ^o{85,100,115,130} Magic Damage^* to each.
-Ability_Kunas1_effect_header									Status Effect
+Ability_Kunas1_description_simple								Wähle einen Gegener an um ihn mit einen Blitz zu zappen. Der Blitz springt zwischen den ^o{5,7,9,15}^* nahestehenden Zielen hin und her, verursacht an jedem ^o{85,100,115,130} Magischen Schaden^*.
+Ability_Kunas1_effect_header									Status Effekt
 Ability_Kunas1_IMPACT_effect									Ketten zwischen {5,7,9,15} nahe beieinander stehenden Zielen, verursacht bei jedem Ziel {85,100,115,130} Magischen Schaden.
-Ability_Kunas1_tooltip_flavor									Creeps are great conductors.
+Ability_Kunas1_tooltip_flavor									Creeps sind großaritge Dirigenten!
 
 // Ability_Kunas2
-Ability_Kunas2_name												Blast of Lightning
+Ability_Kunas2_name												Bltzexplosion
 Ability_Kunas2_description										Thunderbringer sprengt eine feindliche Zieleinheit mit einem Blitzschlag, verursacht mittleren Schaden und eine kurzzeitige Paralyse. Der Bereich um das Ziel wird kurzzeitig erleuchtet, verleiht Weitblick und macht die sich dort befindlichen Stealth-Einheiten sichtbar..
-Ability_Kunas2_description_simple								Target an enemy unit to blast it with lightning. Deals ^o{100,175,275,350} Magic Damage^* and applies a Mini-Stun.
-Ability_Kunas2_effect_header									Status Effect
-Ability_Kunas2_IMPACT_effect									Verursacht {100,175,275,350} Magischen Schaden und paralysiert 0.1 Sekunden lang.  Verleiht Weitblick und macht um das Ziel 3 Sekunden lang Stealth-Einheiten sichtbar.
-Ability_Kunas2_tooltip_flavor									A billion volts of electricity.
+Ability_Kunas2_description_simple								Wähle eine Gegnerische Einheit an um Sie mit einen Bltz zu treffen. Verursacht ^o{100,175,275,350} Magischen Schaden^* und bewirkt eine kleine paralisierung.
+Ability_Kunas2_effect_header									Status Effekt
+Ability_Kunas2_IMPACT_effect									Verursacht {100,175,275,350} Magischen Schaden und paralysiert 0.1 Sekunden lang. Verleiht Weitblick und macht um das Ziel 3 Sekunden lang Unsichtbare Einheiten sichtbar.
+Ability_Kunas2_tooltip_flavor									Eine Milliarde Volt Elektrizität.
 
 // Ability_Kunas3
-Ability_Kunas3_name												Lightning Rod
+Ability_Kunas3_name												Blitzableiter
 Ability_Kunas3_description										Die den Thunderbringer umgebenden Feinde dienen als Blitzableiter. Bei jedem seiner Zauber erleiden sie Schaden. Der Schaden ist zu ihrer gegenwärtigen Gesundheit proportional.
-Ability_Kunas3_description_simple								Passively damages nearby enemy heroes each time you cast a spell. Damage is equal to ^o{5,7,9,11}% of their current health^* in Magic Damage.
-Ability_Kunas3_effect_header									Status Effect
+Ability_Kunas3_description_simple								Verursacht passiv Schaden an nahestehenden Gegnerischen Helden, jedes mal wenn du eine Fähigkeit benutzt. Der Schaden beträgt ^o{5,7,9,11}% ihrer aktuellen Gesundheit^* in Magischen Schaden.
+Ability_Kunas3_effect_header									Status Effekt
 Ability_Kunas3_ABILITY_IMPACT_effect							Verursacht in einem Radius vom 800 Maßeinheiten um sich selbst einen Magischen Schaden in Höhe von {5,7,9,11} % der aktuellen Gesundheit des Feindes.
-Ability_Kunas3_tooltip_flavor									Some would say I am shocking!
+Ability_Kunas3_tooltip_flavor									Manche würden sagen, ich bin schockierend!
 
 // Ability_Kunas4
-Ability_Kunas4_name												Lightning Storm
+Ability_Kunas4_name												Blitzsturm
 Ability_Kunas4_description										Thunderbringer trifft jeden Helden auf der Karte mit seinen Blitzen. Dabei erleiden die getroffenen Einheiten Schaden und der sie umgebende Bereich wird kurzzeitig erleuchtet.  Diese Fähigkeit wird durch den Gegenstand Staff of the Master verstärkt.
-Ability_Kunas4_description2										^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {210,335,460} to {335,460,570}.
-Ability_Kunas4_description_simple								Activate to deal ^o{210,335,460} Magic Damage^* to all enemy heroes in the game. Provides vision of them briefly.\n\n^gStaff of the Master^* increases the damage dealt.
+Ability_Kunas4_description2										^930Diese Fähigkeit kann mit ^930Staff ^930of ^930the ^930Master verbessert werden.^*^*^*^*^*\n\n^gStaff Effekt:^* Erhöht den Schaden von {210,335,460} zu {335,460,570}.
+Ability_Kunas4_description_simple								Benutzen um ^o{210,335,460} Magischen Schaden^* an allen Gegnerischen Helden zu verursachen. Man bekommt kurze Sicht auf sie.\n\n^gStaff of the Master^* erhöht den verursachten Schaden.
 Ability_Kunas4_effect_header									Auswirkungen
 Ability_Kunas4_IMPACT_effect									Verursacht bei jedem Ziel {210,335,460} Magischen Schaden.  Verleiht Weitblick und macht um jedes Ziel 3 Sekunden lang Stealth-Einheiten sichtbar.
-Ability_Kunas4_name:ult_boost									Super Lightning Storm
-Ability_Kunas4_description2:ult_boost							This ability has been boosted by Staff of the Master.
-Ability_Kunas4_description_simple:ult_boost						Activate to deal ^o{335,460,570} Magic Damage^* to all enemy heroes in the game. Provides vision of them briefly.\n\nThis ability has been boosted by ^gStaff of the Master^*.
-Ability_Kunas4_IMPACT_effect:ult_boost							Verursacht beim Ziel {335,460,570} Magischen Schaden.  Verleiht Weitblick und macht um jedes Ziel 3 Sekunden lang Stealth-Einheiten sichtbar.
-Ability_Kunas4_tooltip_flavor									Always be prepared, wear rubber soles!
+Ability_Kunas4_name:ult_boost									Super Blitzsturm
+Ability_Kunas4_description2:ult_boost							Diese Fähigkeit wurde verbessert durch Staff of the Master.
+Ability_Kunas4_description_simple:ult_boost						Benutzen um ^o{335,460,570} Magischen Schaden^* an allen Gegnerischen Helden zu verursachen. Man bekommt kurze Sicht auf sie.\n\nDiese Fähigkeit wurde verbesset durch ^gStaff of the Master^*.
+Ability_Kunas4_IMPACT_effect:ult_boost							Verursacht beim Ziel {335,460,570} Magischen Schaden. Verleiht Weitblick und macht um jedes Ziel 3 Sekunden lang Unsichtbare Einheiten sichtbar.
+Ability_Kunas4_tooltip_flavor									Sei immer bereit und trag Gummisohlen!
 
 // Gadget_KunasDummyReveal
 
 // Hero_Kunas
 Hero_Kunas_name													Thunderbringer
 Hero_Kunas_description											Im Gegensatz zu den von ihm befehligten Blitzen zeichnet sich der Thunderbringer durch seine gelassene Beharrlichkeit und sorgfältige Befolgung der Niederschriften und Regeln der Bestien aus.  Auch wenn er von Anderen als ein etwas seltsamer Kauz angesehen wird, ist er ein unbestrittener Meister der schamanischen Überlieferungen und ein mächtiger Träger mystischer Kräfte.
-Hero_Kunas_role													Although the Thunderbringer is a ranged hero, his primary form of damage is not his attack, but continued usage of his Chain Lightning and Blast of Lightning. Lightning Storm allows the Thunderbringer to strike globally, while Lightning Rod will slowly melt even the toughest enemies.
+Hero_Kunas_role													Außerdem ist der Thunderbringer ein Fernkampf Held, seine Hauptangriffe sind aber seine Fähigkeiten Kettenblitz und Blitzexplosion. Durch Blitzsturm sieht man für kurze Zeit jeden gegener auf der Karte, während Blitzableiter die Gegner langsam zerstört.
 
 // Ability_Legionnaire1
 Ability_Legionnaire1_name										Taunt
@@ -4322,54 +4322,54 @@ State_PollywogPriest_Ability2_FRAME_effect						Senkt die Bewegungsgeschwindigke
 State_PollywogPriest_Ability3_FRAME_effect						40 Magischer Schaden pro Sekunde
 
 // Ability_Predator1
-Ability_Predator1_name											Venomous Leap
+Ability_Predator1_name											Giftiger Sprung
 Ability_Predator1_description									Der Predator katapultiert sich zu einer Zieleinheit und schlägt mit seinen giftigen Klauen zu. Der Feind erleidet Schaden und wird kurzzeitig verlangsamt.
-Ability_Predator1_description_simple							Target an enemy unit to leap to it, dealing ^o{75,125,175,225} Magic Damage^* and inflicting a ^o40% Movement Slow^* for ^o{2,3,4,5} seconds^*.
-Ability_Predator1_effect_header									Venomous Effects
+Ability_Predator1_description_simple							Wähle eine Gegnerische Einheit an um an sie heran zu springen, verursacht ^o{75,125,175,225} Magischen Schaden^* und verlangsamt das Ziel um ^o40% Laufgeschwindigkeit^* für ^o{2,3,4,5} Sekunden^*.
+Ability_Predator1_effect_header									Giftiger Effekt
 Ability_Predator1_IMPACT_effect									Springt zum Ziel, verursacht {75,125,175,225} Magischen Schaden und bewirkt {2.25,3,3.75,4.5} Sekunden lang den Effekt Venomous.
-Ability_Predator1_tooltip_flavor								No one can escape their fate!
+Ability_Predator1_tooltip_flavor								Niemand kann seinem Schicksal entkommen
 
 // State_Predator_Ability1
-State_Predator_Ability1_name									Venomous Strike
+State_Predator_Ability1_name									Giftiger Sprung
 
 // State_Predator_Ability1_SelfDisarm
 
 // Ability_Predator2
-Ability_Predator2_name											Reckless Blow
-Ability_Predator2_effect_header									Stone Hide Effects
-Ability_Predator2_description									Der Predator trifft einen Gegner mit einem mächtigen, rücksichtslosen Schlag, der gleichzeitig dem Feind wie auch sich selbst Schaden zufügt.
-Ability_Predator2_description_simple							Activate to dispel debuffs and grant yourself ^oMagic Immmunity^* and ^o{3,6,9,12} Armor^* for ^o{3,3.75,4.5,5.25} seconds^*.
-Ability_Predator2_IMPACT_effect									Verursacht {100,175,250,350} Physischen Schaden beim Ziel und bei sich selbst.
-Ability_Predator2_tooltip_flavor								Keep your Silver Bullets away.
+Ability_Predator2_name											Stein versteck
+Ability_Predator2_effect_header									Stein versteck Effekte
+Ability_Predator2_description									Der Predator macht seine Haut zu einer Steinhaut um sich Magie immum zu machen, alle debuffs herunter zu nehmen und die Rüstug zu verstärken.
+Ability_Predator2_description_simple							Benutzen um sich debuffs herunter zu nehmen, sich selber ^oMagie Immun^* zu machen und seine Rüstung um ^o{3,6,9,12} Rüstung^* für ^o{3,3.75,4.5,5.25} Sekunden^* zu verstärken.
+Ability_Predator2_IMPACT_effect									Nimmt debuffs weg und gibt sich selbst eine Steinhaut für {3,3.75,4.5,5.25} Sekunden.
+Ability_Predator2_tooltip_flavor								Lass deine Silbernen Kugeln stecken.
 
 // State_Predator_Ability2
-State_Predator_Ability2_name                                    Stone Hide
+State_Predator_Ability2_name                                    Stein versteck
 
 // Ability_Predator3
-Ability_Predator3_name											Carnivorous
+Ability_Predator3_name											Kanibale
 Ability_Predator3_description									Der Predator frisst bei jedem Angriff vom Fleisch seiner Opfer. Dadurch bringt er selbst die mächtigsten Krieger zu Fall. Jeder Angriff zieht den Gegnern einen gewissen Prozentsatz ihrer aktuellen Gesundheit ab und heilt den Predator auf Basis des verursachten Schadens.
-Ability_Predator3_description_simple							Passively causes you to deal additional ^oPhysical Damage equal to {4,5,6,7}% of your target's current HP^*. You heal for the same amount.
+Ability_Predator3_description_simple							Gibt dir einen Passiven ^oPhysischen Schadens Bonus in Höhe von {4,5,6,7}% der Gesundheit deines Zieles^*. Du heilst dich um die gleiche Menge.
 Ability_Predator3_description2									Ist bei Boss-Einheiten wirkungslos.
-Ability_Predator3_effect_header									Status Effect
-Ability_Predator3_ATTACK_IMPACT_effect							Deals Physical Damage to targets equal to {4,5,6,7}% of their current Health and heals you for the same amount.
-Ability_Predator3_tooltip_flavor								It's a full moon tonight!
+Ability_Predator3_effect_header									Status Effekt
+Ability_Predator3_ATTACK_IMPACT_effect							Verursacht Physischen Schaden in Höhe von {4,5,6,7}% deren derzeitigen Gesundheit und heilt sich selbst um die selbe Menge.
+Ability_Predator3_tooltip_flavor								Heute Nacht ist Vollmond!
 
 // Ability_Predator4
-Ability_Predator4_name											Enraged Howl
-Ability_Predator4_description									Der Predator stößt ein rasendes Geheul aus. Seine Angriffsgeschwindigkeit wird gesteigert und die Rüstung nahestehender Feinde wird schwächer.
-Ability_Predator4_description_simple							Activate to inflict ^o{-2,-4,-6} Armor^* to nearby enemies.\n\nWhen affected enemies are attacked, the attacker receives ^o{20,40,60} Attack Speed^* and ^o15% Movement Speed^*.
+Ability_Predator4_name											Terror
+Ability_Predator4_description									Der Predator brüllt, flößt somit den Gegnerischen Einheiten Angst ein und verringert ihre Rüstung. Verbündete die Gegnerische Einheiten angreifen und von Terror betroffen sind, haben eine erhöhte Angriffsgeschwindigkeit und Laufgeschwindigkeit.
+Ability_Predator4_description_simple							Benutzen um nahestehenden Gegnern ^o{-2,-4,-6} Rüstung^* zu geben.\n\nWenn infizierte Gegener jemanden angreifen bekommt das Ziel ^o{20,40,60} Angriffsgeschwindigkeit^* und ^o15% Laufgeschwindigkeit^*.
 Ability_Predator4_description2									
-Ability_Predator4_effect_header									Fear Effects
-Ability_Predator4_effect_header2								Enraged Effects
+Ability_Predator4_effect_header									Furcht Effekt
+Ability_Predator4_effect_header2								
 Ability_Predator4_tooltip_flavor								
 Ability_Predator4_IMPACT_effect									Bewirkt bei Zielen innerhalb des Radius den Effekt Fear und bei sich selbst 10 Sekunden lang den Effekt Enraged.
-Ability_Predator4_tooltip_flavor								Listen in awe, and you'll hear him!
+Ability_Predator4_tooltip_flavor								Hör hin mit Respekt und du wirst ihn hören!
 
 // State_Predator_Ability4
-State_Predator_Ability4_name									Enraged Howl
-State_Predator_Ability4_description								Gesteigerte Angriffsgeschwindigkeit.
+State_Predator_Ability4_name									Terror
+State_Predator_Ability4_description								
 State_Predator_Ability4_description2							
-State_Predator_Ability4_FRAME_effect							When attacked, buffs attacker's Attack Speed by {20,40,60} and Movement Speed by 15% for 4.5 seconds
+State_Predator_Ability4_FRAME_effect							Wenn man jemanden Aangreift, bekommt der angegriffene {20,40,60} Laufgeschwindigkeit und 15% Angriffsgeschwindigkeit für 4.5 Sekunden
 State_Predator_Ability4_ATTACKED_PRE_IMPACT_effect				
 
 // State_Predator_Ability4_Buff
