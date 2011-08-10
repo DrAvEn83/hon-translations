@@ -420,7 +420,7 @@ chat_command_banlist_delete_help	^279*^707 /banlist delete <nick>.
 chat_command_ignorechat				/ignorechat
 chat_command_ignorechat_short		/ic
 chat_command_ignorechat_enemy_all_on	^279* You are now ignoring 'All' chat from the enemy team.
-chat_command_ignorechat_all_on		^279* You are now ignoring 'All' chat from both teams.
+chat_command_ignorechat_all_on		^279* Du ignorierst nun den Chat von 'Allen'.
 chat_command_ignorechat_team_on		^279* You are now ignoring 'Team' chat.
 chat_command_ignorechat_every_on	^279* You are now ignoring both 'All' and 'Team' chat.
 chat_command_ignorechat_off			^279* You are no longer ignoring any chat.
@@ -483,7 +483,7 @@ chat_command_password_short			/pass
 chat_command_password_set_help		^279*^707 /password (Clears password, requires channel admin privileges)
 chat_command_password_clear_help	^279*^707 /password <password> (Sets password, requires channel admin privileges)
 chat_command_roll					/roll
-chat_command_roll_help				^279*^707 /roll <low> <high> (Rolls a number between low and high, (1 through 32,767)).
+chat_command_roll_help				^279*^707 /roll <tief> <hoch> (Würfelt eine Zahl zwischen tief und hoch(Zahlen müssen zwischen 1 und 32,767 liegen).
 chat_command_emote					/emote
 chat_command_emote_help				^279*^707 /emote <emote message>.
 chat_command_emote_short			/em
@@ -491,7 +491,7 @@ chat_command_time					/time
 chat_command_ping					/ping
 chat_command_matchup				/matchup
 chat_command_matchup_short			/ma
-chat_command_matchup_help			Matchup information is only available once the match has started.
+chat_command_matchup_help			Die Partieinformationen sind verfügbar sobald eine Partie startet
 chat_command_gameinfo				/gameinfo
 chat_command_gameinfo_short			/gi
 chat_command_ping_all				/pingall
@@ -504,9 +504,9 @@ chat_command_dnd					/dnd
 chat_command_dnd_message			^279* Dein Chatstatus ist jetzt 'Bitte Nicht Stören': {reason}
 
 chat_command_weather				/weather
-chat_command_weather_intro			^279* Type a weather command:
+chat_command_weather_intro			^279* Schreib ein Wetter Kommando:
 chat_command_weather_entry			^279* /weather {name}
-chat_command_weather_selected		^279* Selected weather effect '{name}'
+chat_command_weather_selected		^279* Gewähler Wettereffekt: '{name}'
 
 chat_command_help				/Hilfe
 chat_command_help_short				/H
@@ -527,11 +527,11 @@ chat_command_help_stats				^279*^707 /stats <user> [pop]^279            -Gets st
 chat_command_help_joingame			^279*^707 /joingame <type> <param>^279       -Join a game.
 chat_command_help_topic				^279*^707 /topic [topic]^279                 -Views or sets current channel topic
 chat_command_help_kick				^279*^707 /kick <Benutzer>^279                   -Wirft den Benutzer aus den Channel (Benötigt Channeladmin privilegien).
-chat_command_help_ban				^279*^707 /ban <user>^279                    -Bans user from the channel (Requires channel admin privileges).
-chat_command_help_unban				^279*^707 /unban <user>^279                  -Unbans user from the channel (Requires channel admin privileges).
-chat_command_help_silence			^279*^707 /silence <user> <duration>^279     -Silences a user for <duration> minutes (Requires channel admin privileges).
-chat_command_help_promote			^279*^707 /promote <user>^279                -Promote target user (Requires channel admin privileges)
-chat_command_help_demote			^279*^707 /demote <user>^279                 -Demote target user (Requires channel admin privileges)
+chat_command_help_ban				^279*^707 /ban <user>^279                    -Bannt einen Benutzer aus dem Channel (Benötigt Channeladmin privilegien).
+chat_command_help_unban				^279*^707 /unban <user>^279                  -Entfernt den Ban für diesen Channel eines Benutzer (Benötigt Channeladmin privilegien).
+chat_command_help_silence			^279*^707 /silence <user> <duration>^279     -Lösst einen Benutzer <duration> Minuten schweigen (Benötigt Channeladmin privilegien).
+chat_command_help_promote			^279*^707 /promote <user>^279                -Stuf den angwählte Spieler hoch (Benötigt Channeladmin privilegien).
+chat_command_help_demote			^279*^707 /demote <user>^279                 -Stuf den angewählten Spieler ab (Benötigt Channeladmin privilegien).
 chat_command_help_banlist			^279*^707 /banlist <command> <arguments>^279 -Banlist management commands.
 chat_command_help_ignore			^900*^505 /ignoriere <Benutzer>^900                 -Ignoriert einen bestimmten Benutzer.
 chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -Toggles ignoring 'Team' or 'All' chat.

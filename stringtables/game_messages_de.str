@@ -1,12 +1,12 @@
 ﻿deny								{killer_color}{killer}^* hat {victim_color}{victim}^* denied!
-kill0								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!!
-kill1								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistent: {assist0_color}{assist0}
-kill2								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}
-kill3								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
-kill4								{killer_color}{killer}^* pwned {victim_color}{victim}^*'s Kopf! für ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+kill0								{killer_color}{killer}^* pwnte {victim_color}{victim}^*! Und bekommt ^y{gold}^* gold!!
+kill1								{killer_color}{killer}^* pwnte {victim_color}{victim}^*! Und bekommt ^y{gold}^* gold!! Assistent: {assist0_color}{assist0}
+kill2								{killer_color}{killer}^* pwnte {victim_color}{victim}^*! Und bekommt ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}
+kill3								{killer_color}{killer}^* pwnte {victim_color}{victim}^*! Und bekommt ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4								{killer_color}{killer}^* pwnte {victim_color}{victim}^*! Und bekommt ^y{gold}^* gold!! Assistenten: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
 first_kill							{killer_color}{killer}^* ist in einem ^rBlutrausch^*! (^y+{gold}^* Gold!)
 first_kill_team						{killer_color}{killer}^* hat einen ^rBlutrausch^*! (^y+{gold}^* Gold wurde aufgeteilt!)
-killstreak0							{killer_color}{killer}^* ist ein ^082Serienmör^*!
+killstreak0							{killer_color}{killer}^* ist ein ^082Serienmörder^*!
 killstreak1							{killer_color}{killer}^* ist ein ^204Ultimativer Krieger^*!
 killstreak2							{killer_color}{killer}^* ist ^808Legendär^*!
 killstreak3							{killer_color}{killer}^* ist auf einen ^840Ansturm^*!
@@ -16,25 +16,25 @@ killstreak6							{killer_color}{killer}^* ist ein ^800CHAMPION VON NEWERTH^*!!!
 killstreak7							{killer_color}{killer}^* ist auf einem ^840BLUTBAD^*! Jemand MUSS IHN TÖTEN!
 killstreak8							{killer_color}{killer}^* ist ^860UNBESIEGBAR^*!!
 
-streakend0							{killer} hat {victim} ^082Serienmörder^* Serie beendet für ^y{gold}^* Gold!!
-streakend1							{killer} hat {victim}'s ^204Ultimativer Krieger* serie beendet für ^y{gold}^* Gold!!
-streakend2							{killer} hat {victim}'s ^808Legendär^* serie beendet für ^y{gold}^* Gold!!
-streakend3							{killer} hat {victim}'s ^840Ansturm^* serie beendet für ^y{gold}^* Gold!!
-streakend4							{killer} hat {victim}'s ^440Wild und Krank^* serie beendet für ^y{gold}^* Gold!!
-streakend5							{killer} hat {victim}'s ^848dDomierungs^* serie beendet für ^y{gold}^* Gold!!
-streakend6							{killer} hat {victim}'s ^800CHAMPION CON NEWERTH^* serie beendet für ^y{gold}^* Gold!!
-streakend7							{killer} hat {victim}'s ^840BLUTBAD^* serie beendet für ^y{gold}^* Gold!!
-streakend8							{killer} hat {victim}'s ^860UNBESIEGBAR^* serie beendet für ^y{gold}^* Gold!!
+streakend0							{killer} hat die ^082Serienmörder^* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
+streakend1							{killer} hat die ^204Ultimativer Krieger* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
+streakend2							{killer} hat die ^808Legendär^* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
+streakend3							{killer} hat die ^840Ansturm^* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
+streakend4							{killer} hat die ^440Wild und Krank^* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
+streakend5							{killer} hat die ^848Domierungs^* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
+streakend6							{killer} hat die ^800CHAMPION VON NEWERTH^* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
+streakend7							{killer} hat die ^840BLUTBAD^* Serie von {victim} beendet und bekomm t^y{gold}^* Gold!!
+streakend8							{killer} hat die ^860UNBESIEGBAR^* Serie von {victim} beendet und bekommt ^y{gold}^* Gold!!
 
 multikill0							{killer} hat einen ^008Doppeltötung^*!
 multikill1							{killer} hat einen ^084Hattrick^*!!!
 multikill2							{killer} hat ein ^084Vierfachtötung^*!!!
 multikill3							{killer} hat seine Gegner ^084AUSGELÖSCHT^*!!!
 
-killtower							{killer} hat einen Turm zerstört Das Team {reward} bekommt ^y{gold}^* bonus Gold!
+killtower							{killer} hat einen Turm zerstört. Die {reward} bekommt ^y{gold}^* bonus Gold!
 denytower							{player} has ^444denied^* a tower!
-killmeleerax						Die ^724Nahkampf^* Kaserne von {victim} wurde zerst? Die ^724Nahkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
-killrangedrax						Die ^266Fernkampf^* Kaserne von {victim} wurde zerst? Die ^266fernkampf^* Einheiten von {killer} werden auf diesem Pfad stärker.
+killmeleerax						Die ^724Nahkampf^* Kaserne von {victim} wurde zerstört. Die ^724Nahkampf^* Einheiten von {killer} werden auf dieser Lane stärker.
+killrangedrax						Die ^266Fernkampf^* Kaserne von {victim} wurde zerstört. Die ^266fernkampf^* Einheiten von {killer} werden auf dieser Lane stärker.
 killcourier							{victim}'s Kurier wurde von {killer} getötet!
 boughtwalkingcourier				{player_color}{player}^* hat einen laufenden Kurier gekauft.
 boughtflyingcourier					{player_color}{player}^* hat einen fliegenden Kurier gekauft.
@@ -51,15 +51,15 @@ teamkill							{killer} pwned {victim}'s Kopf!! ^y{gold}^* Gold wurde aufgeteilt
 neutralkill							{victim} wurde von Neutralen Einheiten getötet.
 kongorkill							{victim} wurde von Kongor getötet.
 
-suicide								{victim} hat sich selbst ggetötet!
+suicide								{victim} hat sich selbst getötet!
 
 kill								{victim} ist gestorben.
 
-teamkilltower						Die {killer} haben einen Turm zerstört Die {killer} werden mit ^y{gold}^* bonus Gold belohnt!
+teamkilltower						Die {killer} haben einen Turm zerstört. Die {killer} werden mit ^y{gold}^* bonus Gold belohnt!
 teamdenytower						{denier} habe einen Turm ^444denied^*!
 
 killkongor							{killer} hat Kongor getötet. {reward} bekommt ^y{gold}^* bonus Gold!
-teamkillkongor						{killer} hat Kongor getötet. {killer} bekommt ^y{gold}^* bonus Gold!
+teamkillkongor						{killer} hat Kongor getötet. Die {killer} bekommt ^y{gold}^* bonus Gold!
 
 share0								{player} teilt nicht mehr die Kontrolle seiner Einheiten mit Dir.
 share1								{player} teilt nun die Kontrolle seiner Einheiten mit Dir.
@@ -73,7 +73,7 @@ megacreeps							Die {killer} haben alle von {victim}'s Produktionsgebäuden zer
 
 smackdown							{victim} wurde GESMACKEDDOWNED von {killer}!
 humiliation							{killer} DEMÜTIGT {victim}!
-rival								{killer} ist komplett ^rOWNING^* {victim}!
+rival								{killer} ist komplett {victim} am ^rOWNEN^*!
 payback								{killer} hat es {victim} ^rHEIMGEZAHLT^*!
 
 client_connected					{player_color}{player}^* hat sich verbunden.
@@ -88,7 +88,7 @@ hero_random							{player_color}{player}^* hat per Zufall ^885{hero_name}^* beko
 hero_random_blind					{player_color}{player}^* hat per Zufall einen Helden bekommen.
 hero_repick							{player_color}{player}^* wählt einen neuen Helden. ^885{hero_name}^* ist wieder verfügbar.
 hero_repick_blind					{player_color}{player}^* wählt einen neuen Helden.
-hero_swap							{player_color}{player}^* tausche Helden mit {player2_color}{player2}^*.
+hero_swap							{player_color}{player}^* tauschte seinen Held mit {player2_color}{player2}^*.
 hero_swap_request					{player_color}{player}^* möchte gerne mit Dir seinen Helden tauschen.
 hero_ban							{player_color}{player}^* hat ^885{hero_name}^* ^rgebannt^*.
 hero_ban_random						Das Schicksal hat ^885{hero_name}^* ^rgebannt^*.
@@ -180,10 +180,10 @@ ranged_evasion_bonus				{value}% Fernkampfausweichung
 melee_evasion_bonus					{value}% Nahkampfausweichung
 miss_chance_bonus					{value}% Verfehlen Chance
 lifesteal_bonus						{value}% Lebensraub
-critical_bonus						{value1}% Chance f?r einen {value2}x Kritischen Schlag
+critical_bonus						{value1}% Chance für einen {value2}x Kritischen Schlag
 incoming_damage_mult_bonus			{value}% Schaden genommen
 debuff_duration_mult_bonus			{value}% Debuff Dauer
-heal_mult_bonus						{value}% Heilung erhaltens
+heal_mult_bonus						{value}% Heilung erhalten
 stunned_bonus						Stunned
 stunned_immunity_bonus				Stun immun
 silenced_bonus						Zum Schweigen gebracht
@@ -213,16 +213,16 @@ mana_regen_reduction_bonus			{value}% Verringerte Manaregeneration
 sighted_bonus						Gesichtet
 
 script_on_attack					Bei Angriff
-script_on_attack_impact				Zur Ausf?hrung eines Angriffs
+script_on_attack_impact				Zur Ausführung eines Angriffs
 script_on_attacked_pre_impact		Wenn Angegriffen
 script_on_attacked_post_impact		Wenn Angegriffen
 script_on_activate_pre_impact		Bei Akitvierung
 script_on_activate_impact			Bei Aktivierung
-script_on_ability_impact			Bei nutzung einer F䨩gkeit
+script_on_ability_impact			Bei nutzung einer Fähigkeit
 script_on_damage					Bei gemachten Schaden
-script_on_damaged					Bei Besch䤩gung
-script_on_kill						Bei T?g
-script_on_killed					Wenn get? 
+script_on_damaged					Bei Beschädigung
+script_on_kill						Bei Tötung
+script_on_killed					Wenn getötet 
 
 action_toggle						Schalten
 action_no_target					Kein Ziel
@@ -234,8 +234,8 @@ action_facing						Zugewandt
 action_self_position				Eigene Position
 action_attack						Angriff
 action_attack_toggle				Angriff umschalten
-action_target_dual					Ziel Dual
-action_target_dual_position			Ziel Dual
+action_target_dual					Zweifaches Ziel
+action_target_dual_position			Zweifaches Ziel
 action_target_vector				Zielsvektor
 
 ability_levelup_max					^gMaximales level^*
@@ -279,18 +279,18 @@ shop_action_purchase_item_stash		^yHier klicken um dieses Item in den ^195STASH^
 shop_action_purchase_recipe			^yhier klicken um dieses Rezept zu ^195KAUFEN^*
 shop_action_unavailable				^rNicht verfügbar an diesem Standort
 
-vote_called						{color}{player}^* hat einen Vote gestartet: {vote}
-vote_called_concede				{color}{player}^* hat einen Vote gestartet für die {team_color}{team}^* zum Aufgeben.
-vote_called_remake				{color}{player}^* hat einen Vote gestartet zum Neustarten des Spieles.
-vote_called_kick				{color}{player}^* hat einen Vote gestartet um {target_color}{target}^* zu kicken.
-vote_called_kick_afk			{color}{player}^* hat einen Vote gestartet um {target_color}{target}^* zu kicken, da er AFK ist.
-vote_called_pause				{color}{player}^* hat einen Vote gestartet um das Spiel zu pausieren.
+vote_called						{color}{player}^* hat eine Abstimmung gestartet: {vote}
+vote_called_concede				{color}{player}^* hat eine Abstimmung gestartet für die {team_color}{team}^* zum Aufgeben.
+vote_called_remake				{color}{player}^* hat eine Abstimmung gestartet um die Partie neu zu starten.
+vote_called_kick				{color}{player}^* hat eine Abstimmung gestartet um {target_color}{target}^* aus dem Spiel zu werfen.
+vote_called_kick_afk			{color}{player}^* hat eine Abstimmung gestartet um {target_color}{target}^* aus dem Spiel zu werfen, da er AFK ist.
+vote_called_pause				{color}{player}^* hat eine Abstimmung gestartet um das Spiel zu pausieren.
 vote_passed						Vote passed.
 vote_failed						Vote failed.
 
 team_concede					{color}{team}^* hat Aufgegeben. Statistiken für diese Partie werden nicht gewertet und jeder kann das Spiel ohne Strafe verlassen.
 game_abandoned					Deine Teamkameraden haben dich verlassen. Die Partie wird fortgeführt, aber du kannst die Partie ohne Strafe verlassen.
-afk_warning						Du bist in Gefahr als AFK markiert zu werden! Geh raus da und kämpfe!
+afk_warning						Du bist bist kurz davor als AFK markiert zu werden! Geh raus da und kämpfe!
 afk_message						Du wurdest nun als AFK markiert und kannst gekickt werden.
 
 lobby_connect					{color}{player}^* verbindet sich gerade.
