@@ -2715,7 +2715,7 @@ Ability_Hammerstorm4_description_simple							Activate to add ^o{100,125,150}% B
 Ability_Hammerstorm4_effect_header								Brute Strength Effects
 Ability_Hammerstorm4_IMPACT_effect								Applies Brute Strength to self for 25 seconds.
 Ability_Hammerstorm4_tooltip_flavor								I have two tickets to the gun show!
-
+Bei Hammerstorm geht es um gut getimte Stuns mit seinem Hammer Wurf und darauf folgendem Schaden mit seinem Ultimate. Mit Shrunken Head wird man Hammerstorm lange am Leben erhalten können.
 // Hero_Hammerstorm
 Hero_Hammerstorm_name											Hammerstorm
 Hero_Hammerstorm_description									Mighty and stoic, this famed warrior left behind the ruins of his home for a place in King Maliken's first Legion.  From boyhood on, he has known nothing but battle, and his silent determination and deadly strength have earned him the epithet "Hammerstorm."  Every blow of his hammer resounds like a death knell across the battlefield.

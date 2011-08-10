@@ -1129,27 +1129,27 @@ motd_ad_Garena_text3			Now Available!
 
 
 // Micro Store Stuff
-mstore_product15_name		Female Pyromancer
+mstore_product15_name		Weiblicher Pyromancer
 mstore_product15_desc		Rise from the ashes of old as the fiery Female Pyromancer.
 mstore_product16_name		Sexy Moon Queen
 mstore_product16_desc		From the shadows of the moon emerges the Sexy Moon Queen.
-mstore_product17_name		Pollywog Chieftain
+mstore_product17_name		Pollywog Häuptling
 mstore_product17_desc		Take control of the tribe as the Pollywog Chieftain.
 mstore_product18_name		Scorpion Magmus
 mstore_product18_desc		Crawl through the lanes of Newerth (and memory!) as Scorpion Magmus.
-mstore_product19_name		Female Glacius
+mstore_product19_name		Weibliche  Glacius
 mstore_product19_desc		Shatter the old and take Newerth by storm as the Female Glacius.
 mstore_product20_name		Femme Fatale Bundle
 mstore_product20_desc		Four girls in one bundle!  Pimp Slayer could learn a thing or two from you.
-mstore_product21_name		Silver Color
+mstore_product21_name		Silberfarben
 mstore_product21_desc		Be more than just an ordinary player.  Appear in the chat list above white players and below gold.
-mstore_product22_name		Flag- Australia
+mstore_product22_name		Flag- Australien
 mstore_product22_desc		
-mstore_product23_name		Flag- Austria
+mstore_product23_name		Flag- Österreich
 mstore_product23_desc		
-mstore_product24_name		Flag- Brazil
+mstore_product24_name		Flag- Bazilien
 mstore_product24_desc		
-mstore_product25_name		Flag- Canada
+mstore_product25_name		Flag- Kanada
 mstore_product25_desc		
 mstore_product26_name		Hero- Night Hound
 mstore_product26_desc		Sie sehen mich nicht kommen!
@@ -1980,16 +1980,16 @@ mstore_product678_name		Hero Massacre Pack
 mstore_product678_desc		Add 10 heroes to your pool at a discount.
 
 
-mstore_product999999001_name	Default Account Icon
-mstore_product999999002_name	Default Chat Symbol
-mstore_product999999003_name	Default Announcer
-mstore_product999999003_desc	Return to the original announcer.
-mstore_product999999004_name	Default Name Color
-mstore_product999999004_desc	Return to your original Name Color.
-mstore_product999999005_name	Tokens and Passes
+mstore_product999999001_name	Standard Account Icon
+mstore_product999999002_name	Standard Chatsymbol
+mstore_product999999003_name	Standard Ansager
+mstore_product999999003_desc	Wieder den Originalen Ansager benutzen
+mstore_product999999004_name	Standard Namensfarbe
+mstore_product999999004_desc	Wieder die Standard Namensfarbe benutzen
+mstore_product999999005_name	Spielsteine und Pässe
 mstore_product172_name		S2Games Logo
-mstore_product172_desc		S2Games Staff Icon
-mstore_product173_name		Gold Color
+mstore_product172_desc		S2Games Mitarbeiter Icon
+mstore_product173_name		Goldfarbe
 mstore_product173_desc		The few, the proud, the pre-purchasers.  Appear in the chat list below GMs and above silver players.
 mstore_product174_name		GM Badge
 mstore_product174_desc		Time to saddle up.
@@ -2013,7 +2013,7 @@ mstore_viewcost_desc	You need additional coins to purchase this item.
 
 mstore_category1			New
 mstore_category1_desc		These items have been recently added to the store.
-mstore_category2			Alternate Avatars
+mstore_category2		Alternate Avatars
 mstore_category2_short		Alt Avatars
 mstore_exttip_altavatars	Alternate Avatars can be chosen before each match.  If you see one you like before a match, you can always purchase from the Hero Selection screen, too.
 mstore_category2_desc		Alternate Avatars change the appearance and other properties of a hero.
@@ -2031,14 +2031,14 @@ mstore_category6			Miscellaneous
 mstore_category6_desc		Here you can purchase account modifications and additions.
 mstore_category7			Bundles
 mstore_category7_desc		Save precious Goblin Coins by purchasing items in groups at a discount!
-mstore_category16		Name Colors
+mstore_category16			Name Colors
 mstore_category16_desc		These items change the color of your nickname, give you a higher position in the chat list, and come with a symbol.
 mstore_exttip_namecolor		Name Colors are found in the chat list, in the in-game stat window, and on your forum account.  They come with a default symbol and give you a higher position in the chat list than colorless people.
-mstore_category27		Taunt
+mstore_category27			Taunt
 mstore_category27_desc		Purchase the ability to taunt players here!
-mstore_category56		Alternate Avatars
+mstore_category56			Alternate Avatars
 mstore_category56_desc		This section contains ways to customize Heroes and Couriers.
-mstore_category57		Couriers
+mstore_category57			Couriers
 mstore_category57_desc		Purchase a new look for your courier.
 mstore_category58			Early Access
 mstore_category58_desc		Want to be one of the first to play the latest Heroes?  Get the newest hero today!
@@ -2060,7 +2060,7 @@ mstore_tip_couriers_btnlock		If you own the courier, click this to lock its avat
 
 mstore_category59		Flaggen
 mstore_category59_desc		Choose from a long list of countries to represent!
-mstore_category60		Hero Symbols
+mstore_category60		Helden Symbole
 mstore_category60_desc		Avoiding real life? Choose a hero symbol instead!
 mstore_category61		Misc Symbols
 mstore_category61_desc
