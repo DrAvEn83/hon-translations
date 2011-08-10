@@ -1,7 +1,7 @@
 ﻿// Buttons
 BACKSPACE		Rücktaste
 TAB				Tab
-ENTER			Eingabetaste
+ENTER			Entertaste
 ESC				Escape
 SPACE			Leertaste
 CAPS_LOCK		Feststelltaste
@@ -9,14 +9,14 @@ SHIFT			Shift
 LSHIFT			Linke Shift
 RSHIFT			Rechte Shift
 CTRL			Strg
-LCTRL			Links Strg
-RCTRL			Rechts Strg
+LCTRL			Linke Strg
+RCTRL			Rechte Strg
 ALT				Alt
-LALT			Links Alt
-RALT			Rechts Alt
-WIN				Windowstaste
-LWIN			Linke Windowstaste
-RWIN			Rechte Windowstaste
+LALT			Linke Alt
+RALT			Rechte Alt
+WIN				Windows Taste
+LWIN			Linke Windows Taste
+RWIN			Rechte Windows Taste
 UP				Oben
 LEFT			Links
 DOWN			Unten
@@ -27,7 +27,7 @@ MULTIPLY		* (num)
 ADD				+ (num)
 SUBTRACT		- (num)
 DECIMAL			. (num)
-NUM_ENTER		Enter (num)
+NUM_ENTER		Entertaste (num)
 SEMI-COLON		;
 SLASH			/
 BACK_SLASH		\\
@@ -40,40 +40,40 @@ general_cancel								Abbrechen
 general_ok									OK
 general_edit								Bearbeiten
 general_accept								Akzeptieren
-general_go									Weiter
+general_go									Los
 general_connect								Verbinden
 general_disconnect							Trennen
 general_refresh								Aktualisieren
 general_private_game						Privates Spiel
-general_create_game							Spiel Erstellen
-general_send_message						Nachricht Senden
+general_create_game							Spiel erstellen
+general_send_message						Nachricht senden
 general_send								Senden
-general_add_friend							Freund Hinzufügen
+general_add_friend							Freund hinzufügen
 general_remove_friend						Freund entfernen
-general_select_server						Server Wählen
-general_quick_play							Schnellesspiel
-general_type								Art
+general_select_server						Server wählen
+general_quick_play							Schnelles Spiel
+general_type								Typ
 general_options								Optionen
-general_create_account						Account Erstellen
+general_create_account						Account erstellen
 general_local								Lokal
-general_channel_name						Name des Channels
+general_channel_name						Name des Kanales
 general_topic								Thema
 general_users								Benutzer
 general_server_name							Name des Servers
 general_ping								Ping
-general_game_name							Name des Spiels
+general_game_name							Name des Spieles
 general_players								Spieler
 general_game_mode							Spielmodus
 general_game_mode_short						Modus
-general_game_type							Spielart
+general_game_type							Spieltyp
 general_game_options						Spieloptionen
 general_yes									Ja
 general_no									Nein
 general_full_games							Volle Spiele
 general_all									Alle
 general_none								Keins
-general_view								View
-general_wait								Bitte warte...
+general_view								Anzeigen
+general_wait								Bitte warten...
 general_date								Datum
 general_decline								Ablehnen
 general_approve								Zustimmen
@@ -86,34 +86,34 @@ general_back								Zurück
 general_apply								Anwenden
 general_ready								Bereit
 general_error								Fehler
-general_retry								Erneut versuchen
+general_retry								Wiederholen
 general_login								Anmelden
-general_error_login							Anmeldung ehlgeschlagen
+general_error_login							Anmeldung fehlgeschlagen
 general_error_sea_deny						SEA Nutzer müssen sich über den Garena Client verbinden.
-general_error_sea_message1					Die Heroes of Newerth Beta für Spieler in Singapur, Malaisia, Vietnam und den Philippinen wird bald starten.  Wenn die Closed Beta startet, bekommen Spieler aus diesen Ländern sofort eine Betaeinladung, wenn sie Garena Gold Mitglieder sind, während die anderen Spieler die Einladungen durch andere Möglichkeiten bekommen. Please note that countries not stated here (e.g. Indonesia, Thailand) will be unable to play on Garena servers, and would require purchasing a paid account to enjoy the game in S2 Games' international servers.
-general_error_sea_message2					For more updates from the Garena Team regarding their Heroes of Newerth release, visit their blog at ^yhttp://blog.garena.com^* or the official Garena Heroes of Newerth website at ^yhttp://hon.garena.com^*.
+general_error_sea_message1					Die HoN Beta für die Spieler in Singapur, Malaysia, Vietnam und den Philippinen wird bald starten. Wenn die Geschlossene Beta startet, bekommen die Spieler aus diesen Ländern eine sofortige Betaeinladung, falls sie denn Garena Gold Mitglieder sind. Die anderen Spieler bekommen diese Einladungen durch diverse andere Möglichkeiten. Bitte beachte, dass Spieler die in den Ländern spielen die hier nicht aufgelistet sind (z.B. Indonesien, Thailand) nicht über Garena spielen können und sich einen Account kaufen müssen.
+general_error_sea_message2					Um mehr Informationen über HoN vom Garena Team zu erhalten, besuche doch einfach mal deren Blog ^yhttp://blog.garena.com^* oder die offizielle Garena HoN Webseite ^yhttp://hon.garena.com^*.
 general_quit								Beenden
 general_unavailable							Nicht verfügbar
 general_set_default							Als Standard festlegen
 general_addto_fav							Zu Favoriten hinzufügen
-general_basic								Basic
+general_basic								Standard
 general_verified							Verifiziert
 general_mode_all_heroes						Alle Helden
 general_mode_all_pick						All Pick
-general_mode_all_pick_desc					Standard Helden auswahl. Wer zuerst kommt mahlt zuerst.
+general_mode_all_pick_desc					Standard Helden Auswahl. Wer zuerst kommt, mahlt zuerst.
 general_mode_random_draft					Random Draft
-general_mode_random_draft_desc				Die Heldenauswahl wird auf 20 Helden beschränkt und dann wechseln sich die Spieler mit der Heldenauswahl ab.
+general_mode_random_draft_desc				Die Heldenauswahl wird auf 20 Helden beschränkt und dann wechseln sich die Spieler mit der Auswahl der Helden ab.
 general_mode_allrandom						All Random
-general_mode_allrandom_desc					Den Spielern werden zufällig Helden zugewiesen.
+general_mode_allrandom_desc					Jedem Spieler wird zufällig ein Held zugewiesen.
 general_mode_banningpick					Banning Pick
-general_mode_banningpick_desc				Blau und Pink bannen abwechselnd einen Helden bis insgesamt 8 Helden gebannt wurden und danach können sich die Spieler abwechselnd einen der übrig gebliebenden Helden auswählen.
+general_mode_banningpick_desc				Blau und Pink bannen abwechselnd einen Helden bis insgesamt 8 Helden gebannt wurden und danach können sich die Spieler abwechselnd einen der übrig gebliebenen Helden auswählen.
 general_mode_singledraft					Single Draft
 general_mode_singledraft_desc				Jeder Spieler bekommt eine Heldenauswahl mit einem AGI, einen INT und einem STR Helden.
 general_mode_banningdraft					Banning Draft
-general_mode_banningdraft_desc				Funktioniert genauso wie Zufalls Draft, außer dass zuerst Blau und Pink abwechselnd insgesamt 4 Helden bannen.
+general_mode_banningdraft_desc				Identisch mit Random Draft, außer das zuerst Blau und Pink abwechselnd insgesamt 4 Helden verbieten.
 general_mode_random							Zufälliger Held
-general_mode_verified						Nur Verifizierte
-general_mode_allPlayers						Standard und verfizierte Accounts							
+general_mode_verified						Nur Verifiziert
+general_mode_allPlayers						Standard und verifizierte Accounts
 general_mode_easy_mode						Einfacher Modus
 general_mode_no_hero_repick					Keine Heldenneuwahl
 general_mode_no_hero_swap					Kein Heldentausch
@@ -127,9 +127,9 @@ general_mode_super_creeps					Super Team Creeps
 general_mode_alt_hero_pick					Alt Hero Auswahl
 general_mode_duplicate_heroes				Doppelte Helden
 general_mode_reverse_hero_select			Reverse Hero Select
-general_mode_no_top_lane					Ohne Obersten Pfad
-general_mode_no_middle_lane					Ohne Mittleren Pfad
-general_mode_no_bottem_lane					Ohne Unteren Pfad
+general_mode_no_top_lane					Ohne Oberste Lane
+general_mode_no_middle_lane					Ohne Mittlere Lane
+general_mode_no_bottem_lane					Ohne Untere Lane
 general_mode_allow_veto						Veto erlauben
 general_mode_shuffle						Teams mischen
 general_mode_autobalance					Auto. abgleichen
@@ -5067,7 +5067,7 @@ sysbar_gold_tip_msg							Goldmünzen können dazu verwendet werden um etwas im 
 sysbar_silver_tip_title						Silbermünzen
 sysbar_silver_tip_msg						Silbermünzen können dazu verwendet werden um etwas im Store zu kaufen.
 sysbar_token_tip_title						Spielsteine und Pässe
-sysbar_token_tip_msg						Spielsteine und Pässe werden benutzt um bestimte Spiel Modi zu süielen
+sysbar_token_tip_msg						Spielsteine und Pässe werden benutzt um bestimmte Spiel Modi zu spielen
 sysbar_token_tip_title_legacy				Spielsteine und Pässe
 sysbar_token_tip_msg_legacy					As a legacy player, you have an infinite number of tokens and can play any game mode at any time.
 
