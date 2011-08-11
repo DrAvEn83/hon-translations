@@ -2397,22 +2397,22 @@ Hero_FlintBeastwood_description									For years, the Beasts told of a twisted 
 Hero_FlintBeastwood_role										With the longest range in the game, Flint Beastwood can unleash pain on faraway opponents with a combination of Flare and auto-attacks, while Money Shot allows him to pick off escaping heroes. His only weakness is his low survivability.
 
 // Ability_ForsakenArcher1
-Ability_ForsakenArcher1_name									Crippling Volley
-Ability_ForsakenArcher1_description								The Forsaken Archer fires a Volley of barbed arrows high into the sky, dispersing them over an area and pinning any enemy caught in their path to the ground.
-Ability_ForsakenArcher1_description_simple						Target a location to deal ^o{85,150,215,280} Magic Damage^* and ^oimmobilize for {1,1.5,2,2.5} seconds^*.
+Ability_ForsakenArcher1_name									Verkrüppelnde Salve
+Ability_ForsakenArcher1_description								Die Forsaken Archer feuert eine Salve von stachligen Pfeilen in den Himmel, die sich dann über eine Fläche verteilen und dadurch einen Gegner am Bosen festhalten.
+Ability_ForsakenArcher1_description_simple						Wähle eine Position aus um ^o{85,150,215,280} magischen Schaden^* zu verursachen und alles in dem Bereich für ^o{1,1.5,2,2.5} Sekunden bewegungsunfähig zu machen^*.
 Ability_ForsakenArcher1_description2							
-Ability_ForsakenArcher1_effect_header							Crippling Volley Effect
+Ability_ForsakenArcher1_effect_header							Verkrüppelnde Salve Effekt
 Ability_ForsakenArcher1_effect_header2							
-Ability_ForsakenArcher1_tooltip_flavor							Going somewhere?
-Ability_ForsakenArcher1_IMPACT_effect							Applies Crippling Volley to all enemies in the radius for {1,1.5,2,2.5} seconds. Deals {85,150,215,280} Magic Damage.
+Ability_ForsakenArcher1_tooltip_flavor							Willst du irgendwo hin?
+Ability_ForsakenArcher1_IMPACT_effect							Fügt allen Gegnern in einen Radius verkrüppelnde Salve zu für {1,1.5,2,2.5} Sekunden. Verursacht {85,150,215,280} magischen Schaden.
 
 // State_ForsakenArcher_Ability1
-State_ForsakenArcher_Ability1_name								Crippling Volley
+State_ForsakenArcher_Ability1_name								Verkrüppelnde Salve
 State_ForsakenArcher_Ability1_description						
 State_ForsakenArcher_Ability1_description2						
 
 // Ability_ForsakenArcher2
-Ability_ForsakenArcher2_name									Split Fire
+Ability_ForsakenArcher2_name									Gesplitteter Schusse
 Ability_ForsakenArcher2_description								By drawing even more from the stolen souls she keeps trapped in her quiver, the Forsaken Archer is able to fire arrows that split into parts, striking multiple targets.
 Ability_ForsakenArcher2_description_simple						When active, passively splits your attack into 4 separate attacks that each deal ^o{35,45,55,65}% damage^*.\n\nActivate to turn on Split Fire.
 Ability_ForsakenArcher2_description_simple:ForsakenArcher_Ability2_Active	When active, passively splits your attack into 4 separate attacks that each deal ^o{35,45,55,65}% damage^*.\n\nActivate to turn off Split Fire.
