@@ -289,7 +289,7 @@ vote_passed						Vote passed.
 vote_failed						Vote failed.
 
 team_concede					{color}{team}^* has conceded the match. Stats for the rest of the match will not be recorded and everyone is free to leave without penalty.
-game_abandoned					Your team mates have abandoned you. The match will continue, but you are now free to leave without penalty.
+game_abandoned					Your team mates have abandoned you. The match will continue, but you are now free to leave without increasing your Leaver %.
 afk_warning						You are in danger of being flagged as idle. Get out and fight!
 afk_message						You have now been marked as AFK and can be kicked.
 

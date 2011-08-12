@@ -40,6 +40,7 @@ disconnect_mm_start_timeout		Es hat zu lange gedauert bis alle Spieler mit dem l
 disconnect_basic				Standardaccount können kein Spiel erstellen.
 disconnect_no_tokens			Du brauchst Spielsteine oder einen Pass um diesem Modus spielen zu dürfen.
 disconnect_failed_refresh		Fehler bein neuladen der Verbesserungen. Du wurdest ausgeloggt.
+disconnect_no_match_id			The server failed to retrieve a match ID and was unable to start the match.
 
 rejected_invalid_request		Dein Client hat eine ungültige Verbindungsanfrage gestellt.
 rejected_empty_address			Der Server konnte Deine Adresse nicht ermitteln.

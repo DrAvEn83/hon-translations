@@ -1334,6 +1334,76 @@ Hero_Chronos_name												Chronos
 Hero_Chronos_description										Die größten Erfinder der Human Legion haben davon geträumt, eine Armee von Maschinenkriegern zu erschaffen, um der Menschheit die blutige Bürde des Krieges zu ersparen.  Es wurde lediglich ein einziges Exemplar davon geschaffen, da niemals ein Weg gefunden werden konnte, ihm Leben einzuhauchen.  Nachdem Die Hellbourne die mechanische Hülle mit einer erbeuteten Seele gespeist hatten, haben sie Chronos zum Leben erweckt und somit die Kontrolle des Monsters über die Zeit für sich beansprucht.
 Hero_Chronos_role												While frail early, a Chronos can become one of the most feared heroes in the late game after amassing a hefty amount of wealth through farming. Chronofield is best paired with ranged damagers, as it can lock down an unsuspecting team in a split second.
 
+// Ability_MasterOfArms1
+Ability_MasterOfArms1_name										Overcharge Shot
+Ability_MasterOfArms1_name:MasterOfArms_Electrical				Charged Shot
+Ability_MasterOfArms1_name:MasterOfArms_Magnetic				Blast Shot
+Ability_MasterOfArms1_description								Master Of Arms overcharges his weapon to shoot a powerful shot at the target enemy, dealing damage and either stunning or knocking a target away.
+Ability_MasterOfArms1_tooltip_flavor							Set Phasers to Stun! Or Blast!
+Ability_MasterOfArms1_description_simple						^bPulse Cannon^*\nTarget a unit to deal {75,125,175,225} Magic damage and Stuns for {1.2,1.4,1.6,1.8} seconds\n\n^rRepeater^*\nTarget a unit to deal {70,130,190,250} Magic damage and blasts the target 500 units away from the Master of Arms
+Ability_MasterOfArms1_description_simple:MasterOfArms_Electrical	^bPulse Cannon^*\nTarget a unit to deal ^o{75,125,175,225} Magic damage^* and apply a ^o{1.2,1.4,1.6,1.8} second Stun^*.\n^bPulse Cannon^*
+Ability_MasterOfArms1_description_simple:MasterOfArms_Magnetic		^rRepeater^*\nTarget a unit to deal ^o{70,130,190,250} Magic damage^* and blasts the target up and ^o500 units away^* from the Master of Arms\n^rRepeater^*
+Ability_MasterOfArms1_IMPACT_effect:MasterOfArms_Electrical		^bPulse Cannon^*\nDeals ^o{75,125,175,225} Magic damage^* and applys a ^o{1.2,1.4,1.6,1.8} second Stun^*.\n^bPulse Cannon^*
+Ability_MasterOfArms1_IMPACT_effect:MasterOfArms_Magnetic		^rRepeater^*\nDeals {70,130,190,250} Magic damage and blasts the target up and ^o500 units away^* from the Master of Arms\n^rRepeater^*
+
+// State_MasterOfArms_Ability1
+State_MasterOfArms_Ability1_Electrical_name						Zapped
+State_MasterOfArms_Ability1_Magnetic_name						Zapped
+
+// Ability_MasterOfArms2
+Ability_MasterOfArms2_name										Ace up my Sleeve
+Ability_MasterOfArms2_name:MasterOfArms_Electrical				Forked Lightning
+Ability_MasterOfArms2_name:MasterOfArms_Magnetic				Acid Bomb
+Ability_MasterOfArms2_description								Master Of Arms has many tricks up his sleeve, ranging from an acid bomb to the ability to shoot lightning!
+Ability_MasterOfArms2_tooltip_flavor							
+Ability_MasterOfArms2_description_simple						^bPulse Cannon^*\nTarget a location to fire out Lightning that deals Magic Damage and Snares, then splits into many more bolts.\n\n^rRepeater^*\nLobs an Acid Bomb that rolls, spraying acid that lowers armor and deals damage
+Ability_MasterOfArms2_description_simple:MasterOfArms_Electrical	^bPulse Cannon^*\nTarget a location to shoot Lightning that deals ^o{70,140,210,280} Magic Damage^* and applies a ^o1.5 second 80% Tapering Slow^*. The first target hit causes it to split into two more.\n\nLightning splits three times total.\n^bPulse Cannon^*
+Ability_MasterOfArms2_description_simple:MasterOfArms_Magnetic		^rRepeater^*\nTarget a location to lob an Acid Bomb there, rolling and spreading Acid an additional 800 units away from there. Acid ^olowers Armor by {2,3,4,5}^* and deals ^o{20,40,60,80} Physical Damage per second^*.\n\nAcid lasts for 8 seconds.\n^rRepeater^*
+Ability_MasterOfArms2_IMPACT_effect:MasterOfArms_Electrical		^bPulse Cannon^*\n- Shoots Lightning that hits every unit in a line, dealing ^o{70,140,210,280} Magic Damage^* and applying a ^o1.5 second 80% Tapering Slow^*. The first target hit causes it to split into two more at 45 degree angles that travel up to 800 units.\n\n- Lightning splits three times total.\n^bPulse Cannon^*
+Ability_MasterOfArms2_IMPACT_effect:MasterOfArms_Magnetic		^rRepeater^*\nTarget a location to lob an Acid Bomb there, rolling and spreading Acid an additional 800 units away from there. Acid ^olowers Armor by {2,3,4,5}^* and deals ^o{20,40,60,80} Physical Damage per second^*.\n\nAcid lasts for 8 seconds.\n^rRepeater^*
+
+// State_MasterOfArms_Ability2
+State_MasterOfArms_Ability2_Magnetic_name						Immobilizer
+State_MasterofArms_Ability2_Chemical_name						Acid Bomb
+State_MasterofArms_Ability2_Chemical_FRAME_effect				{20,40,60,80} Physical Damage per second
+
+// Ability_MasterOfArms3
+Ability_MasterOfArms3_name										Weapon Enhancement
+Ability_MasterOfArms3_name:MasterOfArms_Electrical				Pulse Cannon
+Ability_MasterOfArms3_name:MasterOfArms_Magnetic				Repeater
+Ability_MasterOfArms3_description								Master Of Arms gains additional effects on his weapons as he gets more experienced with them.
+Ability_MasterOfArms3_tooltip_flavor							Red vs Blue
+Ability_MasterOfArms3_description_simple						^bPulse Cannon^*\nPulling out his rifle, the Pulse Cannon adds {0,8,16,24,32}% Base Damage and {0,25,50,75,100} Attack Range.\n\n^rRepeater^*\nSwitching to his trusty Repeater, Master of Arm's Attack Damage is halved and his Attack Speed is extremely fast, but he is limited by a clip and can only shoot 12 bullets before needing to reload.
+Ability_MasterOfArms3_description_simple:MasterOfArms_Electrical	^bPulse Cannon^*\nThis ability has 5 levels so you can swap weapons without needing to level it first.\n\n Adds ^o{0,8,16,24,32}% Base Damage^* and ^o{0,25,50,75,100} Attack Range^*.\n^bPulse Cannon^*
+Ability_MasterOfArms3_description_simple:MasterOfArms_Magnetic		^rRepeater^*\nThis ability has 5 levels so you can swap weapons without needing to level it first.\n\nOnce leveled up, ^oreduces Attack Damage by 50%^* and ^oincreses Attackspeed by {0,100,200,300,400}^*.\n\nCan only shoot 12 bullets before needing to Reload. Reloading takes 4 seconds\n^rRepeater^*
+Ability_MasterOfArms3_IMPACT_effect:MasterOfArms_Electrical		^bPulse Cannon^*\nThis ability has 5 levels so you can swap weapons without needing to level it first.\n\n Adds ^o{0,8,16,24,32}% Base Damage^* and ^o{0,25,50,75,100} Attack Range^*.\n^bPulse Cannon^*
+Ability_MasterOfArms3_IMPACT_effect:MasterOfArms_Magnetic		^rRepeater^*\nThis ability has 5 levels so you can swap weapons without needing to level it first.\n\nOnce leveled up, ^oreduces Attack Damage by 50%^* and ^oincreses Attackspeed by {0,100,200,300,400}^*.\n\nCan only shoot 12 bullets before needing to Reload. Reloading takes 4 seconds\n^rRepeater^*
+
+// Ability_MasterOfArms4
+Ability_MasterOfArms4_name										Master's Call
+Ability_MasterOfArms4_description								Master Of Arms can help any ally on the map with his best abilities
+Ability_MasterOfArms4_tooltip_flavor							I always liked playing Commander...
+Ability_MasterOfArms4_description_simple						^bPulse Cannon^*\nTarget an allied unit to grant them {75,125,175} Movespeed, {50,75,100} Cast Speed, and {50,75,100} Attack Speed for 5 seconds\n\n^rRepeater^*\nTarget an allied unit to give them a shield that absorbs {250,350,450} post-mitigation Damage. Lasts 10 seconds.
+Ability_MasterOfArms4_description_simple:MasterOfArms_Electrical	^bPulse Cannon^*\nTarget an allied unit to grant them ^o{75,125,175} Movespeed^*, ^o{50,75,100} Cast Speed^*, and ^o{50,75,100} Attack Speed^* for 5 seconds\n^bPulse Cannon^*
+Ability_MasterOfArms4_description_simple:MasterOfArms_Magnetic		^rRepeater^*\nTarget an allied unit to give them a shield that absorbs ^o{250,350,450} post-mitigation Damage^*. Lasts 10 seconds.\n^rRepeater^*
+Ability_MasterOfArms4_IMPACT_effect:MasterOfArms_Electrical		^bPulse Cannon^*\nTarget an allied unit to grant them ^o{75,125,175} Movespeed^*, ^o{50,75,100} Cast Speed^*, and ^o{50,75,100} Attack Speed^* for 5 seconds.\n\nYou can click the ground and it will automatically cast on the allied hero nearest that location. Works when clicking the Minimap as well.\n^bPulse Cannon^*
+Ability_MasterOfArms4_IMPACT_effect:MasterOfArms_Magnetic		^rRepeater^*\nTarget an allied unit to give them a shield that absorbs ^o{250,350,450} post-mitigation Damage^*. Lasts 10 seconds.\n\nYou can click the ground and it will automatically cast on the allied hero nearest that location. Works when clicking the Minimap as well.\n^rRepeater^*
+
+// State_MasterOfArms_Ability4
+State_MasterOfArms_Ability4_Magnetic_name						Magnetic Shield
+State_MasterOfArms_Ability4_Chemical_name						Speed Boost
+
+// Hero_MasterOfArms
+Hero_MasterOfArms_name											Master Of Arms
+Hero_MasterOfArms_description									RALLY TO ME SOLDIERS
+
+// Item_MasterOfArmsItem
+Item_MasterOfArmsItem_name										Weapon of Choice
+Item_MasterOfArmsItem_description								Three weapons to pick from. A Sniper Rifle, Machinegun, and Flamethrower. Toggles between the 3 weapons when used.
+Item_MasterOfArmsItem_IMPACT_effect:MasterOfArms_Item_Elec		Pulse Cannon
+Item_MasterOfArmsItem_IMPACT_effect:MasterOfArms_Item_Chem		Incinerator
+Item_MasterOfArmsItem_IMPACT_effect:MasterOfArms_Item_Mag		Repeater
+
 // Ability_CorruptedDisciple1
 Ability_CorruptedDisciple1_name									Electric Tide
 Ability_CorruptedDisciple1_description							The Corrupted Disciple unleashes an Electric Tide from his Orb, dealing damage to everyone around himself as the Tide expands and contracts.
@@ -1736,6 +1806,121 @@ Ability_DiseasedRider4_description2:ult_boost					This ability has been boosted 
 Ability_DiseasedRider4_IMPACT_effect:ult_boost					Deals ^g{370,460,550}^* Magic Damage to the target and mini-stuns the first target it hits, then bounces to another enemy within 600 units. Bounces 7 times.\n\nApplies Infected to target for 4 seconds.
 
 Ability_DiseasedRider4_tooltip_flavor							You dirty rat!
+
+// State_Ability4
+State_DiseasedRider_Ability4_name								Infected
+
+// Hero_DiseasedRider
+Hero_DiseasedRider_name											Plague Rider
+Hero_DiseasedRider_description									The pestilential stench of the Plague Rider can be smelled for miles, a foul warning of the diseases following in its wake.  Mounted atop his undead steed, carried aloft on a stinking cloud of flies, the Plague Rider sows sickness among friends and enemies alike, all with the end of spreading disease across the lands of Newerth.
+Hero_DiseasedRider_role											The Plague Rider has nearly limitless mana from consuming units with Extinguish and is able to buff his team with Cursed Shield. While Contagion is a strong spell, the Plague Rider requires his team be able to clear creeps with area-of-effect damage to make the most out of Plague Carrier. 
+
+// Ability_Rhapsody1
+Ability_Rhapsody1_name											Staccato
+Ability_Rhapsody1_description									Rhapsody sings a verse that causes her target to stagger with every note.
+Ability_Rhapsody1_description2										
+Ability_Rhapsody1_description_simple							Target an enemy unit to deal ^o{50,60,70,80} Magic Damage and a 1 second stun^*. Staccato then gains ^o{1,2,3,4} charges^*. Activating again will consume a charge and deal ^o50 Magic Damage and a .25 second stun^* to the target.
+Ability_Rhapsody1_effect_header										
+Ability_Rhapsody1_effect_header2									
+Ability_Rhapsody1_tooltip_flavor								I'm the queen of pop!
+Ability_Rhapsody1_FRAME_effect										
+Ability_Rhapsody1_IMPACT_effect									Deals {50,60,70,80} Magic Damage and a 1 second stun to the target.\n\nGains {1,2,3,4} charges. Activate again to consume a charge and deal 50 Magic Damage and a .25 second stun to the target.
+
+// State_Rhapsody_Ability1_Self
+State_Rhapsody_Ability1_Self_name									
+State_Rhapsody_Ability1_Self_description							
+State_Rhapsody_Ability1_Self_description2							
+State_Rhapsody_Ability1_Self_description_simple						
+State_Rhapsody_Ability1_Self_FRAME_effect							
+State_Rhapsody_Ability1_Self_EXPIRED_effect							
+State_Rhapsody_Ability1_Self_INFLICT_effect							
+
+// State_Rhapsody_Ability1_Target
+State_Rhapsody_Ability1_Target_name								Staccato
+State_Rhapsody_Ability1_Target_description						You will take damage and be mini-stunned for each note that Rhapsody sings
+State_Rhapsody_Ability1_Target_description2							
+State_Rhapsody_Ability1_Target_description_simple					
+State_Rhapsody_Ability1_Target_FRAME_effect							
+State_Rhapsody_Ability1_Target_INFLICT_effect						
+
+// Ability_Rhapsody2
+Ability_Rhapsody2_name											Disco Inferno
+Ability_Rhapsody2_description									Rhapsody creates an epic dance floor upon which enemies and allies alike are inclined to jive.
+Ability_Rhapsody2_description2										
+Ability_Rhapsody2_description_simple							Target a location to create a dance floor for ^o6 seconds^*. Enemies on the dance floor who stop moving take ^o{20,40,60,80} Magic Damage per second^* and allies who stop moving heal ^g{10,20,30,40} Health per second^*.
+Ability_Rhapsody2_effect_header										
+Ability_Rhapsody2_effect_header2									
+Ability_Rhapsody2_tooltip_flavor								STOP! Hammer time.
+Ability_Rhapsody2_IMPACT_effect									Creates a dance floor with 400 radius at target location for 6 seconds.\n\nEnemies who stop moving on the dance floor take {20,40,60,80} Magic Damage per second, with a .5 second linger time.\n\nAllies who stop moving on the dance floor heal {10,20,30,40} Health per second, with a .5 second linger time.
+
+// Gadget_Rhapsody_Ability2
+Gadget_Rhapsody_Ability2_name										
+Gadget_Rhapsody_Ability2_description								
+Gadget_Rhapsody_Ability2_role										
+
+// State_Rhapsody_Ability2_Ally
+State_Rhapsody_Ability2_Ally_name								Grooving
+State_Rhapsody_Ability2_Ally_description						Healing {10,20,30,40} Health per second
+State_Rhapsody_Ability2_Ally_description2							
+State_Rhapsody_Ability2_Ally_description_simple					Healing ^o{10,20,30,40} Health per second^*
+State_Rhapsody_Ability2_Ally_FRAME_effect							
+
+// State_Rhapsody_Ability2_Enemy
+State_Rhapsody_Ability2_Enemy_name								Dancing the Wrong Dance
+State_Rhapsody_Ability2_Enemy_description						Taking {20,40,60,80} Magic Damage per second
+State_Rhapsody_Ability2_Enemy_description2							
+State_Rhapsody_Ability2_Enemy_description_simple				Taking ^o{20,40,60,80} Magic Damage per second^*
+State_Rhapsody_Ability2_Enemy_FRAME_effect							
+
+// Ability_Rhapsody4
+Ability_Rhapsody4_name											Protective Melody
+Ability_Rhapsody4_description									Rhapsody's song protects nearby allies from all physical and magical harm
+Ability_Rhapsody4_description2										
+Ability_Rhapsody4_description_simple							Activate to channel for up to ^o{4,5,6} seconds^*, granting nearby allies ^o1000 Armor and Magic Armor^*.
+Ability_Rhapsody4_effect_header										
+Ability_Rhapsody4_effect_header2									
+Ability_Rhapsody4_tooltip_flavor								My heart will go on and on~
+Ability_Rhapsody_Ability4_IMPACT_effect							Activate to channel for {4,5,6} seconds, granting allies in a 500 radius 1000 Armor and Magic Armor.
+
+// State_Rhapsody_Ability4_Buff
+State_Rhapsody_Ability4_name									Protected by Song
+State_Rhapsody_Ability4_description									
+State_Rhapsody_Ability4_description2								
+State_Rhapsody_Ability4_description_simple							
+State_Rhapsody_Ability4_FRAME_effect								
+State_Rhapsody_Ability4_ABILITY_IMPACT_effect		
+
+// State_Rhapsody_Ability4_Self
+State_Rhapsody_Ability4_name									Singing like a diva
+State_Rhapsody_Ability4_description									
+State_Rhapsody_Ability4_description2								
+State_Rhapsody_Ability4_description_simple							
+State_Rhapsody_Ability4_FRAME_effect								
+State_Rhapsody_Ability4_ABILITY_IMPACT_effect					
+
+// Ability_Rhapsody3
+Ability_Rhapsody3_name											Arcane Hymn
+Ability_Rhapsody3_description									Rhapsody sings arcane incantations, constantly enhancing nearby allies' magical abilities.
+Ability_Rhapsody3_description2									Passive grants nearby allies {1,2,3,4} Magic Armor Penetration and {6,12,18,24}% Magic Damage Lifesteal against enemy heroes.
+Ability_Rhapsody3_description_simple							Passive grants nearby allies ^o{1,2,3,4} Magic Armor Penetration and {6,12,18,24}% Magic Damage Lifesteal^* against enemy heroes.
+Ability_Rhapsody3_effect_header										
+Ability_Rhapsody3_effect_header2									
+Ability_Rhapsody3_tooltip_flavor								Boom boom pow!
+Ability_Rhapsody3_IMPACT_effect										
+Ability_Rhapsody3_LEARN_effect										
+
+// State_Rhapsody_Ability3								
+State_Rhapsody_Ability3_name									Arcane Hymn
+State_Rhapsody_Ability3_description						
+State_Rhapsody_Ability3_description2						
+State_Rhapsody_Ability3_description_simple				
+State_Rhapsody_Ability3__effect		
+State_Rhapsody_Ability3_FRAME_effect							{6,12,18,24}% Magic Damage Lifesteal\n{1,2,3,4} Magic Armor Penetration								
+
+// Hero_Rhapsody
+Hero_Rhapsody_name												Rhapsody
+Hero_Rhapsody_description										A long, long time ago, I can still remember how that Rhapsody came to join the Legion. She knew if she had her chance, she could make the Malphas sing and dance, and maybe it would stop killing her fans. But then she ran into Slither, who poisoned her fans there and hither, she could no longer bear it, so she did so swear it. She pledged her life to the Legion cause, took Jeraziah as her boss, who consoled Rhapsody for her loss, and vowed to be at her side.
+Hero_Rhapsody_role												Rhapsody is a support hero who specializes in Magic Damage. She can significantly amplify the damage output and survivability of a Magic Damage team, while putting out solid stunning and damage potential of her own. Her AoE heal and protective ultimate give her the ability to turn the tides of a fight.
 
 // State_Ability4
 State_DiseasedRider_Ability4_name								Infected
@@ -2854,6 +3039,13 @@ Ability_Malphas2_description_simple								Target a unit or location to deal ^o{
 Ability_Malphas2_effect_header									Status Effect
 Ability_Malphas2_IMPACT_effect									Verursacht in einer Linie {100,150,200} Magischen Schaden an jedem Zielobjekt.
 
+// Ability_Malphas2_Alt
+Ability_Malphas2_Alt_name										Fire Breath
+Ability_Malphas2_Alt_description								Burns stuff.
+Ability_Malphas2_Alt_description_simple							Target a unit or location to deal ^o{100,150,200} Magic Damage^* in a cone.
+Ability_Malphas2_Alt_effect_header								Status Effect
+Ability_Malphas2_Alt_IMPACT_effect								Deals {100,150,200} Magic Damage to each target in a cone.
+
 // Ability_Malphas3
 Ability_Malphas3_name											Burning Sword
 Ability_Malphas3_description									Passiv. Stattet Angriffe mit einem Feuerschaden aus, der im Laufe der Zeit Magischen Schaden verursacht.
@@ -2868,6 +3060,9 @@ State_Malphas_Ability3_FRAME_effect								{5,10,15} Magischer Schaden pro Sekun
 
 // Pet_Hellbringer_Ability4
 Pet_Hellbringer_Ability4_name									Malphas
+
+// Pet_Hellbringer_Ability4_Alt
+Pet_Hellbringer_Ability4_Alt_name								Malphas
 
 // Ability_HellDemon1
 Ability_HellDemon1_name											Judgment
@@ -5330,12 +5525,26 @@ Ability_MonkeyKing2_IMPACT_effect								Vault over a unit, jumping 300 distance
 Ability_MonkeyKing2_description_simple							Vault over a unit, jumping in front of it (distance doubled if building). Enemies at your landing point take ^o{100,150,200,250} Physical Damage^* and ^o2 seconds of {20,40,60,80}% slow^*.\n\nIf the target is an enemy, it will be pushed back 200 distance and take the same damage and slow.\n\n^yVault may be cast a second time for half damage.^*
 Ability_MonkeyKing2_tooltip_flavor								"...able to ascend a great distance in a single bound..."
 
+// Ability_MonkeyKing2_Alt
+Ability_MonkeyKing2_Alt_name									Heavenly Vault
+Ability_MonkeyKing2_Alt_description								The Monkey King vaults over a unit, jumping in front of it while knocking it backwards.
+Ability_MonkeyKing2_Alt_IMPACT_effect							Vault over a unit, jumping 300 distance in front of it (600 if building). Enemies at your landing point take {100,150,200,250} Physical Damage and 2 seconds of {20,40,60,80}% slow.\n\nIf the target is an enemy, it will be pushed back 200 distance and take the same damage and slow.\n\n^oVault may be cast a second time for half damage.^*
+Ability_MonkeyKing2_Alt_description_simple						Vault over a unit, jumping in front of it (distance doubled if building). Enemies at your landing point take ^o{100,150,200,250} Physical Damage^* and ^o2 seconds of {20,40,60,80}% slow^*.\n\nIf the target is an enemy, it will be pushed back 200 distance and take the same damage and slow.\n\n^yVault may be cast a second time for half damage.^*
+Ability_MonkeyKing2_Alt_tooltip_flavor							"...able to ascend a great distance in a single bound..."
+
 // Ability_MonkeyKing3
 Ability_MonkeyKing3_name										Wan Jin Slam
 Ability_MonkeyKing3_description									The Monkey King slams the ground in front of him, raising a mound of earth that disrupts enemies on both creation and destruction.
 Ability_MonkeyKing3_IMPACT_effect								Affected enemies are launched into the air for .5 seconds and take {60,90,120,150} Magic Damage.\n\nAfter 2 seconds, the rock implodes, causing the same effect.\n\n^oYou may Vault on the volcano as if it were a building.^*
 Ability_MonkeyKing3_description_simple							Slam the ground in front of you, raising a small rock. Nearby enemies will be launched into the air for .5 seconds and take ^o{60,90,120,150} Magic Damage.^*\n\nAfter 2 seconds, the rock implodes, again launching nearby enemies into the air and dealing the same damage.\n\n^yYou may Heavenly Vault on the rock as if it were a building.^*
 Ability_MonkeyKing3_tooltip_flavor								"...wielding a magical staff over 10,000 jin with ease..."
+
+// Ability_MonkeyKing3_Alt
+Ability_MonkeyKing3_Alt_name									Wan Jin Slam
+Ability_MonkeyKing3_Alt_description								The Monkey King slams the ground in front of him, raising a mound of earth that disrupts enemies on both creation and destruction.
+Ability_MonkeyKing3_Alt_IMPACT_effect							Affected enemies are launched into the air for .5 seconds and take {60,90,120,150} Magic Damage.\n\nAfter 2 seconds, the rock implodes, causing the same effect.\n\n^oYou may Vault on the volcano as if it were a building.^*
+Ability_MonkeyKing3_Alt_description_simple						Slam the ground in front of you, raising a small rock. Nearby enemies will be launched into the air for .5 seconds and take ^o{60,90,120,150} Magic Damage.^*\n\nAfter 2 seconds, the rock implodes, again launching nearby enemies into the air and dealing the same damage.\n\n^yYou may Heavenly Vault on the rock as if it were a building.^*
+Ability_MonkeyKing3_Alt_tooltip_flavor							"...wielding a magical staff over 10,000 jin with ease..."
 
 // Ability_MonkeyKing4	
 Ability_MonkeyKing4_name										Flying Nimbus
@@ -5352,6 +5561,10 @@ State_MonkeyKing_Ability1_description							You may cast a second Illusive Strik
 // State_MonkeyKing_Ability2_Linger
 State_MonkeyKing_Ability2_Linger_name							Heavenly Vault
 State_MonkeyKing_Ability2_Linger_description					You may cast a second Heavenly Vault.
+
+// State_MonkeyKing_Ability2_Linger_Alt
+State_MonkeyKing_Ability2_Linger_Alt_name						Heavenly Vault
+State_MonkeyKing_Ability2_Linger_Alt_description				You may cast a second Heavenly Vault.
 
 // State_MonkeyKing_Ability2_Slow
 State_MonkeyKing_Ability2_Slow_name								Heavenly Vault
