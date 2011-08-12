@@ -40,6 +40,7 @@ disconnect_mm_start_timeout		It has taken too long for all of the players to fin
 disconnect_basic				Basic accounts cannot create games.
 disconnect_no_tokens			You need tokens or a pass to play this mode.
 disconnect_failed_refresh		Error when refreshing upgrades. You have been logged out.
+disconnect_no_match_id			The server failed to retrieve a match ID and was unable to start the match.
 
 rejected_invalid_request		Your client sent an invalid connection request.
 rejected_empty_address			The server failed to determine your address.
