@@ -1396,6 +1396,7 @@ State_MasterOfArms_Ability4_Chemical_name						Speed Boost
 // Hero_MasterOfArms
 Hero_MasterOfArms_name											Master Of Arms
 Hero_MasterOfArms_description									RALLY TO ME SOLDIERS
+Hero_MasterOfArms_role											Master of Arms is a ranged carry who has a reliable stun, good area damage, and can take advantage of certain item builds like no other hero. Nullfire Blade or Charged Hammer let him excel. Keep in mind each of his abilities are actually two abilities that share a cooldown and change based on your weapon choice.
 
 // Item_MasterOfArmsItem
 Item_MasterOfArmsItem_name										Weapon of Choice
@@ -1819,8 +1820,8 @@ Ability_Rhapsody1_FRAME_effect
 Ability_Rhapsody1_IMPACT_effect									Deals {50,60,70,80} Magic Damage and a 1 second stun to the target.\n\nGains {1,2,3,4} charges. Activate again to consume a charge and deal 50 Magic Damage and a .25 second stun to the target.
 
 // State_Rhapsody_Ability1_Self
-State_Rhapsody_Ability1_Self_name									
-State_Rhapsody_Ability1_Self_description							
+State_Rhapsody_Ability1_Self_name								Staccato	
+State_Rhapsody_Ability1_Self_description						While this state is active, activating Staccato will deal 50 Magic Damage and a 0.25 second stun to the target of Staccato.
 State_Rhapsody_Ability1_Self_description2							
 State_Rhapsody_Ability1_Self_description_simple						
 State_Rhapsody_Ability1_Self_FRAME_effect							
@@ -1876,7 +1877,7 @@ Ability_Rhapsody_Ability4_IMPACT_effect							Activate to channel for {4,5,6} se
 
 // State_Rhapsody_Ability4_Buff
 State_Rhapsody_Ability4_name									Protected by Song
-State_Rhapsody_Ability4_description									
+State_Rhapsody_Ability4_description								Protected by Rhapsody's awesomeness	
 State_Rhapsody_Ability4_description2								
 State_Rhapsody_Ability4_description_simple							
 State_Rhapsody_Ability4_FRAME_effect								
@@ -1884,7 +1885,7 @@ State_Rhapsody_Ability4_ABILITY_IMPACT_effect
 
 // State_Rhapsody_Ability4_Self
 State_Rhapsody_Ability4_name									Singing like a diva
-State_Rhapsody_Ability4_description									
+State_Rhapsody_Ability4_description								In channel to grant nearby allies 1000 Armor and Magic Armor	
 State_Rhapsody_Ability4_description2								
 State_Rhapsody_Ability4_description_simple							
 State_Rhapsody_Ability4_FRAME_effect								
@@ -1994,8 +1995,8 @@ Ability_DrunkenMaster2_description								Channel to drink deeply, making Drunke
 Ability_DrunkenMaster2_description2								
 Ability_DrunkenMaster2_effect_header							Drinking Effects
 Ability_DrunkenMaster2_tooltip_flavor							Yummy yummy yummy
-Ability_DrunkenMaster2_description_simple						On use, channels for up to 3 seconds. Each second, you gain ^o{2,3,4,5} Drunk charges^*.\n\nDrunk charges wear off 1 every 3 seconds and heal you for ^o25 health^* when this happens. ^oMax of 20 charges^*.
-Ability_DrunkenMaster2_IMPACT_effect							On use, channels for up to 3 seconds. Each second, you gain {2,3,4,5} Drunk charges.\n\nDrunk charges wear off 1 every 3 seconds and heal you for 25 health when this happens. Max of 20 charges.
+Ability_DrunkenMaster2_description_simple						On use, channels for up to 2 seconds. Each second, you gain ^o{2,4,6,8} Drunk charges^*.\n\nDrunk charges wear off 1 every 3 seconds and heal you for ^o25 health^* when this happens. If an enemy hero within 500 distance dies, you gain ^o{2,4,6,8} Drunk charges^*. ^oMax of 20 charges^*.
+Ability_DrunkenMaster2_IMPACT_effect							On use, channels for up to 2 seconds. Each second, you gain {2,4,6,8} Drunk charges.\n\nDrunk charges wear off 1 every 3 seconds and heal you for 25 health when this happens. If an enemy hero within 500 distance dies, you gain {2,4,6,8} Drunk charges. Max of 20 charges.
 
 // State_Drunkenmaster_Ability2_Channel
 State_Drunkenmaster_Ability2_Channel_name						Drinking
@@ -2706,8 +2707,8 @@ Hero_Frosty_role												As one of the few heroes who has a global aura, Glac
 // Ability_Gauntlet1
 Ability_Gauntlet1_name											Infernal Instability
 Ability_Gauntlet1_description									The demonic force powering Gauntlet's massive glove grows unstable. If Gauntlet hits anything in the next couple of seconds, some of the demonic power inside it will detonate, damaging and knocking back all nearby enemies.
-Ability_Gauntlet1_description2
-Ability_Gauntlet1_description_simple							Activate to charge up Gauntlet's fist for ^o4 seconds^*.\n\nWhile charged up, Gauntlet gains ^o40 Movement Speed^* and his next attack deals ^o{120,180,260,320} Magic Damage^* in a radius around the target.
+Ability_Gauntlet1_description2									50% of the mana cost is refunded if he does not hit an enemy.
+Ability_Gauntlet1_description_simple							Activate to charge up Gauntlet's fist for ^o4 seconds^*.\n\nWhile charged up, Gauntlet gains ^o40 Movement Speed^* and his next attack deals ^o{120,180,260,320} Magic Damage^* in a radius around the target. 50% of the mana cost if refunded if he does not hit an enemy.
 Ability_Gauntlet1_effect_header									Infernal Instability
 Ability_Gauntlet1_tooltip_flavor								Tag.
 Ability_Gauntlet1_IMPACT_effect									On use, applies Infernal Instability to self for 4 seconds and gives max charges to Enfeeble.\n\nWhile Infernal Instability is active, Gauntlet's hand will detonate on the first target that he attacks.\n\nUpon detonation, deals {120,180,260,320} Magic Damage in the radius, pushing back units near the hit target.
@@ -4687,7 +4688,7 @@ Hero_Ra_role													Amun-Ra is a "DPS Tank" in that he is capable of both d
 // Ability_Ra1
 Ability_Ra1_name												Path of Destruction
 Ability_Ra1_description											^rCosts 15% Max Health to cast.^*\n\nCreate a path of flames in front of you culminating in a meteor. While on the path, you may walk through anything. Enemies struck by the meteor are damaged and stunned while you gain movement speed.
-Ability_Ra1_description_simple									^rCosts 15% Max Health to cast.^*\n\nCreate a path of flames to walk through anything, ending in a meteor.\n\nThe meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies, healing Amun-Ra for ^r5% Max Health^* per enemy hero.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
+Ability_Ra1_description_simple									^rCosts 15% Max Health to cast.^*\n\nTarget a position to create a path of flames to walk through anything, ending in a meteor.\n\nThe meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies, healing Amun-Ra for ^r5% Max Health^* per enemy hero.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
 Ability_Ra1_IMPACT_effect										The meteor inflicts a ^o1 second stun^* and ^o{110,180,250,320} Magic Damage^* on enemies. Amun-Ra is healed for ^r5% Max Health^* per enemy hero impacted.\n\nIf Amun-Ra is struck by the meteor, he gains ^o{20,40,60,80} Movement Speed^* for 6 seconds and ^r5% Max Health^*.
 
 // Ability_Ra2
@@ -5532,10 +5533,10 @@ Ability_MonkeyKing3_Alt_tooltip_flavor							"...wielding a magical staff over 1
 
 // Ability_MonkeyKing4	
 Ability_MonkeyKing4_name										Flying Nimbus
-Ability_MonkeyKing4_description									The Monkey King summons his trusty Nimbus Cloud, gaining a large movement speed boost. He also passively reduces ability cooldowns by using abilities.
+Ability_MonkeyKing4_description									The Monkey King summons his trusty Nimbus Cloud when out of combat, gaining a large movement speed boost. He also passively reduces ability cooldowns by using abilities.
 Ability_MonkeyKing4_description2								Passively reduces ability cooldowns by {.5,.75,1} second when the Monkey King uses an ability.
-Ability_MonkeyKing4_IMPACT_effect								When toggled on, grants {10,15,20}% bonus Movement Speed.\n\nIf you take damage while on the Flying Nimbus, the cloud dissipates and a 10 second cooldown begins.\nIf you take damage while not on the Flying Nimbus, a 5 second cooldown begins.
-Ability_MonkeyKing4_description_simple							^rNon-combat mount.^* On activation, jumps upon your trusty Flying Nimbus, granting ^o{10,15,20}% bonus Movement Speed^*. Dissipates and goes on cooldown when you take damage. \n\nPassively decreases the cooldown of your abilities by ^o{.5,.75,1} second^* every time you use an ability.
+Ability_MonkeyKing4_IMPACT_effect								When not taking damage for 5 seconds, passively grants {10,15,20}% bonus Movement Speed. Dissipates on damage taken.
+Ability_MonkeyKing4_description_simple							^rNon-combat mount.^* When not taking d amage for 5 seconds, passively jump upon your trusty Flying Nimbus, granting ^o{10,15,20}% bonus Movement Speed^*. Dissipates and goes on cooldown when you take damage. \n\nPassively decreases the cooldown of your abilities by ^o{.5,.75,1} second^* every time you use an ability.
 Ability_MonkeyKing4_tooltip_flavor								"...The Monkey King commands even the elements in his holy journey."
 
 // State_MonkeyKing_Ability1
@@ -6928,13 +6929,13 @@ Item_ManaEye_IMPACT_effect										Places a Ward of Revelation at target locati
 
 // Item_ManaPotion
 Item_ManaPotion_name											Mana Potion
-Item_ManaPotion_description										When activated, grants +3.33 Mana Regeneration to self for 30 seconds.
-Item_ManaPotion_description_simple								Use to regenerate 100 Mana over 30 seconds.
+Item_ManaPotion_description										When activated, grants +5 Mana Regeneration to self for 20 seconds.
+Item_ManaPotion_description_simple								Use to regenerate 100 Mana over 20 seconds.
 Item_ManaPotion_search_terms									manapotion,manapot,manapotions,manapots,claritypotion,claritypotions,clarities,claritys,mpregen,mpregeneration,manaregen,manaregeneration,regen,regeneration,pot,pots,potion,mana,mp,cp
 Item_ManaPotion_effect_header									Mana Potion Effects
 Item_ManaPotion_shop_flavor										A simple alchemist's nostrum that replenishes magic energy over a period of time.
 Item_ManaPotion_shop_categories									Filter_Consumable,Filter_Regeneration
-Item_ManaPotion_IMPACT_effect									Applies Mana Potion to self for 30 seconds, restoring a total of 100 Mana.
+Item_ManaPotion_IMPACT_effect									Applies Mana Potion to self for 20 seconds, restoring a total of 100 Mana.
 
 // State_ManaPotion
 State_ManaPotion_name											Mana Potion

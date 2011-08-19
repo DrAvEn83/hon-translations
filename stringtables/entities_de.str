@@ -1396,6 +1396,7 @@ State_MasterOfArms_Ability4_Chemical_name						Speed Boost
 // Hero_MasterOfArms
 Hero_MasterOfArms_name											Master Of Arms
 Hero_MasterOfArms_description									RALLY TO ME SOLDIERS
+Hero_MasterOfArms_role											Master of Arms is a ranged carry who has a reliable stun, good area damage, and can take advantage of certain item builds like no other hero. Nullfire Blade or Charged Hammer let him excel. Keep in mind each of his abilities are actually two abilities that share a cooldown and change based on your weapon choice.
 
 // Item_MasterOfArmsItem
 Item_MasterOfArmsItem_name										Weapon of Choice

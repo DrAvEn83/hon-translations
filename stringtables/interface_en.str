@@ -1122,10 +1122,8 @@ progstats_immortal				Immortal
 progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
-motd_ad_legacy_welcome_msg_btn	View Message from Maliken
-motd_ad_text1					Overseer Hellbringer!
-motd_ad_text2					New Malphas
-motd_ad_text3					Available Now!
+motd_ad_text1					The Frost Rider!
+motd_ad_text2					Now Available!
 
 motd_ad_Garena_text1			Flint Boomstick!
 motd_ad_Garena_text2			A Dwarven Sharpshooter
@@ -2015,9 +2013,57 @@ mstore_product695_name		Support Hero Alts
 mstore_product695_desc		Save 10% off both the gold and silver costs!
 mstore_product696_name		Master Ganker Alts
 mstore_product696_desc		Save 10% off both the gold and silver costs!
+mstore_product697_name		Elite Pyromancer Bundle
+mstore_product698_name		Elite Moon Queen Bundle
 mstore_product700_name		Rhapsody
 mstore_product701_name		Commander of Arms
 mstore_product702_name		Jade Warrior
+mstore_product703_name		Elite Pollywog Bundle
+mstore_product704_name		Elite Magmus Bundle
+mstore_product705_name		Elite Glacius Bundle
+mstore_product706_name		Elite Soulstealer Bundle
+mstore_product707_name		Elite Bombardier Bundle
+mstore_product708_name		Frost Rider
+mstore_product709_name		Cat Courier
+mstore_product709_desc		Complete with a box of HoN Tarts that brings out his true form when upgraded.
+mstore_product710_name		Elite Madman Bundle
+mstore_product711_name		Elite Devourer Bundle
+mstore_product712_name		Elite Succubus Bundle
+mstore_product713_name		Elite Witch Slayer Bundle
+mstore_product714_name		Elite Gauntlet Bundle
+mstore_product715_name		Elite Bubbles Bundle
+mstore_product716_name		Elite Gladiator Bundle
+mstore_product717_name		Elite Night Hound Bundle
+mstore_product718_name		Elite Flint Bundle
+mstore_product719_name		Elite Dampeer Bundle
+mstore_product720_name		Elite Arachna Bundle
+mstore_product721_name		Elite Hammerstorm Bundle
+mstore_product722_name		Elite Kraken Bundle
+mstore_product723_name		Elite Soul Reaper Bundle
+mstore_product724_name		Elite Empath Bundle
+mstore_product725_name		Elite Hellbringer Bundle
+mstore_product726_name		Elite Tempest Bundle
+mstore_product727_name		Elite Rampage Bundle
+mstore_product728_name		Elite Slither Bundle
+mstore_product729_name		Elite Engineer Bundle
+mstore_product730_name		Elite Tundra Bundle
+mstore_product731_name		Elite Tremble Bundle
+mstore_product732_name		Elite Nomad Bundle
+mstore_product733_name		Elite Pestilence Bundle
+mstore_product734_name		Elite Wretched Bundle
+mstore_product735_name		Elite Silhouette Bundle
+mstore_product736_name		Elite Flux Bundle
+mstore_product737_name		Elite Vindicator Bundle
+mstore_product738_name		Elite Armadon Bundle
+mstore_product739_name		Elite Thunderbringer Bundle
+mstore_product740_name		Elite Myrmidon Bundle
+mstore_product741_name		Elite Amun-Ra Bundle
+mstore_product742_name		Elite Parasite Bundle
+mstore_product743_name		Elite Defiler Bundle
+mstore_product744_name		Elite Zephyr Bundle
+mstore_product745_name		Elite Drunken Bundle
+mstore_product746_name		Elite Plague Rider Bundle
+
 
 
 mstore_product999999001_name	Default Account Icon
@@ -2050,6 +2096,9 @@ mstore_aafeature_haseffects_description		This alternate avatar includes new spec
 
 mstore_viewcost		See Cost
 mstore_viewcost_desc	You need additional coins to purchase this item.
+mstore_costamount_gold	^960{amount}^* Gold Coins
+mstore_costamount_silver	^788{amount}^* Silver Coins
+mstore_costsavings		Save ^960{goldamount}^* Gold Coins or {silveramount}^* Silver Coins!
 
 mstore_category1			New
 mstore_category1_desc		These items have been recently added to the store.
@@ -2475,6 +2524,7 @@ mstore_Hero_Zephyr_name				Zephyr
 mstore_Hero_DrunkenMaster_name		Drunken Master
 mstore_Hero_MonkeyKing_name			Monkey King
 mstore_Hero_MasterOfArms_name		Master of Arms
+mstore_Hero_DiseasedRider_name		Plague Rider
 
 //Account Icons
 mstore_unlock_icon_btn				Unlock Icon Slot
@@ -4469,7 +4519,7 @@ mm_current_basic_verify2		Current Level:
 mm_current_basic_verify3		Buy Goblin Coins
 mm_current_basic_verify4		Any Amount!
 mm_current_verified_1			As a Verified account, you may choose to play Verified Only matches.
-mm_current_verified_2			By thumbing up the "Verified Only" option above, all basic accounts will be excluded when finding your match.
+mm_current_verified_2			By thumbing up the "Verified Only" option above, basic accounts will be excluded when searching for your match.
 mm_5v5							5 vs 5
 mm_4v4							4 vs 4
 mm_3v3							3 vs 3
