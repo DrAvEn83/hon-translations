@@ -72,7 +72,7 @@ general_no									Nein
 general_full_games							Volle Spiele
 general_all									Alle
 general_none								Keins
-general_view								Anzeigen
+general_view								Zeigen
 general_wait								Bitte warten...
 general_date								Datum
 general_decline								Ablehnen
@@ -369,7 +369,7 @@ options_label_music_volume					Musiklautstärke: ^w
 options_label_music_volume_tip_header		Musiklautstärke
 options_label_music_volume_tip				Einstellung der Musiklautstärke.
 options_header_sound_options				Soundeinstellungen
-options_label_sound_output					Output System
+options_label_sound_output					Ausgabesystem
 options_sound_output_tip					Select the sound output system to use.
 options_label_playback_driver				Wiedergabetreiber
 options_playback_driver_tip					Wählt den Wiedergabetreiber für den Sound.
@@ -629,7 +629,7 @@ options_label_recipe_history_for_keybind	Rezepturverlauf vor
 options_btn_reset_all_controls				Setze Steuerung zurück
 options_btn_clear_shopkeys					Shop Tastenkürzel entfernen
 
-options_checkbox_health_always_on			AGesundheitsleisen immer anzeigen
+options_checkbox_health_always_on			Gesundheitsleisen immer anzeigen
 options_screen_health_always_on_tip			If enabled, health bars will always be displayed.
 
 options_checkbox_hover_hero_info			Display Hover Info
@@ -725,29 +725,29 @@ options_button_default_binds				Default Binds
 options_header_login_to_view_stats			Log in to view stats
 options_graphics_change_notnow				You may not change your video options at this time. To change these options, you must first log out of your account. If required, you may need to disconnect first.
 
-options_notifications_title							Notifications
-options_notifications_friends						Friends
-options_notifications_friends_request				Request
-options_notifications_friends_add					Add
-options_notifications_friends_removal				Removal
-options_notifications_friends_signon				Sign On
-options_notifications_friends_signoff				Sign Off
-options_notifications_friends_joingame				Join Game
-options_notifications_friends_leavegame				Leave Game
-options_notifications_friends_imreceived			IM Received
-options_notifications_friends_pmreceived			PM Received
+options_notifications_title							Benachrichtigungen
+options_notifications_friends						Freunde
+options_notifications_friends_request				Anfrage
+options_notifications_friends_add					Zufügen
+options_notifications_friends_removal				Entfernen
+options_notifications_friends_signon				Einloggen
+options_notifications_friends_signoff				Ausloggen
+options_notifications_friends_joingame				Beitreten
+options_notifications_friends_leavegame				Verlassen
+options_notifications_friends_imreceived			IM Erhalten
+options_notifications_friends_pmreceived			PM Erhalten
 options_notifications_friends_scored				Scored
 options_notifications_clans							Clans
-options_notifications_clans_signon					Sign On
-options_notifications_clans_signoff					Sign Off
-options_notifications_clans_joingame				Join Game
-options_notifications_clans_leavegame				Leave Game
-options_notifications_clans_rank_change				Member Rank Change
-options_notifications_clans_removal					Member Removal
-options_notifications_clans_addition				Member Addition
+options_notifications_clans_signon					Einloggen
+options_notifications_clans_signoff					Ausloggen
+options_notifications_clans_joingame				Beitreten
+options_notifications_clans_leavegame				Verlassen
+options_notifications_clans_rank_change				Mitgliedsrank verändern
+options_notifications_clans_removal					Mitglied entfernen
+options_notifications_clans_addition				Mitglied zufügen
 options_notifications_clans_event					Clan Event
-options_notifications_tournaments					Tournaments
-options_notifications_tournaments_new				New Tournament
+options_notifications_tournaments					Turniere
+options_notifications_tournaments_new				Neue Turniere
 options_notifications_tournaments_upcomingmatch		Upcoming Tournament Match
 options_notifications_tournaments_registred			Registered to Tournament
 options_notifications_tournaments_matchresults		Tournament Match Results
@@ -759,7 +759,7 @@ options_notifications_invitations_team_matchmaking	Arranged Team Matchmaking
 options_notifications_miscellaneous					Miscellaneous
 options_notifications_miscellaneous_newpatch		New Patch
 notification_history								Notification History
-notification_history_remove_all_button				Remove All Notifications
+notification_history_remove_all_button				Alle Benachrichtigungen löschen
 
 // create_account.package
 create_acc_nickname							Nickname:
@@ -1122,14 +1122,12 @@ progstats_immortal				Immortal
 progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
-motd_ad_legacy_welcome_msg_btn	View Message from Maliken
-motd_ad_text1					HoN is Free-to-Play
-motd_ad_text2					Monkey King
-motd_ad_text3					Available Now!
+motd_ad_text1					The Frost Rider!
+motd_ad_text2					Jetzt erhältlich!
 
 motd_ad_Garena_text1			Flint Boomstick!
 motd_ad_Garena_text2			A Dwarven Sharpshooter
-motd_ad_Garena_text3			Now Available!
+motd_ad_Garena_text3			Jetzt erhältlich!
 
 
 // Micro Store Stuff
@@ -3179,7 +3177,7 @@ ccserverlist_editbox_ip						IP:
 ccserverlist_editbox_pass					Pass:
 
 // cc_statistics.package
-ccstats_button_fetch						Holen
+ccstats_button_fetch						Abfragen
 ccstats_button_show_stats					Statistiken anzeigen
 ccstats_button_hide_stats					Statistiken verstecken
 
@@ -3502,7 +3500,7 @@ mainlobby_label_custom_game_type_desc		Spielarten beeinflussen die Heldenauswahl
 mainlobby_label_custom_game_region			Region
 mainlobby_label_custom_game_region_desc		Where the server is located geographically.
 mainlobby_label_custom_game_US				USA - All
-mainlobby_label_custom_game_USC				USA - Central
+mainlobby_label_custom_game_USC				USA - Zentral
 mainlobby_label_custom_game_USE				USA - Ost
 mainlobby_label_custom_game_USS				USA - Süd
 mainlobby_label_custom_game_USW				USA - West
@@ -3585,7 +3583,7 @@ mainlobby_label_icon_key					Symbole ansehen
 mainlobby_filter_prequery					Vorfilterung
 mainlobby_filter_hide_restricted			Verstecke verbotene Spiele
 mainlobby_icon_key_options_header			Spiel-Setup und Optionen
-mainlobby_icon_key_maps_header				Maps
+mainlobby_icon_key_maps_header				Karten
 mainlobby_icon_key_checkboxes				Option Checkboxes
 mainlobby_icon_key_chat_header				Chat Icons
 mainlobby_icon_key_chat_staff				S2 Games Staff
@@ -3774,17 +3772,17 @@ game_replay_tip_Controls					Toggle Replay Controls Visibility
 game_loading_button_cancel					Laden Abbrechen
 
 // game_lobby
-gamelobby_phase_choosing					Choosing
-gamelobby_add_as_friend_tip					Add to Friends List
-globby_lock_tip								Lock Slot
-globby_unlock_tip							Unlock Slot
+gamelobby_phase_choosing					Wählen
+gamelobby_add_as_friend_tip					Zur Freundesli. hin.
+globby_lock_tip								Slot sperren
+globby_unlock_tip							Slot entsperren
 globby_disabled_tip							Locking slots is disabled in this game mode.
-globby_kick_spec_tip						Kick from this game.
-globby_make_ref_tip							Make this player a referee
-globby_spot_locked							Locked
-globby_quick_stats							Wins\nLosses\nK:D\nA:D\nK+A:D\nWards\nXPM\nGPM
+globby_kick_spec_tip						Aus der Partie werfen.
+globby_make_ref_tip							Spieler zum Schiedrichter machen
+globby_spot_locked							Gesperrt
+globby_quick_stats							Gew.\nVerl.\nK:D\nA:D\nK+A:D\nWards\nXPM\nGPM
 game_gold_report							^wGold Earned From Killing Players\n^wGold Earned From Assisting Players Deaths\n^wGold Earned From Buildings\n^wGold Earned From Last Hitting Creeps\n^wGold Lost To Dying\n^vCurrent Buy Back Cost\n^vCurrent Gold To Be Lost On Death\n^wGold Per Min\n
-globby_current_selection					Current Selection
+globby_current_selection					Derzeitig ausgewählt
 
 globby_select_avatar						Avatar auswählen
 globby_alt_avatars							Alternativer Avatar
@@ -3835,7 +3833,7 @@ game_lobby_map								^yKarte:^* {name}
 game_lobby_match_id_none					^yMatch ID:^444 <none>
 game_lobby_match_id							^yMatch ID:^* {value}
 game_lobby_host								^yHost:^* {host}
-game_lobby_num_players						^Spieler:^* {count}/{max}
+game_lobby_num_players						^ySpieler:^* {count}/{max}
 game_lobby_version							^yVersion:^* {version}
 game_lobby_mode								^ySpielmodus:^* {mode}
 game_lobby_options							^ySpieloptionen:^* {options}
@@ -4531,7 +4529,7 @@ mm_map_locked					Map geschlossen wegen der Teamgröße
 mm_solo							Solo Matchmaking
 mm_team							Team Matchmaking
 mm_team_cont					Invite Players Into a Custom Player Group
-mm_mode_txt1					Du darfst bist zu {max_downvotes} Modis abwählen that, die du nicht spielen möchtest.
+mm_mode_txt1					Du darfst bis zu {max_downvotes} Modis abwählen, die du nicht spielen möchtest.
 mm_mode_txt2					Wahl von Modis mit hoher Popularität wird zu kürzere Wartezeiten führen.
 mm_map_txt1						Du kannst bis zu {max_downvotes} Regionen abwählen.
 mm_map_txt2						Region popularity will change based on time of day. High popularity will result in shorter queue times.
@@ -4653,8 +4651,8 @@ mm_player9						9
 mm_player10						10
 mm_connection_limit				Connection Time Limit...
 mm_gameloading_msg				Other players are currently loading the game. When a player connects, their indicator will turn yellow. When they finish loading, it will turn green.
-mm_europe_region				Europe
-mm_useast_region				US East
+mm_europe_region				Europa
+mm_useast_region				US Ost
 mm_uswest_region				US West
 mm_sgvip_region					Singapore
 mm_gvip_region					Malaysia
@@ -4841,7 +4839,7 @@ notify_im_situation							IM Received
 notify_im_dependent							
 notify_im_info								sent you an IM.
 // 20
-notify_game_invite_situation				Game Invite
+notify_game_invite_situation				Partie Einladung
 notify_game_invite_dependent				
 notify_game_invite_info						invited you to join a game.
 // 21
@@ -4853,9 +4851,9 @@ notify_buddy_requested_adder_situation		Freundesanfrage
 notify_buddy_requested_adder_dependent		Du
 notify_buddy_requested_adder_info			hast {name} eine Freundschaftsanfrage gesendet.
 // 23
-notify_buddy_requested_added_situation		Friend Request
+notify_buddy_requested_added_situation		Freundesanfrage
 notify_buddy_requested_added_dependent		{name}
-notify_buddy_requested_added_info			requested you as a friend.
+notify_buddy_requested_added_info			hat dir eine Freundschaftsanfrage gesendet.
 // 24
 notify_group_invite_situation				Gruppen einladung
 notify_group_invite_dependent				{name}
@@ -4890,67 +4888,67 @@ compendium_type_melee						Nahkampf
 compendium_type_ranged						Fernkampf
 compendium_usage_list_header				The following is a summary of the hero usage statistics for the last 7 days. A total of {value} heroes have been used.
 
-compendium_hero_name						Hero Name
+compendium_hero_name						Heldenname
 compendium_attribute						Attribute
-compendium_atk								Atk.
-compendium_strength							Strength
-compendium_agility							Agility
-compendium_intelligence						Intelligence
-compendium_armor							Armor
-compendium_atk_dmg							Attack Dmg.
-compendium_speed							Speed
-compendium_abilities						Abilities
+compendium_atk								Ang.
+compendium_strength							Stärke
+compendium_agility							Gewandheit
+compendium_intelligence						Intelligenz
+compendium_armor							Rüstung
+compendium_atk_dmg							Angriffs Sch.
+compendium_speed							Geschw.
+compendium_abilities						Fähigkeiten
 
-compendium_list_simple						Simple Hero List
-compendium_list_detailed					Detailed Hero List
-compendium_list_detailed_free				Free Hero List
-compendium_list_usage						Usage Stats
+compendium_list_simple						Einfache Helden Liste
+compendium_list_detailed					Detaillierte Helden Liste
+compendium_list_detailed_free				Kostenlose Helden Liste
+compendium_list_usage						Benutzungs Statistiken
 
 compendium_guides							Guides
 compendium_details							Details
-compendium_usage							Usage
-compendium_cat_legion_agi					Legion Agility Heroes
-compendium_cat_hellbourne_agi				Hellbourne Agility Heroes
-compendium_cat_legion_int					Legion Intelligence Heroes
-compendium_cat_hellbourne_int				Hellbourne Intelligence Heroes
-compendium_cat_legion_str					Legion Strength Heroes
-compendium_cat_hellbourne_str				Hellbourne Strength Heroes
-compendium_win_percent
+compendium_usage							Benutzung
+compendium_cat_legion_agi					Legion Gewandheits Helden
+compendium_cat_hellbourne_agi				Hellbourne Gewandheits Helden
+compendium_cat_legion_int					Legion Intelligenz Helden
+compendium_cat_hellbourne_int				Hellbourne Intelligenz Helden
+compendium_cat_legion_str					Legion Stärke Helden
+compendium_cat_hellbourne_str				Hellbourne Stärke Helden
+compendium_win_percent						Gew. %
 
 
-tooltip_detailed_hero_info					Hero Details
-tooltip_detailed_hero_info_msg				View basic hero information, ability details, and your statistics using this hero.
-tooltip_compendium_guide					Hero Guides
-tooltip_compendium_guide_msg				View the user submitted guides for this hero.
+tooltip_detailed_hero_info					Helden Details
+tooltip_detailed_hero_info_msg				Standard Helden Informationen, Fähigkeiten details und benutzungs Statistiken ansgehen.
+tooltip_compendium_guide					Helden Guides
+tooltip_compendium_guide_msg				Spieler erstellte Guides für diesen HElden ansehen
 
 // Used For stat/lvl stuff
 compendium_lvl								lvl
 
-tooltip_primary_attribute_strength			This hero's primary attribute is Strength.
-tooltip_primary_attribute_agility			This hero's primary attribute is Agility.
-tooltip_primary_attribute_intelligence		This hero's primary attribute is Intelligence.
+tooltip_primary_attribute_strength			Das Primäre Attribut dieses Heldes ist Stärke.
+tooltip_primary_attribute_agility			Das Primäre Attribut dieses Heldes ist Gewandheit.
+tooltip_primary_attribute_intelligence		Das Primäre Attribut dieses Heldes ist Intelligenz.
 
 //ladder.package
-ladder_title								Player Ladder
+ladder_title								Spieler Ladder
 ladder_field_acc_games_played				Spiele gespielt
 ladder_field_acc_wins						Gewonnen
 ladder_field_acc_losses						Verloren
 ladder_field_acc_concedes					Aufgegeben
-ladder_field_acc_concedevotes				Concede Votes
-ladder_field_acc_buybacks					Buy Backs
+ladder_field_acc_concedevotes				Aufgaben Abst.
+ladder_field_acc_buybacks					Zurückgekauft
 ladder_field_acc_discos						Leaves
 ladder_field_acc_kicked						Kicked
 // Assuming the below is PSR anyways
 ladder_field_acc_pub_skill					PSR
 ladder_field_acc_pub_count					Öffentliche Spiele
 ladder_field_acc_avg_score					Durchschnitts Wertung
-ladder_field_acc_herokills					Hero Kills
-ladder_field_acc_herodmg					Hero Dmg
-ladder_field_acc_heroexp					Hero Exp
-ladder_field_acc_herokillsgold				Hero Kills Gold
-ladder_field_acc_heroassists				Hero Assists
-ladder_field_acc_deaths						Hero Deaths
-ladder_field_acc_goldlost2death				Gold Lost
+ladder_field_acc_herokills					Helden Tötungen
+ladder_field_acc_herodmg					Helden Sch.
+ladder_field_acc_heroexp					Helden Exp.
+ladder_field_acc_herokillsgold				Helden Tötungen Gold
+ladder_field_acc_heroassists				Helden Assitierungen
+ladder_field_acc_deaths						Helden Tode
+ladder_field_acc_goldlost2death				Gold verloren
 ladder_field_acc_secs_dead					Seconds Dead
 ladder_field_acc_teamcreepkills				Enemy Creep Kills
 ladder_field_acc_teamcreepdmg				Dmg to Enemy Creeps
@@ -5114,9 +5112,9 @@ lang_ru										Russisch
 lang_ro										Romanisch
 lang_ta										Thailändisch
 lang_notnow									You may not change your language at this time. To change your language, you must first log out of your account. If required, you may need to disconnect first.
-purch_subacct								Einen Sub-Account kaufen
-purch_resetstats							Statistiken zurücksetzten
-purch_reset									Zurücksetzen
+purch_subacct								Sub-Account kaufen
+purch_resetstats							Stat. zurücksetzten
+purch_reset									Löschen
 purch_giftacct								Kauf einen Schenk Account
 purch_upgradefriend							Freund Upgraden
 purch_upgradeaccount						Account Upgraden
@@ -5196,8 +5194,8 @@ sysbar_silver_tip_msg						Silbermünzen können dazu verwendet werden um etwas 
 sysbar_token_tip_title						Spielsteine und Pässe
 sysbar_token_tip_msg						Spielsteine und Pässe werden benutzt um bestimmte Spiel Modi zu spielen
 sysbar_token_tip_title_legacy				Spielsteine und Pässe
-sysbar_token_tip_msg_legacy					As a legacy player, you have an infinite number of tokens and can play any game mode at any time.
-sysbar_token_tip_msg_garena					As a VIP player, you have an infinite number of tokens and can play any game mode at any time.
+sysbar_token_tip_msg_legacy					Als Legänderer Spieler, hast du eine unbegrenzte Anzahl an Spielsteinen und kannst jeden Spielmodi, jederzeit spielen
+sysbar_token_tip_msg_garena					Als VIP Spieler, hast du eine unbegrenzte Anzahl an Spielsteinen und kannst jeden Spielmodi, jederzeit spielen
 
 // F2P TMM
 tmm_player_needs_tokens					Dieser Spieler kann nicht mit den derzeitigen Optionen spielen-
@@ -5212,7 +5210,7 @@ cg_disabled_tip							Creating a multiplayer game is only available to verified 
 
 // SpecUI
 
-specui_kda			Kills Deaths Assists
+specui_kda			Tötungen Tode Hilfen
 specui_kda_tip		This shows the player\'s hero score
 specui_xp			XP/M
 specui_xp_tip		This shows the player\'s experience gain per minunte
@@ -5307,7 +5305,7 @@ button_restart_now					HoN jetzt neustarten
 
 // CCU Region Labels
 ccu_region_NA	International
-ccu_region_SEA	South East Asia
-ccu_region_RU	Russia
+ccu_region_SEA	Süd Ost Asien
+ccu_region_RU	Russland
 
 // End - do not delete this line
