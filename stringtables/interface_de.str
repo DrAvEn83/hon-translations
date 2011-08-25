@@ -263,9 +263,9 @@ main_reconnect_header						Erneut verbinden?
 main_reconnect_ok							Verbinde erneut
 main_reconnect_body							Dir bleiben {time} Sekunden für eine erneute Verbindung!
 main_reconnect_text							Du hast Dich von einem laufenden Spiel getrennt und kannst dem Spiel erneut beitreten.
-main_reconnect_playing_in					You are playing in a game under progress:
+main_reconnect_playing_in					Du bist in einer gestarteten Partie:
 
-main_filter_prequery_title					Filter Pre-Query
+main_filter_prequery_title					Voreinstellungen filtern
 main_filter_prequery_tip					Selecting this option will filter the game list based on the ^!yRegion^* you have selected server side, instead of client side. This decreases the amount of time needed to retrieve and ping the list of games. Using this option should help if you have a slower connection.
 main_filter_hide_restricted_tip				Selecting this option will hide all games that are restricted to you due to having a "Leaver" status or having a PSR that does not fall into the Min/Max PSR range the host specified.
 main_leaver_title							Leaver Status
@@ -334,9 +334,9 @@ options_refraction_tip						Die Lichtbrechung ermöglicht bessere Effekte sowie 
 options_post_processing						Bildnachbearbeitung
 options_post_processing_tip					Die Einstellung von Effekten der Bildnachbearbeitung wirkt sich auf die Leistungsfähigkeit des Systems aus.
 options_spec_fog							Aktiviere Nebel im Zuschauermodus
-options_spec_fog_tip						Renders fog when viewing a game as a spectator.
+options_spec_fog_tip						Aktiviert den Nebel des Krieges im Zuschauermodus.
 options_spec_skybox							Skybox im Zuschauermodus aktivieren
-options_spec_skybox_tip						Renders the skybox when viewing a game as a spectator.
+options_spec_skybox_tip						Aktiviert die Skybox im Zuschauermodus.
 options_display_foliage						Belaubung Anzeigen
 options_foliage_tip_text					Das Abschalten der Belaubung erhöht die Grafikleistung.
 options_vsync								Vertikale Synchronisation
@@ -370,7 +370,7 @@ options_label_music_volume_tip_header		Musiklautstärke
 options_label_music_volume_tip				Einstellung der Musiklautstärke.
 options_header_sound_options				Soundeinstellungen
 options_label_sound_output					Ausgabesystem
-options_sound_output_tip					Select the sound output system to use.
+options_sound_output_tip					Auswahl des Sound Ausgabe Systems.
 options_label_playback_driver				Wiedergabetreiber
 options_playback_driver_tip					Wählt den Wiedergabetreiber für den Sound.
 options_label_recording_driver				Aufnahmetreiber
@@ -405,9 +405,9 @@ options_voice_chat_volume_tip				Einstellung der Lautstärke des eingehenden Voi
 options_label_microphone_volume				Lautstärke des Mikrophons: ^w
 options_mic_volume_tip_header				Lautstärke des Mikrophons
 options_mic_volume_tip						Einstellung der Eingangslautstärke Deines Mikrofones. Je höher die Einstellung, desto lauter klingst Du für andere Spieler.
-options_label_microphone_gain				Microphone Gain: ^w
-options_mic_gain_tip_header					Microphone Gain
-options_mic_gain_tip						Adjusts the volume of the input recorded from your microphone. The higher it is, the louder you will sound to other players.
+options_label_microphone_gain				Mikrofonverstärkung: ^w
+options_mic_gain_tip_header					Mikrofonverstärkung
+options_mic_gain_tip						Regelung der Lautstärke die vom Mirkorfon aufgenommen wird. Desto höher der Wert, desto lauter werden dich die anderen Spieler hören.
 options_label_auto_sound_dampen				Automatische Klangdämpfung: ^w
 options_auto_dampen_tip_header				Automatische Klangdämpfung
 options_auto_dampen_tip						Bei der Verwendung von VOIP lässt sich die Lautstärke anderer Spielsounds automatisch herabsetzen. Die Einstellung des Dämpfungsniveaus erfolgt mit dem Schieberegler.
@@ -436,10 +436,10 @@ options_checkbox_screen_edge_scroll			Scrollen am Bildschirmrand
 options_screen_edge_scroll_tip				Bei einer Aktivierung bewegt sich der Kameraausschnitt, wenn der Cursor den Bildrand berührt.
 
 options_checkbox_camera_lock				Kamera sperren
-options_screen_camera_lock_tip				If enabled, the camera will move with the hero in game.
+options_screen_camera_lock_tip				Wenn diese Option aktiviert wird, dann wird die Kamera, in einer Partie, sich mit dem Helden bewegen.
 
-options_checkbox_constrain_cursor			Eingeschränkter Cursor
-options_constrain_cursor_tip				Bei einer Aktivierung kann der Cursor nicht außerhalb des Spielfensters bewegt werden, solange das Spielfenster fokussiert ist.
+options_checkbox_constrain_cursor			Eingeschränkter Zeiger
+options_constrain_cursor_tip				Bei einer Aktivierung kann der Zeiger nicht außerhalb des Spielfensters bewegt werden, solange das Spielfenster fokussiert ist.
 options_checkbox_display_xp_rewards			Anzeige XP Belohnungen
 options_display_xp_rewards_tip				Bei einer Aktivierung erfolgt eine Spielanzeige, sobald dein Held im Spiel Erfahrung sammelt. Dabei werden über der Erfahrungsquelle lila Zahlen eingeblendet.
 
@@ -4535,7 +4535,7 @@ mm_map_txt1						Du kannst bis zu {max_downvotes} Regionen abwählen.
 mm_map_txt2						Region popularity will change based on time of day. High popularity will result in shorter queue times.
 mm_queue_finding				Suche nach Gegenern...
 mm_queue_past					gewartete Zeit
-mm_queue_eta					Durchschnitts Wartezeit
+mm_queue_eta					Durch. Wartezeit
 mm_queue_enter_btn				Warteschlange betreten
 mm_queue_leave_btn				Warteschlange verlassen
 mm_ready_btn					Bereit
