@@ -1122,6 +1122,7 @@ progstats_immortal				Immortal
 progstats_lvlup					^wLevel Up! ^*+{lvlupgold}
 
 // Motd Stuff
+motd_ad_legacy_welcome_msg_btn	View Message from Maliken
 motd_ad_text1					The Frost Rider!
 motd_ad_text2					Jetzt erhältlich!
 
@@ -1982,6 +1983,8 @@ mstore_product676_name		Hero Bloodlust Pack
 mstore_product676_desc		Add 10 heroes to your pool at a discount.
 mstore_product678_name		Hero Massacre Pack
 mstore_product678_desc		Add 10 heroes to your pool at a discount.
+mstore_product679_name		Heavy Metal Taunt
+mstore_product679_desc		Smash your opponents' heads in with the Heavy Metal Taunt.
 mstore_product680_name		2 Cool 4 School
 mstore_product680_desc		Save 10% off both the gold and silver costs!
 mstore_product681_name		Classic Carry Alts
@@ -2063,6 +2066,13 @@ mstore_product743_name		Elite Defiler Bundle
 mstore_product744_name		Elite Zephyr Bundle
 mstore_product745_name		Elite Drunken Bundle
 mstore_product746_name		Elite Plague Rider Bundle
+mstore_product747_name		Flag- Comoros
+mstore_product748_name		Flag- Republic of Congo
+mstore_product751_name		Geomancer
+mstore_product752_name		Centipedalisk
+mstore_product753_name		Sub Zero Accursed
+mstore_product754_name		Hero- Geomancer
+
 
 
 mstore_product999999001_name	Standard Account Icon
@@ -2524,6 +2534,10 @@ mstore_Hero_DrunkenMaster_name		Drunken Master
 mstore_Hero_MonkeyKing_name			Monkey King
 mstore_Hero_MasterOfArms_name		Master of Arms
 mstore_Hero_DiseasedRider_name		Plague Rider
+mstore_Hero_Accursed_name			Accursed
+mstore_Hero_Rhapsody_name			Rhapsody
+mstore_Hero_Geomancer_name			Geomancer
+
 
 //Account Icons
 mstore_unlock_icon_btn				Unlock Icon Slot
@@ -4603,6 +4617,8 @@ mm_timeout						Group Removed from the Queue
 mm_timeout_body					We're sorry, we were unable to find a match for your group in an acceptable time frame.  Please try again with more popular game options.
 mm_option_disabled				Option Disabled
 mm_option_disabled_body			This option is not available for selection at this time.
+mm_region_unavailable			Region Unavailable
+mm_region_unavailable_body		The matchmaking region(s) {regions} are only open to players who are located in the same country the servers are hosted in.  One or more members of your group is not located in the country where the restricted region is hosted in.
 mm_mode_disabled_basicplayer		Disabled - Basic Groupmate
 mm_mode_disabled_basicplayer_desc		This option has been disabled due to a player in the group who cannot access this option.
 mm_option_disabled_unverified				Verified Users Only

@@ -5110,6 +5110,48 @@ Hero_Scout_name													Scout
 Hero_Scout_description											Der Scout verbringt einen Großteil seines Lebens in der Wildnis, weit entfernt von seinen Brüdern, und wird seit seiner Jugend auf Schnelligkeit, Stille und Tödlichkeit trainiert.  Nachdem die Allianz mit der Beast Horde geschlossen wurde, haben sie noch zusätzliche Wege der Wildnis in sich aufgenommen und verwenden nun all ihr Geschick, um den Untergang der Hellbourne herbeizuführen.  Sie werden von vielen als unnahbar angesehen und niemand bezweifelt den Wert der Scouts beim Kampf gegen die Dämonen. Die zahlreichen Leichen der Feinde, die durch einen einzigen Schlag niedergestreckt wurden, sind hierfür ein deutlicher Beweis.
 Hero_Scout_role													The Scout is one of the fastest and most elusive heroes in the game when Vanished, while Electric Eyes are perfect for intelligence and counter-intelligence. When the Scout obtains enough damage items, he can output a huge amount of spike physical damage.
 
+// Ability_Geomancer1
+Ability_Geomancer1_name											Dig
+Ability_Geomancer1_description									The Geomancer burrows underground, charging through the earth before bursting out and stunning nearby enemies.
+Ability_Geomancer1_description_simple							Charge to target location underground, exploding back to the surface after ^o{700,800,900,1000} distance^* or until manual activation.\n\nOn surface, deal ^o{70,140,210,280} Magic Damage^* and inflict ^o1.5 seconds stun^* to nearby enemies.
+Ability_Geomancer1_description:Geomancerburrow					Surface, damaging and stunning nearby enemies.
+Ability_Geomancer1_description_simple:Geomancerburrow			Surface, dealing ^o{70,140,210,280} Magic Damage^* and inflict ^o1.5 seconds stun^* to nearby enemies.
+Ability_Geomancer1_IMPACT_effect								Dig up to {700,800,900,1000} distance away.\n\nActivate again to surface and deal {70,140,210,280} Magic Damage and 1.5 seconds stun to enemies in radius.
+Ability_Geomancer1_IMPACT_effect:Geomancerburrow				Activate to surface and deal {70,140,210,280} Magic Damage and 1.5 seconds stun to enemies in radius.
+
+// Ability_Geomancer2
+Ability_Geomancer2_name											Quicksand
+Ability_Geomancer2_description									The Geomancer summons a pit of quicksand, slowing enemy attack and movement speed the more they attack and move.
+Ability_Geomancer2_description_simple							Create a pit of quicksand at target area, slowing enemies for ^o{12,16,24,30}% Movement^* and ^o{12,16,24,30} Attack Speed^* plus an additional amount when they move or attack, up to ^o60% Movement Speed and 60 Attack Speed slow^*.
+Ability_Geomancer2_IMPACT_effect								Quicksand inflicts initial {12,16,24,30}% Movement Speed and {12,16,24,30} Attack Speed.\n\nEvery 100 units moved in Quicksand will inflict an additional 12% Movement Speed slow and 12 Attack Speed Slow.\n\nEvery attack performed in Quicksand will slow speeds by an additional {0.6,1.2,1.8,2.4}% Movement Speed Slow and {0.6,1.2,1.8,2.4} Attack Speed Slow.
+
+// Ability_Geomancer3
+Ability_Geomancer3_name											Earth's Grasp
+Ability_Geomancer3_description									Seeds a volatile crystal on an enemy, causing trailing explosions to follow it.
+Ability_Geomancer3_description_simple							Marks an enemy for 5 seconds. Each half second interval, the earth will split beneath its feet, dealing ^o{16,24,32,40} Magic Damage^* in a 150 AoE after a half second delay.
+Ability_Geomancer3_IMPACT_effect								For the next 5 seconds, target will be followed by 0.5 second delayed explosions.\n\nEach explosion deals {16,24,32,40} Magic Damage.
+
+// Ability_Geomancer4
+Ability_Geomancer4_name											Crystal Field
+Ability_Geomancer4_description									Generate a rapidly growing crystal field, damaging and stunning enemies within it after a delay.
+Ability_Geomancer4_description_simple							Create a rapidly growing crystal field, inflicting ^o{2,2.5,3} seconds stun^* and ^o{250,350,450} Magic Damage^* after a 3 second delay.
+Ability_Geomancer4_IMPACT_effect								After 3 seconds, the field explodes, dealing {250,350,450} Magic Damage and {2,2.5,3} seconds stun.
+
+// State_Geomancer_Ability2_Debuff
+State_Geomancer_Ability2_Debuff_name							Quicksand
+
+// State_Geomancer_Ability3
+State_Geomancer_Ability3_name									Earth's Grasp
+State_Geomancer_Ability3_description							Run to avoid the explosions!
+
+// State_Geomancer_Ability4
+State_Geomancer_Ability4_name									Crystal Field
+
+// Hero_Geomancer
+Hero_Geomancer_name												Geomancer
+Hero_Geomancer_description										As you rest your head on your pillow at night, you can't help but notice a dark shape in the corner of the ceiling. You look closely at it, but you can't make out what it is. In the morning, you see that it's gone. Yet the next night, it returns.
+Hero_Geomancer_role												Geomancer is a ganker and area-of-effect team fighter with a variety of crowd control and disable abilities. However, because of how unreliable his skill shots are, he is best paired with more reliable disablers.
+
 // Ability_Shaman1
 Ability_Shaman1_name											Entangle
 Ability_Shaman1_description										Der Shaman verwickelt einen Feind in Kletterpflanzen. Dies verringert kurzzeitig seine Bewegungsgeschwindigkeit und paralysiert ihn für sehr kurze Zeit. Die Kletterpflanzen verengen sich schließlich um die Zieleinheit und verursachen im Verlauf der Zeit Schaden.
@@ -8187,6 +8229,9 @@ Item_Freeze_ATTACK_IMPACT_effect:attack							Bewirkt beim Ziel 3 Sekunden lang 
 
 // State_Item4G
 State_Item4G_name												Frostwulf's Skull
+
+// State_ItemFrostwolfMelee
+State_ItemFrostwolfMelee										Frostwolf's Skull
 
 // Shop_Accessories
 Shop_Accessories_name											Accessories
